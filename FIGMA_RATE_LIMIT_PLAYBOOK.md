@@ -9,6 +9,21 @@ Do not guess UI values. All frontend/Figma work must use the Figma file as the s
 - Do not commit, print, or store Figma/GitHub tokens in repo files, logs, README, PR bodies, or issues.
 - Tokens must be passed only through environment variables.
 
+
+## Latest live API status — 2026-07-24
+
+A live refresh was attempted from Arena on 2026-07-24 for the next safe exact-geometry batch:
+
+```txt
+2413:2181, 2501:2814, 2667:256, 2671:1094
+```
+
+Result: both the current Figma source route and the backup Figma workspace route returned `429 Rate limit exceeded` with a low-tier `Retry-After` window of roughly `366k` seconds (`~4.2` days). No frame JSON, runtime JSON, or audit files were rewritten by the refresh command.
+
+Action for all collaborators: do not keep retrying or leave an Arena instance sleeping for days. Resume live Figma refresh only after the cooldown expires or when a non-rate-limited token/workspace is explicitly provided. Until then, use committed JSON only for non-live checks and keep missing exact geometry in audit; do not approximate vectors.
+
+See `figma-audit/live-rate-limit-status.json` for the sanitized machine-readable status.
+
 ## Current status
 
 The Wallet frame/state scope has been merged into `main`.

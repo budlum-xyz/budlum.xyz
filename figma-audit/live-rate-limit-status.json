@@ -1,0 +1,39 @@
+{
+  "observedAtLocal": "2026-07-24T00:40:00+03:00",
+  "observedBy": "Arena Agent Mode",
+  "purpose": "Sanitized coordination status for live Figma API refresh attempts. Tokens and private access values are intentionally omitted.",
+  "attemptedCommandScope": {
+    "script": "npm run figma:refresh",
+    "ids": [
+      "2413:2181",
+      "2501:2814",
+      "2667:256",
+      "2671:1094"
+    ],
+    "geometry": "paths",
+    "chunkSize": 1,
+    "skipRateLimited": true,
+    "maxWaitMs": 900000
+  },
+  "results": [
+    {
+      "source": "primary configured Figma file/token route",
+      "status": 429,
+      "error": "Rate limit exceeded",
+      "rateLimitType": "low",
+      "retryAfterSecondsApprox": 366685,
+      "framesRefreshed": 0,
+      "repoFilesRewritten": false
+    },
+    {
+      "source": "backup Figma workspace/token route",
+      "status": 429,
+      "error": "Rate limit exceeded",
+      "rateLimitType": "low",
+      "retryAfterSecondsApprox": 366207,
+      "framesRefreshed": 0,
+      "repoFilesRewritten": false
+    }
+  ],
+  "nextAction": "Do not retry live Figma refresh until cooldown expires or a non-rate-limited source is supplied. Continue only with committed JSON for non-live audits; do not approximate missing vector geometry."
+}
