@@ -6,12 +6,13 @@ Generated without calling the Figma API. It audits committed frame JSON against 
 
 - Frames: `39`
 - Total nodes: `15530`
-- Exact geometry nodes rendered from Figma paths: `52`
+- Exact VECTOR geometry nodes rendered from Figma paths: `52`
+- Exact RECTANGLE/ELLIPSE leaf geometry nodes rendered from Figma paths: `1477`
 - VECTOR-like nodes skipped because exact geometry is missing: `774`
 - Missing exact asset audit entries: `774`
 - Text nodes: `1241`
 - Image-fill nodes: `3896`
-- CSS primitive/container nodes: `9562`
+- CSS primitive/container nodes: `8085`
 
 ## Frames with missing exact geometry
 

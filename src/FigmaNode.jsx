@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 
 const IMAGE_FILL_SOURCE = '/figma-image-fills.json';
 const VECTOR_TYPES = new Set(['VECTOR', 'STAR', 'BOOLEAN_OPERATION', 'LINE', 'REGULAR_POLYGON']);
+const EXACT_LEAF_GEOMETRY_TYPES = new Set(['RECTANGLE', 'ELLIPSE']);
 
 function colorToCss(color, opacity = 1) {
   if (!color) return 'transparent';
@@ -116,6 +117,17 @@ function hasPrototypeInteraction(node) {
   return Array.isArray(node.interactions) && node.interactions.length > 0;
 }
 
+function hasExactGeometry(node) {
+  return Boolean(node.fillGeometry || node.strokeGeometry);
+}
+
+function shouldRenderExactLeafGeometry(node) {
+  if (!EXACT_LEAF_GEOMETRY_TYPES.has(node.type)) return false;
+  if (!hasExactGeometry(node)) return false;
+  if ((node.children || []).length > 0) return false;
+  return !firstVisiblePaint(node.fills || node.background || [], 'IMAGE');
+}
+
 function geometryRule(rule) {
   return rule === 'EVENODD' ? 'evenodd' : 'nonzero';
 }
@@ -168,9 +180,13 @@ export function FigmaNode({ node, root, imageFills, onAction }) {
   if (!node || node.visible === false) return null;
 
   if (VECTOR_TYPES.has(node.type)) {
-    if (node.fillGeometry || node.strokeGeometry) return <FigmaGeometryNode node={node} root={root} imageFills={imageFills} />;
+    if (hasExactGeometry(node)) return <FigmaGeometryNode node={node} root={root} imageFills={imageFills} />;
     // Exact geometry was not present in the Figma payload; do not approximate VECTOR-like nodes.
     return null;
+  }
+
+  if (shouldRenderExactLeafGeometry(node)) {
+    return <FigmaGeometryNode node={node} root={root} imageFills={imageFills} />;
   }
 
   if (node.type === 'TEXT') {

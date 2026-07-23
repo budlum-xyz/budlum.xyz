@@ -5,20 +5,22 @@
     "figma-audit/missing-exact-assets.json"
   ],
   "rendererContract": {
-    "exactGeometry": "VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.",
+    "exactVectorGeometry": "VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.",
+    "exactLeafGeometry": "Solid RECTANGLE/ELLIPSE leaf nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths instead of approximate CSS borders.",
     "skippedMissingGeometry": "VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.",
-    "cssShape": "Non-vector Figma primitives rendered from REST numeric values such as bounding box, fill, stroke and radius."
+    "cssShape": "Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius."
   },
   "aggregate": {
     "frames": 39,
     "totalNodes": 15530,
     "hidden": 5,
-    "exactGeometry": 52,
+    "exactVectorGeometry": 52,
+    "exactLeafGeometry": 1477,
     "skippedMissingGeometry": 774,
     "text": 1241,
     "imageFill": 3896,
     "container": 3238,
-    "cssShape": 6324,
+    "cssShape": 4847,
     "missingExactAssetAuditEntries": 774
   },
   "frames": [
@@ -29,12 +31,13 @@
       "counts": {
         "totalNodes": 886,
         "hidden": 0,
-        "exactGeometry": 24,
+        "exactVectorGeometry": 24,
+        "exactLeafGeometry": 395,
         "skippedMissingGeometry": 0,
         "text": 26,
         "imageFill": 305,
         "container": 136,
-        "cssShape": 395
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -46,12 +49,13 @@
       "counts": {
         "totalNodes": 786,
         "hidden": 0,
-        "exactGeometry": 4,
+        "exactVectorGeometry": 4,
+        "exactLeafGeometry": 359,
         "skippedMissingGeometry": 0,
         "text": 9,
         "imageFill": 306,
         "container": 108,
-        "cssShape": 359
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -63,12 +67,13 @@
       "counts": {
         "totalNodes": 207,
         "hidden": 0,
-        "exactGeometry": 8,
+        "exactVectorGeometry": 8,
+        "exactLeafGeometry": 103,
         "skippedMissingGeometry": 0,
         "text": 15,
         "imageFill": 21,
         "container": 60,
-        "cssShape": 103
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -80,7 +85,8 @@
       "counts": {
         "totalNodes": 207,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 8,
         "text": 13,
         "imageFill": 31,
@@ -138,7 +144,8 @@
       "counts": {
         "totalNodes": 168,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
         "text": 13,
         "imageFill": 23,
@@ -155,7 +162,8 @@
       "counts": {
         "totalNodes": 470,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 52,
         "text": 35,
         "imageFill": 75,
@@ -213,7 +221,8 @@
       "counts": {
         "totalNodes": 249,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
         "text": 4,
         "imageFill": 109,
@@ -230,7 +239,8 @@
       "counts": {
         "totalNodes": 326,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 262,
         "text": 0,
         "imageFill": 0,
@@ -288,7 +298,8 @@
       "counts": {
         "totalNodes": 263,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
         "text": 7,
         "imageFill": 114,
@@ -305,7 +316,8 @@
       "counts": {
         "totalNodes": 296,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 35,
         "text": 26,
         "imageFill": 53,
@@ -363,7 +375,8 @@
       "counts": {
         "totalNodes": 303,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 39,
         "text": 26,
         "imageFill": 57,
@@ -421,7 +434,8 @@
       "counts": {
         "totalNodes": 352,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 55,
         "text": 23,
         "imageFill": 78,
@@ -479,7 +493,8 @@
       "counts": {
         "totalNodes": 171,
         "hidden": 1,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 35,
         "text": 4,
         "imageFill": 100,
@@ -537,7 +552,8 @@
       "counts": {
         "totalNodes": 408,
         "hidden": 1,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 59,
         "text": 27,
         "imageFill": 139,
@@ -595,7 +611,8 @@
       "counts": {
         "totalNodes": 378,
         "hidden": 1,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 59,
         "text": 23,
         "imageFill": 137,
@@ -653,7 +670,8 @@
       "counts": {
         "totalNodes": 406,
         "hidden": 1,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 59,
         "text": 27,
         "imageFill": 139,
@@ -711,7 +729,8 @@
       "counts": {
         "totalNodes": 899,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 24,
         "text": 27,
         "imageFill": 311,
@@ -769,7 +788,8 @@
       "counts": {
         "totalNodes": 167,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 8,
         "imageFill": 8,
@@ -807,7 +827,8 @@
       "counts": {
         "totalNodes": 239,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 29,
         "imageFill": 12,
@@ -845,7 +866,8 @@
       "counts": {
         "totalNodes": 230,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 18,
         "imageFill": 12,
@@ -883,7 +905,8 @@
       "counts": {
         "totalNodes": 109,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 9,
         "imageFill": 17,
@@ -921,7 +944,8 @@
       "counts": {
         "totalNodes": 1227,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 12,
         "text": 231,
         "imageFill": 123,
@@ -979,7 +1003,8 @@
       "counts": {
         "totalNodes": 554,
         "hidden": 1,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 108,
         "imageFill": 48,
@@ -1017,7 +1042,8 @@
       "counts": {
         "totalNodes": 221,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 3,
         "text": 114,
         "imageFill": 4,
@@ -1050,7 +1076,8 @@
       "counts": {
         "totalNodes": 67,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 13,
         "text": 4,
         "imageFill": 18,
@@ -1108,7 +1135,8 @@
       "counts": {
         "totalNodes": 305,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
         "text": 27,
         "imageFill": 4,
@@ -1125,7 +1153,8 @@
       "counts": {
         "totalNodes": 2138,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 19,
         "text": 2,
         "imageFill": 1034,
@@ -1183,7 +1212,8 @@
       "counts": {
         "totalNodes": 622,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 115,
         "imageFill": 54,
@@ -1221,7 +1251,8 @@
       "counts": {
         "totalNodes": 619,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 115,
         "imageFill": 53,
@@ -1259,12 +1290,13 @@
       "counts": {
         "totalNodes": 230,
         "hidden": 0,
-        "exactGeometry": 8,
+        "exactVectorGeometry": 8,
+        "exactLeafGeometry": 110,
         "skippedMissingGeometry": 0,
         "text": 16,
         "imageFill": 33,
         "container": 63,
-        "cssShape": 110
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1276,12 +1308,13 @@
       "counts": {
         "totalNodes": 229,
         "hidden": 0,
-        "exactGeometry": 8,
+        "exactVectorGeometry": 8,
+        "exactLeafGeometry": 109,
         "skippedMissingGeometry": 0,
         "text": 16,
         "imageFill": 33,
         "container": 63,
-        "cssShape": 109
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1293,12 +1326,13 @@
       "counts": {
         "totalNodes": 190,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 79,
         "skippedMissingGeometry": 0,
         "text": 20,
         "imageFill": 38,
         "container": 53,
-        "cssShape": 79
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1310,12 +1344,13 @@
       "counts": {
         "totalNodes": 177,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 79,
         "skippedMissingGeometry": 0,
         "text": 16,
         "imageFill": 34,
         "container": 48,
-        "cssShape": 79
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1327,12 +1362,13 @@
       "counts": {
         "totalNodes": 173,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 81,
         "skippedMissingGeometry": 0,
         "text": 14,
         "imageFill": 29,
         "container": 49,
-        "cssShape": 81
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1344,12 +1380,13 @@
       "counts": {
         "totalNodes": 173,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 81,
         "skippedMissingGeometry": 0,
         "text": 14,
         "imageFill": 29,
         "container": 49,
-        "cssShape": 81
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1361,12 +1398,13 @@
       "counts": {
         "totalNodes": 173,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 81,
         "skippedMissingGeometry": 0,
         "text": 14,
         "imageFill": 29,
         "container": 49,
-        "cssShape": 81
+        "cssShape": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1378,7 +1416,8 @@
       "counts": {
         "totalNodes": 468,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 26,
         "imageFill": 140,
@@ -1416,7 +1455,8 @@
       "counts": {
         "totalNodes": 222,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 10,
         "imageFill": 73,
@@ -1454,7 +1494,8 @@
       "counts": {
         "totalNodes": 222,
         "hidden": 0,
-        "exactGeometry": 0,
+        "exactVectorGeometry": 0,
+        "exactLeafGeometry": 0,
         "skippedMissingGeometry": 4,
         "text": 10,
         "imageFill": 73,

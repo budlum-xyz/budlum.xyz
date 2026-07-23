@@ -3,6 +3,7 @@ import path from 'node:path';
 
 const CHECK = process.argv.includes('--check');
 const VECTOR_TYPES = new Set(['VECTOR', 'STAR', 'BOOLEAN_OPERATION', 'LINE', 'REGULAR_POLYGON']);
+const EXACT_LEAF_GEOMETRY_TYPES = new Set(['RECTANGLE', 'ELLIPSE']);
 const readText = async (file) => readFile(file, 'utf8');
 const readJson = async (file) => JSON.parse(await readText(file));
 const jsonText = (data) => `${JSON.stringify(data, null, 2)}\n`;
@@ -28,9 +29,21 @@ function visiblePaints(node, type) {
   return [...(node.fills || []), ...(node.background || [])].filter((paint) => paint.visible !== false && (!type || paint.type === type));
 }
 
+function hasExactGeometry(node) {
+  return Boolean(node.fillGeometry || node.strokeGeometry);
+}
+
+function shouldRenderExactLeafGeometry(node) {
+  if (!EXACT_LEAF_GEOMETRY_TYPES.has(node.type)) return false;
+  if (!hasExactGeometry(node)) return false;
+  if ((node.children || []).length > 0) return false;
+  return visiblePaints(node, 'IMAGE').length === 0;
+}
+
 function classify(node) {
   if (node.visible === false) return 'hidden';
-  if (VECTOR_TYPES.has(node.type)) return node.fillGeometry || node.strokeGeometry ? 'exactGeometry' : 'skippedMissingGeometry';
+  if (VECTOR_TYPES.has(node.type)) return hasExactGeometry(node) ? 'exactVectorGeometry' : 'skippedMissingGeometry';
+  if (shouldRenderExactLeafGeometry(node)) return 'exactLeafGeometry';
   if (node.type === 'TEXT') return 'text';
   if (visiblePaints(node, 'IMAGE').length > 0) return 'imageFill';
   if (node.type === 'FRAME' || node.type === 'GROUP' || node.type === 'COMPONENT' || node.type === 'INSTANCE') return 'container';
@@ -49,7 +62,8 @@ const aggregate = {
   frames: 0,
   totalNodes: 0,
   hidden: 0,
-  exactGeometry: 0,
+  exactVectorGeometry: 0,
+  exactLeafGeometry: 0,
   skippedMissingGeometry: 0,
   text: 0,
   imageFill: 0,
@@ -63,7 +77,8 @@ for (const frame of manifest) {
   const counts = {
     totalNodes: 0,
     hidden: 0,
-    exactGeometry: 0,
+    exactVectorGeometry: 0,
+    exactLeafGeometry: 0,
     skippedMissingGeometry: 0,
     text: 0,
     imageFill: 0,
@@ -94,9 +109,10 @@ for (const frame of manifest) {
 const report = {
   generatedFrom: ['figma-nodes/manifest.json', 'public/figma-frames/*.json', 'figma-audit/missing-exact-assets.json'],
   rendererContract: {
-    exactGeometry: 'VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.',
+    exactVectorGeometry: 'VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.',
+    exactLeafGeometry: 'Solid RECTANGLE/ELLIPSE leaf nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths instead of approximate CSS borders.',
     skippedMissingGeometry: 'VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.',
-    cssShape: 'Non-vector Figma primitives rendered from REST numeric values such as bounding box, fill, stroke and radius.',
+    cssShape: 'Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius.',
   },
   aggregate,
   frames,
@@ -111,7 +127,8 @@ const lines = [
   '',
   `- Frames: \`${aggregate.frames}\``,
   `- Total nodes: \`${aggregate.totalNodes}\``,
-  `- Exact geometry nodes rendered from Figma paths: \`${aggregate.exactGeometry}\``,
+  `- Exact VECTOR geometry nodes rendered from Figma paths: \`${aggregate.exactVectorGeometry}\``,
+  `- Exact RECTANGLE/ELLIPSE leaf geometry nodes rendered from Figma paths: \`${aggregate.exactLeafGeometry}\``,
   `- VECTOR-like nodes skipped because exact geometry is missing: \`${aggregate.skippedMissingGeometry}\``,
   `- Missing exact asset audit entries: \`${aggregate.missingExactAssetAuditEntries}\``,
   `- Text nodes: \`${aggregate.text}\``,
