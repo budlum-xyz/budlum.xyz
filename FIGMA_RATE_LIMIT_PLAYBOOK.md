@@ -1,0 +1,199 @@
+# Figma Rate Limit Playbook — Arena AI Collaborators
+
+## Current rule
+
+Do not guess UI values. All frontend/Figma work must use the Figma file as the source of truth.
+
+- No approximate colors, spacing, typography, icons, layouts, states, or interactions.
+- If exact Figma data is not available, record it in audit instead of inventing it.
+- Do not commit, print, or store Figma/GitHub tokens in repo files, logs, README, PR bodies, or issues.
+- Tokens must be passed only through environment variables.
+
+## Current status
+
+The Wallet frame/state scope has been merged into `main`.
+
+Merged scope:
+
+- `2223:54` — `kullanıcı bir cüzdanı açtı`
+- `2446:824` — `kullanıcı boş bir cüzdanı açtı`
+- `2377:22` — `kullanıcı kendi cüzdanını açtı`
+- `2901:266`
+- `2901:704`
+- `2902:961`
+- `2907:1281`
+- `2972:3658`
+- `2972:3858`
+- `2972:4204`
+
+Wallet audit summary:
+
+- Wallet frames reviewed: `10`
+- Wallet nodes reviewed: `3224`
+- Geometry nodes fetched from Figma API: `2408`
+- Exact VECTOR geometry nodes rendered from Figma paths: `48`
+- Wallet-scope missing exact vector assets: `0`
+- Prototype interactions found in the checked Wallet JSON: `0`
+- Variant records found in the checked Wallet JSON: `0`
+
+## Why rate limits are happening
+
+Figma API returns:
+
+```txt
+429 Rate limit exceeded
+```
+
+This is especially likely when using:
+
+```txt
+geometry=paths
+```
+
+Large frames with many vector/path nodes are expensive. Multiple Arena instances or agents hitting the same Figma file at the same time will exhaust the limit quickly.
+
+## Coordination rule for multiple AIs
+
+Only one AI/instance should run live Figma refresh commands at a time.
+
+Other AIs should use the committed JSON files unless they are explicitly assigned to refresh a specific frame.
+
+Live refresh work should be serialized:
+
+1. Pick a small set of frame IDs.
+2. Run the refresh command with chunk size `1`.
+3. Commit successful output.
+4. Let the limit cool down before the next batch.
+
+## Safe refresh script
+
+Use the script already in the repo:
+
+```bash
+npm run figma:refresh -- --ids=<comma-separated-frame-ids>
+```
+
+The script reads the token only from `FIGMA_TOKEN`.
+
+Example with placeholders only:
+
+```bash
+FIGMA_TOKEN=<figma-token> \
+FIGMA_CHUNK_SIZE=1 \
+FIGMA_MAX_RETRIES=8 \
+FIGMA_RETRY_WAIT_MS=600000 \
+FIGMA_SKIP_RATE_LIMITED=1 \
+npm run figma:refresh -- --ids=2921:712,2569:149,2580:197,2667:256
+```
+
+Meaning:
+
+- `FIGMA_CHUNK_SIZE=1`: fetch one frame per request.
+- `FIGMA_MAX_RETRIES=8`: retry more times before giving up.
+- `FIGMA_RETRY_WAIT_MS=600000`: wait 10 minutes between retries when Figma does not provide `Retry-After`.
+- `FIGMA_SKIP_RATE_LIMITED=1`: if a chunk is still rate-limited after retries, skip it and continue with later chunks.
+
+## Recommended order for remaining exact vector refresh
+
+Do **not** start with the largest frame. Start with smaller frames so useful progress can be committed before the rate limit is exhausted.
+
+Remaining missing exact vector frames from `figma-audit/missing-exact-assets.json` at the time of this note:
+
+```txt
+2921:712   token aratılıyken parıltı butonuna tıkladı
+2569:149   depo
+2580:197   tokens yazısına tıkladı
+2667:256   herhangi bir yere tıkladı
+2671:1094  ilk önce Bud tokenına ihtiyacın var
+2671:814   tohum tümcecikleri kaydet
+2900:600   Zaten bir cüzdanım vara tıkladı
+2903:345   budlum.xyz ye giriş yaptı
+2904:826   budlum.xyz ye giriş yaptı
+2977:1028  tohum tümcecikleri kaydet
+2870:3749  Bir kullanıcının cüzdanını arattı
+2870:4251  cüzdan aratılıyken parıltı butonuna tıkladı
+2971:1324  cüzdan aratılıyken parıltı butonuna tıkladı
+2961:486   token aratılıyken parıltı butonuna tıkladı
+2961:886   token aratılıyken parıltı butonuna tıkladı
+2967:528   token aratılıyken parıltı butonuna tıkladı
+2971:1618  cüzdan aratılıyken parıltı butonuna tıkladı
+2614:402   tokens yazısına tıkladı - pencere max bu kadar açılabilir
+2856:4578  budlum.xyz ye giriş yaptı
+```
+
+Suggested first batch after cooldown:
+
+```bash
+FIGMA_TOKEN=<figma-token> \
+FIGMA_CHUNK_SIZE=1 \
+FIGMA_MAX_RETRIES=8 \
+FIGMA_RETRY_WAIT_MS=600000 \
+FIGMA_SKIP_RATE_LIMITED=1 \
+npm run figma:refresh -- --ids=2921:712,2569:149,2580:197,2667:256
+```
+
+Suggested second batch:
+
+```bash
+FIGMA_TOKEN=<figma-token> \
+FIGMA_CHUNK_SIZE=1 \
+FIGMA_MAX_RETRIES=8 \
+FIGMA_RETRY_WAIT_MS=600000 \
+FIGMA_SKIP_RATE_LIMITED=1 \
+npm run figma:refresh -- --ids=2671:1094,2671:814,2900:600,2903:345,2904:826,2977:1028
+```
+
+Leave the largest frames for later:
+
+```txt
+2614:402
+2856:4578
+```
+
+## After each successful refresh
+
+Run:
+
+```bash
+npm run build
+```
+
+Then inspect:
+
+```bash
+git status --short
+```
+
+Expected changed files may include:
+
+- `figma-nodes/<frame>.json`
+- `public/figma-frames/<frame>.json`
+- `figma-audit/missing-exact-assets.json`
+- `figma-audit/live-geometry-refresh-summary.json`
+- `figma-audit/live-geometry-resolved-vector-nodes.json`
+
+Commit successful progress in small batches.
+
+## If 429 continues
+
+If even one small frame returns `429` after several retries:
+
+1. Stop all live Figma refresh jobs across all Arena instances.
+2. Wait at least 30–60 minutes.
+3. Retry a single small frame with `FIGMA_CHUNK_SIZE=1`.
+4. If it still fails, wait longer or use a different authorized Figma token.
+
+Do not work around this by approximating SVG/vector nodes.
+
+## Important security rule
+
+Never write real tokens into this file or any other repo file.
+
+Use only:
+
+```bash
+FIGMA_TOKEN=<figma-token>
+GITHUB_TOKEN=<github-token>
+```
+
+as shell environment variables at runtime.
