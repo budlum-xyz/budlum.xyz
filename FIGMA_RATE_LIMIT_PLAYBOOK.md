@@ -197,3 +197,31 @@ GITHUB_TOKEN=<github-token>
 ```
 
 as shell environment variables at runtime.
+
+## Long `Retry-After` responses
+
+A later retry showed Figma can return a very large `Retry-After` window. In one observed case Figma requested roughly `4.3` days before retrying.
+
+Do not leave Arena instances sleeping for days.
+
+The refresh script now supports:
+
+```bash
+FIGMA_MAX_WAIT_MS=900000
+```
+
+Default: `900000` ms, i.e. 15 minutes.
+
+If Figma asks for a wait longer than `FIGMA_MAX_WAIT_MS` and `FIGMA_SKIP_RATE_LIMITED=1` is set, the script skips that chunk instead of sleeping indefinitely. Re-run later after the limit window cools down.
+
+Recommended safe command:
+
+```bash
+FIGMA_TOKEN=<figma-token> \
+FIGMA_CHUNK_SIZE=1 \
+FIGMA_MAX_RETRIES=2 \
+FIGMA_RETRY_WAIT_MS=600000 \
+FIGMA_MAX_WAIT_MS=900000 \
+FIGMA_SKIP_RATE_LIMITED=1 \
+npm run figma:refresh -- --ids=2921:712
+```

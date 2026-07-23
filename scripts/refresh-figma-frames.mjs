@@ -8,6 +8,7 @@ const CHUNK_SIZE = Number(process.env.FIGMA_CHUNK_SIZE || 3);
 const WAIT_MS = Number(process.env.FIGMA_RETRY_WAIT_MS || 65000);
 const MAX_RETRIES = Number(process.env.FIGMA_MAX_RETRIES || 4);
 const SKIP_RATE_LIMITED = process.env.FIGMA_SKIP_RATE_LIMITED === '1';
+const MAX_WAIT_MS = Number(process.env.FIGMA_MAX_WAIT_MS || 900000);
 
 if (!TOKEN) {
   console.error('FIGMA_TOKEN env variable is required. Token is read from env only and is never written to repo files.');
@@ -42,14 +43,17 @@ async function figmaFetch(ids) {
     if (response.status === 429) {
       const retryAfterSeconds = Number(response.headers.get('retry-after'));
       const waitMs = Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0 ? retryAfterSeconds * 1000 : WAIT_MS;
-      if (attempt < MAX_RETRIES) {
+      const body = await response.text();
+      if (attempt < MAX_RETRIES && waitMs <= MAX_WAIT_MS) {
         console.warn(`Figma rate limit for ${ids.join(', ')}; waiting ${waitMs}ms before retry ${attempt + 1}/${MAX_RETRIES}.`);
         await sleep(waitMs);
         continue;
       }
-      const body = await response.text();
+      if (attempt < MAX_RETRIES && waitMs > MAX_WAIT_MS) {
+        console.warn(`Figma requested a ${waitMs}ms wait for ${ids.join(', ')}, which exceeds FIGMA_MAX_WAIT_MS=${MAX_WAIT_MS}.`);
+      }
       if (SKIP_RATE_LIMITED) {
-        console.warn(`Skipping rate-limited chunk after ${MAX_RETRIES} attempts: ${ids.join(', ')}.`);
+        console.warn(`Skipping rate-limited chunk without a long sleep: ${ids.join(', ')}.`);
         return { rateLimited: true, ids, body };
       }
       throw new Error(`Figma API 429 after ${MAX_RETRIES} attempts: ${body}`);
@@ -150,6 +154,15 @@ for (let i = 0; i < targetIds.length; i += CHUNK_SIZE) {
     summaries.push(countFrame(document, resolvedMissing.length));
     console.log(`${id}: refreshed, resolved audit entries ${resolvedMissing.length}, exact vector geometry nodes ${resolvedNodes.length}`);
   }
+}
+
+if (summaries.length === 0) {
+  if (rateLimitedChunks.length) {
+    console.warn(`No frames refreshed; ${rateLimitedChunks.length} chunk(s) were rate-limited. No audit files were rewritten.`);
+  } else {
+    console.log('No frames refreshed.');
+  }
+  process.exit(0);
 }
 
 await writeJson(missingFile, missing);
