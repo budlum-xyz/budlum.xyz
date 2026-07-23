@@ -29,6 +29,16 @@ npm run figma:plan
 npm run figma:verify
 ```
 
+
+Run these in CI/check mode without rewriting files:
+
+```bash
+npm run figma:sync-missing:check
+npm run figma:coverage:check
+npm run figma:plan:check
+npm run figma:verify
+```
+
 Run this only when explicitly refreshing from Figma and only with a token in the environment:
 
 ```bash

@@ -1,9 +1,11 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
+const CHECK = process.argv.includes('--check');
 const VECTOR_TYPES = new Set(['VECTOR', 'STAR', 'BOOLEAN_OPERATION', 'LINE', 'REGULAR_POLYGON']);
-const readJson = async (file) => JSON.parse(await readFile(file, 'utf8'));
-const writeJson = async (file, data) => writeFile(file, JSON.stringify(data, null, 2), 'utf8');
+const readText = async (file) => readFile(file, 'utf8');
+const readJson = async (file) => JSON.parse(await readText(file));
+const jsonText = (data) => `${JSON.stringify(data, null, 2)}\n`;
 
 function walk(node, visitor, parentId = null, depth = 0) {
   visitor(node, parentId, depth);
@@ -12,7 +14,8 @@ function walk(node, visitor, parentId = null, depth = 0) {
 
 const manifest = await readJson('figma-nodes/manifest.json');
 const missingFile = 'figma-audit/missing-exact-assets.json';
-const existing = await readJson(missingFile);
+const existingText = await readText(missingFile);
+const existing = JSON.parse(existingText);
 const byId = new Map(existing.map((entry) => [entry.id, entry]));
 let added = 0;
 
@@ -43,5 +46,15 @@ const merged = [...byId.values()].sort((a, b) =>
   String(a.depth ?? 0).localeCompare(String(b.depth ?? 0)) ||
   String(a.id).localeCompare(String(b.id))
 );
-await writeJson(missingFile, merged);
-console.log(`Missing geometry audit synced: ${merged.length} total, ${added} added.`);
+const nextText = jsonText(merged);
+
+if (CHECK) {
+  if (existingText !== nextText) {
+    console.error(`Missing geometry audit is stale: ${merged.length} expected entries, ${added} untracked entries would be added. Run npm run figma:sync-missing.`);
+    process.exit(1);
+  }
+  console.log(`Missing geometry audit is current: ${merged.length} entries.`);
+} else {
+  await writeFile(missingFile, nextText, 'utf8');
+  console.log(`Missing geometry audit synced: ${merged.length} total, ${added} added.`);
+}

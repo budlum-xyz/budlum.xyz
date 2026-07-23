@@ -1,9 +1,23 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
+const CHECK = process.argv.includes('--check');
 const VECTOR_TYPES = new Set(['VECTOR', 'STAR', 'BOOLEAN_OPERATION', 'LINE', 'REGULAR_POLYGON']);
-const readJson = async (file) => JSON.parse(await readFile(file, 'utf8'));
-const writeJson = async (file, data) => writeFile(file, JSON.stringify(data, null, 2), 'utf8');
+const readText = async (file) => readFile(file, 'utf8');
+const readJson = async (file) => JSON.parse(await readText(file));
+const jsonText = (data) => `${JSON.stringify(data, null, 2)}\n`;
+
+async function writeOrCheck(file, nextText) {
+  if (!CHECK) {
+    await writeFile(file, nextText, 'utf8');
+    return;
+  }
+  const currentText = await readText(file);
+  if (currentText !== nextText) {
+    console.error(`${file} is stale. Run npm run figma:coverage.`);
+    process.exitCode = 1;
+  }
+}
 
 function walk(node, visitor, parentId = null, depth = 0) {
   visitor(node, parentId, depth);
@@ -88,8 +102,6 @@ const report = {
   frames,
 };
 
-await writeJson('figma-audit/render-coverage-summary.json', report);
-
 const lines = [
   '# Figma Render Coverage Summary',
   '',
@@ -119,5 +131,10 @@ for (const frame of frames.filter((item) => item.missingExactAssetAuditEntries |
 lines.push('');
 lines.push('Do not approximate skipped geometry nodes. Refresh those frames with `npm run figma:refresh` after Figma rate limits cool down.');
 
-await writeFile('figma-audit/render-coverage-summary.md', `${lines.join('\n')}\n`, 'utf8');
-console.log(`Render coverage: ${aggregate.frames} frames, ${aggregate.totalNodes} nodes, ${aggregate.skippedMissingGeometry} skipped missing geometry nodes.`);
+await writeOrCheck('figma-audit/render-coverage-summary.json', jsonText(report));
+await writeOrCheck('figma-audit/render-coverage-summary.md', `${lines.join('\n')}\n`);
+
+if (process.exitCode) process.exit(process.exitCode);
+console.log(CHECK
+  ? `Render coverage is current: ${aggregate.frames} frames, ${aggregate.totalNodes} nodes, ${aggregate.skippedMissingGeometry} skipped missing geometry nodes.`
+  : `Render coverage: ${aggregate.frames} frames, ${aggregate.totalNodes} nodes, ${aggregate.skippedMissingGeometry} skipped missing geometry nodes.`);

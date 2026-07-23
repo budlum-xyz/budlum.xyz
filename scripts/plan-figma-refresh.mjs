@@ -1,7 +1,21 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-const readJson = async (file) => JSON.parse(await readFile(file, 'utf8'));
-const writeJson = async (file, data) => writeFile(file, JSON.stringify(data, null, 2), 'utf8');
+const CHECK = process.argv.includes('--check');
+const readText = async (file) => readFile(file, 'utf8');
+const readJson = async (file) => JSON.parse(await readText(file));
+const jsonText = (data) => `${JSON.stringify(data, null, 2)}\n`;
+
+async function writeOrCheck(file, nextText) {
+  if (!CHECK) {
+    await writeFile(file, nextText, 'utf8');
+    return;
+  }
+  const currentText = await readText(file);
+  if (currentText !== nextText) {
+    console.error(`${file} is stale. Run npm run figma:plan.`);
+    process.exitCode = 1;
+  }
+}
 
 const missing = await readJson('figma-audit/missing-exact-assets.json');
 const manifest = await readJson('figma-nodes/manifest.json');
@@ -42,8 +56,6 @@ const report = {
   safeCommandTemplate: 'FIGMA_TOKEN=<figma-token> FIGMA_CHUNK_SIZE=1 FIGMA_MAX_RETRIES=2 FIGMA_RETRY_WAIT_MS=600000 FIGMA_MAX_WAIT_MS=900000 FIGMA_SKIP_RATE_LIMITED=1 npm run figma:refresh -- --ids=<comma-separated-frame-ids>',
 };
 
-await writeJson('figma-audit/remaining-exact-assets-plan.json', report);
-
 const lines = [
   '# Remaining Exact Figma Geometry Plan',
   '',
@@ -81,5 +93,10 @@ for (const frame of frames) {
 lines.push('');
 lines.push('Do not approximate vector nodes. If Figma still returns 429, leave these entries in audit and retry later.');
 
-await writeFile('figma-audit/remaining-exact-assets-plan.md', `${lines.join('\n')}\n`, 'utf8');
-console.log(`Planned ${frames.length} frame(s), ${missing.length} missing exact asset record(s).`);
+await writeOrCheck('figma-audit/remaining-exact-assets-plan.json', jsonText(report));
+await writeOrCheck('figma-audit/remaining-exact-assets-plan.md', `${lines.join('\n')}\n`);
+
+if (process.exitCode) process.exit(process.exitCode);
+console.log(CHECK
+  ? `Remaining exact geometry plan is current: ${frames.length} frame(s), ${missing.length} missing exact asset record(s).`
+  : `Planned ${frames.length} frame(s), ${missing.length} missing exact asset record(s).`);
