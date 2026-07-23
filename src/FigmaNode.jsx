@@ -116,12 +116,62 @@ function hasPrototypeInteraction(node) {
   return Array.isArray(node.interactions) && node.interactions.length > 0;
 }
 
+function geometryRule(rule) {
+  return rule === 'EVENODD' ? 'evenodd' : 'nonzero';
+}
+
+function renderGeometryPaths(paths = [], paint, fallbackColor) {
+  const fill = paint?.type === 'SOLID' ? colorToCss(paint.color, paint.opacity ?? 1) : fallbackColor;
+  return paths.map((geometry, index) => (
+    <path
+      key={`${geometry.path}-${index}`}
+      d={geometry.path}
+      fill={fill}
+      fillRule={geometryRule(geometry.windingRule)}
+      clipRule={geometryRule(geometry.windingRule)}
+    />
+  ));
+}
+
+function FigmaGeometryNode({ node, root, imageFills }) {
+  const box = node.absoluteBoundingBox;
+  if (!box) return null;
+  const style = baseStyle(node, root, imageFills);
+  delete style.background;
+  delete style.backgroundColor;
+  delete style.backgroundImage;
+  delete style.backgroundSize;
+  delete style.backgroundRepeat;
+  delete style.backgroundPosition;
+  delete style.border;
+  style.overflow = 'visible';
+
+  const fillPaint = firstVisiblePaint(node.fills || [], 'SOLID');
+  const strokePaint = firstVisiblePaint(node.strokes || [], 'SOLID');
+  return (
+    <svg
+      data-figma-id={node.id}
+      data-figma-name={node.name}
+      data-figma-type={node.type}
+      viewBox={`0 0 ${box.width} ${box.height}`}
+      preserveAspectRatio="none"
+      style={style}
+      aria-hidden="true"
+    >
+      {renderGeometryPaths(node.fillGeometry || [], fillPaint, 'transparent')}
+      {renderGeometryPaths(node.strokeGeometry || [], strokePaint, strokePaint ? undefined : 'transparent')}
+    </svg>
+  );
+}
+
 export function FigmaNode({ node, root, imageFills, onAction }) {
   if (!node || node.visible === false) return null;
 
-  // Figma REST node JSON does not include exact path geometry for these node types.
-  // They are intentionally not approximated; required exports are tracked in figma-audit/missing-exact-assets.json.
-  if (VECTOR_TYPES.has(node.type)) return null;
+  if (VECTOR_TYPES.has(node.type)) {
+    if (node.fillGeometry || node.strokeGeometry) return <FigmaGeometryNode node={node} root={root} imageFills={imageFills} />;
+    // Exact geometry was not present in the Figma payload; do not approximate VECTOR-like nodes.
+    return null;
+  }
 
   if (node.type === 'TEXT') {
     return (

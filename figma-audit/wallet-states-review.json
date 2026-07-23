@@ -2,6 +2,7 @@
   "scope": "Wallet frame/state group only",
   "figmaFileKey": "RiA8nK980GGodTdKpD24hh",
   "figmaPage": "WEB (10:603)",
+  "liveFigmaFetch": "/v1/files/{fileKey}/nodes?ids=<wallet ids>&geometry=paths",
   "implementedFrameIds": [
     "2223:54",
     "2446:824",
@@ -15,15 +16,17 @@
     "2972:4204"
   ],
   "notes": [
-    "Renderer reads absoluteBoundingBox, visible, opacity, solid/image fills, solid strokes, corner radii, ellipse radius, text style, clipping and visible drop shadows from Figma JSON.",
+    "Frame JSON files were refreshed directly from Figma API with geometry=paths.",
+    "Renderer reads absoluteBoundingBox, visible, opacity, solid/image fills, solid strokes, corner radii, text style, clipping and visible drop shadows from Figma JSON.",
     "Image fills are resolved from public/figma-image-fills.json; no approximate images were generated.",
     "Prototype interactions are rendered only when interactions exist in the Figma node JSON; no heuristic click behavior is added.",
-    "Exact path/vector geometry is not approximated. Nodes requiring SVG export remain tracked in figma-audit/missing-exact-assets.json."
+    "Vector nodes with fillGeometry/strokeGeometry are rendered as SVG paths from Figma geometry; no CSS approximation is used for VECTOR nodes."
   ],
   "frames": [
     {
       "frameId": "2223:54",
       "frameName": "kullanıcı bir cüzdanı açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2223-54--kullan-c-bir-c-zdan-a-t.json",
       "runtimeJson": "public/figma-frames/2223-54--kullan-c-bir-c-zdan-a-t.json",
       "componentFile": "src/frames/Frame2223_54.jsx",
@@ -36,15 +39,18 @@
         "VECTOR": 24
       },
       "totalNodes": 886,
+      "geometryNodeCount": 717,
+      "exactVectorGeometryNodeCount": 20,
       "nestedFrameComponentInstanceCount": 5,
       "imageFillRefCount": 11,
       "prototypeInteractionCount": 0,
       "variantRecordCount": 0,
-      "missingExactVectorAssetCount": 24
+      "missingExactVectorAssetCount": 0
     },
     {
       "frameId": "2446:824",
       "frameName": "kullanıcı boş bir cüzdanı açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2446-824--kullan-c-bo-bir-c-zdan-a-t.json",
       "runtimeJson": "public/figma-frames/2446-824--kullan-c-bo-bir-c-zdan-a-t.json",
       "componentFile": "src/frames/Frame2446_824.jsx",
@@ -57,15 +63,18 @@
         "VECTOR": 4
       },
       "totalNodes": 786,
+      "geometryNodeCount": 671,
+      "exactVectorGeometryNodeCount": 4,
       "nestedFrameComponentInstanceCount": 4,
       "imageFillRefCount": 8,
       "prototypeInteractionCount": 0,
       "variantRecordCount": 0,
-      "missingExactVectorAssetCount": 4
+      "missingExactVectorAssetCount": 0
     },
     {
       "frameId": "2377:22",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2377-22--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2377-22--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2377_22.jsx",
@@ -79,15 +88,18 @@
         "COMPONENT": 1
       },
       "totalNodes": 207,
+      "geometryNodeCount": 136,
+      "exactVectorGeometryNodeCount": 8,
       "nestedFrameComponentInstanceCount": 7,
       "imageFillRefCount": 11,
       "prototypeInteractionCount": 0,
       "variantRecordCount": 0,
-      "missingExactVectorAssetCount": 8
+      "missingExactVectorAssetCount": 0
     },
     {
       "frameId": "2901:266",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2901-266--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2901-266--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2901_266.jsx",
@@ -101,15 +113,18 @@
         "VECTOR": 8
       },
       "totalNodes": 230,
+      "geometryNodeCount": 155,
+      "exactVectorGeometryNodeCount": 8,
       "nestedFrameComponentInstanceCount": 7,
       "imageFillRefCount": 11,
       "prototypeInteractionCount": 0,
       "variantRecordCount": 0,
-      "missingExactVectorAssetCount": 8
+      "missingExactVectorAssetCount": 0
     },
     {
       "frameId": "2901:704",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2901-704--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2901-704--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2901_704.jsx",
@@ -122,6 +137,8 @@
         "INSTANCE": 1
       },
       "totalNodes": 190,
+      "geometryNodeCount": 120,
+      "exactVectorGeometryNodeCount": 0,
       "nestedFrameComponentInstanceCount": 5,
       "imageFillRefCount": 13,
       "prototypeInteractionCount": 0,
@@ -131,6 +148,7 @@
     {
       "frameId": "2902:961",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2902-961--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2902-961--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2902_961.jsx",
@@ -143,6 +161,8 @@
         "INSTANCE": 1
       },
       "totalNodes": 177,
+      "geometryNodeCount": 116,
+      "exactVectorGeometryNodeCount": 0,
       "nestedFrameComponentInstanceCount": 5,
       "imageFillRefCount": 11,
       "prototypeInteractionCount": 0,
@@ -152,6 +172,7 @@
     {
       "frameId": "2907:1281",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2907-1281--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2907-1281--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2907_1281.jsx",
@@ -165,15 +186,18 @@
         "INSTANCE": 2
       },
       "totalNodes": 229,
+      "geometryNodeCount": 154,
+      "exactVectorGeometryNodeCount": 8,
       "nestedFrameComponentInstanceCount": 7,
       "imageFillRefCount": 11,
       "prototypeInteractionCount": 0,
       "variantRecordCount": 0,
-      "missingExactVectorAssetCount": 8
+      "missingExactVectorAssetCount": 0
     },
     {
       "frameId": "2972:3658",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2972-3658--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2972-3658--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2972_3658.jsx",
@@ -186,6 +210,8 @@
         "INSTANCE": 1
       },
       "totalNodes": 173,
+      "geometryNodeCount": 113,
+      "exactVectorGeometryNodeCount": 0,
       "nestedFrameComponentInstanceCount": 5,
       "imageFillRefCount": 10,
       "prototypeInteractionCount": 0,
@@ -195,6 +221,7 @@
     {
       "frameId": "2972:3858",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2972-3858--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2972-3858--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2972_3858.jsx",
@@ -207,6 +234,8 @@
         "INSTANCE": 1
       },
       "totalNodes": 173,
+      "geometryNodeCount": 113,
+      "exactVectorGeometryNodeCount": 0,
       "nestedFrameComponentInstanceCount": 5,
       "imageFillRefCount": 10,
       "prototypeInteractionCount": 0,
@@ -216,6 +245,7 @@
     {
       "frameId": "2972:4204",
       "frameName": "kullanıcı kendi cüzdanını açtı",
+      "source": "Figma API /v1/files/{fileKey}/nodes?geometry=paths",
       "sourceJson": "figma-nodes/2972-4204--kullan-c-kendi-c-zdan-n-a-t.json",
       "runtimeJson": "public/figma-frames/2972-4204--kullan-c-kendi-c-zdan-n-a-t.json",
       "componentFile": "src/frames/Frame2972_4204.jsx",
@@ -228,6 +258,8 @@
         "INSTANCE": 1
       },
       "totalNodes": 173,
+      "geometryNodeCount": 113,
+      "exactVectorGeometryNodeCount": 0,
       "nestedFrameComponentInstanceCount": 5,
       "imageFillRefCount": 10,
       "prototypeInteractionCount": 0,
@@ -238,9 +270,11 @@
   "aggregate": {
     "totalFrames": 10,
     "totalNodes": 3224,
+    "totalGeometryNodes": 2408,
+    "totalExactVectorGeometryNodes": 48,
     "totalImageFillRefs": 106,
     "totalPrototypeInteractions": 0,
     "totalVariantRecords": 0,
-    "totalMissingExactVectorAssets": 52
+    "totalMissingExactVectorAssets": 0
   }
 }
