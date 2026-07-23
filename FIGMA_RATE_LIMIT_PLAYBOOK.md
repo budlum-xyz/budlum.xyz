@@ -204,6 +204,19 @@ npm run figma:next -- --batch=2
 
 This command does not call Figma and does not need a token. It only reads `figma-audit/remaining-exact-assets-plan.json`.
 
+
+Track unsupported non-geometry render features without calling Figma:
+
+```bash
+npm run figma:unsupported
+npm run figma:unsupported:check
+```
+
+This writes/checks:
+
+- `figma-audit/unsupported-render-features.json`
+- `figma-audit/unsupported-render-features.md`
+
 ## Syncing committed missing-geometry audit
 
 If renderer coverage finds VECTOR-like nodes without exact path geometry that are not yet listed in `figma-audit/missing-exact-assets.json`, sync the audit without calling Figma:

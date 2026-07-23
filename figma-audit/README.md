@@ -47,6 +47,19 @@ npm run figma:next
 npm run figma:next -- --batch=2
 ```
 
+
+Track unsupported non-geometry render features without calling Figma:
+
+```bash
+npm run figma:unsupported
+npm run figma:unsupported:check
+```
+
+This writes/checks:
+
+- `figma-audit/unsupported-render-features.json`
+- `figma-audit/unsupported-render-features.md`
+
 Run this only when explicitly refreshing from Figma and only with a token in the environment:
 
 ```bash
