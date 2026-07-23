@@ -123,6 +123,7 @@ function textStyle(node, rootBox, imageFills) {
     fontSize: text.fontSize,
     fontWeight: text.fontWeight,
     fontStyle: text.fontStyle?.toLowerCase()?.includes('italic') ? 'italic' : undefined,
+    textDecoration: text.textDecoration === 'UNDERLINE' ? 'underline' : text.textDecoration === 'STRIKETHROUGH' ? 'line-through' : undefined,
     lineHeight: text.lineHeightPx ? `${text.lineHeightPx}px` : undefined,
     letterSpacing: text.letterSpacing != null ? `${text.letterSpacing}px` : undefined,
     textAlign: text.textAlignHorizontal?.toLowerCase(),
