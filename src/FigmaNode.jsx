@@ -19,17 +19,37 @@ function imageUrlForPaint(paint, imageFills) {
   return paint.assetUrl || imageFills?.[paint.imageRef] || (paint.imageRef ? `/figma-assets/${paint.imageRef}.png` : undefined);
 }
 
-function imageSizingForScaleMode(scaleMode) {
-  switch (scaleMode) {
+function imagePositionPercent(scale, translate) {
+  if (!Number.isFinite(scale) || !Number.isFinite(translate)) return '50%';
+  if (Math.abs(1 - scale) < 0.000001) return `${-translate * 100}%`;
+  return `${(translate / (1 - scale)) * 100}%`;
+}
+
+function imageSizingForPaint(paint) {
+  const transform = paint?.imageTransform;
+  if (Array.isArray(transform) && transform.length === 2) {
+    const [[scaleX, skewX, translateX], [skewY, scaleY, translateY]] = transform;
+    if (Math.abs(skewX || 0) < 0.000001 && Math.abs(skewY || 0) < 0.000001 && scaleX && scaleY) {
+      return {
+        backgroundSize: `${100 / scaleX}% ${100 / scaleY}%`,
+        backgroundPosition: `${imagePositionPercent(scaleX, translateX)} ${imagePositionPercent(scaleY, translateY)}`,
+        backgroundRepeat: 'no-repeat',
+        objectFit: 'fill',
+        usesImageTransform: true,
+      };
+    }
+  }
+
+  switch (paint?.scaleMode) {
     case 'FILL':
-      return { backgroundSize: 'cover', objectFit: 'cover' };
+      return { backgroundSize: 'cover', backgroundPosition: 'center', objectFit: 'cover' };
     case 'FIT':
-      return { backgroundSize: 'contain', objectFit: 'contain' };
+      return { backgroundSize: 'contain', backgroundPosition: 'center', objectFit: 'contain' };
     case 'TILE':
-      return { backgroundSize: 'auto', backgroundRepeat: 'repeat', objectFit: 'fill' };
+      return { backgroundSize: 'auto', backgroundPosition: '0 0', backgroundRepeat: 'repeat', objectFit: 'fill' };
     case 'STRETCH':
     default:
-      return { backgroundSize: '100% 100%', objectFit: 'fill' };
+      return { backgroundSize: '100% 100%', backgroundPosition: 'center', objectFit: 'fill' };
   }
 }
 
@@ -55,7 +75,7 @@ function baseStyle(node, rootBox, imageFills) {
   const imageFill = firstVisiblePaint(fills, 'IMAGE');
   const solidStroke = firstVisiblePaint(node.strokes || [], 'SOLID');
   const imageUrl = imageUrlForPaint(imageFill, imageFills);
-  const imageSizing = imageSizingForScaleMode(imageFill?.scaleMode);
+  const imageSizing = imageSizingForPaint(imageFill);
 
   const style = {
     position: 'absolute',
@@ -73,7 +93,7 @@ function baseStyle(node, rootBox, imageFills) {
     style.backgroundImage = `url(${imageUrl})`;
     style.backgroundSize = imageSizing.backgroundSize;
     style.backgroundRepeat = imageSizing.backgroundRepeat || 'no-repeat';
-    style.backgroundPosition = 'center';
+    style.backgroundPosition = imageSizing.backgroundPosition || 'center';
   }
 
   if (solidStroke) {
@@ -201,10 +221,13 @@ export function FigmaNode({ node, root, imageFills, onAction }) {
   const style = baseStyle(node, root, imageFills);
   const imagePaint = firstVisiblePaint(node.fills || node.background || [], 'IMAGE');
   const imageUrl = imageUrlForPaint(imagePaint, imageFills);
-  const imageSizing = imageSizingForScaleMode(imagePaint?.scaleMode);
+  const imageSizing = imageSizingForPaint(imagePaint);
 
   if (imageUrl && children.length === 0 && node.type !== 'FRAME') {
-    const imageStyle = { ...style, objectFit: imageSizing.objectFit };
+    if (imageSizing.usesImageTransform) {
+      return <div data-figma-id={node.id} data-figma-name={node.name} data-figma-type={node.type} style={style} />;
+    }
+    const imageStyle = { ...style, objectFit: imageSizing.objectFit, objectPosition: imageSizing.backgroundPosition || 'center' };
     delete imageStyle.backgroundImage;
     delete imageStyle.backgroundSize;
     delete imageStyle.backgroundRepeat;
