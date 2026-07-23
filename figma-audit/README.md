@@ -48,6 +48,13 @@ npm run figma:next -- --batch=2
 ```
 
 
+
+Run all non-Figma-API audit checks with one command:
+
+```bash
+npm run figma:doctor
+```
+
 Track unsupported non-geometry render features without calling Figma:
 
 ```bash

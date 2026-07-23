@@ -14,8 +14,4 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - run: npm run figma:sync-missing:check
-      - run: npm run figma:coverage:check
-      - run: npm run figma:plan:check
-      - run: npm run figma:unsupported:check
-      - run: npm run figma:verify
+      - run: npm run figma:doctor

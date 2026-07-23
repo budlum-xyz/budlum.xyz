@@ -205,6 +205,13 @@ npm run figma:next -- --batch=2
 This command does not call Figma and does not need a token. It only reads `figma-audit/remaining-exact-assets-plan.json`.
 
 
+
+Run all non-Figma-API audit checks with one command:
+
+```bash
+npm run figma:doctor
+```
+
 Track unsupported non-geometry render features without calling Figma:
 
 ```bash
