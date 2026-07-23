@@ -1,0 +1,3557 @@
+[
+  {
+    "rootFrameId": "2223:54",
+    "id": "2223:54",
+    "name": "kullanıcı bir cüzdanı açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 91843.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2450:2185",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2450:2183",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 94689.1640625,
+      "y": -3058.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2367:83",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2367:81",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 94689.1640625,
+      "y": -4258.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2317:38",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2317:36",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93729.1640625,
+      "y": -3718.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "3333:12182",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2252:33035",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 91843.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2277:28",
+    "name": "revaştakiler",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 8304.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:668",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:666",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9008.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:646",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:644",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9128.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:624",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:622",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9248.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:602",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:600",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9368.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:580",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:578",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9488.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:558",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:556",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9608.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:536",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:534",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9728.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:514",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:512",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9848.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2278:492",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2278:490",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 9968.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "2277:348",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2277:346",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77362.3359375,
+      "y": 10088.533203125,
+      "width": 77.33333587646484,
+      "height": 30.93333625793457
+    }
+  },
+  {
+    "rootFrameId": "2277:28",
+    "id": "3333:12170",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2277:29",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 8304.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2306:6",
+    "id": "2306:6",
+    "name": "budlum.xyz",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 11074.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2306:6",
+    "id": "3333:12194",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2306:7",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 11074.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2377:22",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 71961.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2651:32",
+    "name": "100.3K $LUM",
+    "type": "COMPONENT",
+    "parentId": "2501:2700",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 74861.0,
+      "y": 4.0,
+      "width": 184.0,
+      "height": 42.0
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2483:2522",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2483:2520",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 74807.1640625,
+      "y": -317.5333251953125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2501:3533",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3531",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 73727.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2501:3511",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3509",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 73547.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2377:144",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2377:142",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 73367.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "3333:12192",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2377:23",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 71961.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2395:169",
+    "name": "budlum.xyz",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 6017.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1038",
+    "name": "budlum.xyz",
+    "type": "FRAME",
+    "parentId": "2395:169",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 79864.0,
+      "y": 6063.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1860",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1858",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 8126.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1827",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1825",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 8006.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1794",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1792",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7886.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1637",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1635",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7766.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1604",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1602",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7646.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1571",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1569",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7526.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1538",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1536",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7406.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1505",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1503",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7286.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1472",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1470",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7166.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1439",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1437",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 7046.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1406",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1404",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 6926.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1373",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1371",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 6806.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1340",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1338",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 6686.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1307",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1305",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 6566.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2408:1274",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2408:1272",
+    "depth": 6,
+    "visible": true,
+    "bbox": {
+      "x": 82877.6640625,
+      "y": 6446.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:1018",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:1016",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 8140.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:985",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:983",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 8020.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:952",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:950",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7900.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:919",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:917",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7780.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:886",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:884",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7660.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:853",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:851",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7540.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:820",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:818",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7420.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:787",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:785",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7300.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:754",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:752",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7180.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:721",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:719",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 7060.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:688",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:686",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 6940.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "2407:652",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2407:650",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 6820.466796875,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2395:169",
+    "id": "3333:12193",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2395:170",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 6017.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2413:2181",
+    "id": "2413:2181",
+    "name": "market",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 3730.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2413:2181",
+    "id": "3333:12196",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2413:2182",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 3730.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:824",
+    "name": "kullanıcı boş bir cüzdanı açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 96333.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:1587",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2446:1585",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 98460.1640625,
+      "y": -3598.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:939",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2446:937",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 99179.1640625,
+      "y": -4258.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "3333:12179",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2446:825",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 96333.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:2814",
+    "name": "kullanıcı transferleri aç yerine tıkaldı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 1443.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3408",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3406",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 3566.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3375",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3373",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 3446.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3342",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3340",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 3326.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3309",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3307",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 3206.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3276",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3274",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 3086.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3243",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3241",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2966.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3210",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3208",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2846.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3177",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3175",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2726.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3144",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3142",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2606.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3111",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3109",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2486.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3078",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3076",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2366.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "2501:3045",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2501:3043",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78854.6640625,
+      "y": 2246.466552734375,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2501:2814",
+    "id": "3333:12184",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2501:2815",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": 1443.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2569:149",
+    "id": "2569:149",
+    "name": "depo",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 71042.0,
+      "y": -24218.0,
+      "width": 8218.0,
+      "height": 1579.0
+    }
+  },
+  {
+    "rootFrameId": "2569:149",
+    "id": "3330:1895",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2569:149",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 79065.0,
+      "y": -24340.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2569:149",
+    "id": "2446:259",
+    "name": "depo",
+    "type": "FRAME",
+    "parentId": "2569:149",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 71569.0,
+      "y": -24123.0,
+      "width": 3360.0,
+      "height": 1167.0
+    }
+  },
+  {
+    "rootFrameId": "2569:149",
+    "id": "2449:1738",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2449:1736",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 72545.1640625,
+      "y": -23142.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2580:197",
+    "id": "2580:197",
+    "name": "tokens yazısına tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2580:197",
+    "id": "2580:370",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2580:368",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77607.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2580:197",
+    "id": "2580:348",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2580:346",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77427.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2580:197",
+    "id": "2580:326",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2580:324",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77247.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2580:197",
+    "id": "3333:12187",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2580:198",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75841.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2614:402",
+    "id": "2614:402",
+    "name": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 79721.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2614:402",
+    "id": "2614:575",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2614:573",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81487.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2614:402",
+    "id": "2614:553",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2614:551",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81307.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2614:402",
+    "id": "2614:531",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2614:529",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81127.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2614:402",
+    "id": "3333:12175",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2614:403",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 79721.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "2667:256",
+    "name": "herhangi bir yere tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75749.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "2667:356",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2667:354",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 76376.1640625,
+      "y": -3776.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "2667:334",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2667:332",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 76075.1640625,
+      "y": -4078.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "2667:312",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2667:310",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 76855.1640625,
+      "y": -3898.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "2667:290",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2667:288",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77635.1640625,
+      "y": -3718.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "2667:278",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2667:256",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 77549.0,
+      "y": -4723.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2667:256",
+    "id": "3333:12174",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2667:257",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75749.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2667:32",
+    "id": "2667:32",
+    "name": "budlum.xyz ye giriş yaptı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 71961.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2667:32",
+    "id": "2667:54",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2667:32",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 73761.0,
+      "y": -4724.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2667:32",
+    "id": "3333:12198",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2667:33",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 71961.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2671:1094",
+    "id": "2671:1094",
+    "name": "ilk önce Bud tokenına ihtiyacın var",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 87532.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2671:1094",
+    "id": "2682:116",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2682:114",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 90378.1640625,
+      "y": -4258.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2671:1094",
+    "id": "2671:1116",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2671:1094",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 89332.0,
+      "y": -4723.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2671:1094",
+    "id": "3333:12169",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2671:1095",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 87532.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "2671:814",
+    "name": "tohum tümcecikleri kaydet",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 79721.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "2671:914",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2671:912",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 80348.1640625,
+      "y": -3776.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "2671:892",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2671:890",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 80047.1640625,
+      "y": -4078.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "2671:870",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2671:868",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 80827.1640625,
+      "y": -3898.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "2671:848",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2671:846",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81607.1640625,
+      "y": -3718.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "2671:836",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2671:814",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 81521.0,
+      "y": -4723.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2671:814",
+    "id": "3333:12190",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2671:815",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 79721.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2856:4578",
+    "id": "2856:4578",
+    "name": "budlum.xyz ye giriş yaptı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 71648.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2856:4578",
+    "id": "2870:3401",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2856:4578",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 73448.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2870:3749",
+    "id": "2870:3749",
+    "name": "Bir kullanıcının cüzdanını arattı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75528.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2870:3749",
+    "id": "2872:858",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2872:856",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 77474.1640625,
+      "y": -12980.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2870:3749",
+    "id": "2870:4046",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2870:4044",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 78374.1640625,
+      "y": -12200.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2870:3749",
+    "id": "2870:4024",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2870:4022",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 78374.1640625,
+      "y": -13400.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2870:3749",
+    "id": "2870:3756",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2870:3749",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 77328.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2870:4251",
+    "id": "2870:4251",
+    "name": "cüzdan aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 79408.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2870:4251",
+    "id": "2971:1129",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:1127",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 82254.1640625,
+      "y": -12200.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2870:4251",
+    "id": "2971:1107",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:1105",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 82254.1640625,
+      "y": -13400.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2870:4251",
+    "id": "2870:4258",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2870:4251",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 81208.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:4453",
+    "name": "budlum.xyz",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75449.0,
+      "y": -11448.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:6163",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:6161",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -9324.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:6130",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:6128",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -9444.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:6097",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:6095",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -9564.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:6064",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:6062",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -9684.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:6031",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:6029",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -9804.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5998",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5996",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -9924.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5965",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5963",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10044.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5932",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5930",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10164.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5899",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5897",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10284.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5866",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5864",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10404.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5833",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5831",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10524.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5799",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:5797",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10644.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:4623",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2873:4621",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78462.6640625,
+      "y": -10644.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "2873:5757",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2873:4475",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77249.0,
+      "y": -11387.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2873:4453",
+    "id": "3333:12189",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2873:4454",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 75449.0,
+      "y": -11448.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2900:600",
+    "id": "2900:600",
+    "name": "Zaten bir cüzdanım vara tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 91853.0,
+      "y": -18713.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2900:600",
+    "id": "2900:607",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2900:600",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 93653.0,
+      "y": -18652.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:266",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 75836.0,
+      "y": -17569.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:475",
+    "name": "100.3K $LUM",
+    "type": "INSTANCE",
+    "parentId": "2901:452",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 78736.0,
+      "y": -16721.0,
+      "width": 184.0,
+      "height": 42.0
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:393",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:391",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 78682.1640625,
+      "y": -17042.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:627",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2901:484",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77636.0,
+      "y": -17508.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:369",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:367",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77602.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:347",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:345",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77422.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:325",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:323",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 77242.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2901:704",
+    "id": "2901:704",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 79916.0,
+      "y": -17569.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2901:704",
+    "id": "2901:896",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2901:895",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81716.0,
+      "y": -17508.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2901:704",
+    "id": "2901:781",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:779",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81682.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2901:704",
+    "id": "2901:759",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:757",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81502.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2901:704",
+    "id": "2901:737",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2901:735",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 81322.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2902:961",
+    "id": "2902:961",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 83796.0,
+      "y": -17569.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2902:961",
+    "id": "2902:1104",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2902:1103",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85596.0,
+      "y": -17508.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2902:961",
+    "id": "2902:1038",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2902:1036",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85562.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2902:961",
+    "id": "2902:1016",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2902:1014",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85382.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2902:961",
+    "id": "2902:994",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2902:992",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85202.1640625,
+      "y": -16262.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2903:345",
+    "name": "budlum.xyz ye giriş yaptı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 87930.0,
+      "y": -18713.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2971:2121",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": "2903:345",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 87920.0,
+      "y": -16490.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2971:2245",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2971:2244",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 89720.0,
+      "y": -16429.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2971:2198",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:2196",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 89686.1640625,
+      "y": -15183.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2971:2176",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:2174",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 88906.1640625,
+      "y": -15123.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2971:2154",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:2152",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 89146.1640625,
+      "y": -15423.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2903:345",
+    "id": "2903:352",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2903:345",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 89730.0,
+      "y": -18652.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2904:826",
+    "id": "2904:826",
+    "name": "budlum.xyz ye giriş yaptı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 95733.0,
+      "y": -18713.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2904:826",
+    "id": "2904:833",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2904:826",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 97533.0,
+      "y": -18652.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1281",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 92104.0,
+      "y": -21907.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1473",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2907:1472",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93904.0,
+      "y": -21846.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1463",
+    "name": "100.3K $LUM",
+    "type": "INSTANCE",
+    "parentId": "2907:1440",
+    "depth": 3,
+    "visible": true,
+    "bbox": {
+      "x": 95004.0,
+      "y": -21059.0,
+      "width": 184.0,
+      "height": 42.0
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1382",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2907:1380",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 94950.1640625,
+      "y": -21380.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1358",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2907:1356",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93870.1640625,
+      "y": -20600.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1336",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2907:1334",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93690.1640625,
+      "y": -20600.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1314",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2907:1312",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93510.1640625,
+      "y": -20600.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2921:712",
+    "id": "2921:712",
+    "name": "token aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 79368.0,
+      "y": -11448.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2921:712",
+    "id": "2921:713",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2921:712",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 81168.0,
+      "y": -11387.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2961:486",
+    "id": "2961:486",
+    "name": "token aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 83248.0,
+      "y": -11448.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2961:486",
+    "id": "2961:487",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2961:486",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 85048.0,
+      "y": -11387.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2961:486",
+    "id": "2961:686",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2961:684",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 86094.1640625,
+      "y": -9721.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2961:486",
+    "id": "2961:664",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2961:662",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 86094.1640625,
+      "y": -10921.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2961:886",
+    "id": "2961:886",
+    "name": "token aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 87128.0,
+      "y": -11448.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2961:886",
+    "id": "2961:1067",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2961:1065",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 89974.1640625,
+      "y": -10921.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2961:886",
+    "id": "2961:887",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2961:886",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 88928.0,
+      "y": -11387.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2967:528",
+    "id": "2967:528",
+    "name": "token aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 91008.0,
+      "y": -11448.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2967:528",
+    "id": "2967:903",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2967:901",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 93854.1640625,
+      "y": -9721.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2967:528",
+    "id": "2967:881",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2967:879",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 93854.1640625,
+      "y": -10921.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2967:528",
+    "id": "2967:529",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2967:528",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 92808.0,
+      "y": -11387.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2971:1324",
+    "id": "2971:1324",
+    "name": "cüzdan aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 83288.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2971:1324",
+    "id": "2971:1389",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:1387",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 86134.1640625,
+      "y": -12200.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2971:1324",
+    "id": "2971:1367",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2971:1365",
+    "depth": 5,
+    "visible": true,
+    "bbox": {
+      "x": 86134.1640625,
+      "y": -13400.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2971:1324",
+    "id": "2971:1325",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2971:1324",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 85088.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2971:1618",
+    "id": "2971:1618",
+    "name": "cüzdan aratılıyken parıltı butonuna tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 87168.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2971:1618",
+    "id": "2971:1619",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2971:1618",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 88968.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2972:2406",
+    "id": "2972:2406",
+    "name": "budlum.xyzde fareyle gezilirken",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 67650.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2972:2406",
+    "id": "2972:2413",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2972:2406",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 69450.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2972:3658",
+    "id": "2972:3658",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 91853.0,
+      "y": -16489.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2972:3658",
+    "id": "2972:3782",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2972:3781",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93653.0,
+      "y": -16428.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2972:3658",
+    "id": "2972:3735",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:3733",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93619.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:3658",
+    "id": "2972:3713",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:3711",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93439.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:3658",
+    "id": "2972:3691",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:3689",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 93259.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:3858",
+    "id": "2972:3858",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 95733.0,
+      "y": -16489.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2972:3858",
+    "id": "2972:3966",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2972:3965",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 97533.0,
+      "y": -16428.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2972:3858",
+    "id": "2972:3935",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:3933",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 97499.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:3858",
+    "id": "2972:3913",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:3911",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 97319.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:3858",
+    "id": "2972:3891",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:3889",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 97139.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:4204",
+    "id": "2972:4204",
+    "name": "kullanıcı kendi cüzdanını açtı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 99613.0,
+      "y": -16489.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2972:4204",
+    "id": "2972:4312",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2972:4311",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 101413.0,
+      "y": -16428.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2972:4204",
+    "id": "2972:4281",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:4279",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 101379.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:4204",
+    "id": "2972:4259",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:4257",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 101199.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2972:4204",
+    "id": "2972:4237",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2972:4235",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 101019.1640625,
+      "y": -15182.533203125,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "2977:1028",
+    "name": "tohum tümcecikleri kaydet",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 83601.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "2977:1128",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2977:1126",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 84228.1640625,
+      "y": -3776.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "2977:1106",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2977:1104",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 83927.1640625,
+      "y": -4078.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "2977:1084",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2977:1082",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 84707.1640625,
+      "y": -3898.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "2977:1062",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "2977:1060",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85487.1640625,
+      "y": -3718.533447265625,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "2977:1050",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "2977:1028",
+    "depth": 1,
+    "visible": true,
+    "bbox": {
+      "x": 85401.0,
+      "y": -4723.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "2977:1028",
+    "id": "3333:12197",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "2977:1029",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 83601.0,
+      "y": -4785.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1056",
+    "name": "budlum.xyz",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 91123.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1629",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1627",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -11803.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1596",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1594",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -11923.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1563",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1561",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12043.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1530",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1528",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12163.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1497",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1495",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12283.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1464",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1462",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12403.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1431",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1429",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12523.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1398",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1396",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12643.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1365",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1363",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12763.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1332",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1330",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -12883.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1299",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1297",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -13003.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1266",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1264",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -13123.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1233",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3099:1231",
+    "depth": 4,
+    "visible": true,
+    "bbox": {
+      "x": 94136.6640625,
+      "y": -13123.533203125,
+      "width": 32.666664123535156,
+      "height": 13.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3099:1111",
+    "name": "icon",
+    "type": "INSTANCE",
+    "parentId": "3099:1084",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 92923.0,
+      "y": -13866.0,
+      "width": 240.0,
+      "height": 58.012962341308594
+    }
+  },
+  {
+    "rootFrameId": "3099:1056",
+    "id": "3333:12185",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "3099:1057",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 91123.0,
+      "y": -13927.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "3317:788",
+    "id": "3317:788",
+    "name": "nft yazısına tıkladı",
+    "type": "FRAME",
+    "parentId": null,
+    "depth": 0,
+    "visible": true,
+    "bbox": {
+      "x": 83601.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  },
+  {
+    "rootFrameId": "3317:788",
+    "id": "3317:900",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3317:898",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85367.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3317:788",
+    "id": "3317:878",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3317:876",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85187.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3317:788",
+    "id": "3317:856",
+    "name": "Frame 101",
+    "type": "FRAME",
+    "parentId": "3317:854",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 85007.1640625,
+      "y": 462.4666748046875,
+      "width": 67.66666412353516,
+      "height": 27.066667556762695
+    }
+  },
+  {
+    "rootFrameId": "3317:788",
+    "id": "3333:12188",
+    "name": "Frame 109",
+    "type": "FRAME",
+    "parentId": "3317:789",
+    "depth": 2,
+    "visible": true,
+    "bbox": {
+      "x": 83601.0,
+      "y": -844.0,
+      "width": 3840.0,
+      "height": 2160.0
+    }
+  }
+]
