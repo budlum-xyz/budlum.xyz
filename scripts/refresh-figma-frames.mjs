@@ -6,6 +6,8 @@ const TOKEN = process.env.FIGMA_TOKEN;
 const TARGET_ARG = process.argv.find((arg) => arg.startsWith('--ids='));
 const CHUNK_SIZE = Number(process.env.FIGMA_CHUNK_SIZE || 3);
 const WAIT_MS = Number(process.env.FIGMA_RETRY_WAIT_MS || 65000);
+const MAX_RETRIES = Number(process.env.FIGMA_MAX_RETRIES || 4);
+const SKIP_RATE_LIMITED = process.env.FIGMA_SKIP_RATE_LIMITED === '1';
 
 if (!TOKEN) {
   console.error('FIGMA_TOKEN env variable is required. Token is read from env only and is never written to repo files.');
@@ -35,12 +37,22 @@ async function frameFilesById(dir) {
 async function figmaFetch(ids) {
   const params = new URLSearchParams({ ids: ids.join(','), geometry: 'paths' });
   const url = `https://api.figma.com/v1/files/${FILE_KEY}/nodes?${params}`;
-  for (let attempt = 1; attempt <= 4; attempt += 1) {
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
     const response = await fetch(url, { headers: { 'X-Figma-Token': TOKEN } });
-    if (response.status === 429 && attempt < 4) {
-      console.warn(`Figma rate limit for ${ids.join(', ')}; waiting ${WAIT_MS}ms before retry ${attempt + 1}.`);
-      await sleep(WAIT_MS);
-      continue;
+    if (response.status === 429) {
+      const retryAfterSeconds = Number(response.headers.get('retry-after'));
+      const waitMs = Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0 ? retryAfterSeconds * 1000 : WAIT_MS;
+      if (attempt < MAX_RETRIES) {
+        console.warn(`Figma rate limit for ${ids.join(', ')}; waiting ${waitMs}ms before retry ${attempt + 1}/${MAX_RETRIES}.`);
+        await sleep(waitMs);
+        continue;
+      }
+      const body = await response.text();
+      if (SKIP_RATE_LIMITED) {
+        console.warn(`Skipping rate-limited chunk after ${MAX_RETRIES} attempts: ${ids.join(', ')}.`);
+        return { rateLimited: true, ids, body };
+      }
+      throw new Error(`Figma API 429 after ${MAX_RETRIES} attempts: ${body}`);
     }
     if (!response.ok) throw new Error(`Figma API ${response.status}: ${await response.text()}`);
     return response.json();
@@ -114,10 +126,15 @@ const missingFile = 'figma-audit/missing-exact-assets.json';
 let missing = await readJson(missingFile);
 const allResolved = [];
 const summaries = [];
+const rateLimitedChunks = [];
 
 for (let i = 0; i < targetIds.length; i += CHUNK_SIZE) {
   const ids = targetIds.slice(i, i + CHUNK_SIZE);
   const payload = await figmaFetch(ids);
+  if (payload?.rateLimited) {
+    rateLimitedChunks.push(ids);
+    continue;
+  }
   for (const id of ids) {
     const document = payload.nodes?.[id]?.document;
     if (!document) throw new Error(`Figma response did not include document for ${id}`);
@@ -149,7 +166,12 @@ await writeJson('figma-audit/live-geometry-refresh-summary.json', {
     totalExactVectorGeometryNodes: summaries.reduce((sum, item) => sum + item.exactVectorGeometryNodeCount, 0),
     totalResolvedMissingExactAssetEntries: summaries.reduce((sum, item) => sum + item.resolvedMissingExactAssetEntries, 0),
     remainingMissingExactAssetEntries: missing.length,
+    rateLimitedChunks: rateLimitedChunks.length,
   },
+  rateLimitedChunks,
 });
 await writeJson('figma-audit/live-geometry-resolved-vector-nodes.json', allResolved);
+if (rateLimitedChunks.length) {
+  console.warn(`Done with ${rateLimitedChunks.length} rate-limited chunk(s). Re-run the same command later; completed chunks are already written.`);
+}
 console.log(`Done. Remaining missing exact asset audit entries: ${missing.length}`);
