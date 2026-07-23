@@ -1,1 +1,1 @@
-{"scripts":{"dev":"vite","build":"vite build"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest"},"devDependencies":{}}
+{"scripts":{"dev":"vite","build":"vite build","figma:refresh":"node scripts/refresh-figma-frames.mjs"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest"},"devDependencies":{}}
