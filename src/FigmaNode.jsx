@@ -66,18 +66,71 @@ function cssBoxShadow(effects = []) {
   return shadows.length ? shadows.join(', ') : undefined;
 }
 
-function transformStyleForNode(node, isRoot) {
-  if (isRoot || !Array.isArray(node.relativeTransform) || node.relativeTransform.length !== 2 || !node.size) return null;
-  const [[a, c, tx], [b, d, ty]] = node.relativeTransform;
-  if (![a, b, c, d, tx, ty].every(Number.isFinite)) return null;
+function matrixTransformStyle(a, b, c, d, tx, ty, width, height) {
+  if (![a, b, c, d, tx, ty, width, height].every(Number.isFinite) || width <= 0 || height <= 0) return null;
   return {
     left: 0,
     top: 0,
-    width: node.size.x,
-    height: node.size.y,
+    width,
+    height,
     transform: `matrix(${a}, ${b}, ${c}, ${d}, ${tx}, ${ty})`,
     transformOrigin: 'top left',
   };
+}
+
+function relativeTransformStyleForNode(node) {
+  if (!Array.isArray(node.relativeTransform) || node.relativeTransform.length !== 2 || !node.size) return null;
+  const [[a, c, tx], [b, d, ty]] = node.relativeTransform;
+  return matrixTransformStyle(a, b, c, d, tx, ty, node.size.x, node.size.y);
+}
+
+function rotationTransformStyleForNode(node, parentBox) {
+  const box = node.absoluteBoundingBox;
+  const angle = node.rotation;
+  if (!box || !parentBox || !Number.isFinite(angle) || Math.abs(angle) < 0.000001) return null;
+
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle);
+  const absCos = Math.abs(cos);
+  const absSin = Math.abs(sin);
+  const denominator = absCos * absCos - absSin * absSin;
+  let width;
+  let height;
+  if (Math.abs(denominator) < 0.000001) {
+    const ratio = node.targetAspectRatio?.x && node.targetAspectRatio?.y
+      ? node.targetAspectRatio.x / node.targetAspectRatio.y
+      : null;
+    if (!Number.isFinite(ratio) || ratio <= 0) return null;
+    const heightFromBoxWidth = box.width / (absCos * ratio + absSin);
+    const heightFromBoxHeight = box.height / (absSin * ratio + absCos);
+    height = (heightFromBoxWidth + heightFromBoxHeight) / 2;
+    width = ratio * height;
+  } else {
+    width = (absCos * box.width - absSin * box.height) / denominator;
+    height = (-absSin * box.width + absCos * box.height) / denominator;
+  }
+  if (![width, height].every(Number.isFinite) || width <= 0 || height <= 0) return null;
+
+  const a = cos;
+  const b = sin;
+  const c = -sin;
+  const d = cos;
+  const corners = [
+    [0, 0],
+    [width, 0],
+    [0, height],
+    [width, height],
+  ].map(([x, y]) => ({ x: a * x + c * y, y: b * x + d * y }));
+  const minX = Math.min(...corners.map((corner) => corner.x));
+  const minY = Math.min(...corners.map((corner) => corner.y));
+  const tx = box.x - parentBox.x - minX;
+  const ty = box.y - parentBox.y - minY;
+  return matrixTransformStyle(a, b, c, d, tx, ty, width, height);
+}
+
+function transformStyleForNode(node, parentBox, isRoot) {
+  if (isRoot) return null;
+  return relativeTransformStyleForNode(node) || rotationTransformStyleForNode(node, parentBox);
 }
 
 function baseStyle(node, parentBox, imageFills, isRoot = false) {
@@ -91,7 +144,7 @@ function baseStyle(node, parentBox, imageFills, isRoot = false) {
   const imageUrl = imageUrlForPaint(imageFill, imageFills);
   const imageSizing = imageSizingForPaint(imageFill);
 
-  const transformStyle = transformStyleForNode(node, isRoot);
+  const transformStyle = transformStyleForNode(node, parentBox, isRoot);
   const style = {
     position: 'absolute',
     left: transformStyle?.left ?? (isRoot ? 0 : box.x - parentBox.x),

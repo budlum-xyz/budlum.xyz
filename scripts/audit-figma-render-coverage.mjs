@@ -40,6 +40,45 @@ function shouldRenderExactLeafGeometry(node) {
   return visiblePaints(node, 'IMAGE').length === 0;
 }
 
+function hasRelativeTransform(node) {
+  return Array.isArray(node.relativeTransform) && node.relativeTransform.length === 2 && Boolean(node.size);
+}
+
+function isRotated(node) {
+  return Number.isFinite(node.rotation) && Math.abs(node.rotation) > 0.000001;
+}
+
+function canInferRotationTransform(node) {
+  if (!isRotated(node) || !node.absoluteBoundingBox) return false;
+  const angle = node.rotation;
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle);
+  const absCos = Math.abs(cos);
+  const absSin = Math.abs(sin);
+  const denominator = absCos * absCos - absSin * absSin;
+  const box = node.absoluteBoundingBox;
+  let width;
+  let height;
+  if (Math.abs(denominator) < 0.000001) {
+    const ratio = node.targetAspectRatio?.x && node.targetAspectRatio?.y
+      ? node.targetAspectRatio.x / node.targetAspectRatio.y
+      : null;
+    if (!Number.isFinite(ratio) || ratio <= 0) return false;
+    const heightFromBoxWidth = box.width / (absCos * ratio + absSin);
+    const heightFromBoxHeight = box.height / (absSin * ratio + absCos);
+    height = (heightFromBoxWidth + heightFromBoxHeight) / 2;
+    width = ratio * height;
+  } else {
+    width = (absCos * box.width - absSin * box.height) / denominator;
+    height = (-absSin * box.width + absCos * box.height) / denominator;
+  }
+  return [width, height].every(Number.isFinite) && width > 0 && height > 0;
+}
+
+function hasMatrixTransformCoverage(node) {
+  return hasRelativeTransform(node) || canInferRotationTransform(node);
+}
+
 function classify(node) {
   if (node.visible === false) return 'hidden';
   if (VECTOR_TYPES.has(node.type)) return hasExactGeometry(node) ? 'exactVectorGeometry' : 'skippedMissingGeometry';
@@ -70,6 +109,10 @@ const aggregate = {
   container: 0,
   cssShape: 0,
   missingExactAssetAuditEntries: missing.length,
+  relativeTransformNodes: 0,
+  rotationFallbackTransformNodes: 0,
+  rotatedTransformNodes: 0,
+  unsupportedRotatedTransformNodes: 0,
 };
 
 for (const frame of manifest) {
@@ -84,12 +127,20 @@ for (const frame of manifest) {
     imageFill: 0,
     container: 0,
     cssShape: 0,
+    relativeTransformNodes: 0,
+    rotationFallbackTransformNodes: 0,
+    rotatedTransformNodes: 0,
+    unsupportedRotatedTransformNodes: 0,
   };
   const skippedExamples = [];
   walk(document, (node) => {
     const bucket = classify(node);
     counts.totalNodes += 1;
     counts[bucket] += 1;
+    if (hasRelativeTransform(node)) counts.relativeTransformNodes += 1;
+    if (!hasRelativeTransform(node) && canInferRotationTransform(node)) counts.rotationFallbackTransformNodes += 1;
+    if (isRotated(node) && hasMatrixTransformCoverage(node)) counts.rotatedTransformNodes += 1;
+    if (isRotated(node) && !hasMatrixTransformCoverage(node) && bucket !== 'skippedMissingGeometry' && bucket !== 'hidden') counts.unsupportedRotatedTransformNodes += 1;
     if (bucket === 'skippedMissingGeometry' && skippedExamples.length < 8) {
       skippedExamples.push({ id: node.id, name: node.name, type: node.type });
     }
@@ -113,6 +164,8 @@ const report = {
     exactLeafGeometry: 'Solid RECTANGLE/ELLIPSE leaf nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths instead of approximate CSS borders.',
     skippedMissingGeometry: 'VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.',
     cssShape: 'Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius.',
+    relativeTransform: 'Nodes carrying Figma relativeTransform + size are positioned with the exact affine CSS matrix in parent coordinates.',
+    rotationFallbackTransform: 'Rotated nodes without relativeTransform are matrix-positioned from Figma rotation + absolute bounding box when dimensions can be solved exactly.',
   },
   aggregate,
   frames,
@@ -131,6 +184,10 @@ const lines = [
   `- Exact RECTANGLE/ELLIPSE leaf geometry nodes rendered from Figma paths: \`${aggregate.exactLeafGeometry}\``,
   `- VECTOR-like nodes skipped because exact geometry is missing: \`${aggregate.skippedMissingGeometry}\``,
   `- Missing exact asset audit entries: \`${aggregate.missingExactAssetAuditEntries}\``,
+  `- Nodes positioned with Figma relativeTransform matrices: \`${aggregate.relativeTransformNodes}\``,
+  `- Rotated nodes positioned from Figma rotation fallback: \`${aggregate.rotationFallbackTransformNodes}\``,
+  `- Rotated transform nodes covered by matrix positioning: \`${aggregate.rotatedTransformNodes}\``,
+  `- Rotated transform nodes still unsupported: \`${aggregate.unsupportedRotatedTransformNodes}\``,
   `- Text nodes: \`${aggregate.text}\``,
   `- Image-fill nodes: \`${aggregate.imageFill}\``,
   `- CSS primitive/container nodes: \`${aggregate.cssShape + aggregate.container}\``,

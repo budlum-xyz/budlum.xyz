@@ -8,7 +8,9 @@
     "exactVectorGeometry": "VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.",
     "exactLeafGeometry": "Solid RECTANGLE/ELLIPSE leaf nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths instead of approximate CSS borders.",
     "skippedMissingGeometry": "VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.",
-    "cssShape": "Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius."
+    "cssShape": "Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius.",
+    "relativeTransform": "Nodes carrying Figma relativeTransform + size are positioned with the exact affine CSS matrix in parent coordinates.",
+    "rotationFallbackTransform": "Rotated nodes without relativeTransform are matrix-positioned from Figma rotation + absolute bounding box when dimensions can be solved exactly."
   },
   "aggregate": {
     "frames": 39,
@@ -21,7 +23,11 @@
     "imageFill": 3896,
     "container": 3238,
     "cssShape": 4847,
-    "missingExactAssetAuditEntries": 774
+    "missingExactAssetAuditEntries": 774,
+    "relativeTransformNodes": 3224,
+    "rotationFallbackTransformNodes": 603,
+    "rotatedTransformNodes": 721,
+    "unsupportedRotatedTransformNodes": 0
   },
   "frames": [
     {
@@ -37,7 +43,11 @@
         "text": 26,
         "imageFill": 305,
         "container": 136,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 886,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 16,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -55,7 +65,11 @@
         "text": 9,
         "imageFill": 306,
         "container": 108,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 786,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 7,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -73,7 +87,11 @@
         "text": 15,
         "imageFill": 21,
         "container": 60,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 207,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 13,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -91,7 +109,11 @@
         "text": 13,
         "imageFill": 31,
         "container": 55,
-        "cssShape": 100
+        "cssShape": 100,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 11,
+        "rotatedTransformNodes": 11,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 8,
       "skippedExamples": [
@@ -150,7 +172,11 @@
         "text": 13,
         "imageFill": 23,
         "container": 50,
-        "cssShape": 82
+        "cssShape": 82,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 8,
+        "rotatedTransformNodes": 8,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -168,7 +194,11 @@
         "text": 35,
         "imageFill": 75,
         "container": 98,
-        "cssShape": 210
+        "cssShape": 210,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 22,
+        "rotatedTransformNodes": 22,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 52,
       "skippedExamples": [
@@ -227,7 +257,11 @@
         "text": 4,
         "imageFill": 109,
         "container": 40,
-        "cssShape": 96
+        "cssShape": 96,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 2,
+        "rotatedTransformNodes": 2,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -245,7 +279,11 @@
         "text": 0,
         "imageFill": 0,
         "container": 47,
-        "cssShape": 17
+        "cssShape": 17,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 2,
+        "rotatedTransformNodes": 2,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 262,
       "skippedExamples": [
@@ -304,7 +342,11 @@
         "text": 7,
         "imageFill": 114,
         "container": 44,
-        "cssShape": 98
+        "cssShape": 98,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 3,
+        "rotatedTransformNodes": 3,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -322,7 +364,11 @@
         "text": 26,
         "imageFill": 53,
         "container": 66,
-        "cssShape": 116
+        "cssShape": 116,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 28,
+        "rotatedTransformNodes": 28,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 35,
       "skippedExamples": [
@@ -381,7 +427,11 @@
         "text": 26,
         "imageFill": 57,
         "container": 65,
-        "cssShape": 116
+        "cssShape": 116,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 34,
+        "rotatedTransformNodes": 34,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 39,
       "skippedExamples": [
@@ -440,7 +490,11 @@
         "text": 23,
         "imageFill": 78,
         "container": 66,
-        "cssShape": 130
+        "cssShape": 130,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 36,
+        "rotatedTransformNodes": 36,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 55,
       "skippedExamples": [
@@ -499,7 +553,11 @@
         "text": 4,
         "imageFill": 100,
         "container": 13,
-        "cssShape": 18
+        "cssShape": 18,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 33,
+        "rotatedTransformNodes": 33,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 35,
       "skippedExamples": [
@@ -558,7 +616,11 @@
         "text": 27,
         "imageFill": 139,
         "container": 65,
-        "cssShape": 117
+        "cssShape": 117,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 40,
+        "rotatedTransformNodes": 40,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 59,
       "skippedExamples": [
@@ -617,7 +679,11 @@
         "text": 23,
         "imageFill": 137,
         "container": 55,
-        "cssShape": 103
+        "cssShape": 103,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 38,
+        "rotatedTransformNodes": 38,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 59,
       "skippedExamples": [
@@ -676,7 +742,11 @@
         "text": 27,
         "imageFill": 139,
         "container": 63,
-        "cssShape": 117
+        "cssShape": 117,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 40,
+        "rotatedTransformNodes": 40,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 59,
       "skippedExamples": [
@@ -735,7 +805,11 @@
         "text": 27,
         "imageFill": 311,
         "container": 142,
-        "cssShape": 395
+        "cssShape": 395,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 16,
+        "rotatedTransformNodes": 16,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 24,
       "skippedExamples": [
@@ -794,7 +868,11 @@
         "text": 8,
         "imageFill": 8,
         "container": 52,
-        "cssShape": 95
+        "cssShape": 95,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 11,
+        "rotatedTransformNodes": 11,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -833,7 +911,11 @@
         "text": 29,
         "imageFill": 12,
         "container": 74,
-        "cssShape": 120
+        "cssShape": 120,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 11,
+        "rotatedTransformNodes": 11,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -872,7 +954,11 @@
         "text": 18,
         "imageFill": 12,
         "container": 75,
-        "cssShape": 121
+        "cssShape": 121,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 11,
+        "rotatedTransformNodes": 11,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -911,7 +997,11 @@
         "text": 9,
         "imageFill": 17,
         "container": 28,
-        "cssShape": 51
+        "cssShape": 51,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 6,
+        "rotatedTransformNodes": 6,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -950,7 +1040,11 @@
         "text": 231,
         "imageFill": 123,
         "container": 336,
-        "cssShape": 525
+        "cssShape": 525,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 68,
+        "rotatedTransformNodes": 68,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 12,
       "skippedExamples": [
@@ -1009,7 +1103,11 @@
         "text": 108,
         "imageFill": 48,
         "container": 151,
-        "cssShape": 242
+        "cssShape": 242,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 30,
+        "rotatedTransformNodes": 30,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -1048,7 +1146,11 @@
         "text": 114,
         "imageFill": 4,
         "container": 61,
-        "cssShape": 39
+        "cssShape": 39,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 6,
+        "rotatedTransformNodes": 6,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 3,
       "skippedExamples": [
@@ -1082,7 +1184,11 @@
         "text": 4,
         "imageFill": 18,
         "container": 14,
-        "cssShape": 18
+        "cssShape": 18,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 16,
+        "rotatedTransformNodes": 16,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 13,
       "skippedExamples": [
@@ -1141,7 +1247,11 @@
         "text": 27,
         "imageFill": 4,
         "container": 97,
-        "cssShape": 177
+        "cssShape": 177,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 23,
+        "rotatedTransformNodes": 23,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1159,7 +1269,11 @@
         "text": 2,
         "imageFill": 1034,
         "container": 278,
-        "cssShape": 805
+        "cssShape": 805,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 19,
+        "rotatedTransformNodes": 19,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 19,
       "skippedExamples": [
@@ -1218,7 +1332,11 @@
         "text": 115,
         "imageFill": 54,
         "container": 174,
-        "cssShape": 275
+        "cssShape": 275,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 32,
+        "rotatedTransformNodes": 32,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -1257,7 +1375,11 @@
         "text": 115,
         "imageFill": 53,
         "container": 172,
-        "cssShape": 275
+        "cssShape": 275,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 32,
+        "rotatedTransformNodes": 32,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -1296,7 +1418,11 @@
         "text": 16,
         "imageFill": 33,
         "container": 63,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 230,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 13,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1314,7 +1440,11 @@
         "text": 16,
         "imageFill": 33,
         "container": 63,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 229,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 13,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1332,7 +1462,11 @@
         "text": 20,
         "imageFill": 38,
         "container": 53,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 190,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 15,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1350,7 +1484,11 @@
         "text": 16,
         "imageFill": 34,
         "container": 48,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 177,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 13,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1368,7 +1506,11 @@
         "text": 14,
         "imageFill": 29,
         "container": 49,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 173,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 9,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1386,7 +1528,11 @@
         "text": 14,
         "imageFill": 29,
         "container": 49,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 173,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 9,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1404,7 +1550,11 @@
         "text": 14,
         "imageFill": 29,
         "container": 49,
-        "cssShape": 0
+        "cssShape": 0,
+        "relativeTransformNodes": 173,
+        "rotationFallbackTransformNodes": 0,
+        "rotatedTransformNodes": 10,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 0,
       "skippedExamples": []
@@ -1422,7 +1572,11 @@
         "text": 26,
         "imageFill": 140,
         "container": 97,
-        "cssShape": 201
+        "cssShape": 201,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 17,
+        "rotatedTransformNodes": 17,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -1461,7 +1615,11 @@
         "text": 10,
         "imageFill": 73,
         "container": 41,
-        "cssShape": 94
+        "cssShape": 94,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 4,
+        "rotatedTransformNodes": 4,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [
@@ -1500,7 +1658,11 @@
         "text": 10,
         "imageFill": 73,
         "container": 41,
-        "cssShape": 94
+        "cssShape": 94,
+        "relativeTransformNodes": 0,
+        "rotationFallbackTransformNodes": 4,
+        "rotatedTransformNodes": 4,
+        "unsupportedRotatedTransformNodes": 0
       },
       "missingExactAssetAuditEntries": 4,
       "skippedExamples": [

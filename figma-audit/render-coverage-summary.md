@@ -10,6 +10,10 @@ Generated without calling the Figma API. It audits committed frame JSON against 
 - Exact RECTANGLE/ELLIPSE leaf geometry nodes rendered from Figma paths: `1477`
 - VECTOR-like nodes skipped because exact geometry is missing: `774`
 - Missing exact asset audit entries: `774`
+- Nodes positioned with Figma relativeTransform matrices: `3224`
+- Rotated nodes positioned from Figma rotation fallback: `603`
+- Rotated transform nodes covered by matrix positioning: `721`
+- Rotated transform nodes still unsupported: `0`
 - Text nodes: `1241`
 - Image-fill nodes: `3896`
 - CSS primitive/container nodes: `8085`
