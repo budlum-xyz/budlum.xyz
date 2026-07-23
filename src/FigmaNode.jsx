@@ -1,5 +1,219 @@
-import { useEffect, useState } from 'react';
-const c=(x)=>!x?'transparent':`rgba(${Math.round(x.r*255)},${Math.round(x.g*255)},${Math.round(x.b*255)},${x.a??1})`;
-const sty=(n,r)=>{const b=n.absoluteBoundingBox;if(!b)return{display:'contents'};const f=(n.fills||[]).find(x=>x.visible!==false&&x.type==='SOLID'),im=(n.fills||[]).find(x=>x.visible!==false&&x.type==='IMAGE'),s=(n.strokes||[]).find(x=>x.visible!==false&&x.type==='SOLID');const o={position:'absolute',left:b.x-r.x,top:b.y-r.y,width:b.width,height:b.height,opacity:n.opacity??1};if(f)o.backgroundColor=c(f.color);if(im){o.backgroundImage=`url(${im.assetUrl || '/figma-assets/'+im.imageRef+'.png'})`;o.backgroundSize='100% 100%';o.backgroundRepeat='no-repeat'}if(s)o.border=`${n.strokeWeight||1}px solid ${c(s.color)}`;if(n.cornerRadius!=null)o.borderRadius=n.cornerRadius;return o};
-export function FigmaNode({node,root,onAction}){if(node.visible===false)return null;const kids=node.children||[];if(['VECTOR','STAR','BOOLEAN_OPERATION'].includes(node.type))return null;if(node.type==='TEXT'){const s=sty(node,root),t=node.style||{};Object.assign(s,{color:c((node.fills||[])[0]?.color||{r:1,g:1,b:1}),fontFamily:`${t.fontFamily||'Arial'}, sans-serif`,fontSize:t.fontSize||16,fontWeight:t.fontWeight||400,lineHeight:t.lineHeightPx?`${t.lineHeightPx}px`:undefined,textAlign:t.textAlignHorizontal?.toLowerCase(),whiteSpace:'pre-wrap'});return <span data-figma-id={node.id} style={s}>{node.characters}</span>}const s=sty(node,root),im=(node.fills||[]).find(x=>x.visible!==false&&x.type==='IMAGE'),hit=/bar|gönder|arat|transactions|market|revaştakiler/i.test(node.name||'');if(im&&!kids.length){delete s.backgroundImage;delete s.backgroundSize;return <img data-figma-id={node.id} src={im.assetUrl || `/figma-assets/${im.imageRef}.png`} alt="" style={{...s,objectFit:'fill'}}/>}const Tag=hit?'button':'div';if(hit){s.cursor='pointer';s.padding=0}return <Tag data-figma-id={node.id} style={s} onClick={hit?()=>onAction?.(node.name):undefined}>{kids.map(x=><FigmaNode key={x.id} node={x} root={root} onAction={onAction}/>)}</Tag>}
-export function FigmaFrame({source,onAction}){const [f,setF]=useState(null);const [scale,setScale]=useState(.3);useEffect(()=>{fetch(source).then(x=>x.json()).then(setF)},[source]);useEffect(()=>{const fit=()=>{if(!f)return;setScale(Math.min((window.innerWidth-320)/f.absoluteBoundingBox.width,(window.innerHeight-48)/f.absoluteBoundingBox.height,1))};fit();window.addEventListener('resize',fit);return()=>window.removeEventListener('resize',fit)},[f]);return f?<div className="figma-frame" style={{width:f.absoluteBoundingBox.width,height:f.absoluteBoundingBox.height,transform:`scale(${scale})`}}><FigmaNode node={f} root={f.absoluteBoundingBox} onAction={onAction}/></div>:null}
+import { useEffect, useMemo, useState } from 'react';
+
+const IMAGE_FILL_SOURCE = '/figma-image-fills.json';
+const VECTOR_TYPES = new Set(['VECTOR', 'STAR', 'BOOLEAN_OPERATION', 'LINE', 'REGULAR_POLYGON']);
+
+function colorToCss(color, opacity = 1) {
+  if (!color) return 'transparent';
+  const alpha = (color.a ?? 1) * opacity;
+  return `rgba(${Math.round(color.r * 255)}, ${Math.round(color.g * 255)}, ${Math.round(color.b * 255)}, ${alpha})`;
+}
+
+function firstVisiblePaint(paints = [], type) {
+  return paints.find((paint) => paint.visible !== false && (!type || paint.type === type));
+}
+
+function imageUrlForPaint(paint, imageFills) {
+  if (!paint) return undefined;
+  return paint.assetUrl || imageFills?.[paint.imageRef] || (paint.imageRef ? `/figma-assets/${paint.imageRef}.png` : undefined);
+}
+
+function imageSizingForScaleMode(scaleMode) {
+  switch (scaleMode) {
+    case 'FILL':
+      return { backgroundSize: 'cover', objectFit: 'cover' };
+    case 'FIT':
+      return { backgroundSize: 'contain', objectFit: 'contain' };
+    case 'TILE':
+      return { backgroundSize: 'auto', backgroundRepeat: 'repeat', objectFit: 'fill' };
+    case 'STRETCH':
+    default:
+      return { backgroundSize: '100% 100%', objectFit: 'fill' };
+  }
+}
+
+function cssBoxShadow(effects = []) {
+  const shadows = effects
+    .filter((effect) => effect.visible !== false && effect.type === 'DROP_SHADOW')
+    .map((effect) => {
+      const x = effect.offset?.x ?? 0;
+      const y = effect.offset?.y ?? 0;
+      const radius = effect.radius ?? 0;
+      const spread = effect.spread ?? 0;
+      return `${x}px ${y}px ${radius}px ${spread}px ${colorToCss(effect.color)}`;
+    });
+  return shadows.length ? shadows.join(', ') : undefined;
+}
+
+function baseStyle(node, rootBox, imageFills) {
+  const box = node.absoluteBoundingBox;
+  if (!box) return { display: 'contents' };
+
+  const fills = node.fills || node.background || [];
+  const solidFill = firstVisiblePaint(fills, 'SOLID');
+  const imageFill = firstVisiblePaint(fills, 'IMAGE');
+  const solidStroke = firstVisiblePaint(node.strokes || [], 'SOLID');
+  const imageUrl = imageUrlForPaint(imageFill, imageFills);
+  const imageSizing = imageSizingForScaleMode(imageFill?.scaleMode);
+
+  const style = {
+    position: 'absolute',
+    left: box.x - rootBox.x,
+    top: box.y - rootBox.y,
+    width: box.width,
+    height: box.height,
+    opacity: node.opacity ?? 1,
+    overflow: node.clipsContent ? 'hidden' : undefined,
+    mixBlendMode: node.blendMode && !['NORMAL', 'PASS_THROUGH'].includes(node.blendMode) ? node.blendMode.toLowerCase() : undefined,
+  };
+
+  if (solidFill) style.backgroundColor = colorToCss(solidFill.color, solidFill.opacity ?? 1);
+  if (imageUrl) {
+    style.backgroundImage = `url(${imageUrl})`;
+    style.backgroundSize = imageSizing.backgroundSize;
+    style.backgroundRepeat = imageSizing.backgroundRepeat || 'no-repeat';
+    style.backgroundPosition = 'center';
+  }
+
+  if (solidStroke) {
+    style.border = `${node.strokeWeight || 1}px solid ${colorToCss(solidStroke.color, solidStroke.opacity ?? 1)}`;
+  }
+
+  if (node.cornerRadius != null) style.borderRadius = node.cornerRadius;
+  if (Array.isArray(node.rectangleCornerRadii)) {
+    style.borderRadius = node.rectangleCornerRadii.map((radius) => `${radius}px`).join(' ');
+  }
+  if (node.type === 'ELLIPSE') style.borderRadius = '50%';
+
+  const shadow = cssBoxShadow(node.effects || []);
+  if (shadow) style.boxShadow = shadow;
+
+  return style;
+}
+
+function textStyle(node, rootBox, imageFills) {
+  const style = baseStyle(node, rootBox, imageFills);
+  const text = node.style || {};
+  const fill = firstVisiblePaint(node.fills || [], 'SOLID');
+  return {
+    ...style,
+    color: colorToCss(fill?.color || { r: 0, g: 0, b: 0, a: 1 }, fill?.opacity ?? 1),
+    fontFamily: text.fontFamily ? `'${text.fontFamily}', sans-serif` : 'sans-serif',
+    fontSize: text.fontSize,
+    fontWeight: text.fontWeight,
+    fontStyle: text.fontStyle?.toLowerCase()?.includes('italic') ? 'italic' : undefined,
+    lineHeight: text.lineHeightPx ? `${text.lineHeightPx}px` : undefined,
+    letterSpacing: text.letterSpacing != null ? `${text.letterSpacing}px` : undefined,
+    textAlign: text.textAlignHorizontal?.toLowerCase(),
+    whiteSpace: 'pre-wrap',
+    display: 'flex',
+    alignItems: text.textAlignVertical === 'CENTER' ? 'center' : text.textAlignVertical === 'BOTTOM' ? 'flex-end' : 'flex-start',
+    justifyContent: text.textAlignHorizontal === 'CENTER' ? 'center' : text.textAlignHorizontal === 'RIGHT' ? 'flex-end' : 'flex-start',
+  };
+}
+
+function hasPrototypeInteraction(node) {
+  return Array.isArray(node.interactions) && node.interactions.length > 0;
+}
+
+export function FigmaNode({ node, root, imageFills, onAction }) {
+  if (!node || node.visible === false) return null;
+
+  // Figma REST node JSON does not include exact path geometry for these node types.
+  // They are intentionally not approximated; required exports are tracked in figma-audit/missing-exact-assets.json.
+  if (VECTOR_TYPES.has(node.type)) return null;
+
+  if (node.type === 'TEXT') {
+    return (
+      <span data-figma-id={node.id} data-figma-name={node.name} style={textStyle(node, root, imageFills)}>
+        {node.characters}
+      </span>
+    );
+  }
+
+  const children = node.children || [];
+  const style = baseStyle(node, root, imageFills);
+  const imagePaint = firstVisiblePaint(node.fills || node.background || [], 'IMAGE');
+  const imageUrl = imageUrlForPaint(imagePaint, imageFills);
+  const imageSizing = imageSizingForScaleMode(imagePaint?.scaleMode);
+
+  if (imageUrl && children.length === 0 && node.type !== 'FRAME') {
+    const imageStyle = { ...style, objectFit: imageSizing.objectFit };
+    delete imageStyle.backgroundImage;
+    delete imageStyle.backgroundSize;
+    delete imageStyle.backgroundRepeat;
+    delete imageStyle.backgroundPosition;
+    return <img data-figma-id={node.id} data-figma-name={node.name} src={imageUrl} alt="" draggable="false" style={imageStyle} />;
+  }
+
+  const interactive = hasPrototypeInteraction(node);
+  const Tag = interactive ? 'button' : 'div';
+  if (interactive) {
+    style.cursor = 'pointer';
+    style.padding = 0;
+    style.border = style.border || 0;
+    style.background = style.background || 'transparent';
+    style.font = 'inherit';
+    style.color = 'inherit';
+    style.textAlign = 'inherit';
+  }
+
+  return (
+    <Tag
+      data-figma-id={node.id}
+      data-figma-name={node.name}
+      data-figma-type={node.type}
+      style={style}
+      onClick={interactive ? () => onAction?.({ nodeId: node.id, name: node.name, interactions: node.interactions }) : undefined}
+    >
+      {children.map((child) => (
+        <FigmaNode key={child.id} node={child} root={root} imageFills={imageFills} onAction={onAction} />
+      ))}
+    </Tag>
+  );
+}
+
+export function FigmaFrame({ source, onAction }) {
+  const [frame, setFrame] = useState(null);
+  const [imageFills, setImageFills] = useState({});
+  const [scale, setScale] = useState(0.3);
+
+  useEffect(() => {
+    fetch(source).then((response) => response.json()).then(setFrame);
+  }, [source]);
+
+  useEffect(() => {
+    fetch(IMAGE_FILL_SOURCE)
+      .then((response) => response.ok ? response.json() : null)
+      .then((payload) => setImageFills(payload?.meta?.images || payload?.images || {}))
+      .catch(() => setImageFills({}));
+  }, []);
+
+  const rootBox = frame?.absoluteBoundingBox;
+  const viewportStyle = useMemo(() => {
+    if (!rootBox) return undefined;
+    return {
+      width: rootBox.width,
+      height: rootBox.height,
+      transform: `scale(${scale})`,
+    };
+  }, [rootBox, scale]);
+
+  useEffect(() => {
+    const fit = () => {
+      if (!rootBox) return;
+      setScale(Math.min((window.innerWidth - 320) / rootBox.width, (window.innerHeight - 48) / rootBox.height, 1));
+    };
+    fit();
+    window.addEventListener('resize', fit);
+    return () => window.removeEventListener('resize', fit);
+  }, [rootBox]);
+
+  if (!frame || !rootBox) return null;
+
+  return (
+    <div className="figma-frame" style={viewportStyle}>
+      <FigmaNode node={frame} root={rootBox} imageFills={imageFills} onAction={onAction} />
+    </div>
+  );
+}
