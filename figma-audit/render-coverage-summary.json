@@ -1,0 +1,1489 @@
+{
+  "generatedFrom": [
+    "figma-nodes/manifest.json",
+    "public/figma-frames/*.json",
+    "figma-audit/missing-exact-assets.json"
+  ],
+  "rendererContract": {
+    "exactGeometry": "VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.",
+    "skippedMissingGeometry": "VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.",
+    "cssShape": "Non-vector Figma primitives rendered from REST numeric values such as bounding box, fill, stroke and radius."
+  },
+  "aggregate": {
+    "frames": 39,
+    "totalNodes": 15530,
+    "hidden": 5,
+    "exactGeometry": 52,
+    "skippedMissingGeometry": 774,
+    "text": 1241,
+    "imageFill": 3896,
+    "container": 3238,
+    "cssShape": 6324,
+    "missingExactAssetAuditEntries": 774
+  },
+  "frames": [
+    {
+      "frameId": "2223:54",
+      "frameName": "kullanıcı bir cüzdanı açtı",
+      "file": "2223-54--kullan-c-bir-c-zdan-a-t.json",
+      "counts": {
+        "totalNodes": 886,
+        "hidden": 0,
+        "exactGeometry": 24,
+        "skippedMissingGeometry": 0,
+        "text": 26,
+        "imageFill": 305,
+        "container": 136,
+        "cssShape": 395
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2446:824",
+      "frameName": "kullanıcı boş bir cüzdanı açtı",
+      "file": "2446-824--kullan-c-bo-bir-c-zdan-a-t.json",
+      "counts": {
+        "totalNodes": 786,
+        "hidden": 0,
+        "exactGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "text": 9,
+        "imageFill": 306,
+        "container": 108,
+        "cssShape": 359
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2377:22",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2377-22--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 207,
+        "hidden": 0,
+        "exactGeometry": 8,
+        "skippedMissingGeometry": 0,
+        "text": 15,
+        "imageFill": 21,
+        "container": 60,
+        "cssShape": 103
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2580:197",
+      "frameName": "tokens yazısına tıkladı",
+      "file": "2580-197--tokens-yaz-s-na-t-klad.json",
+      "counts": {
+        "totalNodes": 207,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 8,
+        "text": 13,
+        "imageFill": 31,
+        "container": 55,
+        "cssShape": 100
+      },
+      "missingExactAssetAuditEntries": 8,
+      "skippedExamples": [
+        {
+          "id": "2580:433",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:434",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:435",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:436",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:572",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:573",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:574",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2580:575",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "3317:788",
+      "frameName": "nft yazısına tıkladı",
+      "file": "3317-788--nft-yaz-s-na-t-klad.json",
+      "counts": {
+        "totalNodes": 168,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 13,
+        "imageFill": 23,
+        "container": 50,
+        "cssShape": 82
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2614:402",
+      "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+      "file": "2614-402--tokens-yaz-s-na-t-klad---pencere-max-bu-kadar-a-labilir.json",
+      "counts": {
+        "totalNodes": 470,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 52,
+        "text": 35,
+        "imageFill": 75,
+        "container": 98,
+        "cssShape": 210
+      },
+      "missingExactAssetAuditEntries": 52,
+      "skippedExamples": [
+        {
+          "id": "2614:614",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2614:615",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2614:616",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2614:617",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2619:777",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2619:778",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2619:779",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2619:780",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2667:32",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "file": "2667-32--budlum-xyz-ye-giri-yapt.json",
+      "counts": {
+        "totalNodes": 249,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 4,
+        "imageFill": 109,
+        "container": 40,
+        "cssShape": 96
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2856:4578",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "file": "2856-4578--budlum-xyz-ye-giri-yapt.json",
+      "counts": {
+        "totalNodes": 326,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 262,
+        "text": 0,
+        "imageFill": 0,
+        "container": 47,
+        "cssShape": 17
+      },
+      "missingExactAssetAuditEntries": 262,
+      "skippedExamples": [
+        {
+          "id": "3600:762",
+          "name": "1000105987 1",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:763",
+          "name": "1000105987 2",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:764",
+          "name": "1000105987 3",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:765",
+          "name": "1000105987 4",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:766",
+          "name": "1000105987 5",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:767",
+          "name": "bar",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:770",
+          "name": "Vector",
+          "type": "VECTOR"
+        },
+        {
+          "id": "3600:771",
+          "name": "Vector",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "file": "2972-2406--budlum-xyzde-fareyle-gezilirken.json",
+      "counts": {
+        "totalNodes": 263,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 7,
+        "imageFill": 114,
+        "container": 44,
+        "cssShape": 98
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "file": "2870-4251--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 296,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 35,
+        "text": 26,
+        "imageFill": 53,
+        "container": 66,
+        "cssShape": 116
+      },
+      "missingExactAssetAuditEntries": 35,
+      "skippedExamples": [
+        {
+          "id": "2872:1034",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1035",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1036",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1037",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1038",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1039",
+          "name": "Line 128",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1040",
+          "name": "Line 125",
+          "type": "LINE"
+        },
+        {
+          "id": "2872:1041",
+          "name": "Line 130",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "file": "2971-1324--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 303,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 39,
+        "text": 26,
+        "imageFill": 57,
+        "container": 65,
+        "cssShape": 116
+      },
+      "missingExactAssetAuditEntries": 39,
+      "skippedExamples": [
+        {
+          "id": "2971:1337",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1338",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1339",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1340",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1341",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1342",
+          "name": "Line 128",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1343",
+          "name": "Line 125",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1344",
+          "name": "Line 130",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "file": "2971-1618--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 352,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 55,
+        "text": 23,
+        "imageFill": 78,
+        "container": 66,
+        "cssShape": 130
+      },
+      "missingExactAssetAuditEntries": 55,
+      "skippedExamples": [
+        {
+          "id": "2971:1631",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1632",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1633",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1634",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1635",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1636",
+          "name": "Line 128",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1637",
+          "name": "Line 125",
+          "type": "LINE"
+        },
+        {
+          "id": "2971:1638",
+          "name": "Line 130",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "file": "2921-712--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 171,
+        "hidden": 1,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 35,
+        "text": 4,
+        "imageFill": 100,
+        "container": 13,
+        "cssShape": 18
+      },
+      "missingExactAssetAuditEntries": 35,
+      "skippedExamples": [
+        {
+          "id": "2921:730",
+          "name": "Line 122",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:733",
+          "name": "Line 121",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:740",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:741",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:742",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:743",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:744",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2921:745",
+          "name": "Line 128",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "file": "2967-528--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 408,
+        "hidden": 1,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 59,
+        "text": 27,
+        "imageFill": 139,
+        "container": 65,
+        "cssShape": 117
+      },
+      "missingExactAssetAuditEntries": 59,
+      "skippedExamples": [
+        {
+          "id": "2967:539",
+          "name": "Line 122",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:540",
+          "name": "Line 121",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:541",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:542",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:543",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:544",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:545",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2967:546",
+          "name": "Line 128",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "file": "2961-886--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 378,
+        "hidden": 1,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 59,
+        "text": 23,
+        "imageFill": 137,
+        "container": 55,
+        "cssShape": 103
+      },
+      "missingExactAssetAuditEntries": 59,
+      "skippedExamples": [
+        {
+          "id": "2961:897",
+          "name": "Line 122",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:898",
+          "name": "Line 121",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:899",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:900",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:901",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:902",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:903",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:904",
+          "name": "Line 128",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "file": "2961-486--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "counts": {
+        "totalNodes": 406,
+        "hidden": 1,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 59,
+        "text": 27,
+        "imageFill": 139,
+        "container": 63,
+        "cssShape": 117
+      },
+      "missingExactAssetAuditEntries": 59,
+      "skippedExamples": [
+        {
+          "id": "2961:497",
+          "name": "Line 122",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:498",
+          "name": "Line 121",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:499",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:500",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:501",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:502",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:503",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2961:504",
+          "name": "Line 128",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "file": "2870-3749--bir-kullan-c-n-n-c-zdan-n-aratt.json",
+      "counts": {
+        "totalNodes": 899,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 24,
+        "text": 27,
+        "imageFill": 311,
+        "container": 142,
+        "cssShape": 395
+      },
+      "missingExactAssetAuditEntries": 24,
+      "skippedExamples": [
+        {
+          "id": "2870:4085",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4086",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4087",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4088",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4127",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4128",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4129",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2870:4130",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2667:256",
+      "frameName": "herhangi bir yere tıkladı",
+      "file": "2667-256--herhangi-bir-yere-t-klad.json",
+      "counts": {
+        "totalNodes": 167,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 8,
+        "imageFill": 8,
+        "container": 52,
+        "cssShape": 95
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2667:803",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2667:804",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2667:805",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2667:806",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2671:814",
+      "frameName": "tohum tümcecikleri kaydet",
+      "file": "2671-814--tohum-t-mcecikleri-kaydet.json",
+      "counts": {
+        "totalNodes": 239,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 29,
+        "imageFill": 12,
+        "container": 74,
+        "cssShape": 120
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2671:1023",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2671:1024",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2671:1025",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2671:1026",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2977:1028",
+      "frameName": "tohum tümcecikleri kaydet",
+      "file": "2977-1028--tohum-t-mcecikleri-kaydet.json",
+      "counts": {
+        "totalNodes": 230,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 18,
+        "imageFill": 12,
+        "container": 75,
+        "cssShape": 121
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2977:1176",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2977:1177",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2977:1178",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2977:1179",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2671:1094",
+      "frameName": "ilk önce Bud tokenına ihtiyacın var",
+      "file": "2671-1094--ilk-nce-bud-token-na-ihtiyac-n-var.json",
+      "counts": {
+        "totalNodes": 109,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 9,
+        "imageFill": 17,
+        "container": 28,
+        "cssShape": 51
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2682:155",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2682:156",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2682:157",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2682:158",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2395:169",
+      "frameName": "budlum.xyz",
+      "file": "2395-169--budlum-xyz.json",
+      "counts": {
+        "totalNodes": 1227,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 12,
+        "text": 231,
+        "imageFill": 123,
+        "container": 336,
+        "cssShape": 525
+      },
+      "missingExactAssetAuditEntries": 12,
+      "skippedExamples": [
+        {
+          "id": "2449:1801",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1802",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1805",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1806",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1779",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1780",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1783",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2449:1784",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        }
+      ]
+    },
+    {
+      "frameId": "2501:2814",
+      "frameName": "kullanıcı transferleri aç yerine tıkaldı",
+      "file": "2501-2814--kullan-c-transferleri-a-yerine-t-kald.json",
+      "counts": {
+        "totalNodes": 554,
+        "hidden": 1,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 108,
+        "imageFill": 48,
+        "container": 151,
+        "cssShape": 242
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2501:3438",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2501:3439",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2501:3442",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2501:3443",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        }
+      ]
+    },
+    {
+      "frameId": "2413:2181",
+      "frameName": "market",
+      "file": "2413-2181--market.json",
+      "counts": {
+        "totalNodes": 221,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 3,
+        "text": 114,
+        "imageFill": 4,
+        "container": 61,
+        "cssShape": 39
+      },
+      "missingExactAssetAuditEntries": 3,
+      "skippedExamples": [
+        {
+          "id": "2463:2209",
+          "name": "Polygon 4",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2470:2217",
+          "name": "Polygon 5",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2470:2218",
+          "name": "Polygon 6",
+          "type": "REGULAR_POLYGON"
+        }
+      ]
+    },
+    {
+      "frameId": "2306:6",
+      "frameName": "budlum.xyz",
+      "file": "2306-6--budlum-xyz.json",
+      "counts": {
+        "totalNodes": 67,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 13,
+        "text": 4,
+        "imageFill": 18,
+        "container": 14,
+        "cssShape": 18
+      },
+      "missingExactAssetAuditEntries": 13,
+      "skippedExamples": [
+        {
+          "id": "2419:35",
+          "name": "Line 122",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:34",
+          "name": "Line 121",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:31",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:38",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:39",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:42",
+          "name": "Line 127",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:44",
+          "name": "Line 129",
+          "type": "LINE"
+        },
+        {
+          "id": "2419:43",
+          "name": "Line 128",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2277:28",
+      "frameName": "revaştakiler",
+      "file": "2277-28--reva-takiler.json",
+      "counts": {
+        "totalNodes": 305,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 27,
+        "imageFill": 4,
+        "container": 97,
+        "cssShape": 177
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2569:149",
+      "frameName": "depo",
+      "file": "2569-149--depo.json",
+      "counts": {
+        "totalNodes": 2138,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 19,
+        "text": 2,
+        "imageFill": 1034,
+        "container": 278,
+        "cssShape": 805
+      },
+      "missingExactAssetAuditEntries": 19,
+      "skippedExamples": [
+        {
+          "id": "2446:321",
+          "name": "yıldız patlamasını aç",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2446:322",
+          "name": "yıldız patlamasını kapat",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2449:1703",
+          "name": "Line 122",
+          "type": "LINE"
+        },
+        {
+          "id": "2449:1706",
+          "name": "Line 121",
+          "type": "LINE"
+        },
+        {
+          "id": "2449:1713",
+          "name": "Line 118",
+          "type": "LINE"
+        },
+        {
+          "id": "2449:1714",
+          "name": "Line 123",
+          "type": "LINE"
+        },
+        {
+          "id": "2449:1715",
+          "name": "Line 124",
+          "type": "LINE"
+        },
+        {
+          "id": "2449:1716",
+          "name": "Line 127",
+          "type": "LINE"
+        }
+      ]
+    },
+    {
+      "frameId": "2873:4453",
+      "frameName": "budlum.xyz",
+      "file": "2873-4453--budlum-xyz.json",
+      "counts": {
+        "totalNodes": 622,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 115,
+        "imageFill": 54,
+        "container": 174,
+        "cssShape": 275
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2873:5016",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2873:5017",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2873:5020",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "2873:5021",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        }
+      ]
+    },
+    {
+      "frameId": "3099:1056",
+      "frameName": "budlum.xyz",
+      "file": "3099-1056--budlum-xyz.json",
+      "counts": {
+        "totalNodes": 619,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 115,
+        "imageFill": 53,
+        "container": 172,
+        "cssShape": 275
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "3099:1659",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "3099:1660",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "3099:1663",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON"
+        },
+        {
+          "id": "3099:1664",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON"
+        }
+      ]
+    },
+    {
+      "frameId": "2901:266",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2901-266--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 230,
+        "hidden": 0,
+        "exactGeometry": 8,
+        "skippedMissingGeometry": 0,
+        "text": 16,
+        "imageFill": 33,
+        "container": 63,
+        "cssShape": 110
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2907:1281",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2907-1281--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 229,
+        "hidden": 0,
+        "exactGeometry": 8,
+        "skippedMissingGeometry": 0,
+        "text": 16,
+        "imageFill": 33,
+        "container": 63,
+        "cssShape": 109
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2901:704",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2901-704--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 190,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 20,
+        "imageFill": 38,
+        "container": 53,
+        "cssShape": 79
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2902:961",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2902-961--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 177,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 16,
+        "imageFill": 34,
+        "container": 48,
+        "cssShape": 79
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2972:3658",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2972-3658--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 173,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 14,
+        "imageFill": 29,
+        "container": 49,
+        "cssShape": 81
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2972:4204",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2972-4204--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 173,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 14,
+        "imageFill": 29,
+        "container": 49,
+        "cssShape": 81
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2972:3858",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "file": "2972-3858--kullan-c-kendi-c-zdan-n-a-t.json",
+      "counts": {
+        "totalNodes": 173,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 0,
+        "text": 14,
+        "imageFill": 29,
+        "container": 49,
+        "cssShape": 81
+      },
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
+    },
+    {
+      "frameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "file": "2903-345--budlum-xyz-ye-giri-yapt.json",
+      "counts": {
+        "totalNodes": 468,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 26,
+        "imageFill": 140,
+        "container": 97,
+        "cssShape": 201
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2900:586",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2900:587",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2900:588",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2900:589",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "file": "2900-600--zaten-bir-c-zdan-m-vara-t-klad.json",
+      "counts": {
+        "totalNodes": 222,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 10,
+        "imageFill": 73,
+        "container": 41,
+        "cssShape": 94
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2900:642",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2900:643",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2900:644",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2900:645",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "frameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "file": "2904-826--budlum-xyz-ye-giri-yapt.json",
+      "counts": {
+        "totalNodes": 222,
+        "hidden": 0,
+        "exactGeometry": 0,
+        "skippedMissingGeometry": 4,
+        "text": 10,
+        "imageFill": 73,
+        "container": 41,
+        "cssShape": 94
+      },
+      "missingExactAssetAuditEntries": 4,
+      "skippedExamples": [
+        {
+          "id": "2904:868",
+          "name": "Ellipse 10",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2904:869",
+          "name": "Ellipse 9",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2904:870",
+          "name": "Ellipse 11",
+          "type": "VECTOR"
+        },
+        {
+          "id": "2904:871",
+          "name": "Ellipse 12",
+          "type": "VECTOR"
+        }
+      ]
+    }
+  ]
+}

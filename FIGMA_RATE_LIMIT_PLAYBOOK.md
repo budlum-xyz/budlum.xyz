@@ -186,6 +186,25 @@ If even one small frame returns `429` after several retries:
 Do not work around this by approximating SVG/vector nodes.
 
 
+
+## Syncing committed missing-geometry audit
+
+If renderer coverage finds VECTOR-like nodes without exact path geometry that are not yet listed in `figma-audit/missing-exact-assets.json`, sync the audit without calling Figma:
+
+```bash
+npm run figma:sync-missing
+npm run figma:coverage
+npm run figma:plan
+npm run figma:verify
+```
+
+This keeps the renderer contract honest: missing geometry stays visible in audit instead of being approximated.
+
+`npm run figma:coverage` writes:
+
+- `figma-audit/render-coverage-summary.json`
+- `figma-audit/render-coverage-summary.md`
+
 ## Regenerating the remaining-frame plan
 
 When `figma-audit/missing-exact-assets.json` changes, regenerate the recommended refresh order with:

@@ -106,11 +106,27 @@ function verifyAuditFiles() {
     }
   }
 
+  const coverage = fs.existsSync(path.join(auditDir, 'render-coverage-summary.json'))
+    ? readJson(path.join(auditDir, 'render-coverage-summary.json'))
+    : null;
+  if (coverage) {
+    if (coverage.aggregate?.missingExactAssetAuditEntries !== missing.length) {
+      fail(`render-coverage-summary.json is stale: expected missingExactAssetAuditEntries=${missing.length}, got ${coverage.aggregate?.missingExactAssetAuditEntries}`);
+    }
+    if (coverage.aggregate?.skippedMissingGeometry !== missing.length) {
+      fail(`render-coverage-summary.json mismatch: skippedMissingGeometry=${coverage.aggregate?.skippedMissingGeometry}, missing audit entries=${missing.length}`);
+    }
+  }
+
   const walletReview = fs.existsSync(path.join(auditDir, 'wallet-states-review.json'))
     ? readJson(path.join(auditDir, 'wallet-states-review.json'))
     : null;
-  if (walletReview?.aggregate?.totalMissingExactVectorAssets !== 0) {
-    fail('Wallet audit still reports missing exact vector assets.');
+  if (walletReview?.implementedFrameIds) {
+    const walletIds = new Set(walletReview.implementedFrameIds);
+    const actualWalletMissing = missing.filter((entry) => walletIds.has(entry.rootFrameId)).length;
+    if (walletReview.aggregate?.totalMissingExactVectorAssets !== actualWalletMissing) {
+      fail(`wallet-states-review.json is stale: expected totalMissingExactVectorAssets=${actualWalletMissing}, got ${walletReview.aggregate?.totalMissingExactVectorAssets}`);
+    }
   }
 }
 

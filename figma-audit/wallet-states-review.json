@@ -20,7 +20,8 @@
     "Renderer reads absoluteBoundingBox, visible, opacity, solid/image fills, solid strokes, corner radii, text style, clipping and visible drop shadows from Figma JSON.",
     "Image fills are resolved from public/figma-image-fills.json; no approximate images were generated.",
     "Prototype interactions are rendered only when interactions exist in the Figma node JSON; no heuristic click behavior is added.",
-    "Vector nodes with fillGeometry/strokeGeometry are rendered as SVG paths from Figma geometry; no CSS approximation is used for VECTOR nodes."
+    "Vector nodes with fillGeometry/strokeGeometry are rendered as SVG paths from Figma geometry; no CSS approximation is used for VECTOR nodes.",
+    "Render coverage audit re-synced missing geometry entries from committed JSON; any wallet-scope missingExactVectorAssetCount above 0 must remain open until Figma geometry=paths refresh provides exact paths."
   ],
   "frames": [
     {

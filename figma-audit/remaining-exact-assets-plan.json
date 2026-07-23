@@ -1,29 +1,70 @@
 {
   "generatedFrom": "figma-audit/missing-exact-assets.json",
   "strategy": "Refresh smallest missing-exact-asset frames first, with FIGMA_CHUNK_SIZE=1 and long Retry-After capped by FIGMA_MAX_WAIT_MS.",
-  "totalMissingExactAssets": 548,
-  "totalFramesWithMissingExactAssets": 19,
+  "totalMissingExactAssets": 774,
+  "totalFramesWithMissingExactAssets": 25,
   "frames": [
     {
-      "frameId": "2921:712",
-      "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "frameFile": "2921-712--token-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 2,
+      "frameId": "2413:2181",
+      "frameName": "market",
+      "frameFile": "2413-2181--market.json",
+      "missingExactAssetCount": 3,
       "nodeTypes": {
-        "VECTOR": 2
+        "REGULAR_POLYGON": 3
       },
       "examples": [
         {
-          "id": "2925:888",
-          "name": "Line 136",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2463:2209",
+          "name": "Polygon 4",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2922:820",
-          "name": "Line 136",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2470:2217",
+          "name": "Polygon 5",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2470:2218",
+          "name": "Polygon 6",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2501:2814",
+      "frameName": "kullanıcı transferleri aç yerine tıkaldı",
+      "frameFile": "2501-2814--kullan-c-transferleri-a-yerine-t-kald.json",
+      "missingExactAssetCount": 4,
+      "nodeTypes": {
+        "REGULAR_POLYGON": 4
+      },
+      "examples": [
+        {
+          "id": "2501:3438",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2501:3439",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2501:3442",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2501:3443",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -37,14 +78,8 @@
       },
       "examples": [
         {
-          "id": "2667:806",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2667:805",
-          "name": "Ellipse 11",
+          "id": "2667:803",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -55,8 +90,14 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2667:803",
-          "name": "Ellipse 10",
+          "id": "2667:805",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2667:806",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -72,14 +113,8 @@
       },
       "examples": [
         {
-          "id": "2682:158",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2682:157",
-          "name": "Ellipse 11",
+          "id": "2682:155",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -90,8 +125,14 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2682:155",
-          "name": "Ellipse 10",
+          "id": "2682:157",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2682:158",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -107,14 +148,8 @@
       },
       "examples": [
         {
-          "id": "2671:1026",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2671:1025",
-          "name": "Ellipse 11",
+          "id": "2671:1023",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -125,10 +160,51 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2671:1023",
-          "name": "Ellipse 10",
+          "id": "2671:1025",
+          "name": "Ellipse 11",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2671:1026",
+          "name": "Ellipse 12",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2873:4453",
+      "frameName": "budlum.xyz",
+      "frameFile": "2873-4453--budlum-xyz.json",
+      "missingExactAssetCount": 4,
+      "nodeTypes": {
+        "REGULAR_POLYGON": 4
+      },
+      "examples": [
+        {
+          "id": "2873:5016",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2873:5017",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2873:5020",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2873:5021",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -142,14 +218,8 @@
       },
       "examples": [
         {
-          "id": "2900:645",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2900:644",
-          "name": "Ellipse 11",
+          "id": "2900:642",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -160,8 +230,14 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2900:642",
-          "name": "Ellipse 10",
+          "id": "2900:644",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2900:645",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -177,14 +253,8 @@
       },
       "examples": [
         {
-          "id": "2900:589",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2900:588",
-          "name": "Ellipse 11",
+          "id": "2900:586",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -195,8 +265,14 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2900:586",
-          "name": "Ellipse 10",
+          "id": "2900:588",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2900:589",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -212,14 +288,8 @@
       },
       "examples": [
         {
-          "id": "2904:871",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2904:870",
-          "name": "Ellipse 11",
+          "id": "2904:868",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -230,8 +300,14 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2904:868",
-          "name": "Ellipse 10",
+          "id": "2904:870",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2904:871",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -247,14 +323,8 @@
       },
       "examples": [
         {
-          "id": "2977:1179",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2977:1178",
-          "name": "Ellipse 11",
+          "id": "2977:1176",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -265,51 +335,51 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2977:1176",
-          "name": "Ellipse 10",
+          "id": "2977:1178",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2977:1179",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
       ]
     },
     {
-      "frameId": "2569:149",
-      "frameName": "depo",
-      "frameFile": "2569-149--depo.json",
-      "missingExactAssetCount": 6,
+      "frameId": "3099:1056",
+      "frameName": "budlum.xyz",
+      "frameFile": "3099-1056--budlum-xyz.json",
+      "missingExactAssetCount": 4,
       "nodeTypes": {
-        "VECTOR": 6
+        "REGULAR_POLYGON": 4
       },
       "examples": [
         {
-          "id": "2449:1778",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "3099:1659",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2449:1777",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "3099:1660",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2449:1776",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "3099:1663",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2449:1775",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2446:322",
-          "name": "yıldız patlamasını kapat",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "3099:1664",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -323,26 +393,20 @@
       },
       "examples": [
         {
-          "id": "2580:575",
-          "name": "Ellipse 12",
+          "id": "2580:433",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2580:574",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2580:573",
+          "id": "2580:434",
           "name": "Ellipse 9",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2580:572",
-          "name": "Ellipse 10",
+          "id": "2580:435",
+          "name": "Ellipse 11",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -351,6 +415,136 @@
           "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2580:572",
+          "name": "Ellipse 10",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2395:169",
+      "frameName": "budlum.xyz",
+      "frameFile": "2395-169--budlum-xyz.json",
+      "missingExactAssetCount": 12,
+      "nodeTypes": {
+        "REGULAR_POLYGON": 12
+      },
+      "examples": [
+        {
+          "id": "2449:1779",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2449:1780",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2449:1783",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2449:1784",
+          "name": "Polygon 3",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2449:1801",
+          "name": "Polygon 2",
+          "type": "REGULAR_POLYGON",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2306:6",
+      "frameName": "budlum.xyz",
+      "frameFile": "2306-6--budlum-xyz.json",
+      "missingExactAssetCount": 13,
+      "nodeTypes": {
+        "LINE": 13
+      },
+      "examples": [
+        {
+          "id": "2419:31",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2419:32",
+          "name": "Line 119",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2419:33",
+          "name": "Line 120",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2419:34",
+          "name": "Line 121",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2419:35",
+          "name": "Line 122",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2569:149",
+      "frameName": "depo",
+      "frameFile": "2569-149--depo.json",
+      "missingExactAssetCount": 19,
+      "nodeTypes": {
+        "VECTOR": 6,
+        "LINE": 13
+      },
+      "examples": [
+        {
+          "id": "2446:321",
+          "name": "yıldız patlamasını aç",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2446:322",
+          "name": "yıldız patlamasını kapat",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2449:1703",
+          "name": "Line 122",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2449:1706",
+          "name": "Line 121",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2449:1713",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -364,32 +558,32 @@
       },
       "examples": [
         {
-          "id": "2870:4227",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2870:4226",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2870:4225",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2870:4224",
+          "id": "2870:4085",
           "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2870:4204",
+          "id": "2870:4086",
+          "name": "Ellipse 9",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2870:4087",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2870:4088",
           "name": "Ellipse 12",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2870:4127",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -399,40 +593,83 @@
       "frameId": "2870:4251",
       "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
       "frameFile": "2870-4251--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 24,
+      "missingExactAssetCount": 35,
       "nodeTypes": {
+        "LINE": 11,
         "VECTOR": 24
       },
       "examples": [
         {
-          "id": "2971:1310",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2872:1034",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1309",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2872:1035",
+          "name": "Line 123",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1308",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2872:1036",
+          "name": "Line 124",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1307",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2872:1037",
+          "name": "Line 127",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1287",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2872:1038",
+          "name": "Line 129",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "frameFile": "2921-712--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "missingExactAssetCount": 35,
+      "nodeTypes": {
+        "LINE": 33,
+        "VECTOR": 2
+      },
+      "examples": [
+        {
+          "id": "2921:730",
+          "name": "Line 122",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2921:733",
+          "name": "Line 121",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2921:740",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2921:741",
+          "name": "Line 123",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2921:742",
+          "name": "Line 124",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -440,204 +677,41 @@
       "frameId": "2971:1324",
       "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
       "frameFile": "2971-1324--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 24,
+      "missingExactAssetCount": 39,
       "nodeTypes": {
+        "LINE": 15,
         "VECTOR": 24
       },
       "examples": [
         {
-          "id": "2971:1570",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2971:1337",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1569",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2971:1338",
+          "name": "Line 123",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1568",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2971:1339",
+          "name": "Line 124",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1567",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2971:1340",
+          "name": "Line 127",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         },
         {
-          "id": "2971:1547",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        }
-      ]
-    },
-    {
-      "frameId": "2961:486",
-      "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "frameFile": "2961-486--token-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 26,
-      "nodeTypes": {
-        "VECTOR": 26
-      },
-      "examples": [
-        {
-          "id": "2961:867",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:866",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:865",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:864",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:844",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        }
-      ]
-    },
-    {
-      "frameId": "2961:886",
-      "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "frameFile": "2961-886--token-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 26,
-      "nodeTypes": {
-        "VECTOR": 26
-      },
-      "examples": [
-        {
-          "id": "2961:1270",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:1269",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:1268",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:1267",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2961:1247",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        }
-      ]
-    },
-    {
-      "frameId": "2967:528",
-      "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "frameFile": "2967-528--token-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 26,
-      "nodeTypes": {
-        "VECTOR": 26
-      },
-      "examples": [
-        {
-          "id": "2967:1084",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2967:1083",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2967:1082",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2967:1081",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2967:1061",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        }
-      ]
-    },
-    {
-      "frameId": "2971:1618",
-      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
-      "frameFile": "2971-1618--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
-      "missingExactAssetCount": 40,
-      "nodeTypes": {
-        "VECTOR": 40
-      },
-      "examples": [
-        {
-          "id": "2971:2038",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2971:2037",
-          "name": "Ellipse 11",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2971:2036",
-          "name": "Ellipse 9",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2971:2035",
-          "name": "Ellipse 10",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "2971:2015",
-          "name": "Ellipse 12",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+          "id": "2971:1341",
+          "name": "Line 129",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -651,20 +725,26 @@
       },
       "examples": [
         {
-          "id": "2614:640",
-          "name": "Ellipse 12",
+          "id": "2614:614",
+          "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2614:639",
+          "id": "2614:615",
+          "name": "Ellipse 9",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2614:616",
           "name": "Ellipse 11",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2614:638",
-          "name": "Ellipse 9",
+          "id": "2614:617",
+          "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
@@ -673,12 +753,174 @@
           "name": "Ellipse 10",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "frameFile": "2971-1618--c-zdan-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "missingExactAssetCount": 55,
+      "nodeTypes": {
+        "VECTOR": 40,
+        "LINE": 15
+      },
+      "examples": [
+        {
+          "id": "2971:1869",
+          "name": "Ellipse 10",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "2619:1010",
+          "id": "2971:1870",
+          "name": "Ellipse 9",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2971:1871",
+          "name": "Ellipse 11",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2971:1872",
           "name": "Ellipse 12",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "2971:2035",
+          "name": "Ellipse 10",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "frameFile": "2961-486--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "missingExactAssetCount": 59,
+      "nodeTypes": {
+        "LINE": 33,
+        "VECTOR": 26
+      },
+      "examples": [
+        {
+          "id": "2961:497",
+          "name": "Line 122",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:498",
+          "name": "Line 121",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:499",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:500",
+          "name": "Line 123",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:501",
+          "name": "Line 124",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "frameFile": "2961-886--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "missingExactAssetCount": 59,
+      "nodeTypes": {
+        "LINE": 33,
+        "VECTOR": 26
+      },
+      "examples": [
+        {
+          "id": "2961:897",
+          "name": "Line 122",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:898",
+          "name": "Line 121",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:899",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:900",
+          "name": "Line 123",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2961:901",
+          "name": "Line 124",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        }
+      ]
+    },
+    {
+      "frameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "frameFile": "2967-528--token-arat-l-yken-par-lt-butonuna-t-klad.json",
+      "missingExactAssetCount": 59,
+      "nodeTypes": {
+        "LINE": 33,
+        "VECTOR": 26
+      },
+      "examples": [
+        {
+          "id": "2967:539",
+          "name": "Line 122",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2967:540",
+          "name": "Line 121",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2967:541",
+          "name": "Line 118",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2967:542",
+          "name": "Line 123",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
+        },
+        {
+          "id": "2967:543",
+          "name": "Line 124",
+          "type": "LINE",
+          "reason": "Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering."
         }
       ]
     },
@@ -698,26 +940,26 @@
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "3600:1030",
+          "id": "3600:807",
+          "name": "içerik yükle gönder",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "3600:808",
+          "name": "mesaj gönder",
+          "type": "VECTOR",
+          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
+        },
+        {
+          "id": "3600:1000",
           "name": "Rectangle 206 (Stroke)",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         },
         {
-          "id": "3600:1029",
-          "name": "1000105036 6",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "3600:1028",
-          "name": "1000105036 7",
-          "type": "VECTOR",
-          "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
-        },
-        {
-          "id": "3600:1027",
-          "name": "1000105036 4",
+          "id": "3600:1001",
+          "name": "Rectangle 207",
           "type": "VECTOR",
           "reason": "Exact SVG geometry not present in REST node JSON; export required before rendering."
         }
@@ -726,32 +968,42 @@
   ],
   "suggestedBatches": [
     [
-      "2921:712",
+      "2413:2181",
+      "2501:2814",
       "2667:256",
-      "2671:1094",
-      "2671:814"
+      "2671:1094"
     ],
     [
+      "2671:814",
+      "2873:4453",
       "2900:600",
-      "2903:345",
+      "2903:345"
+    ],
+    [
       "2904:826",
-      "2977:1028"
+      "2977:1028",
+      "3099:1056",
+      "2580:197"
     ],
     [
+      "2395:169",
+      "2306:6",
       "2569:149",
-      "2580:197",
-      "2870:3749",
-      "2870:4251"
+      "2870:3749"
     ],
     [
+      "2870:4251",
+      "2921:712",
       "2971:1324",
+      "2614:402"
+    ],
+    [
+      "2971:1618",
       "2961:486",
       "2961:886",
       "2967:528"
     ],
     [
-      "2971:1618",
-      "2614:402",
       "2856:4578"
     ]
   ],
