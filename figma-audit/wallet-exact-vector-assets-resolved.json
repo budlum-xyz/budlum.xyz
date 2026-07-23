@@ -1,0 +1,770 @@
+[
+  {
+    "rootFrameId": "2223:54",
+    "id": "2377:14",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2377:10",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94694.1015625,
+      "y": -4093.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2377:15",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2377:10",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94669.4609375,
+      "y": -4093.83154296875,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2377:16",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2377:10",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94694.1015625,
+      "y": -4119.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2377:17",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2377:10",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94666.8359375,
+      "y": -4119.80712890625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2631",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2501:2627",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94695.1015625,
+      "y": -3848.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2632",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2501:2627",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94670.4609375,
+      "y": -3848.831787109375,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2633",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2501:2627",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94695.1015625,
+      "y": -3874.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2634",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2501:2627",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94667.8359375,
+      "y": -3874.807373046875,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2682",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2501:2678",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94695.1015625,
+      "y": -3728.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2683",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2501:2678",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94670.4609375,
+      "y": -3728.831787109375,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2684",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2501:2678",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94695.1015625,
+      "y": -3754.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2685",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2501:2678",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94667.8359375,
+      "y": -3754.807373046875,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2808",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2501:2804",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94695.1015625,
+      "y": -3668.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2809",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2501:2804",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94670.4609375,
+      "y": -3668.831787109375,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2810",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2501:2804",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94695.1015625,
+      "y": -3694.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2501:2811",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2501:2804",
+    "depth": 8,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94667.8359375,
+      "y": -3694.807373046875,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2719:317",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2719:313",
+    "depth": 9,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 95210.1015625,
+      "y": -3667.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2719:318",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2719:313",
+    "depth": 9,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 95185.4609375,
+      "y": -3667.831787109375,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2719:319",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2719:313",
+    "depth": 9,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 95210.1015625,
+      "y": -3693.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2223:54",
+    "id": "2719:320",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2719:313",
+    "depth": 9,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 95182.8359375,
+      "y": -3693.807373046875,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:978",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2446:974",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 99184.1015625,
+      "y": -4093.837646484375,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:979",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2446:974",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 99159.4609375,
+      "y": -4093.83154296875,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:980",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2446:974",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 99184.1015625,
+      "y": -4119.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2446:824",
+    "id": "2446:981",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2446:974",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 99156.8359375,
+      "y": -4119.80712890625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2483:2583",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2483:2579",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74812.1015625,
+      "y": -152.83779907226562,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2483:2584",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2483:2579",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74787.4609375,
+      "y": -152.83164978027344,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2483:2585",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2483:2579",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74812.1015625,
+      "y": -178.10205078125,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2483:2586",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2483:2579",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74784.8359375,
+      "y": -178.80718994140625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2501:2719",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2501:2715",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74812.1015625,
+      "y": 27.162206649780273,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2501:2720",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2501:2715",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74787.4609375,
+      "y": 27.168359756469727,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2501:2721",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2501:2715",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74812.1015625,
+      "y": 1.8979493379592896,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2377:22",
+    "id": "2501:2722",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2501:2715",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 74784.8359375,
+      "y": 1.1928223371505737,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:432",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2901:428",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78687.1015625,
+      "y": -16877.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:433",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2901:428",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78662.4609375,
+      "y": -16877.830078125,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:434",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2901:428",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78687.1015625,
+      "y": -16903.1015625,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:435",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2901:428",
+    "depth": 5,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78659.8359375,
+      "y": -16903.806640625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:471",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2901:467",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78687.1015625,
+      "y": -16697.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:472",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2901:467",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78662.4609375,
+      "y": -16697.830078125,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:473",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2901:467",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78687.1015625,
+      "y": -16723.1015625,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2901:266",
+    "id": "2901:474",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2901:467",
+    "depth": 7,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 78659.8359375,
+      "y": -16723.806640625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1421",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2907:1417",
+    "depth": 4,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94955.1015625,
+      "y": -21215.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1422",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2907:1417",
+    "depth": 4,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94930.4609375,
+      "y": -21215.830078125,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1423",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2907:1417",
+    "depth": 4,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94955.1015625,
+      "y": -21241.1015625,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1424",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2907:1417",
+    "depth": 4,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94927.8359375,
+      "y": -21241.806640625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1459",
+    "name": "Ellipse 10",
+    "type": "VECTOR",
+    "parentId": "2907:1455",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94955.1015625,
+      "y": -21035.837890625,
+      "width": 22.262218475341797,
+      "height": 22.327157974243164
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1460",
+    "name": "Ellipse 9",
+    "type": "VECTOR",
+    "parentId": "2907:1455",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94930.4609375,
+      "y": -21035.830078125,
+      "width": 23.023277282714844,
+      "height": 23.182039260864258
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1461",
+    "name": "Ellipse 11",
+    "type": "VECTOR",
+    "parentId": "2907:1455",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94955.1015625,
+      "y": -21061.1015625,
+      "width": 22.99836540222168,
+      "height": 24.302398681640625
+    }
+  },
+  {
+    "rootFrameId": "2907:1281",
+    "id": "2907:1462",
+    "name": "Ellipse 12",
+    "type": "VECTOR",
+    "parentId": "2907:1455",
+    "depth": 6,
+    "fillGeometryCount": 1,
+    "strokeGeometryCount": 0,
+    "bbox": {
+      "x": 94927.8359375,
+      "y": -21061.806640625,
+      "width": 25.43764305114746,
+      "height": 25.14933967590332
+    }
+  }
+]
