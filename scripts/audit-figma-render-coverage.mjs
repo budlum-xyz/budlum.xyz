@@ -29,6 +29,18 @@ function visiblePaints(node, type) {
   return [...(node.fills || []), ...(node.background || [])].filter((paint) => paint.visible !== false && (!type || paint.type === type));
 }
 
+function visibleStrokePaints(node) {
+  return (node.strokes || []).filter((paint) => paint.visible !== false);
+}
+
+function hasVisibleEffect(node) {
+  return (node.effects || []).some((effect) => effect.visible !== false);
+}
+
+function hasVisibleVectorSurface(node) {
+  return visiblePaints(node).length > 0 || visibleStrokePaints(node).length > 0 || hasVisibleEffect(node) || node.absoluteRenderBounds != null;
+}
+
 function hasExactGeometry(node) {
   return Boolean(node.fillGeometry || node.strokeGeometry);
 }
@@ -81,7 +93,10 @@ function hasMatrixTransformCoverage(node) {
 
 function classify(node) {
   if (node.visible === false) return 'hidden';
-  if (VECTOR_TYPES.has(node.type)) return hasExactGeometry(node) ? 'exactVectorGeometry' : 'skippedMissingGeometry';
+  if (VECTOR_TYPES.has(node.type)) {
+    if (!hasVisibleVectorSurface(node)) return 'emptyVector';
+    return hasExactGeometry(node) ? 'exactVectorGeometry' : 'skippedMissingGeometry';
+  }
   if (shouldRenderExactLeafGeometry(node)) return 'exactLeafGeometry';
   if (node.type === 'TEXT') return 'text';
   if (visiblePaints(node, 'IMAGE').length > 0) return 'imageFill';
@@ -104,6 +119,7 @@ const aggregate = {
   exactVectorGeometry: 0,
   exactLeafGeometry: 0,
   skippedMissingGeometry: 0,
+  emptyVector: 0,
   text: 0,
   imageFill: 0,
   container: 0,
@@ -123,6 +139,7 @@ for (const frame of manifest) {
     exactVectorGeometry: 0,
     exactLeafGeometry: 0,
     skippedMissingGeometry: 0,
+    emptyVector: 0,
     text: 0,
     imageFill: 0,
     container: 0,
@@ -162,7 +179,8 @@ const report = {
   rendererContract: {
     exactVectorGeometry: 'VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.',
     exactLeafGeometry: 'Solid RECTANGLE/ELLIPSE leaf nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths instead of approximate CSS borders.',
-    skippedMissingGeometry: 'VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.',
+    skippedMissingGeometry: 'Renderable VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.',
+    emptyVector: 'VECTOR-like nodes with no visible fill/stroke/effect/render bounds are exact no-op nodes and do not require geometry.',
     cssShape: 'Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius.',
     relativeTransform: 'Nodes carrying Figma relativeTransform + size are positioned with the exact affine CSS matrix in parent coordinates.',
     rotationFallbackTransform: 'Rotated nodes without relativeTransform are matrix-positioned from Figma rotation + absolute bounding box when dimensions can be solved exactly.',
@@ -182,7 +200,8 @@ const lines = [
   `- Total nodes: \`${aggregate.totalNodes}\``,
   `- Exact VECTOR geometry nodes rendered from Figma paths: \`${aggregate.exactVectorGeometry}\``,
   `- Exact RECTANGLE/ELLIPSE leaf geometry nodes rendered from Figma paths: \`${aggregate.exactLeafGeometry}\``,
-  `- VECTOR-like nodes skipped because exact geometry is missing: \`${aggregate.skippedMissingGeometry}\``,
+  `- Renderable VECTOR-like nodes skipped because exact geometry is missing: \`${aggregate.skippedMissingGeometry}\``,
+  `- Empty/no-op VECTOR-like nodes requiring no geometry: \`${aggregate.emptyVector}\``,
   `- Missing exact asset audit entries: \`${aggregate.missingExactAssetAuditEntries}\``,
   `- Nodes positioned with Figma relativeTransform matrices: \`${aggregate.relativeTransformNodes}\``,
   `- Rotated nodes positioned from Figma rotation fallback: \`${aggregate.rotationFallbackTransformNodes}\``,

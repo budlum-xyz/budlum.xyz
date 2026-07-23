@@ -7,7 +7,8 @@
   "rendererContract": {
     "exactVectorGeometry": "VECTOR-like nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths.",
     "exactLeafGeometry": "Solid RECTANGLE/ELLIPSE leaf nodes with Figma fillGeometry/strokeGeometry are rendered as SVG paths instead of approximate CSS borders.",
-    "skippedMissingGeometry": "VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.",
+    "skippedMissingGeometry": "Renderable VECTOR-like nodes without exact Figma geometry are intentionally not rendered; they must stay in audit.",
+    "emptyVector": "VECTOR-like nodes with no visible fill/stroke/effect/render bounds are exact no-op nodes and do not require geometry.",
     "cssShape": "Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius.",
     "relativeTransform": "Nodes carrying Figma relativeTransform + size are positioned with the exact affine CSS matrix in parent coordinates.",
     "rotationFallbackTransform": "Rotated nodes without relativeTransform are matrix-positioned from Figma rotation + absolute bounding box when dimensions can be solved exactly."
@@ -16,17 +17,18 @@
     "frames": 39,
     "totalNodes": 15530,
     "hidden": 5,
-    "exactVectorGeometry": 52,
+    "exactVectorGeometry": 790,
     "exactLeafGeometry": 1477,
-    "skippedMissingGeometry": 774,
+    "skippedMissingGeometry": 0,
+    "emptyVector": 36,
     "text": 1241,
     "imageFill": 3896,
     "container": 3238,
     "cssShape": 4847,
-    "missingExactAssetAuditEntries": 774,
-    "relativeTransformNodes": 3224,
-    "rotationFallbackTransformNodes": 603,
-    "rotatedTransformNodes": 721,
+    "missingExactAssetAuditEntries": 0,
+    "relativeTransformNodes": 3966,
+    "rotationFallbackTransformNodes": 511,
+    "rotatedTransformNodes": 841,
     "unsupportedRotatedTransformNodes": 0
   },
   "frames": [
@@ -37,9 +39,10 @@
       "counts": {
         "totalNodes": 886,
         "hidden": 0,
-        "exactVectorGeometry": 24,
+        "exactVectorGeometry": 20,
         "exactLeafGeometry": 395,
         "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 26,
         "imageFill": 305,
         "container": 136,
@@ -62,6 +65,7 @@
         "exactVectorGeometry": 4,
         "exactLeafGeometry": 359,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 9,
         "imageFill": 306,
         "container": 108,
@@ -84,6 +88,7 @@
         "exactVectorGeometry": 8,
         "exactLeafGeometry": 103,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 15,
         "imageFill": 21,
         "container": 60,
@@ -103,61 +108,21 @@
       "counts": {
         "totalNodes": 207,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 8,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 8,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 13,
         "imageFill": 31,
         "container": 55,
         "cssShape": 100,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 8,
         "rotationFallbackTransformNodes": 11,
         "rotatedTransformNodes": 11,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 8,
-      "skippedExamples": [
-        {
-          "id": "2580:433",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:434",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:435",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:436",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:572",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:573",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:574",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2580:575",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "3317:788",
@@ -169,6 +134,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 13,
         "imageFill": 23,
         "container": 50,
@@ -188,61 +154,21 @@
       "counts": {
         "totalNodes": 470,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 52,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 52,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 35,
         "imageFill": 75,
         "container": 98,
         "cssShape": 210,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 52,
         "rotationFallbackTransformNodes": 22,
         "rotatedTransformNodes": 22,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 52,
-      "skippedExamples": [
-        {
-          "id": "2614:614",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2614:615",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2614:616",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2614:617",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2619:777",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2619:778",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2619:779",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2619:780",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2667:32",
@@ -254,6 +180,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 4,
         "imageFill": 109,
         "container": 40,
@@ -273,61 +200,21 @@
       "counts": {
         "totalNodes": 326,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 262,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 262,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 0,
         "imageFill": 0,
         "container": 47,
         "cssShape": 17,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 2,
+        "relativeTransformNodes": 262,
+        "rotationFallbackTransformNodes": 1,
         "rotatedTransformNodes": 2,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 262,
-      "skippedExamples": [
-        {
-          "id": "3600:762",
-          "name": "1000105987 1",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:763",
-          "name": "1000105987 2",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:764",
-          "name": "1000105987 3",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:765",
-          "name": "1000105987 4",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:766",
-          "name": "1000105987 5",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:767",
-          "name": "bar",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:770",
-          "name": "Vector",
-          "type": "VECTOR"
-        },
-        {
-          "id": "3600:771",
-          "name": "Vector",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2972:2406",
@@ -339,6 +226,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 7,
         "imageFill": 114,
         "container": 44,
@@ -358,61 +246,21 @@
       "counts": {
         "totalNodes": 296,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 31,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 35,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 26,
         "imageFill": 53,
         "container": 66,
         "cssShape": 116,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 28,
-        "rotatedTransformNodes": 28,
+        "relativeTransformNodes": 31,
+        "rotationFallbackTransformNodes": 22,
+        "rotatedTransformNodes": 33,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 35,
-      "skippedExamples": [
-        {
-          "id": "2872:1034",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1035",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1036",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1037",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1038",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1039",
-          "name": "Line 128",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1040",
-          "name": "Line 125",
-          "type": "LINE"
-        },
-        {
-          "id": "2872:1041",
-          "name": "Line 130",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2971:1324",
@@ -421,61 +269,21 @@
       "counts": {
         "totalNodes": 303,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 35,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 39,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 26,
         "imageFill": 57,
         "container": 65,
         "cssShape": 116,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 34,
-        "rotatedTransformNodes": 34,
+        "relativeTransformNodes": 35,
+        "rotationFallbackTransformNodes": 24,
+        "rotatedTransformNodes": 39,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 39,
-      "skippedExamples": [
-        {
-          "id": "2971:1337",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1338",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1339",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1340",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1341",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1342",
-          "name": "Line 128",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1343",
-          "name": "Line 125",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1344",
-          "name": "Line 130",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2971:1618",
@@ -484,61 +292,21 @@
       "counts": {
         "totalNodes": 352,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 47,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 55,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 8,
         "text": 23,
         "imageFill": 78,
         "container": 66,
         "cssShape": 130,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 36,
-        "rotatedTransformNodes": 36,
+        "relativeTransformNodes": 47,
+        "rotationFallbackTransformNodes": 26,
+        "rotatedTransformNodes": 41,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 55,
-      "skippedExamples": [
-        {
-          "id": "2971:1631",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1632",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1633",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1634",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1635",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1636",
-          "name": "Line 128",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1637",
-          "name": "Line 125",
-          "type": "LINE"
-        },
-        {
-          "id": "2971:1638",
-          "name": "Line 130",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2921:712",
@@ -547,61 +315,21 @@
       "counts": {
         "totalNodes": 171,
         "hidden": 1,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 35,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 35,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 4,
         "imageFill": 100,
         "container": 13,
         "cssShape": 18,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 33,
-        "rotatedTransformNodes": 33,
+        "relativeTransformNodes": 35,
+        "rotationFallbackTransformNodes": 17,
+        "rotatedTransformNodes": 52,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 35,
-      "skippedExamples": [
-        {
-          "id": "2921:730",
-          "name": "Line 122",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:733",
-          "name": "Line 121",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:740",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:741",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:742",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:743",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:744",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2921:745",
-          "name": "Line 128",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2967:528",
@@ -610,61 +338,21 @@
       "counts": {
         "totalNodes": 408,
         "hidden": 1,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 55,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 59,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 27,
         "imageFill": 139,
         "container": 65,
         "cssShape": 117,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 40,
-        "rotatedTransformNodes": 40,
+        "relativeTransformNodes": 55,
+        "rotationFallbackTransformNodes": 29,
+        "rotatedTransformNodes": 64,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 59,
-      "skippedExamples": [
-        {
-          "id": "2967:539",
-          "name": "Line 122",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:540",
-          "name": "Line 121",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:541",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:542",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:543",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:544",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:545",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2967:546",
-          "name": "Line 128",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2961:886",
@@ -673,61 +361,21 @@
       "counts": {
         "totalNodes": 378,
         "hidden": 1,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 55,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 59,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 23,
         "imageFill": 137,
         "container": 55,
         "cssShape": 103,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 38,
-        "rotatedTransformNodes": 38,
+        "relativeTransformNodes": 55,
+        "rotationFallbackTransformNodes": 27,
+        "rotatedTransformNodes": 62,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 59,
-      "skippedExamples": [
-        {
-          "id": "2961:897",
-          "name": "Line 122",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:898",
-          "name": "Line 121",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:899",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:900",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:901",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:902",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:903",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:904",
-          "name": "Line 128",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2961:486",
@@ -736,61 +384,21 @@
       "counts": {
         "totalNodes": 406,
         "hidden": 1,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 55,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 59,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 27,
         "imageFill": 139,
         "container": 63,
         "cssShape": 117,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 40,
-        "rotatedTransformNodes": 40,
+        "relativeTransformNodes": 55,
+        "rotationFallbackTransformNodes": 29,
+        "rotatedTransformNodes": 64,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 59,
-      "skippedExamples": [
-        {
-          "id": "2961:497",
-          "name": "Line 122",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:498",
-          "name": "Line 121",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:499",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:500",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:501",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:502",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:503",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2961:504",
-          "name": "Line 128",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2870:3749",
@@ -799,61 +407,21 @@
       "counts": {
         "totalNodes": 899,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 20,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 24,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 4,
         "text": 27,
         "imageFill": 311,
         "container": 142,
         "cssShape": 395,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 20,
         "rotationFallbackTransformNodes": 16,
         "rotatedTransformNodes": 16,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 24,
-      "skippedExamples": [
-        {
-          "id": "2870:4085",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4086",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4087",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4088",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4127",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4128",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4129",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2870:4130",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2667:256",
@@ -862,41 +430,21 @@
       "counts": {
         "totalNodes": 167,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 8,
         "imageFill": 8,
         "container": 52,
         "cssShape": 95,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 11,
         "rotatedTransformNodes": 11,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2667:803",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2667:804",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2667:805",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2667:806",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2671:814",
@@ -905,41 +453,21 @@
       "counts": {
         "totalNodes": 239,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 29,
         "imageFill": 12,
         "container": 74,
         "cssShape": 120,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 11,
         "rotatedTransformNodes": 11,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2671:1023",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2671:1024",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2671:1025",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2671:1026",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2977:1028",
@@ -948,41 +476,21 @@
       "counts": {
         "totalNodes": 230,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 18,
         "imageFill": 12,
         "container": 75,
         "cssShape": 121,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 11,
         "rotatedTransformNodes": 11,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2977:1176",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2977:1177",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2977:1178",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2977:1179",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2671:1094",
@@ -991,41 +499,21 @@
       "counts": {
         "totalNodes": 109,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 9,
         "imageFill": 17,
         "container": 28,
         "cssShape": 51,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 6,
         "rotatedTransformNodes": 6,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2682:155",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2682:156",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2682:157",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2682:158",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2395:169",
@@ -1034,61 +522,21 @@
       "counts": {
         "totalNodes": 1227,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 12,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 12,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 231,
         "imageFill": 123,
         "container": 336,
         "cssShape": 525,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 12,
         "rotationFallbackTransformNodes": 68,
         "rotatedTransformNodes": 68,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 12,
-      "skippedExamples": [
-        {
-          "id": "2449:1801",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1802",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1805",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1806",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1779",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1780",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1783",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2449:1784",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2501:2814",
@@ -1097,41 +545,21 @@
       "counts": {
         "totalNodes": 554,
         "hidden": 1,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 108,
         "imageFill": 48,
         "container": 151,
         "cssShape": 242,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 30,
         "rotatedTransformNodes": 30,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2501:3438",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2501:3439",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2501:3442",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2501:3443",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2413:2181",
@@ -1140,36 +568,21 @@
       "counts": {
         "totalNodes": 221,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 3,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 3,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 114,
         "imageFill": 4,
         "container": 61,
         "cssShape": 39,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 6,
+        "relativeTransformNodes": 3,
+        "rotationFallbackTransformNodes": 3,
         "rotatedTransformNodes": 6,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 3,
-      "skippedExamples": [
-        {
-          "id": "2463:2209",
-          "name": "Polygon 4",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2470:2217",
-          "name": "Polygon 5",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2470:2218",
-          "name": "Polygon 6",
-          "type": "REGULAR_POLYGON"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2306:6",
@@ -1178,61 +591,21 @@
       "counts": {
         "totalNodes": 67,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 13,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 13,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 4,
         "imageFill": 18,
         "container": 14,
         "cssShape": 18,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 16,
-        "rotatedTransformNodes": 16,
+        "relativeTransformNodes": 13,
+        "rotationFallbackTransformNodes": 10,
+        "rotatedTransformNodes": 23,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 13,
-      "skippedExamples": [
-        {
-          "id": "2419:35",
-          "name": "Line 122",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:34",
-          "name": "Line 121",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:31",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:38",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:39",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:42",
-          "name": "Line 127",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:44",
-          "name": "Line 129",
-          "type": "LINE"
-        },
-        {
-          "id": "2419:43",
-          "name": "Line 128",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2277:28",
@@ -1244,6 +617,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 0,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 27,
         "imageFill": 4,
         "container": 97,
@@ -1263,61 +637,21 @@
       "counts": {
         "totalNodes": 2138,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 19,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 19,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 2,
         "imageFill": 1034,
         "container": 278,
         "cssShape": 805,
-        "relativeTransformNodes": 0,
-        "rotationFallbackTransformNodes": 19,
-        "rotatedTransformNodes": 19,
+        "relativeTransformNodes": 19,
+        "rotationFallbackTransformNodes": 12,
+        "rotatedTransformNodes": 26,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 19,
-      "skippedExamples": [
-        {
-          "id": "2446:321",
-          "name": "yıldız patlamasını aç",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2446:322",
-          "name": "yıldız patlamasını kapat",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2449:1703",
-          "name": "Line 122",
-          "type": "LINE"
-        },
-        {
-          "id": "2449:1706",
-          "name": "Line 121",
-          "type": "LINE"
-        },
-        {
-          "id": "2449:1713",
-          "name": "Line 118",
-          "type": "LINE"
-        },
-        {
-          "id": "2449:1714",
-          "name": "Line 123",
-          "type": "LINE"
-        },
-        {
-          "id": "2449:1715",
-          "name": "Line 124",
-          "type": "LINE"
-        },
-        {
-          "id": "2449:1716",
-          "name": "Line 127",
-          "type": "LINE"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2873:4453",
@@ -1326,41 +660,21 @@
       "counts": {
         "totalNodes": 622,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 115,
         "imageFill": 54,
         "container": 174,
         "cssShape": 275,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 32,
         "rotatedTransformNodes": 32,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2873:5016",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2873:5017",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2873:5020",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "2873:5021",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "3099:1056",
@@ -1369,41 +683,21 @@
       "counts": {
         "totalNodes": 619,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 115,
         "imageFill": 53,
         "container": 172,
         "cssShape": 275,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 32,
         "rotatedTransformNodes": 32,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "3099:1659",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "3099:1660",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "3099:1663",
-          "name": "Polygon 2",
-          "type": "REGULAR_POLYGON"
-        },
-        {
-          "id": "3099:1664",
-          "name": "Polygon 3",
-          "type": "REGULAR_POLYGON"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2901:266",
@@ -1415,6 +709,7 @@
         "exactVectorGeometry": 8,
         "exactLeafGeometry": 110,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 16,
         "imageFill": 33,
         "container": 63,
@@ -1437,6 +732,7 @@
         "exactVectorGeometry": 8,
         "exactLeafGeometry": 109,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 16,
         "imageFill": 33,
         "container": 63,
@@ -1459,6 +755,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 79,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 20,
         "imageFill": 38,
         "container": 53,
@@ -1481,6 +778,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 79,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 16,
         "imageFill": 34,
         "container": 48,
@@ -1503,6 +801,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 81,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 14,
         "imageFill": 29,
         "container": 49,
@@ -1525,6 +824,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 81,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 14,
         "imageFill": 29,
         "container": 49,
@@ -1547,6 +847,7 @@
         "exactVectorGeometry": 0,
         "exactLeafGeometry": 81,
         "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 14,
         "imageFill": 29,
         "container": 49,
@@ -1566,41 +867,21 @@
       "counts": {
         "totalNodes": 468,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 26,
         "imageFill": 140,
         "container": 97,
         "cssShape": 201,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 17,
         "rotatedTransformNodes": 17,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2900:586",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2900:587",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2900:588",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2900:589",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2900:600",
@@ -1609,41 +890,21 @@
       "counts": {
         "totalNodes": 222,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 10,
         "imageFill": 73,
         "container": 41,
         "cssShape": 94,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 4,
         "rotatedTransformNodes": 4,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2900:642",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2900:643",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2900:644",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2900:645",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     },
     {
       "frameId": "2904:826",
@@ -1652,41 +913,21 @@
       "counts": {
         "totalNodes": 222,
         "hidden": 0,
-        "exactVectorGeometry": 0,
+        "exactVectorGeometry": 4,
         "exactLeafGeometry": 0,
-        "skippedMissingGeometry": 4,
+        "skippedMissingGeometry": 0,
+        "emptyVector": 0,
         "text": 10,
         "imageFill": 73,
         "container": 41,
         "cssShape": 94,
-        "relativeTransformNodes": 0,
+        "relativeTransformNodes": 4,
         "rotationFallbackTransformNodes": 4,
         "rotatedTransformNodes": 4,
         "unsupportedRotatedTransformNodes": 0
       },
-      "missingExactAssetAuditEntries": 4,
-      "skippedExamples": [
-        {
-          "id": "2904:868",
-          "name": "Ellipse 10",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2904:869",
-          "name": "Ellipse 9",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2904:870",
-          "name": "Ellipse 11",
-          "type": "VECTOR"
-        },
-        {
-          "id": "2904:871",
-          "name": "Ellipse 12",
-          "type": "VECTOR"
-        }
-      ]
+      "missingExactAssetAuditEntries": 0,
+      "skippedExamples": []
     }
   ]
 }

@@ -36,25 +36,25 @@
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "INSIDE",
           "backgroundColor": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0,
-            "a": 0.0
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
           },
           "absoluteBoundingBox": {
-            "x": 87532.0,
-            "y": -4785.0,
-            "width": 3840.0,
-            "height": 2160.0
+            "x": 87532,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
           },
           "absoluteRenderBounds": {
-            "x": 87532.0,
-            "y": -4785.0,
-            "width": 3840.0,
-            "height": 2160.0
+            "x": 87532,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
           },
           "constraints": {
             "vertical": "TOP",
@@ -72,25 +72,25 @@
       "background": [],
       "fills": [],
       "strokes": [],
-      "strokeWeight": 1.0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 87532.0,
-        "y": -4785.0,
-        "width": 3840.0,
-        "height": 2160.0
+        "x": 87532,
+        "y": -4785,
+        "width": 3840,
+        "height": 2160
       },
       "absoluteRenderBounds": {
-        "x": 87532.0,
-        "y": -4785.0,
-        "width": 3840.0,
-        "height": 2160.0
+        "x": 87532,
+        "y": -4785,
+        "width": 3840,
+        "height": 2160
       },
       "constraints": {
         "vertical": "TOP",
@@ -136,7 +136,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -148,23 +148,23 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
-                    "x": 89332.0,
-                    "y": -4723.0,
+                    "x": 89332,
+                    "y": -4723,
                     "width": 5.075563430786133,
                     "height": 58.01285171508789
                   },
                   "absoluteRenderBounds": {
-                    "x": 89332.0,
-                    "y": -4723.0,
+                    "x": 89332,
+                    "y": -4723,
                     "width": 5.078125,
                     "height": 58.0126953125
                   },
@@ -193,22 +193,22 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 5.090835094451904,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 16.363399505615234,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
-                    "x": 89332.0,
+                    "x": 89332,
                     "y": -4708.49755859375,
                     "width": 32.62862777709961,
                     "height": 43.509647369384766
                   },
                   "absoluteRenderBounds": {
-                    "x": 89332.0,
+                    "x": 89332,
                     "y": -4708.49755859375,
                     "width": 32.625,
                     "height": 43.509765625
@@ -230,29 +230,29 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.18181554973125458,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
-                "x": 89332.0,
-                "y": -4723.0,
+                "x": 89332,
+                "y": -4723,
                 "width": 32.62862777709961,
                 "height": 58.012962341308594
               },
               "absoluteRenderBounds": {
-                "x": 89332.0,
-                "y": -4723.0,
+                "x": 89332,
+                "y": -4723,
                 "width": 32.62862777709961,
                 "height": 58.012962341308594
               },
@@ -286,7 +286,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -298,23 +298,23 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89442.4296875,
-                    "y": -4723.0,
+                    "y": -4723,
                     "width": 5.075563430786133,
                     "height": 58.01285171508789
                   },
                   "absoluteRenderBounds": {
                     "x": 89442.4296875,
-                    "y": -4723.0,
+                    "y": -4723,
                     "width": 5.078125,
                     "height": 58.0126953125
                   },
@@ -343,14 +343,14 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 5.090835094451904,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 16.363399505615234,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89414.65625,
                     "y": -4708.49755859375,
@@ -380,29 +380,29 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.18181554973125458,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
                 "x": 89414.65625,
-                "y": -4723.0,
+                "y": -4723,
                 "width": 32.8489990234375,
                 "height": 58.01285171508789
               },
               "absoluteRenderBounds": {
                 "x": 89414.65625,
-                "y": -4723.0,
+                "y": -4723,
                 "width": 32.8515625,
                 "height": 58.01285171508789
               },
@@ -436,7 +436,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -448,7 +448,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -495,7 +495,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -507,14 +507,14 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89373.3203125,
                     "y": -4708.49755859375,
@@ -551,7 +551,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -563,14 +563,14 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89400.875,
                     "y": -4708.49755859375,
@@ -600,19 +600,19 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.18181554973125458,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
                 "x": 89373.3203125,
@@ -656,7 +656,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -668,7 +668,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -676,7 +676,7 @@
                   "strokeAlign": "INSIDE",
                   "absoluteBoundingBox": {
                     "x": 89470.4921875,
-                    "y": -4692.0,
+                    "y": -4692,
                     "width": 32.62818145751953,
                     "height": 27.012266159057617
                   },
@@ -715,7 +715,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -727,14 +727,14 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89470.4921875,
                     "y": -4707.77197265625,
@@ -771,7 +771,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -783,14 +783,14 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89498.0390625,
                     "y": -4707.77197265625,
@@ -820,19 +820,19 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.18181554973125458,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
                 "x": 89470.4921875,
@@ -883,7 +883,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -895,7 +895,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -942,7 +942,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -954,14 +954,14 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokeWeight": 4.36357307434082,
                       "strokeAlign": "INSIDE",
                       "cornerRadius": 2.9090487957000732,
-                      "cornerSmoothing": 0.0,
+                      "cornerSmoothing": 0,
                       "absoluteBoundingBox": {
                         "x": 89566.92450428009,
                         "y": -4697.256984710693,
@@ -998,7 +998,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -1010,14 +1010,14 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokeWeight": 4.36357307434082,
                       "strokeAlign": "INSIDE",
                       "cornerRadius": 2.9090487957000732,
-                      "cornerSmoothing": 0.0,
+                      "cornerSmoothing": 0,
                       "absoluteBoundingBox": {
                         "x": 89539.36981678009,
                         "y": -4697.256984710693,
@@ -1047,19 +1047,19 @@
                   "fills": [],
                   "strokes": [],
                   "rectangleCornerRadii": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
+                    0,
+                    0,
+                    0,
+                    0
                   ],
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "strokeWeight": 0.18181554973125458,
                   "strokeAlign": "INSIDE",
                   "backgroundColor": {
-                    "r": 0.0,
-                    "g": 0.0,
-                    "b": 0.0,
-                    "a": 0.0
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
                   },
                   "absoluteBoundingBox": {
                     "x": 89539.36981582642,
@@ -1103,7 +1103,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -1115,7 +1115,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -1162,7 +1162,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -1174,14 +1174,14 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokeWeight": 4.36357307434082,
                       "strokeAlign": "INSIDE",
                       "cornerRadius": 2.9090487957000732,
-                      "cornerSmoothing": 0.0,
+                      "cornerSmoothing": 0,
                       "absoluteBoundingBox": {
                         "x": 89539.36981678009,
                         "y": -4697.256984710693,
@@ -1218,7 +1218,7 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
@@ -1230,14 +1230,14 @@
                             "r": 0.9843137264251709,
                             "g": 0.9882352948188782,
                             "b": 0.9803921580314636,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokeWeight": 4.36357307434082,
                       "strokeAlign": "INSIDE",
                       "cornerRadius": 2.9090487957000732,
-                      "cornerSmoothing": 0.0,
+                      "cornerSmoothing": 0,
                       "absoluteBoundingBox": {
                         "x": 89511.81512928009,
                         "y": -4697.256984710693,
@@ -1267,19 +1267,19 @@
                   "fills": [],
                   "strokes": [],
                   "rectangleCornerRadii": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
+                    0,
+                    0,
+                    0,
+                    0
                   ],
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "strokeWeight": 0.18181554973125458,
                   "strokeAlign": "INSIDE",
                   "backgroundColor": {
-                    "r": 0.0,
-                    "g": 0.0,
-                    "b": 0.0,
-                    "a": 0.0
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
                   },
                   "absoluteBoundingBox": {
                     "x": 89511.81512832642,
@@ -1310,19 +1310,19 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.18181554973125458,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
                 "x": 89511.81512832642,
@@ -1366,7 +1366,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -1378,23 +1378,23 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokeWeight": 4.36357307434082,
                   "strokeAlign": "INSIDE",
                   "cornerRadius": 2.9090487957000732,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "absoluteBoundingBox": {
                     "x": 89456.7109375,
-                    "y": -4723.0,
+                    "y": -4723,
                     "width": 5.075563430786133,
                     "height": 58.01285171508789
                   },
                   "absoluteRenderBounds": {
                     "x": 89456.7109375,
-                    "y": -4723.0,
+                    "y": -4723,
                     "width": 5.078125,
                     "height": 58.0126953125
                   },
@@ -1415,24 +1415,24 @@
               "fills": [],
               "strokes": [],
               "cornerRadius": 2.9090487957000732,
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.18181554973125458,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
                 "x": 89456.7109375,
-                "y": -4723.0,
+                "y": -4723,
                 "width": 5.075563430786133,
                 "height": 58.01285171508789
               },
               "absoluteRenderBounds": {
                 "x": 89456.7109375,
-                "y": -4723.0,
+                "y": -4723,
                 "width": 5.078125,
                 "height": 58.01285171508789
               },
@@ -1453,30 +1453,30 @@
           "fills": [],
           "strokes": [],
           "rectangleCornerRadii": [
-            0.0,
-            0.0,
-            0.0,
-            0.0
+            0,
+            0,
+            0,
+            0
           ],
-          "cornerSmoothing": 0.0,
+          "cornerSmoothing": 0,
           "strokeWeight": 0.18181554973125458,
           "strokeAlign": "INSIDE",
           "backgroundColor": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0,
-            "a": 0.0
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
           },
           "absoluteBoundingBox": {
-            "x": 89332.0,
-            "y": -4723.0,
-            "width": 240.0,
+            "x": 89332,
+            "y": -4723,
+            "width": 240,
             "height": 58.012962341308594
           },
           "absoluteRenderBounds": {
-            "x": 89332.0,
-            "y": -4723.0,
-            "width": 240.0,
+            "x": 89332,
+            "y": -4723,
+            "width": 240,
             "height": 58.012962341308594
           },
           "constraints": {
@@ -1498,21 +1498,21 @@
       "strokeWeight": 0.18181554973125458,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 89332.0,
-        "y": -4723.0,
-        "width": 240.0,
+        "x": 89332,
+        "y": -4723,
+        "width": 240,
         "height": 58.012962341308594
       },
       "absoluteRenderBounds": {
-        "x": 89332.0,
-        "y": -4723.0,
-        "width": 240.0,
+        "x": 89332,
+        "y": -4723,
+        "width": 240,
         "height": 58.01318359375
       },
       "preserveRatio": true,
@@ -1545,12 +1545,12 @@
           "imageRef": "2951e65e30c5622631f87cc199580778d4cce8a4",
           "imageTransform": [
             [
-              1.0,
-              0.0,
-              0.0
+              1,
+              0,
+              0
             ],
             [
-              0.0,
+              0,
               0.9917811751365662,
               0.0033965110778808594
             ]
@@ -1563,19 +1563,19 @@
       "absoluteBoundingBox": {
         "x": 89343.78125,
         "y": -2984.78076171875,
-        "width": 96.0,
+        "width": 96,
         "height": 239.5616455078125
       },
       "absoluteRenderBounds": {
         "x": 89343.78125,
         "y": -2984.78076171875,
-        "width": 96.0,
+        "width": 96,
         "height": 239.5615234375
       },
       "preserveRatio": true,
       "targetAspectRatio": {
-        "x": 2186.0,
-        "y": 876.0
+        "x": 2186,
+        "y": 876
       },
       "constraints": {
         "vertical": "TOP",
@@ -1607,18 +1607,18 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
-            "x": 87655.0,
-            "y": -2866.0,
-            "width": 221.0,
-            "height": 61.0
+            "x": 87655,
+            "y": -2866,
+            "width": 221,
+            "height": 61
           },
           "absoluteRenderBounds": {
             "x": 87658.875,
@@ -1645,12 +1645,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "WIDTH_AND_HEIGHT",
-            "fontSize": 48.0,
+            "fontSize": 48,
             "textAlignHorizontal": "CENTER",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 60.67200469970703,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -1674,18 +1674,18 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
-            "x": 87655.0,
-            "y": -2986.0,
-            "width": 127.0,
-            "height": 61.0
+            "x": 87655,
+            "y": -2986,
+            "width": 127,
+            "height": 61
           },
           "absoluteRenderBounds": {
             "x": 87658.9609375,
@@ -1712,12 +1712,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "WIDTH_AND_HEIGHT",
-            "fontSize": 48.0,
+            "fontSize": 48,
             "textAlignHorizontal": "CENTER",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 60.67200469970703,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -1741,18 +1741,18 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
-            "x": 87655.0,
-            "y": -3106.0,
-            "width": 226.0,
-            "height": 61.0
+            "x": 87655,
+            "y": -3106,
+            "width": 226,
+            "height": 61
           },
           "absoluteRenderBounds": {
             "x": 87655.8671875,
@@ -1779,12 +1779,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "WIDTH_AND_HEIGHT",
-            "fontSize": 48.0,
+            "fontSize": 48,
             "textAlignHorizontal": "CENTER",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 60.67200469970703,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -1801,31 +1801,31 @@
       "fills": [],
       "strokes": [],
       "rectangleCornerRadii": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0,
+        0,
+        0,
+        0
       ],
-      "cornerSmoothing": 0.0,
-      "strokeWeight": 1.0,
+      "cornerSmoothing": 0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 87655.0,
-        "y": -3106.0,
-        "width": 226.0,
-        "height": 301.0
+        "x": 87655,
+        "y": -3106,
+        "width": 226,
+        "height": 301
       },
       "absoluteRenderBounds": {
-        "x": 87655.0,
-        "y": -3106.0,
-        "width": 226.0,
-        "height": 301.0
+        "x": 87655,
+        "y": -3106,
+        "width": 226,
+        "height": 301
       },
       "constraints": {
         "vertical": "TOP",
@@ -1863,7 +1863,7 @@
                     "r": 0.0235294122248888,
                     "g": 0.027450980618596077,
                     "b": 0.019607843831181526,
-                    "a": 1.0
+                    "a": 1
                   }
                 }
               ],
@@ -1871,16 +1871,16 @@
               "strokeWeight": 1.0065897703170776,
               "strokeAlign": "INSIDE",
               "absoluteBoundingBox": {
-                "x": 90294.0,
-                "y": -4603.0,
-                "width": 896.0,
-                "height": 896.0
+                "x": 90294,
+                "y": -4603,
+                "width": 896,
+                "height": 896
               },
               "absoluteRenderBounds": {
-                "x": 90294.0,
-                "y": -4603.0,
-                "width": 896.0,
-                "height": 896.0
+                "x": 90294,
+                "y": -4603,
+                "width": 896,
+                "height": 896
               },
               "constraints": {
                 "vertical": "TOP",
@@ -1906,24 +1906,24 @@
                     "r": 0.5960784554481506,
                     "g": 0.6823529601097107,
                     "b": 0.5372549295425415,
-                    "a": 1.0
+                    "a": 1
                   }
                 }
               ],
               "strokes": [],
-              "strokeWeight": 1.0,
+              "strokeWeight": 1,
               "strokeAlign": "INSIDE",
               "absoluteBoundingBox": {
-                "x": 90354.0,
-                "y": -4543.0,
-                "width": 176.0,
-                "height": 176.0
+                "x": 90354,
+                "y": -4543,
+                "width": 176,
+                "height": 176
               },
               "absoluteRenderBounds": {
-                "x": 90354.0,
-                "y": -4543.0,
-                "width": 176.0,
-                "height": 176.0
+                "x": 90354,
+                "y": -4543,
+                "width": 176,
+                "height": 176
               },
               "constraints": {
                 "vertical": "TOP",
@@ -1955,7 +1955,7 @@
                         "r": 0.9843137264251709,
                         "g": 0.9882352948188782,
                         "b": 0.9803921580314636,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
@@ -1963,21 +1963,21 @@
                   "strokeWeight": 0.04833333194255829,
                   "strokeAlign": "INSIDE",
                   "absoluteBoundingBox": {
-                    "x": 90354.0,
-                    "y": -4303.0,
-                    "width": 116.0,
-                    "height": 116.0
+                    "x": 90354,
+                    "y": -4303,
+                    "width": 116,
+                    "height": 116
                   },
                   "absoluteRenderBounds": {
-                    "x": 90354.0,
-                    "y": -4303.0,
-                    "width": 116.0,
-                    "height": 116.0
+                    "x": 90354,
+                    "y": -4303,
+                    "width": 116,
+                    "height": 116
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 1667.0,
-                    "y": 1667.0
+                    "x": 1667,
+                    "y": 1667
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -2033,7 +2033,7 @@
                                             "r": 0.5960784554481506,
                                             "g": 0.6823529601097107,
                                             "b": 0.5372549295425415,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2041,7 +2041,7 @@
                                       "strokeWeight": 0.028194446116685867,
                                       "strokeAlign": "INSIDE",
                                       "cornerRadius": 1.8044445514678955,
-                                      "cornerSmoothing": 0.0,
+                                      "cornerSmoothing": 0,
                                       "absoluteBoundingBox": {
                                         "x": 90402.4140625,
                                         "y": -4245.90234375,
@@ -2078,7 +2078,7 @@
                                             "r": 0.5960784554481506,
                                             "g": 0.6823529601097107,
                                             "b": 0.5372549295425415,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2103,9 +2103,9 @@
                                       },
                                       "effects": [],
                                       "arcData": {
-                                        "startingAngle": 0.0,
+                                        "startingAngle": 0,
                                         "endingAngle": 6.2831854820251465,
-                                        "innerRadius": 0.0
+                                        "innerRadius": 0
                                       },
                                       "interactions": [],
                                       "complexStrokeProperties": {
@@ -2127,7 +2127,7 @@
                                             "r": 0.5960784554481506,
                                             "g": 0.6823529601097107,
                                             "b": 0.5372549295425415,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2135,7 +2135,7 @@
                                       "strokeWeight": 0.028194446116685867,
                                       "strokeAlign": "INSIDE",
                                       "cornerRadius": 1.8044445514678955,
-                                      "cornerSmoothing": 0.0,
+                                      "cornerSmoothing": 0,
                                       "absoluteBoundingBox": {
                                         "x": 90430.9453125,
                                         "y": -4244.971745014191,
@@ -2172,7 +2172,7 @@
                                             "r": 0.5960784554481506,
                                             "g": 0.6823529601097107,
                                             "b": 0.5372549295425415,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2215,7 +2215,7 @@
                                             "r": 0.5960784554481506,
                                             "g": 0.6823529601097107,
                                             "b": 0.5372549295425415,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2258,7 +2258,7 @@
                                             "r": 0.9843137264251709,
                                             "g": 0.9882352948188782,
                                             "b": 0.9803921580314636,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2279,8 +2279,8 @@
                                       },
                                       "preserveRatio": true,
                                       "targetAspectRatio": {
-                                        "x": 842.0,
-                                        "y": 842.0
+                                        "x": 842,
+                                        "y": 842
                                       },
                                       "constraints": {
                                         "vertical": "TOP",
@@ -2288,9 +2288,9 @@
                                       },
                                       "effects": [],
                                       "arcData": {
-                                        "startingAngle": 0.0,
+                                        "startingAngle": 0,
                                         "endingAngle": 6.2831854820251465,
-                                        "innerRadius": 0.0
+                                        "innerRadius": 0
                                       },
                                       "interactions": [],
                                       "complexStrokeProperties": {
@@ -2311,7 +2311,7 @@
                                             "r": 0.9843137264251709,
                                             "g": 0.9882352948188782,
                                             "b": 0.9803921580314636,
-                                            "a": 1.0
+                                            "a": 1
                                           }
                                         }
                                       ],
@@ -2332,8 +2332,8 @@
                                       },
                                       "preserveRatio": true,
                                       "targetAspectRatio": {
-                                        "x": 842.0,
-                                        "y": 842.0
+                                        "x": 842,
+                                        "y": 842
                                       },
                                       "constraints": {
                                         "vertical": "TOP",
@@ -2341,9 +2341,9 @@
                                       },
                                       "effects": [],
                                       "arcData": {
-                                        "startingAngle": 0.0,
+                                        "startingAngle": 0,
                                         "endingAngle": 6.2831854820251465,
-                                        "innerRadius": 0.0
+                                        "innerRadius": 0
                                       },
                                       "interactions": [],
                                       "complexStrokeProperties": {
@@ -2370,7 +2370,7 @@
                                                 "r": 0.5960784554481506,
                                                 "g": 0.6823529601097107,
                                                 "b": 0.5372549295425415,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2391,8 +2391,8 @@
                                           },
                                           "preserveRatio": true,
                                           "targetAspectRatio": {
-                                            "x": 872.0,
-                                            "y": 873.0
+                                            "x": 872,
+                                            "y": 873
                                           },
                                           "constraints": {
                                             "vertical": "TOP",
@@ -2419,7 +2419,7 @@
                                                 "r": 0.5960784554481506,
                                                 "g": 0.6823529601097107,
                                                 "b": 0.5372549295425415,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2427,7 +2427,7 @@
                                           "strokeWeight": 0.028194446116685867,
                                           "strokeAlign": "INSIDE",
                                           "cornerRadius": 1.8044445514678955,
-                                          "cornerSmoothing": 0.0,
+                                          "cornerSmoothing": 0,
                                           "absoluteBoundingBox": {
                                             "x": 90390.5703125,
                                             "y": -4258.533464431763,
@@ -2464,7 +2464,7 @@
                                                 "r": 0.5960784554481506,
                                                 "g": 0.6823529601097107,
                                                 "b": 0.5372549295425415,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2472,7 +2472,7 @@
                                           "strokeWeight": 0.028194446116685867,
                                           "strokeAlign": "INSIDE",
                                           "cornerRadius": 1.8044445514678955,
-                                          "cornerSmoothing": 0.0,
+                                          "cornerSmoothing": 0,
                                           "absoluteBoundingBox": {
                                             "x": 90378.1640625,
                                             "y": -4246.1279296875,
@@ -2509,7 +2509,7 @@
                                                 "r": 0.9843137264251709,
                                                 "g": 0.9882352948188782,
                                                 "b": 0.9803921580314636,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2530,8 +2530,8 @@
                                           },
                                           "preserveRatio": true,
                                           "targetAspectRatio": {
-                                            "x": 842.0,
-                                            "y": 842.0
+                                            "x": 842,
+                                            "y": 842
                                           },
                                           "constraints": {
                                             "vertical": "TOP",
@@ -2539,9 +2539,9 @@
                                           },
                                           "effects": [],
                                           "arcData": {
-                                            "startingAngle": 0.0,
+                                            "startingAngle": 0,
                                             "endingAngle": 6.2831854820251465,
-                                            "innerRadius": 0.0
+                                            "innerRadius": 0
                                           },
                                           "interactions": [],
                                           "complexStrokeProperties": {
@@ -2562,7 +2562,7 @@
                                                 "r": 0.9843137264251709,
                                                 "g": 0.9882352948188782,
                                                 "b": 0.9803921580314636,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2583,8 +2583,8 @@
                                           },
                                           "preserveRatio": true,
                                           "targetAspectRatio": {
-                                            "x": 842.0,
-                                            "y": 842.0
+                                            "x": 842,
+                                            "y": 842
                                           },
                                           "constraints": {
                                             "vertical": "TOP",
@@ -2592,9 +2592,9 @@
                                           },
                                           "effects": [],
                                           "arcData": {
-                                            "startingAngle": 0.0,
+                                            "startingAngle": 0,
                                             "endingAngle": 6.2831854820251465,
-                                            "innerRadius": 0.0
+                                            "innerRadius": 0
                                           },
                                           "interactions": [],
                                           "complexStrokeProperties": {
@@ -2615,7 +2615,7 @@
                                                 "r": 0.9843137264251709,
                                                 "g": 0.9882352948188782,
                                                 "b": 0.9803921580314636,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2636,8 +2636,8 @@
                                           },
                                           "preserveRatio": true,
                                           "targetAspectRatio": {
-                                            "x": 842.0,
-                                            "y": 842.0
+                                            "x": 842,
+                                            "y": 842
                                           },
                                           "constraints": {
                                             "vertical": "TOP",
@@ -2645,9 +2645,9 @@
                                           },
                                           "effects": [],
                                           "arcData": {
-                                            "startingAngle": 0.0,
+                                            "startingAngle": 0,
                                             "endingAngle": 6.2831854820251465,
-                                            "innerRadius": 0.0
+                                            "innerRadius": 0
                                           },
                                           "interactions": [],
                                           "complexStrokeProperties": {
@@ -2668,7 +2668,7 @@
                                                 "r": 0.9843137264251709,
                                                 "g": 0.9882352948188782,
                                                 "b": 0.9803921580314636,
-                                                "a": 1.0
+                                                "a": 1
                                               }
                                             }
                                           ],
@@ -2689,8 +2689,8 @@
                                           },
                                           "preserveRatio": true,
                                           "targetAspectRatio": {
-                                            "x": 842.0,
-                                            "y": 842.0
+                                            "x": 842,
+                                            "y": 842
                                           },
                                           "constraints": {
                                             "vertical": "TOP",
@@ -2698,9 +2698,9 @@
                                           },
                                           "effects": [],
                                           "arcData": {
-                                            "startingAngle": 0.0,
+                                            "startingAngle": 0,
                                             "endingAngle": 6.2831854820251465,
-                                            "innerRadius": 0.0
+                                            "innerRadius": 0
                                           },
                                           "interactions": [],
                                           "complexStrokeProperties": {
@@ -2714,19 +2714,19 @@
                                       "fills": [],
                                       "strokes": [],
                                       "rectangleCornerRadii": [
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0
+                                        0,
+                                        0,
+                                        0,
+                                        0
                                       ],
-                                      "cornerSmoothing": 0.0,
+                                      "cornerSmoothing": 0,
                                       "strokeWeight": 0.028194446116685867,
                                       "strokeAlign": "INSIDE",
                                       "backgroundColor": {
-                                        "r": 0.0,
-                                        "g": 0.0,
-                                        "b": 0.0,
-                                        "a": 0.0
+                                        "r": 0,
+                                        "g": 0,
+                                        "b": 0,
+                                        "a": 0
                                       },
                                       "absoluteBoundingBox": {
                                         "x": 90362.6015625,
@@ -2757,19 +2757,19 @@
                                   "fills": [],
                                   "strokes": [],
                                   "rectangleCornerRadii": [
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.0
+                                    0,
+                                    0,
+                                    0,
+                                    0
                                   ],
-                                  "cornerSmoothing": 0.0,
+                                  "cornerSmoothing": 0,
                                   "strokeWeight": 0.028194446116685867,
                                   "strokeAlign": "INSIDE",
                                   "backgroundColor": {
-                                    "r": 0.0,
-                                    "g": 0.0,
-                                    "b": 0.0,
-                                    "a": 0.0
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 0
                                   },
                                   "absoluteBoundingBox": {
                                     "x": 90362.6015625,
@@ -2793,7 +2793,7 @@
                                       "format": "PNG",
                                       "constraint": {
                                         "type": "SCALE",
-                                        "value": 1.0
+                                        "value": 1
                                       }
                                     }
                                   ],
@@ -2810,19 +2810,19 @@
                               "fills": [],
                               "strokes": [],
                               "rectangleCornerRadii": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.0
+                                0,
+                                0,
+                                0,
+                                0
                               ],
-                              "cornerSmoothing": 0.0,
+                              "cornerSmoothing": 0,
                               "strokeWeight": 0.028194446116685867,
                               "strokeAlign": "INSIDE",
                               "backgroundColor": {
-                                "r": 0.0,
-                                "g": 0.0,
-                                "b": 0.0,
-                                "a": 0.0
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "a": 0
                               },
                               "absoluteBoundingBox": {
                                 "x": 90362.6015625,
@@ -2853,19 +2853,19 @@
                           "fills": [],
                           "strokes": [],
                           "rectangleCornerRadii": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0
+                            0,
+                            0,
+                            0,
+                            0
                           ],
-                          "cornerSmoothing": 0.0,
+                          "cornerSmoothing": 0,
                           "strokeWeight": 0.028194446116685867,
                           "strokeAlign": "INSIDE",
                           "backgroundColor": {
-                            "r": 0.0,
-                            "g": 0.0,
-                            "b": 0.0,
-                            "a": 0.0
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
                           },
                           "absoluteBoundingBox": {
                             "x": 90362.6015625,
@@ -2889,7 +2889,7 @@
                               "format": "PNG",
                               "constraint": {
                                 "type": "SCALE",
-                                "value": 1.0
+                                "value": 1
                               }
                             }
                           ],
@@ -2906,19 +2906,19 @@
                       "fills": [],
                       "strokes": [],
                       "rectangleCornerRadii": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.0
+                        0,
+                        0,
+                        0,
+                        0
                       ],
-                      "cornerSmoothing": 0.0,
+                      "cornerSmoothing": 0,
                       "strokeWeight": 0.028194446116685867,
                       "strokeAlign": "INSIDE",
                       "backgroundColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
                       },
                       "absoluteBoundingBox": {
                         "x": 90362.6015625,
@@ -2949,14 +2949,14 @@
                   "fills": [],
                   "strokes": [],
                   "cornerRadius": 20.299999237060547,
-                  "cornerSmoothing": 0.0,
+                  "cornerSmoothing": 0,
                   "strokeWeight": 0.028194446116685867,
                   "strokeAlign": "INSIDE",
                   "backgroundColor": {
-                    "r": 0.0,
-                    "g": 0.0,
-                    "b": 0.0,
-                    "a": 0.0
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
                   },
                   "absoluteBoundingBox": {
                     "x": 90378.1640625,
@@ -2972,7 +2972,7 @@
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 1474.0,
+                    "x": 1474,
                     "y": 589.5999755859375
                   },
                   "constraints": {
@@ -2992,31 +2992,31 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
+              "cornerSmoothing": 0,
               "strokeWeight": 0.04833333194255829,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
-                "x": 90354.0,
-                "y": -4303.0,
-                "width": 116.0,
-                "height": 116.0
+                "x": 90354,
+                "y": -4303,
+                "width": 116,
+                "height": 116
               },
               "absoluteRenderBounds": {
-                "x": 90354.0,
-                "y": -4303.0,
-                "width": 116.0,
-                "height": 116.0
+                "x": 90354,
+                "y": -4303,
+                "width": 116,
+                "height": 116
               },
               "constraints": {
                 "vertical": "TOP",
@@ -3028,7 +3028,7 @@
                   "format": "PNG",
                   "constraint": {
                     "type": "SCALE",
-                    "value": 1.0
+                    "value": 1
                   }
                 }
               ],
@@ -3049,21 +3049,21 @@
                   "blendMode": "NORMAL",
                   "type": "SOLID",
                   "color": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
                   }
                 }
               ],
               "strokes": [],
-              "strokeWeight": 1.0,
+              "strokeWeight": 1,
               "strokeAlign": "OUTSIDE",
               "absoluteBoundingBox": {
-                "x": 90592.0,
-                "y": -4540.0,
-                "width": 224.0,
-                "height": 50.0
+                "x": 90592,
+                "y": -4540,
+                "width": 224,
+                "height": 50
               },
               "absoluteRenderBounds": {
                 "x": 90594.8828125,
@@ -3089,12 +3089,12 @@
                 "fontPostScriptName": "Dosis-Regular",
                 "fontStyle": "Regular",
                 "fontWeight": 400,
-                "fontSize": 40.0,
+                "fontSize": 40,
                 "textAlignHorizontal": "LEFT",
                 "textAlignVertical": "TOP",
-                "letterSpacing": 0.0,
+                "letterSpacing": 0,
                 "lineHeightPx": 50.560001373291016,
-                "lineHeightPercent": 100.0,
+                "lineHeightPercent": 100,
                 "lineHeightUnit": "INTRINSIC_%"
               },
               "layoutVersion": 5,
@@ -3115,21 +3115,21 @@
                   "blendMode": "NORMAL",
                   "type": "SOLID",
                   "color": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
                   }
                 }
               ],
               "strokes": [],
-              "strokeWeight": 1.0,
+              "strokeWeight": 1,
               "strokeAlign": "OUTSIDE",
               "absoluteBoundingBox": {
-                "x": 90592.0,
-                "y": -4480.0,
-                "width": 356.0,
-                "height": 50.0
+                "x": 90592,
+                "y": -4480,
+                "width": 356,
+                "height": 50
               },
               "absoluteRenderBounds": {
                 "x": 90594.3203125,
@@ -3155,12 +3155,12 @@
                 "fontPostScriptName": "Dosis-Regular",
                 "fontStyle": "Regular",
                 "fontWeight": 400,
-                "fontSize": 40.0,
+                "fontSize": 40,
                 "textAlignHorizontal": "LEFT",
                 "textAlignVertical": "TOP",
-                "letterSpacing": 0.0,
+                "letterSpacing": 0,
                 "lineHeightPx": 50.560001373291016,
-                "lineHeightPercent": 100.0,
+                "lineHeightPercent": 100,
                 "lineHeightUnit": "INTRINSIC_%"
               },
               "layoutVersion": 5,
@@ -3190,24 +3190,24 @@
                         "r": 0.0235294122248888,
                         "g": 0.027450980618596077,
                         "b": 0.019607843831181526,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokes": [],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "INSIDE",
                   "absoluteBoundingBox": {
-                    "x": 90352.0,
-                    "y": -4125.0,
-                    "width": 60.0,
-                    "height": 60.0
+                    "x": 90352,
+                    "y": -4125,
+                    "width": 60,
+                    "height": 60
                   },
                   "absoluteRenderBounds": {
-                    "x": 90352.0,
-                    "y": -4125.0,
-                    "width": 60.0,
-                    "height": 60.0
+                    "x": 90352,
+                    "y": -4125,
+                    "width": 60,
+                    "height": 60
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3227,19 +3227,19 @@
                   "blendMode": "PASS_THROUGH",
                   "fills": [],
                   "strokes": [],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "CENTER",
                   "absoluteBoundingBox": {
-                    "x": 90382.0,
-                    "y": -4125.0,
-                    "width": 30.0,
-                    "height": 60.0
+                    "x": 90382,
+                    "y": -4125,
+                    "width": 30,
+                    "height": 60
                   },
                   "absoluteRenderBounds": null,
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 30.0,
-                    "y": 60.0
+                    "x": 30,
+                    "y": 60
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3251,7 +3251,7 @@
                       "format": "PNG",
                       "constraint": {
                         "type": "SCALE",
-                        "value": 1.0
+                        "value": 1
                       }
                     }
                   ],
@@ -3263,14 +3263,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
                         "x": -1.1881189346313477,
-                        "y": 0.0
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3280,14 +3280,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
+                        "x": 0,
                         "y": 1.1881189346313477
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3297,14 +3297,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
+                        "x": 0,
                         "y": -1.1881189346313477
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3314,14 +3314,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
                         "x": 1.1881189346313477,
-                        "y": 0.0
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     }
                   ],
@@ -3345,36 +3345,36 @@
                       "imageTransform": [
                         [
                           0.5,
-                          0.0,
+                          0,
                           0.5
                         ],
                         [
-                          0.0,
-                          1.0,
-                          0.0
+                          0,
+                          1,
+                          0
                         ]
                       ]
                     }
                   ],
                   "strokes": [],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "CENTER",
                   "absoluteBoundingBox": {
-                    "x": 90352.0,
-                    "y": -4123.0,
-                    "width": 28.0,
-                    "height": 56.0
+                    "x": 90352,
+                    "y": -4123,
+                    "width": 28,
+                    "height": 56
                   },
                   "absoluteRenderBounds": {
-                    "x": 90352.0,
-                    "y": -4125.0,
-                    "width": 30.0,
-                    "height": 60.0
+                    "x": 90352,
+                    "y": -4125,
+                    "width": 30,
+                    "height": 60
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 30.0,
-                    "y": 60.0
+                    "x": 30,
+                    "y": 60
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3386,7 +3386,7 @@
                       "format": "PNG",
                       "constraint": {
                         "type": "SCALE",
-                        "value": 1.0
+                        "value": 1
                       }
                     }
                   ],
@@ -3398,14 +3398,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": -2.0,
-                        "y": 0.0
+                        "x": -2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3415,14 +3415,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": 2.0
+                        "x": 0,
+                        "y": 2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3432,14 +3432,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": -2.0
+                        "x": 0,
+                        "y": -2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3449,14 +3449,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 2.0,
-                        "y": 0.0
+                        "x": 2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     }
                   ],
@@ -3480,36 +3480,36 @@
                       "imageTransform": [
                         [
                           0.5,
-                          0.0,
-                          0.0
+                          0,
+                          0
                         ],
                         [
-                          0.0,
-                          1.0,
-                          0.0
+                          0,
+                          1,
+                          0
                         ]
                       ]
                     }
                   ],
                   "strokes": [],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "CENTER",
                   "absoluteBoundingBox": {
-                    "x": 90384.0,
-                    "y": -4123.0,
-                    "width": 28.0,
-                    "height": 56.0
+                    "x": 90384,
+                    "y": -4123,
+                    "width": 28,
+                    "height": 56
                   },
                   "absoluteRenderBounds": {
-                    "x": 90382.0,
-                    "y": -4125.0,
-                    "width": 30.0,
-                    "height": 60.0
+                    "x": 90382,
+                    "y": -4125,
+                    "width": 30,
+                    "height": 60
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 30.0,
-                    "y": 60.0
+                    "x": 30,
+                    "y": 60
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3521,7 +3521,7 @@
                       "format": "PNG",
                       "constraint": {
                         "type": "SCALE",
-                        "value": 1.0
+                        "value": 1
                       }
                     }
                   ],
@@ -3533,14 +3533,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": -2.0,
-                        "y": 0.0
+                        "x": -2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3550,14 +3550,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": 2.0
+                        "x": 0,
+                        "y": 2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3567,14 +3567,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": -2.0
+                        "x": 0,
+                        "y": -2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3584,14 +3584,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 2.0,
-                        "y": 0.0
+                        "x": 2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     }
                   ],
@@ -3614,12 +3614,12 @@
                       "imageRef": "00345282fb94d17e69129992e186994378ed5e1f",
                       "imageTransform": [
                         [
-                          1.0,
-                          0.0,
-                          0.0
+                          1,
+                          0,
+                          0
                         ],
                         [
-                          0.0,
+                          0,
                           0.5,
                           0.5
                         ]
@@ -3627,24 +3627,24 @@
                     }
                   ],
                   "strokes": [],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "CENTER",
                   "absoluteBoundingBox": {
-                    "x": 90354.0,
-                    "y": -4125.0,
-                    "width": 56.0,
-                    "height": 28.0
+                    "x": 90354,
+                    "y": -4125,
+                    "width": 56,
+                    "height": 28
                   },
                   "absoluteRenderBounds": {
-                    "x": 90352.0,
-                    "y": -4125.0,
-                    "width": 60.0,
-                    "height": 30.0
+                    "x": 90352,
+                    "y": -4125,
+                    "width": 60,
+                    "height": 30
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 56.0,
-                    "y": 28.0
+                    "x": 56,
+                    "y": 28
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3656,7 +3656,7 @@
                       "format": "PNG",
                       "constraint": {
                         "type": "SCALE",
-                        "value": 1.0
+                        "value": 1
                       }
                     }
                   ],
@@ -3668,14 +3668,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": -2.0,
-                        "y": 0.0
+                        "x": -2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3685,14 +3685,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": 2.0
+                        "x": 0,
+                        "y": 2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3702,14 +3702,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": -2.0
+                        "x": 0,
+                        "y": -2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3719,14 +3719,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 2.0,
-                        "y": 0.0
+                        "x": 2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     }
                   ],
@@ -3749,37 +3749,37 @@
                       "imageRef": "00345282fb94d17e69129992e186994378ed5e1f",
                       "imageTransform": [
                         [
-                          1.0,
-                          0.0,
-                          0.0
+                          1,
+                          0,
+                          0
                         ],
                         [
-                          0.0,
+                          0,
                           0.5,
-                          0.0
+                          0
                         ]
                       ]
                     }
                   ],
                   "strokes": [],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "CENTER",
                   "absoluteBoundingBox": {
-                    "x": 90354.0,
-                    "y": -4093.0,
-                    "width": 56.0,
-                    "height": 28.0
+                    "x": 90354,
+                    "y": -4093,
+                    "width": 56,
+                    "height": 28
                   },
                   "absoluteRenderBounds": {
-                    "x": 90352.0,
-                    "y": -4095.0,
-                    "width": 60.0,
-                    "height": 30.0
+                    "x": 90352,
+                    "y": -4095,
+                    "width": 60,
+                    "height": 30
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 56.0,
-                    "y": 28.0
+                    "x": 56,
+                    "y": 28
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3791,7 +3791,7 @@
                       "format": "PNG",
                       "constraint": {
                         "type": "SCALE",
-                        "value": 1.0
+                        "value": 1
                       }
                     }
                   ],
@@ -3803,14 +3803,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": -2.0,
-                        "y": 0.0
+                        "x": -2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3820,14 +3820,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": 2.0
+                        "x": 0,
+                        "y": 2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3837,14 +3837,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 0.0,
-                        "y": -2.0
+                        "x": 0,
+                        "y": -2
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     },
                     {
@@ -3854,14 +3854,14 @@
                         "r": 0.09803921729326248,
                         "g": 0.09803921729326248,
                         "b": 0.09803921729326248,
-                        "a": 1.0
+                        "a": 1
                       },
                       "blendMode": "NORMAL",
                       "offset": {
-                        "x": 2.0,
-                        "y": 0.0
+                        "x": 2,
+                        "y": 0
                       },
-                      "radius": 0.0,
+                      "radius": 0,
                       "showShadowBehindNode": false
                     }
                   ],
@@ -3885,28 +3885,28 @@
                         "r": 0.20000000298023224,
                         "g": 0.20000000298023224,
                         "b": 0.20000000298023224,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
-                  "strokeWeight": 2.0,
+                  "strokeWeight": 2,
                   "strokeAlign": "INSIDE",
                   "absoluteBoundingBox": {
-                    "x": 90352.0,
-                    "y": -4125.0,
-                    "width": 60.0,
-                    "height": 60.0
+                    "x": 90352,
+                    "y": -4125,
+                    "width": 60,
+                    "height": 60
                   },
                   "absoluteRenderBounds": {
-                    "x": 90352.0,
-                    "y": -4125.0,
-                    "width": 60.0,
-                    "height": 60.0
+                    "x": 90352,
+                    "y": -4125,
+                    "width": 60,
+                    "height": 60
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 60.0,
-                    "y": 60.0
+                    "x": 60,
+                    "y": 60
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3932,24 +3932,24 @@
                         "r": 0.5960784554481506,
                         "g": 0.6823529601097107,
                         "b": 0.5372549295425415,
-                        "a": 1.0
+                        "a": 1
                       }
                     }
                   ],
                   "strokes": [],
-                  "strokeWeight": 1.0,
+                  "strokeWeight": 1,
                   "strokeAlign": "INSIDE",
                   "absoluteBoundingBox": {
-                    "x": 90354.0,
-                    "y": -4123.0,
-                    "width": 56.0,
-                    "height": 56.0
+                    "x": 90354,
+                    "y": -4123,
+                    "width": 56,
+                    "height": 56
                   },
                   "absoluteRenderBounds": {
-                    "x": 90354.0,
-                    "y": -4123.0,
-                    "width": 56.0,
-                    "height": 56.0
+                    "x": 90354,
+                    "y": -4123,
+                    "width": 56,
+                    "height": 56
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -3981,12 +3981,12 @@
                             "r": 0.5960784554481506,
                             "g": 0.6823529601097107,
                             "b": 0.5372549295425415,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokes": [],
-                      "strokeWeight": 1.0,
+                      "strokeWeight": 1,
                       "strokeAlign": "INSIDE",
                       "absoluteBoundingBox": {
                         "x": 90371.984375,
@@ -4006,9 +4006,9 @@
                       },
                       "effects": [],
                       "arcData": {
-                        "startingAngle": 0.0,
+                        "startingAngle": 0,
                         "endingAngle": 6.2831854820251465,
-                        "innerRadius": 0.0
+                        "innerRadius": 0
                       },
                       "interactions": [],
                       "complexStrokeProperties": {
@@ -4029,15 +4029,15 @@
                             "r": 0.5960784554481506,
                             "g": 0.6823529601097107,
                             "b": 0.5372549295425415,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokes": [],
-                      "strokeWeight": 1.0,
+                      "strokeWeight": 1,
                       "strokeAlign": "INSIDE",
-                      "cornerRadius": 222.0,
-                      "cornerSmoothing": 0.0,
+                      "cornerRadius": 222,
+                      "cornerSmoothing": 0,
                       "absoluteBoundingBox": {
                         "x": 90358.96875,
                         "y": -4117.14111328125,
@@ -4074,31 +4074,31 @@
                             "r": 0.5960784554481506,
                             "g": 0.6823529601097107,
                             "b": 0.5372549295425415,
-                            "a": 1.0
+                            "a": 1
                           }
                         }
                       ],
                       "strokes": [],
-                      "strokeWeight": 1.0,
+                      "strokeWeight": 1,
                       "strokeAlign": "INSIDE",
                       "cornerRadius": 1188.5,
-                      "cornerSmoothing": 0.0,
+                      "cornerSmoothing": 0,
                       "absoluteBoundingBox": {
-                        "x": 90354.0,
-                        "y": -4123.0,
-                        "width": 56.0,
-                        "height": 56.0
+                        "x": 90354,
+                        "y": -4123,
+                        "width": 56,
+                        "height": 56
                       },
                       "absoluteRenderBounds": {
-                        "x": 90354.0,
-                        "y": -4123.0,
-                        "width": 56.0,
-                        "height": 56.0
+                        "x": 90354,
+                        "y": -4123,
+                        "width": 56,
+                        "height": 56
                       },
                       "preserveRatio": true,
                       "targetAspectRatio": {
-                        "x": 2048.0,
-                        "y": 2048.0
+                        "x": 2048,
+                        "y": 2048
                       },
                       "constraints": {
                         "vertical": "TOP",
@@ -4130,12 +4130,12 @@
                                 "r": 0.9843137264251709,
                                 "g": 0.9882352948188782,
                                 "b": 0.9803921580314636,
-                                "a": 1.0
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
                           "absoluteBoundingBox": {
                             "x": 90366.078125,
@@ -4151,8 +4151,8 @@
                           },
                           "preserveRatio": true,
                           "targetAspectRatio": {
-                            "x": 872.0,
-                            "y": 873.0
+                            "x": 872,
+                            "y": 873
                           },
                           "constraints": {
                             "vertical": "TOP",
@@ -4179,7 +4179,7 @@
                                 "r": 0.9843137264251709,
                                 "g": 0.9882352948188782,
                                 "b": 0.9803921580314636,
-                                "a": 1.0
+                                "a": 1
                               }
                             },
                             {
@@ -4188,10 +4188,10 @@
                               "visible": false,
                               "type": "SOLID",
                               "color": {
-                                "r": 0.0,
-                                "g": 0.0,
-                                "b": 0.0,
-                                "a": 1.0
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "a": 1
                               }
                             },
                             {
@@ -4200,18 +4200,18 @@
                               "visible": false,
                               "type": "SOLID",
                               "color": {
-                                "r": 1.0,
-                                "g": 1.0,
-                                "b": 1.0,
-                                "a": 1.0
+                                "r": 1,
+                                "g": 1,
+                                "b": 1,
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
-                          "cornerRadius": 64.0,
-                          "cornerSmoothing": 0.0,
+                          "cornerRadius": 64,
+                          "cornerSmoothing": 0,
                           "absoluteBoundingBox": {
                             "x": 90380.5625,
                             "y": -4112.045715332031,
@@ -4248,15 +4248,15 @@
                                 "r": 0.9843137264251709,
                                 "g": 0.9882352948188782,
                                 "b": 0.9803921580314636,
-                                "a": 1.0
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
-                          "cornerRadius": 64.0,
-                          "cornerSmoothing": 0.0,
+                          "cornerRadius": 64,
+                          "cornerSmoothing": 0,
                           "absoluteBoundingBox": {
                             "x": 90364.8984375,
                             "y": -4096.388671875,
@@ -4293,12 +4293,12 @@
                                 "r": 0.5960784554481506,
                                 "g": 0.6823529601097107,
                                 "b": 0.5372549295425415,
-                                "a": 1.0
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
                           "absoluteBoundingBox": {
                             "x": 90383.1015625,
@@ -4314,8 +4314,8 @@
                           },
                           "preserveRatio": true,
                           "targetAspectRatio": {
-                            "x": 326.7775573730469,
-                            "y": 327.73077392578125
+                            "x": 22.262218475341797,
+                            "y": 22.327157974243164
                           },
                           "constraints": {
                             "vertical": "TOP",
@@ -4325,7 +4325,29 @@
                           "interactions": [],
                           "complexStrokeProperties": {
                             "strokeType": "BASIC"
-                          }
+                          },
+                          "fillGeometry": [
+                            {
+                              "path": "M18.2454 9.1929 C18.2454 19.0091 20.772 18.4581 10.9559 18.4581 C1.1397 18.4581 0 27.5981 0 17.7819 C0 7.9658 7.9576 0.0082 17.7737 0.0082 C27.5899 0.0082 18.2454 -0.6232 18.2454 9.1929 Z",
+                              "windingRule": "NONZERO"
+                            }
+                          ],
+                          "size": {
+                            "x": 22.262218475341797,
+                            "y": 22.327157974243164
+                          },
+                          "relativeTransform": [
+                            [
+                              1,
+                              0,
+                              -448798.7296882868
+                            ],
+                            [
+                              0,
+                              1,
+                              22264.969336032867
+                            ]
+                          ]
                         },
                         {
                           "id": "2682:156",
@@ -4341,12 +4363,12 @@
                                 "r": 0.5960784554481506,
                                 "g": 0.6823529601097107,
                                 "b": 0.5372549295425415,
-                                "a": 1.0
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
                           "absoluteBoundingBox": {
                             "x": 90358.4609375,
@@ -4362,8 +4384,8 @@
                           },
                           "preserveRatio": true,
                           "targetAspectRatio": {
-                            "x": 337.9488220214844,
-                            "y": 340.2792053222656
+                            "x": 23.023277282714844,
+                            "y": 23.182039260864258
                           },
                           "constraints": {
                             "vertical": "TOP",
@@ -4373,7 +4395,29 @@
                           "interactions": [],
                           "complexStrokeProperties": {
                             "strokeType": "BASIC"
-                          }
+                          },
+                          "fillGeometry": [
+                            {
+                              "path": "M22.3667 17.7759 C22.3667 27.592 25.9978 21.0409 16.1816 21.0409 C6.3655 21.0409 3.7486 19.2415 3.7486 9.4254 C3.7486 -0.3908 -5.2232 0.0022 4.5929 0.0022 C14.4091 0.0022 22.3667 7.9597 22.3667 17.7759 Z",
+                              "windingRule": "NONZERO"
+                            }
+                          ],
+                          "size": {
+                            "x": 23.023277282714844,
+                            "y": 23.182039260864258
+                          },
+                          "relativeTransform": [
+                            [
+                              1,
+                              0,
+                              -448823.3718749285
+                            ],
+                            [
+                              0,
+                              1,
+                              22264.975489139557
+                            ]
+                          ]
                         },
                         {
                           "id": "2682:157",
@@ -4389,12 +4433,12 @@
                                 "r": 0.5960784554481506,
                                 "g": 0.6823529601097107,
                                 "b": 0.5372549295425415,
-                                "a": 1.0
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
                           "absoluteBoundingBox": {
                             "x": 90383.1015625,
@@ -4405,13 +4449,13 @@
                           "absoluteRenderBounds": {
                             "x": 90383.1015625,
                             "y": -4119.10205078125,
-                            "width": 23.0,
+                            "width": 23,
                             "height": 24.302490234375
                           },
                           "preserveRatio": true,
                           "targetAspectRatio": {
-                            "x": 337.5831604003906,
-                            "y": 356.7244873046875
+                            "x": 22.99836540222168,
+                            "y": 24.302398681640625
                           },
                           "constraints": {
                             "vertical": "TOP",
@@ -4421,7 +4465,29 @@
                           "interactions": [],
                           "complexStrokeProperties": {
                             "strokeType": "BASIC"
-                          }
+                          },
+                          "fillGeometry": [
+                            {
+                              "path": "M20.5617 18.2433 C20.5617 28.0595 27.5899 22.9976 17.7737 22.9976 C7.9576 22.9976 0 15.04 0 5.2239 C0 -4.5923 0.5266 2.4379 10.3427 2.4379 C20.1589 2.4379 20.5617 8.4271 20.5617 18.2433 Z",
+                              "windingRule": "NONZERO"
+                            }
+                          ],
+                          "size": {
+                            "x": 22.99836540222168,
+                            "y": 24.302398681640625
+                          },
+                          "relativeTransform": [
+                            [
+                              1,
+                              0,
+                              -448798.7296882868
+                            ],
+                            [
+                              0,
+                              1,
+                              22239.70507824421
+                            ]
+                          ]
                         },
                         {
                           "id": "2682:158",
@@ -4437,12 +4503,12 @@
                                 "r": 0.5960784554481506,
                                 "g": 0.6823529601097107,
                                 "b": 0.5372549295425415,
-                                "a": 1.0
+                                "a": 1
                               }
                             }
                           ],
                           "strokes": [],
-                          "strokeWeight": 1.0,
+                          "strokeWeight": 1,
                           "strokeAlign": "INSIDE",
                           "absoluteBoundingBox": {
                             "x": 90355.8359375,
@@ -4458,8 +4524,8 @@
                           },
                           "preserveRatio": true,
                           "targetAspectRatio": {
-                            "x": 373.38824462890625,
-                            "y": 369.1563720703125
+                            "x": 25.43764305114746,
+                            "y": 25.14933967590332
                           },
                           "constraints": {
                             "vertical": "TOP",
@@ -4469,7 +4535,29 @@
                           "interactions": [],
                           "complexStrokeProperties": {
                             "strokeType": "BASIC"
-                          }
+                          },
+                          "fillGeometry": [
+                            {
+                              "path": "M24.9913 5.9287 C24.9913 15.7449 17.0337 23.7024 7.2175 23.7024 C-2.5986 23.7024 0.4464 29.0368 0.4464 19.2206 C0.4464 9.4045 8.4039 1.4469 18.2201 1.4469 C28.0363 1.4469 24.9913 -3.8875 24.9913 5.9287 Z",
+                              "windingRule": "NONZERO"
+                            }
+                          ],
+                          "size": {
+                            "x": 25.43764305114746,
+                            "y": 25.14933967590332
+                          },
+                          "relativeTransform": [
+                            [
+                              1,
+                              0,
+                              -448825.9968750238
+                            ],
+                            [
+                              0,
+                              1,
+                              22238.999951267244
+                            ]
+                          ]
                         }
                       ],
                       "blendMode": "PASS_THROUGH",
@@ -4478,19 +4566,19 @@
                       "fills": [],
                       "strokes": [],
                       "rectangleCornerRadii": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.0
+                        0,
+                        0,
+                        0,
+                        0
                       ],
-                      "cornerSmoothing": 0.0,
-                      "strokeWeight": 1.0,
+                      "cornerSmoothing": 0,
+                      "strokeWeight": 1,
                       "strokeAlign": "INSIDE",
                       "backgroundColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
                       },
                       "absoluteBoundingBox": {
                         "x": 90355.8359375,
@@ -4526,36 +4614,36 @@
                   "fills": [],
                   "strokes": [],
                   "rectangleCornerRadii": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
+                    0,
+                    0,
+                    0,
+                    0
                   ],
-                  "cornerSmoothing": 0.0,
-                  "strokeWeight": 1.0,
+                  "cornerSmoothing": 0,
+                  "strokeWeight": 1,
                   "strokeAlign": "INSIDE",
                   "backgroundColor": {
-                    "r": 0.0,
-                    "g": 0.0,
-                    "b": 0.0,
-                    "a": 0.0
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
                   },
                   "absoluteBoundingBox": {
-                    "x": 90354.0,
-                    "y": -4123.0,
-                    "width": 56.0,
-                    "height": 56.0
+                    "x": 90354,
+                    "y": -4123,
+                    "width": 56,
+                    "height": 56
                   },
                   "absoluteRenderBounds": {
-                    "x": 90354.0,
-                    "y": -4123.0,
-                    "width": 56.0,
-                    "height": 56.0
+                    "x": 90354,
+                    "y": -4123,
+                    "width": 56,
+                    "height": 56
                   },
                   "preserveRatio": true,
                   "targetAspectRatio": {
-                    "x": 822.0,
-                    "y": 822.0
+                    "x": 822,
+                    "y": 822
                   },
                   "constraints": {
                     "vertical": "TOP",
@@ -4567,7 +4655,7 @@
                       "format": "PNG",
                       "constraint": {
                         "type": "SCALE",
-                        "value": 1.0
+                        "value": 1
                       }
                     }
                   ],
@@ -4584,31 +4672,31 @@
               "fills": [],
               "strokes": [],
               "rectangleCornerRadii": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0
               ],
-              "cornerSmoothing": 0.0,
-              "strokeWeight": 1.0,
+              "cornerSmoothing": 0,
+              "strokeWeight": 1,
               "strokeAlign": "INSIDE",
               "backgroundColor": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
-                "a": 0.0
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               "absoluteBoundingBox": {
-                "x": 90352.0,
-                "y": -4125.0,
-                "width": 60.0,
-                "height": 60.0
+                "x": 90352,
+                "y": -4125,
+                "width": 60,
+                "height": 60
               },
               "absoluteRenderBounds": {
-                "x": 90352.0,
-                "y": -4125.0,
-                "width": 60.0,
-                "height": 60.0
+                "x": 90352,
+                "y": -4125,
+                "width": 60,
+                "height": 60
               },
               "constraints": {
                 "vertical": "TOP",
@@ -4627,31 +4715,31 @@
           "fills": [],
           "strokes": [],
           "rectangleCornerRadii": [
-            0.0,
-            0.0,
-            0.0,
-            0.0
+            0,
+            0,
+            0,
+            0
           ],
-          "cornerSmoothing": 0.0,
-          "strokeWeight": 1.0,
+          "cornerSmoothing": 0,
+          "strokeWeight": 1,
           "strokeAlign": "INSIDE",
           "backgroundColor": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0,
-            "a": 0.0
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
           },
           "absoluteBoundingBox": {
-            "x": 90294.0,
-            "y": -4603.0,
-            "width": 896.0,
-            "height": 896.0
+            "x": 90294,
+            "y": -4603,
+            "width": 896,
+            "height": 896
           },
           "absoluteRenderBounds": {
-            "x": 90294.0,
-            "y": -4603.0,
-            "width": 896.0,
-            "height": 896.0
+            "x": 90294,
+            "y": -4603,
+            "width": 896,
+            "height": 896
           },
           "constraints": {
             "vertical": "TOP",
@@ -4674,21 +4762,21 @@
               "blendMode": "NORMAL",
               "type": "SOLID",
               "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
-            "x": 90432.0,
-            "y": -4121.0,
-            "width": 170.0,
-            "height": 52.0
+            "x": 90432,
+            "y": -4121,
+            "width": 170,
+            "height": 52
           },
           "absoluteRenderBounds": {
             "x": 90434.59375,
@@ -4715,12 +4803,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "WIDTH_AND_HEIGHT",
-            "fontSize": 40.0,
+            "fontSize": 40,
             "textAlignHorizontal": "LEFT",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 52.32421875,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -4741,21 +4829,21 @@
               "blendMode": "NORMAL",
               "type": "SOLID",
               "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
-            "x": 90512.0,
-            "y": -4301.0,
-            "width": 334.0,
-            "height": 52.0
+            "x": 90512,
+            "y": -4301,
+            "width": 334,
+            "height": 52
           },
           "absoluteRenderBounds": {
             "x": 90514.59375,
@@ -4782,12 +4870,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "WIDTH_AND_HEIGHT",
-            "fontSize": 40.0,
+            "fontSize": 40,
             "textAlignHorizontal": "LEFT",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 52.32421875,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -4808,21 +4896,21 @@
               "blendMode": "NORMAL",
               "type": "SOLID",
               "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
-            "x": 90512.0,
-            "y": -4241.0,
-            "width": 107.0,
-            "height": 52.0
+            "x": 90512,
+            "y": -4241,
+            "width": 107,
+            "height": 52
           },
           "absoluteRenderBounds": {
             "x": 90514.59375,
@@ -4849,12 +4937,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "WIDTH_AND_HEIGHT",
-            "fontSize": 40.0,
+            "fontSize": 40,
             "textAlignHorizontal": "LEFT",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 52.32421875,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -4871,31 +4959,31 @@
       "fills": [],
       "strokes": [],
       "rectangleCornerRadii": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0,
+        0,
+        0,
+        0
       ],
-      "cornerSmoothing": 0.0,
-      "strokeWeight": 1.0,
+      "cornerSmoothing": 0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 90294.0,
-        "y": -4603.0,
-        "width": 896.0,
-        "height": 896.0
+        "x": 90294,
+        "y": -4603,
+        "width": 896,
+        "height": 896
       },
       "absoluteRenderBounds": {
-        "x": 90294.0,
-        "y": -4603.0,
-        "width": 896.0,
-        "height": 896.0
+        "x": 90294,
+        "y": -4603,
+        "width": 896,
+        "height": 896
       },
       "constraints": {
         "vertical": "TOP",
@@ -4927,24 +5015,24 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "INSIDE",
           "absoluteBoundingBox": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -4964,19 +5052,19 @@
           "blendMode": "PASS_THROUGH",
           "fills": [],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89422.0,
-            "y": -3885.0,
-            "width": 30.0,
-            "height": 60.0
+            "x": 89422,
+            "y": -3885,
+            "width": 30,
+            "height": 60
           },
           "absoluteRenderBounds": null,
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 30.0,
-            "y": 60.0
+            "x": 30,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -4988,7 +5076,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -5000,14 +5088,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
                 "x": -1.1881189346313477,
-                "y": 0.0
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5017,14 +5105,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 1.1881189346313477
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5034,14 +5122,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
+                "x": 0,
                 "y": -1.1881189346313477
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5051,14 +5139,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
                 "x": 1.1881189346313477,
-                "y": 0.0
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -5082,36 +5170,36 @@
               "imageTransform": [
                 [
                   0.5,
-                  0.0,
+                  0,
                   0.5
                 ],
                 [
-                  0.0,
-                  1.0,
-                  0.0
+                  0,
+                  1,
+                  0
                 ]
               ]
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89392.0,
-            "y": -3883.0,
-            "width": 28.0,
-            "height": 56.0
+            "x": 89392,
+            "y": -3883,
+            "width": 28,
+            "height": 56
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 30.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 30,
+            "height": 60
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 30.0,
-            "y": 60.0
+            "x": 30,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -5123,7 +5211,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -5135,14 +5223,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5152,14 +5240,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5169,14 +5257,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5186,14 +5274,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -5217,36 +5305,36 @@
               "imageTransform": [
                 [
                   0.5,
-                  0.0,
-                  0.0
+                  0,
+                  0
                 ],
                 [
-                  0.0,
-                  1.0,
-                  0.0
+                  0,
+                  1,
+                  0
                 ]
               ]
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89424.0,
-            "y": -3883.0,
-            "width": 28.0,
-            "height": 56.0
+            "x": 89424,
+            "y": -3883,
+            "width": 28,
+            "height": 56
           },
           "absoluteRenderBounds": {
-            "x": 89422.0,
-            "y": -3885.0,
-            "width": 30.0,
-            "height": 60.0
+            "x": 89422,
+            "y": -3885,
+            "width": 30,
+            "height": 60
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 30.0,
-            "y": 60.0
+            "x": 30,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -5258,7 +5346,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -5270,14 +5358,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5287,14 +5375,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5304,14 +5392,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5321,14 +5409,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -5351,12 +5439,12 @@
               "imageRef": "89f495fcae61819f10e05d113b9c44836e642bf0",
               "imageTransform": [
                 [
-                  1.0,
-                  0.0,
-                  0.0
+                  1,
+                  0,
+                  0
                 ],
                 [
-                  0.0,
+                  0,
                   0.5,
                   0.5
                 ]
@@ -5364,24 +5452,24 @@
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89394.0,
-            "y": -3885.0,
-            "width": 56.0,
-            "height": 28.0
+            "x": 89394,
+            "y": -3885,
+            "width": 56,
+            "height": 28
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 30.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 30
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 56.0,
-            "y": 28.0
+            "x": 56,
+            "y": 28
           },
           "constraints": {
             "vertical": "TOP",
@@ -5393,7 +5481,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -5405,14 +5493,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5422,14 +5510,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5439,14 +5527,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5456,14 +5544,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -5486,37 +5574,37 @@
               "imageRef": "89f495fcae61819f10e05d113b9c44836e642bf0",
               "imageTransform": [
                 [
-                  1.0,
-                  0.0,
-                  0.0
+                  1,
+                  0,
+                  0
                 ],
                 [
-                  0.0,
+                  0,
                   0.5,
-                  0.0
+                  0
                 ]
               ]
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89394.0,
-            "y": -3853.0,
-            "width": 56.0,
-            "height": 28.0
+            "x": 89394,
+            "y": -3853,
+            "width": 56,
+            "height": 28
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3855.0,
-            "width": 60.0,
-            "height": 30.0
+            "x": 89392,
+            "y": -3855,
+            "width": 60,
+            "height": 30
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 56.0,
-            "y": 28.0
+            "x": 56,
+            "y": 28
           },
           "constraints": {
             "vertical": "TOP",
@@ -5528,7 +5616,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -5540,14 +5628,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5557,14 +5645,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5574,14 +5662,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -5591,14 +5679,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -5622,28 +5710,28 @@
                 "r": 0.800000011920929,
                 "g": 0.800000011920929,
                 "b": 0.800000011920929,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "INSIDE",
           "absoluteBoundingBox": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 60.0,
-            "y": 60.0
+            "x": 60,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -5661,25 +5749,25 @@
       "background": [],
       "fills": [],
       "strokes": [],
-      "strokeWeight": 1.0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 89392.0,
-        "y": -3885.0,
-        "width": 60.0,
-        "height": 60.0
+        "x": 89392,
+        "y": -3885,
+        "width": 60,
+        "height": 60
       },
       "absoluteRenderBounds": {
-        "x": 89392.0,
-        "y": -3885.0,
-        "width": 60.0,
-        "height": 60.0
+        "x": 89392,
+        "y": -3885,
+        "width": 60,
+        "height": 60
       },
       "constraints": {
         "vertical": "TOP",
@@ -5711,26 +5799,26 @@
                 "r": 0.0235294122248888,
                 "g": 0.027450980618596077,
                 "b": 0.019607843831181526,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "INSIDE",
-          "cornerRadius": 16.0,
-          "cornerSmoothing": 0.0,
+          "cornerRadius": 16,
+          "cornerSmoothing": 0,
           "absoluteBoundingBox": {
-            "x": 88850.0,
-            "y": -4607.0,
-            "width": 1204.0,
-            "height": 64.0
+            "x": 88850,
+            "y": -4607,
+            "width": 1204,
+            "height": 64
           },
           "absoluteRenderBounds": {
-            "x": 88842.0,
-            "y": -4615.0,
-            "width": 1220.0,
-            "height": 80.0
+            "x": 88842,
+            "y": -4615,
+            "width": 1220,
+            "height": 80
           },
           "constraints": {
             "vertical": "TOP",
@@ -5744,14 +5832,14 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
               },
-              "radius": 8.0,
+              "radius": 8,
               "showShadowBehindNode": false
             }
           ],
@@ -5776,24 +5864,24 @@
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "INSIDE",
           "absoluteBoundingBox": {
-            "x": 88850.0,
-            "y": -4607.0,
-            "width": 64.0,
-            "height": 64.0
+            "x": 88850,
+            "y": -4607,
+            "width": 64,
+            "height": 64
           },
           "absoluteRenderBounds": {
-            "x": 88730.0,
-            "y": -4727.0,
-            "width": 304.0,
-            "height": 304.0
+            "x": 88730,
+            "y": -4727,
+            "width": 304,
+            "height": 304
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 200.0,
-            "y": 200.0
+            "x": 200,
+            "y": 200
           },
           "constraints": {
             "vertical": "TOP",
@@ -5807,14 +5895,14 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
               },
-              "radius": 120.0,
+              "radius": 120,
               "showShadowBehindNode": false
             },
             {
@@ -5828,10 +5916,10 @@
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
               },
-              "radius": 60.0,
+              "radius": 60,
               "showShadowBehindNode": false
             }
           ],
@@ -5868,24 +5956,24 @@
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "INSIDE",
           "absoluteBoundingBox": {
-            "x": 89990.0,
-            "y": -4607.0,
-            "width": 64.0,
-            "height": 64.0
+            "x": 89990,
+            "y": -4607,
+            "width": 64,
+            "height": 64
           },
           "absoluteRenderBounds": {
-            "x": 89870.0,
-            "y": -4727.0,
-            "width": 304.0,
-            "height": 304.0
+            "x": 89870,
+            "y": -4727,
+            "width": 304,
+            "height": 304
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 64.0,
-            "y": 64.0
+            "x": 64,
+            "y": 64
           },
           "constraints": {
             "vertical": "TOP",
@@ -5899,14 +5987,14 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
               },
-              "radius": 120.0,
+              "radius": 120,
               "showShadowBehindNode": false
             },
             {
@@ -5920,10 +6008,10 @@
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
               },
-              "radius": 60.0,
+              "radius": 60,
               "showShadowBehindNode": false
             }
           ],
@@ -5946,18 +6034,18 @@
                 "r": 0.5960784554481506,
                 "g": 0.6823529601097107,
                 "b": 0.5372549295425415,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 1.0,
+          "strokeWeight": 1,
           "strokeAlign": "OUTSIDE",
           "absoluteBoundingBox": {
             "x": 88913.9453125,
-            "y": -4595.0,
+            "y": -4595,
             "width": 1075.1063232421875,
-            "height": 40.0
+            "height": 40
           },
           "absoluteRenderBounds": {
             "x": 89202.421875,
@@ -5984,12 +6072,12 @@
             "fontStyle": "Regular",
             "fontWeight": 400,
             "textAutoResize": "HEIGHT",
-            "fontSize": 32.0,
+            "fontSize": 32,
             "textAlignHorizontal": "CENTER",
             "textAlignVertical": "TOP",
-            "letterSpacing": 0.0,
+            "letterSpacing": 0,
             "lineHeightPx": 40.448001861572266,
-            "lineHeightPercent": 100.0,
+            "lineHeightPercent": 100,
             "lineHeightUnit": "INTRINSIC_%"
           },
           "layoutVersion": 5,
@@ -6006,31 +6094,31 @@
       "fills": [],
       "strokes": [],
       "rectangleCornerRadii": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0,
+        0,
+        0,
+        0
       ],
-      "cornerSmoothing": 0.0,
-      "strokeWeight": 1.0,
+      "cornerSmoothing": 0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 88850.0,
-        "y": -4607.0,
-        "width": 1204.0,
-        "height": 64.0
+        "x": 88850,
+        "y": -4607,
+        "width": 1204,
+        "height": 64
       },
       "absoluteRenderBounds": {
-        "x": 88730.0,
-        "y": -4727.0,
-        "width": 1444.0,
-        "height": 304.0
+        "x": 88730,
+        "y": -4727,
+        "width": 1444,
+        "height": 304
       },
       "constraints": {
         "vertical": "TOP",
@@ -6062,24 +6150,24 @@
                 "r": 0.9843137264251709,
                 "g": 0.9882352948188782,
                 "b": 0.9803921580314636,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "INSIDE",
           "absoluteBoundingBox": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -6099,19 +6187,19 @@
           "blendMode": "PASS_THROUGH",
           "fills": [],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89422.0,
-            "y": -3885.0,
-            "width": 30.0,
-            "height": 60.0
+            "x": 89422,
+            "y": -3885,
+            "width": 30,
+            "height": 60
           },
           "absoluteRenderBounds": null,
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 30.0,
-            "y": 60.0
+            "x": 30,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -6123,7 +6211,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -6135,14 +6223,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
                 "x": -1.1881189346313477,
-                "y": 0.0
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6152,14 +6240,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 1.1881189346313477
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6169,14 +6257,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
+                "x": 0,
                 "y": -1.1881189346313477
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6186,14 +6274,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
                 "x": 1.1881189346313477,
-                "y": 0.0
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -6217,36 +6305,36 @@
               "imageTransform": [
                 [
                   0.5,
-                  0.0,
+                  0,
                   0.5
                 ],
                 [
-                  0.0,
-                  1.0,
-                  0.0
+                  0,
+                  1,
+                  0
                 ]
               ]
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89392.0,
-            "y": -3883.0,
-            "width": 28.0,
-            "height": 56.0
+            "x": 89392,
+            "y": -3883,
+            "width": 28,
+            "height": 56
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 30.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 30,
+            "height": 60
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 30.0,
-            "y": 60.0
+            "x": 30,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -6258,7 +6346,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -6270,14 +6358,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6287,14 +6375,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6304,14 +6392,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6321,14 +6409,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -6352,36 +6440,36 @@
               "imageTransform": [
                 [
                   0.5,
-                  0.0,
-                  0.0
+                  0,
+                  0
                 ],
                 [
-                  0.0,
-                  1.0,
-                  0.0
+                  0,
+                  1,
+                  0
                 ]
               ]
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89424.0,
-            "y": -3883.0,
-            "width": 28.0,
-            "height": 56.0
+            "x": 89424,
+            "y": -3883,
+            "width": 28,
+            "height": 56
           },
           "absoluteRenderBounds": {
-            "x": 89422.0,
-            "y": -3885.0,
-            "width": 30.0,
-            "height": 60.0
+            "x": 89422,
+            "y": -3885,
+            "width": 30,
+            "height": 60
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 30.0,
-            "y": 60.0
+            "x": 30,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -6393,7 +6481,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -6405,14 +6493,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6422,14 +6510,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6439,14 +6527,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6456,14 +6544,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -6486,12 +6574,12 @@
               "imageRef": "89f495fcae61819f10e05d113b9c44836e642bf0",
               "imageTransform": [
                 [
-                  1.0,
-                  0.0,
-                  0.0
+                  1,
+                  0,
+                  0
                 ],
                 [
-                  0.0,
+                  0,
                   0.5,
                   0.5
                 ]
@@ -6499,24 +6587,24 @@
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89394.0,
-            "y": -3885.0,
-            "width": 56.0,
-            "height": 28.0
+            "x": 89394,
+            "y": -3885,
+            "width": 56,
+            "height": 28
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 30.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 30
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 56.0,
-            "y": 28.0
+            "x": 56,
+            "y": 28
           },
           "constraints": {
             "vertical": "TOP",
@@ -6528,7 +6616,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -6544,10 +6632,10 @@
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6557,14 +6645,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6574,14 +6662,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6591,14 +6679,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -6621,37 +6709,37 @@
               "imageRef": "89f495fcae61819f10e05d113b9c44836e642bf0",
               "imageTransform": [
                 [
-                  1.0,
-                  0.0,
-                  0.0
+                  1,
+                  0,
+                  0
                 ],
                 [
-                  0.0,
+                  0,
                   0.5,
-                  0.0
+                  0
                 ]
               ]
             }
           ],
           "strokes": [],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "CENTER",
           "absoluteBoundingBox": {
-            "x": 89394.0,
-            "y": -3853.0,
-            "width": 56.0,
-            "height": 28.0
+            "x": 89394,
+            "y": -3853,
+            "width": 56,
+            "height": 28
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3855.0,
-            "width": 60.0,
-            "height": 30.0
+            "x": 89392,
+            "y": -3855,
+            "width": 60,
+            "height": 30
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 56.0,
-            "y": 28.0
+            "x": 56,
+            "y": 28
           },
           "constraints": {
             "vertical": "TOP",
@@ -6663,7 +6751,7 @@
               "format": "PNG",
               "constraint": {
                 "type": "SCALE",
-                "value": 1.0
+                "value": 1
               }
             }
           ],
@@ -6675,14 +6763,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": -2.0,
-                "y": 0.0
+                "x": -2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6692,14 +6780,14 @@
                 "r": 0.09803921729326248,
                 "g": 0.09803921729326248,
                 "b": 0.09803921729326248,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": 2.0
+                "x": 0,
+                "y": 2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6709,14 +6797,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 0.0,
-                "y": -2.0
+                "x": 0,
+                "y": -2
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             },
             {
@@ -6726,14 +6814,14 @@
                 "r": 0.9019607901573181,
                 "g": 0.9019607901573181,
                 "b": 0.9019607901573181,
-                "a": 1.0
+                "a": 1
               },
               "blendMode": "NORMAL",
               "offset": {
-                "x": 2.0,
-                "y": 0.0
+                "x": 2,
+                "y": 0
               },
-              "radius": 0.0,
+              "radius": 0,
               "showShadowBehindNode": false
             }
           ],
@@ -6757,28 +6845,28 @@
                 "r": 0.800000011920929,
                 "g": 0.800000011920929,
                 "b": 0.800000011920929,
-                "a": 1.0
+                "a": 1
               }
             }
           ],
-          "strokeWeight": 2.0,
+          "strokeWeight": 2,
           "strokeAlign": "INSIDE",
           "absoluteBoundingBox": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "absoluteRenderBounds": {
-            "x": 89392.0,
-            "y": -3885.0,
-            "width": 60.0,
-            "height": 60.0
+            "x": 89392,
+            "y": -3885,
+            "width": 60,
+            "height": 60
           },
           "preserveRatio": true,
           "targetAspectRatio": {
-            "x": 60.0,
-            "y": 60.0
+            "x": 60,
+            "y": 60
           },
           "constraints": {
             "vertical": "TOP",
@@ -6796,25 +6884,25 @@
       "background": [],
       "fills": [],
       "strokes": [],
-      "strokeWeight": 1.0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "backgroundColor": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
       },
       "absoluteBoundingBox": {
-        "x": 89392.0,
-        "y": -3885.0,
-        "width": 60.0,
-        "height": 60.0
+        "x": 89392,
+        "y": -3885,
+        "width": 60,
+        "height": 60
       },
       "absoluteRenderBounds": {
-        "x": 89392.0,
-        "y": -3885.0,
-        "width": 60.0,
-        "height": 60.0
+        "x": 89392,
+        "y": -3885,
+        "width": 60,
+        "height": 60
       },
       "constraints": {
         "vertical": "TOP",
@@ -6842,24 +6930,24 @@
         }
       ],
       "strokes": [],
-      "strokeWeight": 1.0,
+      "strokeWeight": 1,
       "strokeAlign": "INSIDE",
       "absoluteBoundingBox": {
-        "x": 91054.0,
-        "y": -4563.0,
-        "width": 96.0,
-        "height": 96.0
+        "x": 91054,
+        "y": -4563,
+        "width": 96,
+        "height": 96
       },
       "absoluteRenderBounds": {
-        "x": 91046.0,
-        "y": -4567.0,
-        "width": 112.0,
-        "height": 112.0
+        "x": 91046,
+        "y": -4567,
+        "width": 112,
+        "height": 112
       },
       "preserveRatio": true,
       "targetAspectRatio": {
-        "x": 200.0,
-        "y": 200.0
+        "x": 200,
+        "y": 200
       },
       "constraints": {
         "vertical": "TOP",
@@ -6873,14 +6961,14 @@
             "r": 0.5960784554481506,
             "g": 0.6823529601097107,
             "b": 0.5372549295425415,
-            "a": 1.0
+            "a": 1
           },
           "blendMode": "NORMAL",
           "offset": {
-            "x": 0.0,
-            "y": 4.0
+            "x": 0,
+            "y": 4
           },
-          "radius": 8.0,
+          "radius": 8,
           "showShadowBehindNode": false
         }
       ],
@@ -6895,25 +6983,25 @@
   "background": [],
   "fills": [],
   "strokes": [],
-  "strokeWeight": 1.0,
+  "strokeWeight": 1,
   "strokeAlign": "INSIDE",
   "backgroundColor": {
-    "r": 0.0,
-    "g": 0.0,
-    "b": 0.0,
-    "a": 0.0
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
   },
   "absoluteBoundingBox": {
-    "x": 87532.0,
-    "y": -4785.0,
-    "width": 3840.0,
-    "height": 2160.0
+    "x": 87532,
+    "y": -4785,
+    "width": 3840,
+    "height": 2160
   },
   "absoluteRenderBounds": {
-    "x": 87532.0,
-    "y": -4785.0,
-    "width": 3840.0,
-    "height": 2160.0
+    "x": 87532,
+    "y": -4785,
+    "width": 3840,
+    "height": 2160
   },
   "constraints": {
     "vertical": "TOP",
@@ -6925,7 +7013,7 @@
       "format": "JPG",
       "constraint": {
         "type": "SCALE",
-        "value": 1.0
+        "value": 1
       }
     }
   ],

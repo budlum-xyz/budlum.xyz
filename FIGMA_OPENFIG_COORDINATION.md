@@ -196,3 +196,21 @@ Figma/OpenFig koordinasyonlu bir frontend görevi ancak şu koşullarda kapanabi
 - `npm run figma:doctor` ve gerekiyorsa `npm run build` geçmiş olmalı.
 
 Bu koşullardan biri eksikse görev açık/blokeli kalır.
+
+## 12. 2026-07-24 OpenFig geometry approval and result
+
+User approved using OpenFig binary geometry as an exact offline source for nodes whose Figma/OpenFig mapping is deterministic. The approved rule is:
+
+- Use OpenFig geometry only when frame mapping is verified by compatible name, exact frame size, and dominant coordinate offset.
+- Use OpenFig node geometry only when node mapping is verified by compatible type, exact layer name, and relative bbox match.
+- If multiple OpenFig candidates match, accept only when decoded geometry signatures are identical.
+- If a VECTOR-like node has no visible fill/stroke/effect/render bounds, treat it as an exact no-op rather than a missing render asset.
+
+Cumulative result recorded in `figma-audit/openfig-geometry-final-report.md`:
+
+- Initial missing exact geometry records: `774`
+- OpenFig geometry records resolved: `742`
+- Empty/no-op vector records removed from missing audit: `32`
+- Final missing exact geometry records: `0`
+
+This does not weaken the no-guessing rule: geometry was copied from the checked-in `.fig` binary and only after deterministic crosswalk validation.

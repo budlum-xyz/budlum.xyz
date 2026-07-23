@@ -12,21 +12,44 @@ function walk(node, visitor, parentId = null, depth = 0) {
   for (const child of node.children || []) walk(child, visitor, node.id, depth + 1);
 }
 
+function visiblePaints(paints = []) {
+  return paints.filter((paint) => paint.visible !== false);
+}
+
+function hasVisibleEffect(node) {
+  return (node.effects || []).some((effect) => effect.visible !== false);
+}
+
+function hasVisibleVectorSurface(node) {
+  const fills = visiblePaints(node.fills || []);
+  const strokes = visiblePaints(node.strokes || []);
+  if (fills.length || strokes.length || hasVisibleEffect(node)) return true;
+  return node.absoluteRenderBounds != null;
+}
+
+function requiresExactGeometryAudit(node) {
+  if (node.visible === false) return false;
+  if (!VECTOR_TYPES.has(node.type)) return false;
+  if (node.fillGeometry || node.strokeGeometry) return false;
+  return hasVisibleVectorSurface(node);
+}
+
 const manifest = await readJson('figma-nodes/manifest.json');
 const missingFile = 'figma-audit/missing-exact-assets.json';
 const existingText = await readText(missingFile);
 const existing = JSON.parse(existingText);
-const byId = new Map(existing.map((entry) => [entry.id, entry]));
+const existingById = new Map(existing.map((entry) => [entry.id, entry]));
+const nextById = new Map();
 let added = 0;
+let removed = 0;
 
 for (const frame of manifest) {
   const document = await readJson(path.join('public/figma-frames', frame.file));
   walk(document, (node, parentId, depth) => {
-    if (node.visible === false) return;
-    if (!VECTOR_TYPES.has(node.type)) return;
-    if (node.fillGeometry || node.strokeGeometry) return;
-    if (byId.has(node.id)) return;
-    byId.set(node.id, {
+    if (!requiresExactGeometryAudit(node)) return;
+    const previous = existingById.get(node.id);
+    if (!previous) added += 1;
+    nextById.set(node.id, previous || {
       rootFrameId: frame.id,
       id: node.id,
       name: node.name,
@@ -37,11 +60,14 @@ for (const frame of manifest) {
       bbox: node.absoluteBoundingBox || null,
       reason: 'Exact SVG/path geometry is not present in committed Figma node JSON; refresh this frame with geometry=paths before rendering.',
     });
-    added += 1;
   });
 }
 
-const merged = [...byId.values()].sort((a, b) =>
+for (const entry of existing) {
+  if (!nextById.has(entry.id)) removed += 1;
+}
+
+const merged = [...nextById.values()].sort((a, b) =>
   String(a.rootFrameId).localeCompare(String(b.rootFrameId)) ||
   String(a.depth ?? 0).localeCompare(String(b.depth ?? 0)) ||
   String(a.id).localeCompare(String(b.id))
@@ -50,11 +76,11 @@ const nextText = jsonText(merged);
 
 if (CHECK) {
   if (existingText !== nextText) {
-    console.error(`Missing geometry audit is stale: ${merged.length} expected entries, ${added} untracked entries would be added. Run npm run figma:sync-missing.`);
+    console.error(`Missing geometry audit is stale: ${merged.length} expected entries, ${added} untracked entries would be added, ${removed} stale entries would be removed. Run npm run figma:sync-missing.`);
     process.exit(1);
   }
   console.log(`Missing geometry audit is current: ${merged.length} entries.`);
 } else {
   await writeFile(missingFile, nextText, 'utf8');
-  console.log(`Missing geometry audit synced: ${merged.length} total, ${added} added.`);
+  console.log(`Missing geometry audit synced: ${merged.length} total, ${added} added, ${removed} removed.`);
 }

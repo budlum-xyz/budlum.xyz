@@ -1,0 +1,46 @@
+{
+  "generatedFrom": [
+    "tools/design-import/fixtures/untitled.fig",
+    "figma-audit/missing-exact-assets.json",
+    "figma-audit/render-coverage-summary.json"
+  ],
+  "source": {
+    "openFigFile": "tools/design-import/fixtures/untitled.fig",
+    "openFigNodesParsed": 25658,
+    "openFigBlobsParsed": 1299,
+    "dominantCoordinateOffset": {
+      "dx": 19146,
+      "dy": -27147,
+      "supportingFrameMappings": 39
+    }
+  },
+  "matchingPolicy": {
+    "frameMapping": "Compatible frame name + exact width/height + dominant coordinate offset.",
+    "nodeMapping": "Compatible type + exact layer name + relative bbox within tolerance.",
+    "ambiguityRule": "Ambiguous candidates are accepted only when decoded geometry signatures are identical.",
+    "noGuessing": true
+  },
+  "cumulativeOutcome": {
+    "initialMissingExactGeometryRecords": 774,
+    "openFigGeometryRecordsResolvedInMainPass": 738,
+    "previouslyResolvedRecordsReappliedForTransformMetadata": 738,
+    "duplicateRegularPolygonRecordsResolvedByIdenticalGeometrySignatures": 4,
+    "emptyNoopVectorLikeRecordsRemovedFromMissingAudit": 32,
+    "finalMissingExactGeometryRecords": 0
+  },
+  "finalRenderCoverage": {
+    "frames": 39,
+    "totalNodes": 15530,
+    "exactVectorGeometryNodes": 790,
+    "exactLeafGeometryNodes": 1477,
+    "skippedMissingGeometryNodes": 0,
+    "emptyNoopVectorLikeNodes": 36,
+    "remainingRefreshPlanFrames": 0,
+    "remainingRefreshPlanRecords": 0
+  },
+  "validation": {
+    "localFigmaDoctor": "passed",
+    "localBuild": "passed",
+    "ciFinalGate": "pending"
+  }
+}

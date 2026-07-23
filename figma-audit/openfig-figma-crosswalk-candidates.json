@@ -1,0 +1,1144 @@
+{
+  "generatedFrom": [
+    "tools/design-import/fixtures/untitled.fig",
+    "figma-nodes/manifest.json"
+  ],
+  "dominantOffset": {
+    "dx": 19146,
+    "dy": -27147,
+    "support": 39
+  },
+  "frameCandidates": [
+    {
+      "frameId": "2223:54",
+      "frameName": "kullanıcı bir cüzdanı açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:183",
+          "openFrameName": "kullanıcı bir cüzdanı açtı",
+          "openFrameBbox": {
+            "x": 72697,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2223:54",
+          "figmaFrameName": "kullanıcı bir cüzdanı açtı",
+          "figmaFrameBbox": {
+            "x": 91843,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2446:824",
+      "frameName": "kullanıcı boş bir cüzdanı açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:1069",
+          "openFrameName": "kullanıcı boş bir cüzdanı açtı",
+          "openFrameBbox": {
+            "x": 77187,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2446:824",
+          "figmaFrameName": "kullanıcı boş bir cüzdanı açtı",
+          "figmaFrameBbox": {
+            "x": 96333,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2377:22",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:1856",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 52815,
+            "y": 26303,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2377:22",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 71961,
+            "y": -844,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2580:197",
+      "frameName": "tokens yazısına tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:2063",
+          "openFrameName": "tokens yazısına tıkladı",
+          "openFrameBbox": {
+            "x": 56695,
+            "y": 26303,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2580:197",
+          "figmaFrameName": "tokens yazısına tıkladı",
+          "figmaFrameBbox": {
+            "x": 75841,
+            "y": -844,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "3317:788",
+      "frameName": "nft yazısına tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:2270",
+          "openFrameName": "nft yazısına tıkladı",
+          "openFrameBbox": {
+            "x": 64455,
+            "y": 26303,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "3317:788",
+          "figmaFrameName": "nft yazısına tıkladı",
+          "figmaFrameBbox": {
+            "x": 83601,
+            "y": -844,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2614:402",
+      "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+      "candidates": [
+        {
+          "openFrameId": "1:2438",
+          "openFrameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+          "openFrameBbox": {
+            "x": 60575,
+            "y": 26303,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2614:402",
+          "figmaFrameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+          "figmaFrameBbox": {
+            "x": 79721,
+            "y": -844,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2667:32",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "candidates": [
+        {
+          "openFrameId": "1:2931",
+          "openFrameName": "budlum.xyz ye giriş yaptı",
+          "openFrameBbox": {
+            "x": 52815,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2667:32",
+          "figmaFrameName": "budlum.xyz ye giriş yaptı",
+          "figmaFrameBbox": {
+            "x": 71961,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2856:4578",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "candidates": [
+        {
+          "openFrameId": "1:3154",
+          "openFrameName": "giriş budlum.xyz ye giriş yaptı",
+          "openFrameBbox": {
+            "x": 52502,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2856:4578",
+          "figmaFrameName": "budlum.xyz ye giriş yaptı",
+          "figmaFrameBbox": {
+            "x": 71648,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "candidates": [
+        {
+          "openFrameId": "1:3454",
+          "openFrameName": "budlum.xyzde fareyle gezilirken",
+          "openFrameBbox": {
+            "x": 48504,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2972:2406",
+          "figmaFrameName": "budlum.xyzde fareyle gezilirken",
+          "figmaFrameBbox": {
+            "x": 67650,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:3691",
+          "openFrameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 60262,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2870:4251",
+          "figmaFrameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 79408,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:3961",
+          "openFrameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 64142,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2971:1324",
+          "figmaFrameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 83288,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:4238",
+          "openFrameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 68022,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2971:1618",
+          "figmaFrameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 87168,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:4564",
+          "openFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 60222,
+            "y": 15699,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2921:712",
+          "figmaFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 79368,
+            "y": -11448,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:4709",
+          "openFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 71862,
+            "y": 15699,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2967:528",
+          "figmaFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 91008,
+            "y": -11448,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:5091",
+          "openFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 67982,
+            "y": 15699,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2961:886",
+          "figmaFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 87128,
+            "y": -11448,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:5443",
+          "openFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "openFrameBbox": {
+            "x": 64102,
+            "y": 15699,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2961:486",
+          "figmaFrameName": "token aratılıyken parıltı butonuna tıkladı",
+          "figmaFrameBbox": {
+            "x": 83248,
+            "y": -11448,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "candidates": [
+        {
+          "openFrameId": "1:5823",
+          "openFrameName": "Bir kullanıcının cüzdanını arattı",
+          "openFrameBbox": {
+            "x": 56382,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2870:3749",
+          "figmaFrameName": "Bir kullanıcının cüzdanını arattı",
+          "figmaFrameBbox": {
+            "x": 75528,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2667:256",
+      "frameName": "herhangi bir yere tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:6757",
+          "openFrameName": "herhangi bir yere tıkladı",
+          "openFrameBbox": {
+            "x": 56603,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2667:256",
+          "figmaFrameName": "herhangi bir yere tıkladı",
+          "figmaFrameBbox": {
+            "x": 75749,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2671:814",
+      "frameName": "tohum tümcecikleri kaydet",
+      "candidates": [
+        {
+          "openFrameId": "1:6898",
+          "openFrameName": "tohum tümcecikleri kaydet",
+          "openFrameBbox": {
+            "x": 60575,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2671:814",
+          "figmaFrameName": "tohum tümcecikleri kaydet",
+          "figmaFrameBbox": {
+            "x": 79721,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2977:1028",
+      "frameName": "tohum tümcecikleri kaydet",
+      "candidates": [
+        {
+          "openFrameId": "1:7111",
+          "openFrameName": "tohum tümcecikleri kaydet",
+          "openFrameBbox": {
+            "x": 64455,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2977:1028",
+          "figmaFrameName": "tohum tümcecikleri kaydet",
+          "figmaFrameBbox": {
+            "x": 83601,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2671:1094",
+      "frameName": "ilk önce Bud tokenına ihtiyacın var",
+      "candidates": [
+        {
+          "openFrameId": "1:7315",
+          "openFrameName": "ilk önce Bud tokenına ihtiyacın var",
+          "openFrameBbox": {
+            "x": 68386,
+            "y": 22362,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2671:1094",
+          "figmaFrameName": "ilk önce Bud tokenına ihtiyacın var",
+          "figmaFrameBbox": {
+            "x": 87532,
+            "y": -4785,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2395:169",
+      "frameName": "budlum.xyz",
+      "candidates": [
+        {
+          "openFrameId": "1:7398",
+          "openFrameName": "budlum.xyz",
+          "openFrameBbox": {
+            "x": 56695,
+            "y": 33164,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2395:169",
+          "figmaFrameName": "budlum.xyz",
+          "figmaFrameBbox": {
+            "x": 75841,
+            "y": 6017,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2501:2814",
+      "frameName": "kullanıcı transferleri aç yerine tıkaldı",
+      "candidates": [
+        {
+          "openFrameId": "1:8625",
+          "openFrameName": "kullanıcı transferleri aç yerine tıkaldı",
+          "openFrameBbox": {
+            "x": 56695,
+            "y": 28590,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2501:2814",
+          "figmaFrameName": "kullanıcı transferleri aç yerine tıkaldı",
+          "figmaFrameBbox": {
+            "x": 75841,
+            "y": 1443,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2413:2181",
+      "frameName": "market",
+      "candidates": [
+        {
+          "openFrameId": "1:9179",
+          "openFrameName": "market",
+          "openFrameBbox": {
+            "x": 56695,
+            "y": 30877,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2413:2181",
+          "figmaFrameName": "market",
+          "figmaFrameBbox": {
+            "x": 75841,
+            "y": 3730,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2306:6",
+      "frameName": "budlum.xyz",
+      "candidates": [
+        {
+          "openFrameId": "1:9400",
+          "openFrameName": "budlum.xyz",
+          "openFrameBbox": {
+            "x": 56695,
+            "y": 38221,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2306:6",
+          "figmaFrameName": "budlum.xyz",
+          "figmaFrameBbox": {
+            "x": 75841,
+            "y": 11074,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2277:28",
+      "frameName": "revaştakiler",
+      "candidates": [
+        {
+          "openFrameId": "1:9481",
+          "openFrameName": "revaştakiler",
+          "openFrameBbox": {
+            "x": 56695,
+            "y": 35451,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2277:28",
+          "figmaFrameName": "revaştakiler",
+          "figmaFrameBbox": {
+            "x": 75841,
+            "y": 8304,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2569:149",
+      "frameName": "depo",
+      "candidates": [
+        {
+          "openFrameId": "1:10601",
+          "openFrameName": "depo",
+          "openFrameBbox": {
+            "x": 51896,
+            "y": 2929,
+            "width": 8218,
+            "height": 1579
+          },
+          "figmaFrameId": "2569:149",
+          "figmaFrameName": "depo",
+          "figmaFrameBbox": {
+            "x": 71042,
+            "y": -24218,
+            "width": 8218,
+            "height": 1579
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2873:4453",
+      "frameName": "budlum.xyz",
+      "candidates": [
+        {
+          "openFrameId": "1:17675",
+          "openFrameName": "budlum.xyz",
+          "openFrameBbox": {
+            "x": 56303,
+            "y": 15699,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2873:4453",
+          "figmaFrameName": "budlum.xyz",
+          "figmaFrameBbox": {
+            "x": 75449,
+            "y": -11448,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "3099:1056",
+      "frameName": "budlum.xyz",
+      "candidates": [
+        {
+          "openFrameId": "1:18271",
+          "openFrameName": "budlum.xyz",
+          "openFrameBbox": {
+            "x": 71977,
+            "y": 13220,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "3099:1056",
+          "figmaFrameName": "budlum.xyz",
+          "figmaFrameBbox": {
+            "x": 91123,
+            "y": -13927,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2901:266",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:18864",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 56690,
+            "y": 9578,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2901:266",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 75836,
+            "y": -17569,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2907:1281",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:19067",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 72958,
+            "y": 5240,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2907:1281",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 92104,
+            "y": -21907,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2901:704",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:19269",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 60770,
+            "y": 9578,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2901:704",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 79916,
+            "y": -17569,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2902:961",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:19433",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 64650,
+            "y": 9578,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2902:961",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 83796,
+            "y": -17569,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2972:3658",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:19584",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 72707,
+            "y": 10658,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2972:3658",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 91853,
+            "y": -16489,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2972:4204",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:19731",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 80467,
+            "y": 10658,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2972:4204",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 99613,
+            "y": -16489,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2972:3858",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "candidates": [
+        {
+          "openFrameId": "1:19878",
+          "openFrameName": "kullanıcı kendi cüzdanını açtı",
+          "openFrameBbox": {
+            "x": 76587,
+            "y": 10658,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2972:3858",
+          "figmaFrameName": "kullanıcı kendi cüzdanını açtı",
+          "figmaFrameBbox": {
+            "x": 95733,
+            "y": -16489,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "candidates": [
+        {
+          "openFrameId": "1:20025",
+          "openFrameName": "budlum.xyz ye giriş yaptı",
+          "openFrameBbox": {
+            "x": 68784,
+            "y": 8434,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2903:345",
+          "figmaFrameName": "budlum.xyz ye giriş yaptı",
+          "figmaFrameBbox": {
+            "x": 87930,
+            "y": -18713,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "candidates": [
+        {
+          "openFrameId": "1:20441",
+          "openFrameName": "Zaten bir cüzdanım vara tıkladı",
+          "openFrameBbox": {
+            "x": 72707,
+            "y": 8434,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2900:600",
+          "figmaFrameName": "Zaten bir cüzdanım vara tıkladı",
+          "figmaFrameBbox": {
+            "x": 91853,
+            "y": -18713,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "frameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "candidates": [
+        {
+          "openFrameId": "1:20637",
+          "openFrameName": "budlum.xyz ye giriş yaptı",
+          "openFrameBbox": {
+            "x": 76587,
+            "y": 8434,
+            "width": 3840,
+            "height": 2160
+          },
+          "figmaFrameId": "2904:826",
+          "figmaFrameName": "budlum.xyz ye giriş yaptı",
+          "figmaFrameBbox": {
+            "x": 95733,
+            "y": -18713,
+            "width": 3840,
+            "height": 2160
+          },
+          "delta": {
+            "dx": 19146,
+            "dy": -27147
+          },
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
