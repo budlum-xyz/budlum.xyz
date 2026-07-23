@@ -187,6 +187,23 @@ Do not work around this by approximating SVG/vector nodes.
 
 
 
+
+## Printing the next safe refresh batch
+
+To avoid manually copying stale frame lists, print the next generated batch with:
+
+```bash
+npm run figma:next
+```
+
+Print a later batch with:
+
+```bash
+npm run figma:next -- --batch=2
+```
+
+This command does not call Figma and does not need a token. It only reads `figma-audit/remaining-exact-assets-plan.json`.
+
 ## Syncing committed missing-geometry audit
 
 If renderer coverage finds VECTOR-like nodes without exact path geometry that are not yet listed in `figma-audit/missing-exact-assets.json`, sync the audit without calling Figma:
