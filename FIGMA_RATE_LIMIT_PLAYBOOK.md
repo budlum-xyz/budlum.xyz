@@ -185,6 +185,22 @@ If even one small frame returns `429` after several retries:
 
 Do not work around this by approximating SVG/vector nodes.
 
+
+## Regenerating the remaining-frame plan
+
+When `figma-audit/missing-exact-assets.json` changes, regenerate the recommended refresh order with:
+
+```bash
+npm run figma:plan
+```
+
+This writes:
+
+- `figma-audit/remaining-exact-assets-plan.json`
+- `figma-audit/remaining-exact-assets-plan.md`
+
+The plan sorts frames from smallest missing exact asset count to largest so agents can make progress before the Figma limit is exhausted.
+
 ## Important security rule
 
 Never write real tokens into this file or any other repo file.
