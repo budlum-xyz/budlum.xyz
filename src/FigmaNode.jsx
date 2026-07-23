@@ -66,7 +66,21 @@ function cssBoxShadow(effects = []) {
   return shadows.length ? shadows.join(', ') : undefined;
 }
 
-function baseStyle(node, rootBox, imageFills) {
+function transformStyleForNode(node, isRoot) {
+  if (isRoot || !Array.isArray(node.relativeTransform) || node.relativeTransform.length !== 2 || !node.size) return null;
+  const [[a, c, tx], [b, d, ty]] = node.relativeTransform;
+  if (![a, b, c, d, tx, ty].every(Number.isFinite)) return null;
+  return {
+    left: 0,
+    top: 0,
+    width: node.size.x,
+    height: node.size.y,
+    transform: `matrix(${a}, ${b}, ${c}, ${d}, ${tx}, ${ty})`,
+    transformOrigin: 'top left',
+  };
+}
+
+function baseStyle(node, parentBox, imageFills, isRoot = false) {
   const box = node.absoluteBoundingBox;
   if (!box) return { display: 'contents' };
 
@@ -77,12 +91,15 @@ function baseStyle(node, rootBox, imageFills) {
   const imageUrl = imageUrlForPaint(imageFill, imageFills);
   const imageSizing = imageSizingForPaint(imageFill);
 
+  const transformStyle = transformStyleForNode(node, isRoot);
   const style = {
     position: 'absolute',
-    left: box.x - rootBox.x,
-    top: box.y - rootBox.y,
-    width: box.width,
-    height: box.height,
+    left: transformStyle?.left ?? (isRoot ? 0 : box.x - parentBox.x),
+    top: transformStyle?.top ?? (isRoot ? 0 : box.y - parentBox.y),
+    width: transformStyle?.width ?? box.width,
+    height: transformStyle?.height ?? box.height,
+    transform: transformStyle?.transform,
+    transformOrigin: transformStyle?.transformOrigin,
     opacity: node.opacity ?? 1,
     overflow: node.clipsContent ? 'hidden' : undefined,
     mixBlendMode: node.blendMode && !['NORMAL', 'PASS_THROUGH'].includes(node.blendMode) ? node.blendMode.toLowerCase() : undefined,
@@ -112,8 +129,8 @@ function baseStyle(node, rootBox, imageFills) {
   return style;
 }
 
-function textStyle(node, rootBox, imageFills) {
-  const style = baseStyle(node, rootBox, imageFills);
+function textStyle(node, parentBox, imageFills, isRoot = false) {
+  const style = baseStyle(node, parentBox, imageFills, isRoot);
   const text = node.style || {};
   const fill = firstVisiblePaint(node.fills || [], 'SOLID');
   return {
@@ -166,10 +183,10 @@ function renderGeometryPaths(paths = [], paint, fallbackColor) {
   ));
 }
 
-function FigmaGeometryNode({ node, root, imageFills }) {
+function FigmaGeometryNode({ node, parentBox, imageFills, isRoot = false }) {
   const box = node.absoluteBoundingBox;
   if (!box) return null;
-  const style = baseStyle(node, root, imageFills);
+  const style = baseStyle(node, parentBox, imageFills, isRoot);
   delete style.background;
   delete style.backgroundColor;
   delete style.backgroundImage;
@@ -179,6 +196,8 @@ function FigmaGeometryNode({ node, root, imageFills }) {
   delete style.border;
   style.overflow = 'visible';
 
+  const viewBoxWidth = node.size?.x ?? box.width;
+  const viewBoxHeight = node.size?.y ?? box.height;
   const fillPaint = firstVisiblePaint(node.fills || [], 'SOLID');
   const strokePaint = firstVisiblePaint(node.strokes || [], 'SOLID');
   return (
@@ -186,7 +205,7 @@ function FigmaGeometryNode({ node, root, imageFills }) {
       data-figma-id={node.id}
       data-figma-name={node.name}
       data-figma-type={node.type}
-      viewBox={`0 0 ${box.width} ${box.height}`}
+      viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`}
       preserveAspectRatio="none"
       style={style}
       aria-hidden="true"
@@ -197,29 +216,29 @@ function FigmaGeometryNode({ node, root, imageFills }) {
   );
 }
 
-export function FigmaNode({ node, root, imageFills, onAction }) {
+export function FigmaNode({ node, parentBox, imageFills, onAction, isRoot = false }) {
   if (!node || node.visible === false) return null;
 
   if (VECTOR_TYPES.has(node.type)) {
-    if (hasExactGeometry(node)) return <FigmaGeometryNode node={node} root={root} imageFills={imageFills} />;
+    if (hasExactGeometry(node)) return <FigmaGeometryNode node={node} parentBox={parentBox} imageFills={imageFills} isRoot={isRoot} />;
     // Exact geometry was not present in the Figma payload; do not approximate VECTOR-like nodes.
     return null;
   }
 
   if (shouldRenderExactLeafGeometry(node)) {
-    return <FigmaGeometryNode node={node} root={root} imageFills={imageFills} />;
+    return <FigmaGeometryNode node={node} parentBox={parentBox} imageFills={imageFills} isRoot={isRoot} />;
   }
 
   if (node.type === 'TEXT') {
     return (
-      <span data-figma-id={node.id} data-figma-name={node.name} style={textStyle(node, root, imageFills)}>
+      <span data-figma-id={node.id} data-figma-name={node.name} data-figma-type={node.type} style={textStyle(node, parentBox, imageFills, isRoot)}>
         {node.characters}
       </span>
     );
   }
 
   const children = node.children || [];
-  const style = baseStyle(node, root, imageFills);
+  const style = baseStyle(node, parentBox, imageFills, isRoot);
   const imagePaint = firstVisiblePaint(node.fills || node.background || [], 'IMAGE');
   const imageUrl = imageUrlForPaint(imagePaint, imageFills);
   const imageSizing = imageSizingForPaint(imagePaint);
@@ -257,7 +276,7 @@ export function FigmaNode({ node, root, imageFills, onAction }) {
       onClick={interactive ? () => onAction?.({ nodeId: node.id, name: node.name, interactions: node.interactions }) : undefined}
     >
       {children.map((child) => (
-        <FigmaNode key={child.id} node={child} root={root} imageFills={imageFills} onAction={onAction} />
+        <FigmaNode key={child.id} node={child} parentBox={node.absoluteBoundingBox || parentBox} imageFills={imageFills} onAction={onAction} />
       ))}
     </Tag>
   );
@@ -303,7 +322,7 @@ export function FigmaFrame({ source, onAction }) {
 
   return (
     <div className="figma-frame" style={viewportStyle}>
-      <FigmaNode node={frame} root={rootBox} imageFills={imageFills} onAction={onAction} />
+      <FigmaNode node={frame} parentBox={rootBox} imageFills={imageFills} onAction={onAction} isRoot />
     </div>
   );
 }
