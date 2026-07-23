@@ -5,6 +5,8 @@ import './styles.css';
 const MANIFEST = '/figma-frames/manifest.json';
 const frameModules = import.meta.glob('./frames/Frame*.jsx');
 const componentName = (id) => `Frame${id.replace(':', '_')}`;
+const hashForFrame = (id) => `#frame=${encodeURIComponent(id)}`;
+const frameFromHash = () => new URLSearchParams(window.location.hash.slice(1)).get('frame') || '';
 
 function frameMatchesQuery(frame, query) {
   if (!query.trim()) return true;
@@ -14,7 +16,7 @@ function frameMatchesQuery(frame, query) {
 
 function App() {
   const [manifest, setManifest] = useState([]);
-  const [selected, setSelected] = useState('');
+  const [selected, setSelected] = useState(frameFromHash());
   const [query, setQuery] = useState('');
   const [message, setMessage] = useState(null);
 
@@ -23,8 +25,17 @@ function App() {
       .then((response) => response.json())
       .then((items) => {
         setManifest(items);
-        setSelected((current) => current || items[0]?.id || '');
+        setSelected((current) => current || frameFromHash() || items[0]?.id || '');
       });
+  }, []);
+
+  useEffect(() => {
+    const onHashChange = () => {
+      const next = frameFromHash();
+      if (next) setSelected(next);
+    };
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
   }, []);
 
   const visibleFrames = useMemo(() => manifest.filter((frame) => frameMatchesQuery(frame, query)), [manifest, query]);
@@ -36,8 +47,17 @@ function App() {
   }, [entry]);
 
   useEffect(() => {
-    if (entry && selected !== entry.id) setSelected(entry.id);
+    if (!entry) return;
+    if (selected !== entry.id) setSelected(entry.id);
+    if (window.location.hash !== hashForFrame(entry.id)) {
+      window.history.replaceState(null, '', hashForFrame(entry.id));
+    }
   }, [entry, selected]);
+
+  const selectFrame = (id) => {
+    setSelected(id);
+    window.history.replaceState(null, '', hashForFrame(id));
+  };
 
   return <div className="studio">
     <aside>
@@ -49,7 +69,7 @@ function App() {
         placeholder="Frame ara…"
         aria-label="Frame ara"
       />
-      <select value={entry?.id || selected} onChange={(event) => setSelected(event.target.value)} size={Math.min(Math.max(visibleFrames.length, 2), 12)}>
+      <select value={entry?.id || selected} onChange={(event) => selectFrame(event.target.value)} size={Math.min(Math.max(visibleFrames.length, 2), 12)}>
         {visibleFrames.map((item) => <option key={item.id} value={item.id}>{item.id} — {item.name}</option>)}
       </select>
       {entry && <small>{entry.nodeCount} ayrı Figma node’u · kaynak: {componentName(entry.id)}</small>}
