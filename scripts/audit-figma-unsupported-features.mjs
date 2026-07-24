@@ -29,6 +29,14 @@ function isSupportedImageTransform(transform) {
   return Math.abs(skewX || 0) < 0.000001 && Math.abs(skewY || 0) < 0.000001;
 }
 
+function visibleStrokes(node) {
+  return (node.strokes || []).filter((stroke) => stroke.visible !== false);
+}
+
+function hasExactStrokeGeometry(node) {
+  return Array.isArray(node.strokeGeometry) && node.strokeGeometry.length > 0;
+}
+
 function stableJson(value) {
   if (value == null || typeof value !== 'object') return JSON.stringify(value);
   if (Array.isArray(value)) return `[${value.map(stableJson).join(',')}]`;
@@ -73,11 +81,25 @@ for (const frame of manifest) {
         pushFeature(features, 'nonDiagonalImageTransform', frame, node, parentId, depth, { imageTransform: paint.imageTransform });
       }
     }
-    for (const stroke of node.strokes || []) {
-      if (stroke.visible === false) continue;
+    const strokes = visibleStrokes(node);
+    for (const stroke of strokes) {
       if (stroke.type !== 'SOLID') {
         pushFeature(features, 'unsupportedStrokeType', frame, node, parentId, depth, { strokeType: stroke.type });
       }
+    }
+    if (node.type === 'TEXT' && strokes.length) {
+      pushFeature(features, 'textStrokeNotRendered', frame, node, parentId, depth, {
+        strokeAlign: node.strokeAlign || null,
+        strokeWeight: node.strokeWeight || 0,
+        strokeTypes: strokes.map((stroke) => stroke.type),
+      });
+    }
+    if (node.type !== 'TEXT' && strokes.length && node.strokeAlign && node.strokeAlign !== 'INSIDE' && !hasExactStrokeGeometry(node)) {
+      pushFeature(features, 'nonInsideStrokeAlignNotRenderedExactly', frame, node, parentId, depth, {
+        strokeAlign: node.strokeAlign,
+        strokeWeight: node.strokeWeight || 0,
+        strokeTypes: strokes.map((stroke) => stroke.type),
+      });
     }
     for (const effect of node.effects || []) {
       if (effect.visible === false) continue;

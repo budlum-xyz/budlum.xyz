@@ -4,57 +4,85 @@
     "public/figma-frames/*.json"
   ],
   "purpose": "Documents Figma REST features that are intentionally not rendered until an exact implementation exists. Do not approximate these silently.",
-  "totalUnsupportedFeatureRecords": 25,
+  "totalUnsupportedFeatureRecords": 92,
   "byKind": {
+    "textStrokeNotRendered": 36,
+    "nonInsideStrokeAlignNotRenderedExactly": 31,
     "imageFiltersNotRendered": 25
   },
   "byFrame": {
+    "2972:2406": {
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "count": 30,
+      "kinds": {
+        "textStrokeNotRendered": 3,
+        "nonInsideStrokeAlignNotRenderedExactly": 27
+      }
+    },
     "2870:4251": {
       "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
-      "count": 3,
+      "count": 6,
       "kinds": {
+        "textStrokeNotRendered": 3,
         "imageFiltersNotRendered": 3
       }
     },
     "2971:1324": {
       "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
-      "count": 3,
+      "count": 6,
       "kinds": {
+        "textStrokeNotRendered": 3,
         "imageFiltersNotRendered": 3
       }
     },
     "2971:1618": {
       "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
-      "count": 6,
+      "count": 9,
       "kinds": {
+        "textStrokeNotRendered": 3,
         "imageFiltersNotRendered": 6
+      }
+    },
+    "2921:712": {
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "count": 4,
+      "kinds": {
+        "textStrokeNotRendered": 3,
+        "nonInsideStrokeAlignNotRenderedExactly": 1
       }
     },
     "2967:528": {
       "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "count": 3,
+      "count": 7,
       "kinds": {
+        "textStrokeNotRendered": 3,
+        "nonInsideStrokeAlignNotRenderedExactly": 1,
         "imageFiltersNotRendered": 3
       }
     },
     "2961:886": {
       "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "count": 3,
+      "count": 7,
       "kinds": {
+        "textStrokeNotRendered": 3,
+        "nonInsideStrokeAlignNotRenderedExactly": 1,
         "imageFiltersNotRendered": 3
       }
     },
     "2961:486": {
       "frameName": "token aratılıyken parıltı butonuna tıkladı",
-      "count": 3,
+      "count": 7,
       "kinds": {
+        "textStrokeNotRendered": 3,
+        "nonInsideStrokeAlignNotRenderedExactly": 1,
         "imageFiltersNotRendered": 3
       }
     },
     "2870:3749": {
       "frameName": "Bir kullanıcının cüzdanını arattı",
-      "count": 3,
+      "count": 6,
       "kinds": {
+        "textStrokeNotRendered": 3,
         "imageFiltersNotRendered": 3
       }
     },
@@ -64,9 +92,789 @@
       "kinds": {
         "imageFiltersNotRendered": 1
       }
+    },
+    "2903:345": {
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "count": 3,
+      "kinds": {
+        "textStrokeNotRendered": 3
+      }
+    },
+    "2900:600": {
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "count": 3,
+      "kinds": {
+        "textStrokeNotRendered": 3
+      }
+    },
+    "2904:826": {
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "count": 3,
+      "kinds": {
+        "textStrokeNotRendered": 3
+      }
     }
   },
   "features": [
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2420",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2972:2419",
+      "depth": 2,
+      "bbox": {
+        "x": 67830,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2421",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2972:2419",
+      "depth": 2,
+      "bbox": {
+        "x": 67830,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2422",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2972:2419",
+      "depth": 2,
+      "bbox": {
+        "x": 67830,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2430",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2423",
+      "depth": 2,
+      "bbox": {
+        "x": 69210,
+        "y": -13087,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2438",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2431",
+      "depth": 2,
+      "bbox": {
+        "x": 69210,
+        "y": -12847,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2446",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2439",
+      "depth": 2,
+      "bbox": {
+        "x": 69270,
+        "y": -13087,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2454",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2447",
+      "depth": 2,
+      "bbox": {
+        "x": 69270,
+        "y": -12967,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2462",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2455",
+      "depth": 2,
+      "bbox": {
+        "x": 69270,
+        "y": -12847,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2470",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2463",
+      "depth": 2,
+      "bbox": {
+        "x": 69330,
+        "y": -13087,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2478",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2471",
+      "depth": 2,
+      "bbox": {
+        "x": 69330,
+        "y": -12847,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2486",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2479",
+      "depth": 2,
+      "bbox": {
+        "x": 69390,
+        "y": -13027,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2494",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2487",
+      "depth": 2,
+      "bbox": {
+        "x": 69390,
+        "y": -12967,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2502",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2495",
+      "depth": 2,
+      "bbox": {
+        "x": 69390,
+        "y": -12907,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2510",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2503",
+      "depth": 2,
+      "bbox": {
+        "x": 69150,
+        "y": -13027,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2518",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2511",
+      "depth": 2,
+      "bbox": {
+        "x": 69150,
+        "y": -12967,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2526",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2519",
+      "depth": 2,
+      "bbox": {
+        "x": 69150,
+        "y": -12907,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2534",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2527",
+      "depth": 2,
+      "bbox": {
+        "x": 69750,
+        "y": -13087,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2542",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2535",
+      "depth": 2,
+      "bbox": {
+        "x": 69750,
+        "y": -12847,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2550",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2543",
+      "depth": 2,
+      "bbox": {
+        "x": 69810,
+        "y": -13087,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2558",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2551",
+      "depth": 2,
+      "bbox": {
+        "x": 69810,
+        "y": -12967,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2566",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2559",
+      "depth": 2,
+      "bbox": {
+        "x": 69810,
+        "y": -12847,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2574",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2567",
+      "depth": 2,
+      "bbox": {
+        "x": 69870,
+        "y": -13087,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2582",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2575",
+      "depth": 2,
+      "bbox": {
+        "x": 69870,
+        "y": -12847,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2590",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2583",
+      "depth": 2,
+      "bbox": {
+        "x": 69930,
+        "y": -13027,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2598",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2591",
+      "depth": 2,
+      "bbox": {
+        "x": 69930,
+        "y": -12967,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2606",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2599",
+      "depth": 2,
+      "bbox": {
+        "x": 69930,
+        "y": -12907,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2614",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2607",
+      "depth": 2,
+      "bbox": {
+        "x": 69690,
+        "y": -13027,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2622",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2615",
+      "depth": 2,
+      "bbox": {
+        "x": 69690,
+        "y": -12967,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2630",
+      "name": "Rectangle 206",
+      "type": "RECTANGLE",
+      "parentId": "2972:2623",
+      "depth": 2,
+      "bbox": {
+        "x": 69690,
+        "y": -12907,
+        "width": 60,
+        "height": 60
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2632",
+      "name": "1000105989 2",
+      "type": "RECTANGLE",
+      "parentId": "2972:2406",
+      "depth": 1,
+      "bbox": {
+        "x": 69450,
+        "y": -12055,
+        "width": 239.55999755859375,
+        "height": 95.98291778564453
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2870:4265",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2870:4264",
+      "depth": 2,
+      "bbox": {
+        "x": 79588,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2870:4266",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2870:4264",
+      "depth": 2,
+      "bbox": {
+        "x": 79588,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2870:4267",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2870:4264",
+      "depth": 2,
+      "bbox": {
+        "x": 79588,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
     {
       "kind": "imageFiltersNotRendered",
       "rootFrameId": "2870:4251",
@@ -131,6 +939,75 @@
       }
     },
     {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1332",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2971:1331",
+      "depth": 2,
+      "bbox": {
+        "x": 83468,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1333",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2971:1331",
+      "depth": 2,
+      "bbox": {
+        "x": 83468,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1334",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2971:1331",
+      "depth": 2,
+      "bbox": {
+        "x": 83468,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
       "kind": "imageFiltersNotRendered",
       "rootFrameId": "2971:1324",
       "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
@@ -191,6 +1068,75 @@
         "filters": {
           "exposure": -1
         }
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1626",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2971:1625",
+      "depth": 2,
+      "bbox": {
+        "x": 87348,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1627",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2971:1625",
+      "depth": 2,
+      "bbox": {
+        "x": 87348,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1628",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2971:1625",
+      "depth": 2,
+      "bbox": {
+        "x": 87348,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
       }
     },
     {
@@ -320,6 +1266,190 @@
       }
     },
     {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2921:720",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2921:719",
+      "depth": 2,
+      "bbox": {
+        "x": 79548,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2921:721",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2921:719",
+      "depth": 2,
+      "bbox": {
+        "x": 79548,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2921:722",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2921:719",
+      "depth": 2,
+      "bbox": {
+        "x": 79548,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2934:481",
+      "name": "Ellipse 31",
+      "type": "ELLIPSE",
+      "parentId": "2921:712",
+      "depth": 1,
+      "bbox": {
+        "x": 80482,
+        "y": -11053,
+        "width": 1611,
+        "height": 1611
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 273,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:536",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2967:535",
+      "depth": 2,
+      "bbox": {
+        "x": 91188,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:537",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2967:535",
+      "depth": 2,
+      "bbox": {
+        "x": 91188,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:538",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2967:535",
+      "depth": 2,
+      "bbox": {
+        "x": 91188,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:672",
+      "name": "Ellipse 31",
+      "type": "ELLIPSE",
+      "parentId": "2967:528",
+      "depth": 1,
+      "bbox": {
+        "x": 92122,
+        "y": -11053,
+        "width": 1611,
+        "height": 1611
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 273,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
       "kind": "imageFiltersNotRendered",
       "rootFrameId": "2967:528",
       "frameName": "token aratılıyken parıltı butonuna tıkladı",
@@ -380,6 +1510,98 @@
         "filters": {
           "exposure": -1
         }
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:894",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2961:893",
+      "depth": 2,
+      "bbox": {
+        "x": 87308,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:895",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2961:893",
+      "depth": 2,
+      "bbox": {
+        "x": 87308,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:896",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2961:893",
+      "depth": 2,
+      "bbox": {
+        "x": 87308,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:1030",
+      "name": "Ellipse 31",
+      "type": "ELLIPSE",
+      "parentId": "2961:886",
+      "depth": 1,
+      "bbox": {
+        "x": 88242,
+        "y": -11053,
+        "width": 1611,
+        "height": 1611
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 273,
+        "strokeTypes": [
+          "SOLID"
+        ]
       }
     },
     {
@@ -446,6 +1668,98 @@
       }
     },
     {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:494",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2961:493",
+      "depth": 2,
+      "bbox": {
+        "x": 83428,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:495",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2961:493",
+      "depth": 2,
+      "bbox": {
+        "x": 83428,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:496",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2961:493",
+      "depth": 2,
+      "bbox": {
+        "x": 83428,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:630",
+      "name": "Ellipse 31",
+      "type": "ELLIPSE",
+      "parentId": "2961:486",
+      "depth": 1,
+      "bbox": {
+        "x": 84362,
+        "y": -11053,
+        "width": 1611,
+        "height": 1611
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 273,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
       "kind": "imageFiltersNotRendered",
       "rootFrameId": "2961:486",
       "frameName": "token aratılıyken parıltı butonuna tıkladı",
@@ -506,6 +1820,75 @@
         "filters": {
           "exposure": -1
         }
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:3763",
+      "name": "Top ranks",
+      "type": "TEXT",
+      "parentId": "2870:3762",
+      "depth": 2,
+      "bbox": {
+        "x": 75708,
+        "y": -12068,
+        "width": 174,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:3764",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2870:3762",
+      "depth": 2,
+      "bbox": {
+        "x": 75708,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:3765",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2870:3762",
+      "depth": 2,
+      "bbox": {
+        "x": 75708,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
       }
     },
     {
@@ -591,6 +1974,213 @@
           "exposure": -1,
           "contrast": -0.03999999910593033
         }
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2903:359",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2903:358",
+      "depth": 2,
+      "bbox": {
+        "x": 88110,
+        "y": -16854,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2903:360",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2903:358",
+      "depth": 2,
+      "bbox": {
+        "x": 88110,
+        "y": -16974,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2903:361",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2903:358",
+      "depth": 2,
+      "bbox": {
+        "x": 88110,
+        "y": -17094,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:614",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2900:613",
+      "depth": 2,
+      "bbox": {
+        "x": 92033,
+        "y": -16854,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:615",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2900:613",
+      "depth": 2,
+      "bbox": {
+        "x": 92033,
+        "y": -16974,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:616",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2900:613",
+      "depth": 2,
+      "bbox": {
+        "x": 92033,
+        "y": -17094,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:840",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2904:839",
+      "depth": 2,
+      "bbox": {
+        "x": 95913,
+        "y": -16854,
+        "width": 221,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:841",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2904:839",
+      "depth": 2,
+      "bbox": {
+        "x": 95913,
+        "y": -16974,
+        "width": 127,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      }
+    },
+    {
+      "kind": "textStrokeNotRendered",
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:842",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2904:839",
+      "depth": 2,
+      "bbox": {
+        "x": 95913,
+        "y": -17094,
+        "width": 226,
+        "height": 61
+      },
+      "detail": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
       }
     }
   ]

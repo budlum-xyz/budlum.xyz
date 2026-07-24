@@ -2,25 +2,32 @@
 
 Generated without calling the Figma API. These are committed Figma features that the renderer does not yet render exactly.
 
-- Total unsupported feature records: `25`
+- Total unsupported feature records: `92`
 
 ## By kind
 
 | Kind | Count |
 |---|---:|
+| `textStrokeNotRendered` | 36 |
+| `nonInsideStrokeAlignNotRenderedExactly` | 31 |
 | `imageFiltersNotRendered` | 25 |
 
 ## By frame
 
 | Frame ID | Count | Frame name |
 |---|---:|---|
-| `2971:1618` | 6 | cüzdan aratılıyken parıltı butonuna tıkladı |
-| `2870:3749` | 3 | Bir kullanıcının cüzdanını arattı |
-| `2870:4251` | 3 | cüzdan aratılıyken parıltı butonuna tıkladı |
-| `2961:486` | 3 | token aratılıyken parıltı butonuna tıkladı |
-| `2961:886` | 3 | token aratılıyken parıltı butonuna tıkladı |
-| `2967:528` | 3 | token aratılıyken parıltı butonuna tıkladı |
-| `2971:1324` | 3 | cüzdan aratılıyken parıltı butonuna tıkladı |
+| `2972:2406` | 30 | budlum.xyzde fareyle gezilirken |
+| `2971:1618` | 9 | cüzdan aratılıyken parıltı butonuna tıkladı |
+| `2961:486` | 7 | token aratılıyken parıltı butonuna tıkladı |
+| `2961:886` | 7 | token aratılıyken parıltı butonuna tıkladı |
+| `2967:528` | 7 | token aratılıyken parıltı butonuna tıkladı |
+| `2870:3749` | 6 | Bir kullanıcının cüzdanını arattı |
+| `2870:4251` | 6 | cüzdan aratılıyken parıltı butonuna tıkladı |
+| `2971:1324` | 6 | cüzdan aratılıyken parıltı butonuna tıkladı |
+| `2921:712` | 4 | token aratılıyken parıltı butonuna tıkladı |
+| `2900:600` | 3 | Zaten bir cüzdanım vara tıkladı |
+| `2903:345` | 3 | budlum.xyz ye giriş yaptı |
+| `2904:826` | 3 | budlum.xyz ye giriş yaptı |
 | `2306:6` | 1 | budlum.xyz |
 
 ## Renderer contract
