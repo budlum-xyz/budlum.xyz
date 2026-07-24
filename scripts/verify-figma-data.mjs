@@ -184,19 +184,32 @@ function verifyUnsupportedRendererContract() {
   const unsupported = readJson(unsupportedPath);
   const hasUnsupportedImageFilters = (unsupported.features || []).some((feature) => feature.kind === 'imageFiltersNotRendered')
     || Boolean(unsupported.byKind?.imageFiltersNotRendered);
-  if (!hasUnsupportedImageFilters) return;
+  const hasUnsupportedTextStrokes = (unsupported.features || []).some((feature) => feature.kind === 'textStrokeNotRendered')
+    || Boolean(unsupported.byKind?.textStrokeNotRendered);
 
   const renderer = fs.existsSync(path.join('src', 'FigmaNode.jsx'))
     ? fs.readFileSync(path.join('src', 'FigmaNode.jsx'), 'utf8')
     : '';
-  const approximateImageFilterPatterns = [
-    /cssImageFilter/,
-    /\.filters\b/,
-    /filter\s*:/,
-    /style\.filter\b/,
-  ];
-  if (approximateImageFilterPatterns.some((pattern) => pattern.test(renderer))) {
-    fail('Renderer appears to process Figma image filters while imageFiltersNotRendered remains in unsupported audit. Implement exact support and clear the audit, or leave filters unrendered.');
+  if (hasUnsupportedImageFilters) {
+    const approximateImageFilterPatterns = [
+      /cssImageFilter/,
+      /\.filters\b/,
+      /filter\s*:/,
+      /style\.filter\b/,
+    ];
+    if (approximateImageFilterPatterns.some((pattern) => pattern.test(renderer))) {
+      fail('Renderer appears to process Figma image filters while imageFiltersNotRendered remains in unsupported audit. Implement exact support and clear the audit, or leave filters unrendered.');
+    }
+  }
+  if (hasUnsupportedTextStrokes) {
+    const approximateTextStrokePatterns = [
+      /textStroke/,
+      /-webkit-text-stroke/i,
+      /WebkitTextStroke/,
+    ];
+    if (approximateTextStrokePatterns.some((pattern) => pattern.test(renderer))) {
+      fail('Renderer appears to process Figma text strokes while textStrokeNotRendered remains in unsupported audit. Implement exact support and clear the audit, or leave text strokes unrendered.');
+    }
   }
 }
 

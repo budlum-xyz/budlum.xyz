@@ -1,0 +1,2113 @@
+{
+  "generatedFrom": [
+    "figma-audit/unsupported-render-features.json",
+    "public/figma-frames/*.json"
+  ],
+  "status": "not-rendered-exactness-blocked",
+  "rationale": [
+    "Figma text stroke uses strokeAlign values such as OUTSIDE.",
+    "CSS -webkit-text-stroke does not expose Figma-equivalent OUTSIDE stroke alignment and is therefore treated as an approximation.",
+    "Exact support requires text-to-path/vector outline data or a proven pixel-equivalent renderer for the specific font/stroke stack."
+  ],
+  "rendererPolicy": {
+    "renderApproximationAllowed": false,
+    "currentRendererBehavior": "Ignore text strokes and keep affected TEXT nodes visible in unsupported-render-features audit.",
+    "ciGuard": "scripts/verify-figma-data.mjs fails if src/FigmaNode.jsx starts using CSS text-stroke while textStrokeNotRendered remains in unsupported audit."
+  },
+  "aggregate": {
+    "textStrokeRecords": 36,
+    "affectedFrames": 12,
+    "uniqueSpecs": 1
+  },
+  "bySpec": {
+    "{\"fontFamily\":\"Dosis\",\"fontSize\":48,\"strokeAlign\":\"OUTSIDE\",\"strokePaints\":[{\"blendMode\":\"NORMAL\",\"color\":{\"a\":1,\"b\":0.9803921580314636,\"g\":0.9882352948188782,\"r\":0.9843137264251709},\"type\":\"SOLID\"}],\"strokeWeight\":4}": {
+      "count": 36,
+      "spec": {
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 4,
+        "strokePaints": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9843137264251709,
+              "g": 0.9882352948188782,
+              "b": 0.9803921580314636,
+              "a": 1
+            }
+          }
+        ],
+        "fontFamily": "Dosis",
+        "fontSize": 48
+      },
+      "frames": {
+        "2870:3749": {
+          "frameName": "Bir kullanıcının cüzdanını arattı",
+          "count": 3
+        },
+        "2870:4251": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2900:600": {
+          "frameName": "Zaten bir cüzdanım vara tıkladı",
+          "count": 3
+        },
+        "2903:345": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 3
+        },
+        "2904:826": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 3
+        },
+        "2921:712": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2961:486": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2961:886": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2967:528": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2971:1324": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2971:1618": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2972:2406": {
+          "frameName": "budlum.xyzde fareyle gezilirken",
+          "count": 3
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2420",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2972:2419",
+      "depth": 2,
+      "bbox": {
+        "x": 67830,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2421",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2972:2419",
+      "depth": 2,
+      "bbox": {
+        "x": 67830,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2422",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2972:2419",
+      "depth": 2,
+      "bbox": {
+        "x": 67830,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2870:4265",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2870:4264",
+      "depth": 2,
+      "bbox": {
+        "x": 79588,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2870:4266",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2870:4264",
+      "depth": 2,
+      "bbox": {
+        "x": 79588,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2870:4267",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2870:4264",
+      "depth": 2,
+      "bbox": {
+        "x": 79588,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1332",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2971:1331",
+      "depth": 2,
+      "bbox": {
+        "x": 83468,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1333",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2971:1331",
+      "depth": 2,
+      "bbox": {
+        "x": 83468,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1334",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2971:1331",
+      "depth": 2,
+      "bbox": {
+        "x": 83468,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1626",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2971:1625",
+      "depth": 2,
+      "bbox": {
+        "x": 87348,
+        "y": -12068,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1627",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2971:1625",
+      "depth": 2,
+      "bbox": {
+        "x": 87348,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1628",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2971:1625",
+      "depth": 2,
+      "bbox": {
+        "x": 87348,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2921:720",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2921:719",
+      "depth": 2,
+      "bbox": {
+        "x": 79548,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2921:721",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2921:719",
+      "depth": 2,
+      "bbox": {
+        "x": 79548,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2921:712",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2921:722",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2921:719",
+      "depth": 2,
+      "bbox": {
+        "x": 79548,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:536",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2967:535",
+      "depth": 2,
+      "bbox": {
+        "x": 91188,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:537",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2967:535",
+      "depth": 2,
+      "bbox": {
+        "x": 91188,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:538",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2967:535",
+      "depth": 2,
+      "bbox": {
+        "x": 91188,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:894",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2961:893",
+      "depth": 2,
+      "bbox": {
+        "x": 87308,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:895",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2961:893",
+      "depth": 2,
+      "bbox": {
+        "x": 87308,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:896",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2961:893",
+      "depth": 2,
+      "bbox": {
+        "x": 87308,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:494",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2961:493",
+      "depth": 2,
+      "bbox": {
+        "x": 83428,
+        "y": -9589,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:495",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2961:493",
+      "depth": 2,
+      "bbox": {
+        "x": 83428,
+        "y": -9709,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:496",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2961:493",
+      "depth": 2,
+      "bbox": {
+        "x": 83428,
+        "y": -9829,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:3763",
+      "name": "Top ranks",
+      "type": "TEXT",
+      "parentId": "2870:3762",
+      "depth": 2,
+      "bbox": {
+        "x": 75708,
+        "y": -12068,
+        "width": 174,
+        "height": 61
+      },
+      "characters": "Top ranks",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:3764",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2870:3762",
+      "depth": 2,
+      "bbox": {
+        "x": 75708,
+        "y": -12188,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:3765",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2870:3762",
+      "depth": 2,
+      "bbox": {
+        "x": 75708,
+        "y": -12308,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2903:359",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2903:358",
+      "depth": 2,
+      "bbox": {
+        "x": 88110,
+        "y": -16854,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2903:360",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2903:358",
+      "depth": 2,
+      "bbox": {
+        "x": 88110,
+        "y": -16974,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2903:361",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2903:358",
+      "depth": 2,
+      "bbox": {
+        "x": 88110,
+        "y": -17094,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:614",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2900:613",
+      "depth": 2,
+      "bbox": {
+        "x": 92033,
+        "y": -16854,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:615",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2900:613",
+      "depth": 2,
+      "bbox": {
+        "x": 92033,
+        "y": -16974,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:616",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2900:613",
+      "depth": 2,
+      "bbox": {
+        "x": 92033,
+        "y": -17094,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:840",
+      "name": "Revaştakiler",
+      "type": "TEXT",
+      "parentId": "2904:839",
+      "depth": 2,
+      "bbox": {
+        "x": 95913,
+        "y": -16854,
+        "width": 221,
+        "height": 61
+      },
+      "characters": "Revaştakiler",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:841",
+      "name": "Market",
+      "type": "TEXT",
+      "parentId": "2904:839",
+      "depth": 2,
+      "bbox": {
+        "x": 95913,
+        "y": -16974,
+        "width": 127,
+        "height": 61
+      },
+      "characters": "Market",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    },
+    {
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:842",
+      "name": "Transactions",
+      "type": "TEXT",
+      "parentId": "2904:839",
+      "depth": 2,
+      "bbox": {
+        "x": 95913,
+        "y": -17094,
+        "width": 226,
+        "height": 61
+      },
+      "characters": "Transactions",
+      "style": {
+        "fontFamily": "Dosis",
+        "fontPostScriptName": "Dosis-Regular",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "fontSize": 48,
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "TOP",
+        "letterSpacing": 0,
+        "lineHeightPx": 60.67200469970703,
+        "lineHeightPercent": 100,
+        "lineHeightUnit": "INTRINSIC_%"
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        }
+      ],
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4
+    }
+  ]
+}
