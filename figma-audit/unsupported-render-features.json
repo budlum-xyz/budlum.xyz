@@ -4,9 +4,9 @@
     "public/figma-frames/*.json"
   ],
   "purpose": "Documents Figma REST features that are intentionally not rendered until an exact implementation exists. Do not approximate these silently.",
-  "totalUnsupportedFeatureRecords": 26,
+  "totalUnsupportedFeatureRecords": 25,
   "byKind": {
-    "imageFiltersNotRendered": 26
+    "imageFiltersNotRendered": 25
   },
   "byFrame": {
     "2870:4251": {
@@ -60,9 +60,9 @@
     },
     "2306:6": {
       "frameName": "budlum.xyz",
-      "count": 2,
+      "count": 1,
       "kinds": {
-        "imageFiltersNotRendered": 2
+        "imageFiltersNotRendered": 1
       }
     }
   },
@@ -568,28 +568,6 @@
       "detail": {
         "filters": {
           "exposure": -1
-        }
-      }
-    },
-    {
-      "kind": "imageFiltersNotRendered",
-      "rootFrameId": "2306:6",
-      "frameName": "budlum.xyz",
-      "id": "2306:6",
-      "name": "budlum.xyz",
-      "type": "FRAME",
-      "parentId": null,
-      "depth": 0,
-      "bbox": {
-        "x": 75841,
-        "y": 11074,
-        "width": 3840,
-        "height": 2160
-      },
-      "detail": {
-        "filters": {
-          "exposure": -1,
-          "contrast": -0.03999999910593033
         }
       }
     },

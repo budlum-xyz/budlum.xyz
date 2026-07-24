@@ -29,7 +29,18 @@ function isSupportedImageTransform(transform) {
   return Math.abs(skewX || 0) < 0.000001 && Math.abs(skewY || 0) < 0.000001;
 }
 
+function stableJson(value) {
+  if (value == null || typeof value !== 'object') return JSON.stringify(value);
+  if (Array.isArray(value)) return `[${value.map(stableJson).join(',')}]`;
+  return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${stableJson(value[key])}`).join(',')}}`;
+}
+
+const featureKeys = new Set();
+
 function pushFeature(features, kind, frame, node, parentId, depth, detail) {
+  const key = [kind, frame.id, node.id, stableJson(detail)].join('|');
+  if (featureKeys.has(key)) return;
+  featureKeys.add(key);
   features.push({
     kind,
     rootFrameId: frame.id,
@@ -116,6 +127,10 @@ lines.push('', '## By frame', '', '| Frame ID | Count | Frame name |', '|---|---
 for (const [frameId, item] of Object.entries(byFrame).sort((a, b) => b[1].count - a[1].count || a[0].localeCompare(b[0]))) {
   lines.push(`| \`${frameId}\` | ${item.count} | ${item.frameName} |`);
 }
+lines.push('', '## Renderer contract', '');
+lines.push('- These records are intentionally unsupported until an exact renderer exists.');
+lines.push('- CSS filter approximations are not acceptable for Figma image filters.');
+lines.push('- If exact support is implemented, remove the corresponding records from this audit in the same change.');
 lines.push('', 'Do not silently approximate these features. Implement exact support or keep them visible in this audit.');
 
 await writeOrCheck('figma-audit/unsupported-render-features.json', jsonText(report));
