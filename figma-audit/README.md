@@ -27,6 +27,7 @@ This directory is the shared handoff area for Figma-driven implementation work. 
 - `openfig-tooling-security-review.md` / `.json` — development-only OpenFig toolchain audit and mitigation notes.
 - `paint-stack-review.md` / `.json` — multi-fill paint stack inventory and exactness notes.
 - `text-stroke-exactness-review.md` / `.json` — exactness decision and inventory for unsupported Figma text strokes.
+- `font-coverage.md` / `.json` — runtime font package/import coverage for Figma text nodes.
 
 ## Local commands
 
@@ -40,6 +41,7 @@ npm run figma:unsupported
 npm run figma:image-filters
 npm run figma:paint-stacks
 npm run figma:text-strokes
+npm run figma:fonts
 npm run figma:images:extract
 npm run figma:openfig:interactions
 npm run figma:verify
@@ -56,6 +58,7 @@ npm run figma:unsupported:check
 npm run figma:image-filters:check
 npm run figma:paint-stacks:check
 npm run figma:text-strokes:check
+npm run figma:fonts:check
 npm run figma:images:check
 npm run figma:openfig:interactions:check
 npm run figma:verify

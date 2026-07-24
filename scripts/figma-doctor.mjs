@@ -8,6 +8,7 @@ const steps = [
   { command: 'npm', args: ['run', 'figma:image-filters:check'] },
   { command: 'npm', args: ['run', 'figma:paint-stacks:check'] },
   { command: 'npm', args: ['run', 'figma:text-strokes:check'] },
+  { command: 'npm', args: ['run', 'figma:fonts:check'] },
   { command: 'npm', args: ['run', 'figma:images:check'] },
   { command: 'npm', args: ['ci'], cwd: 'tools/design-import', label: 'npm ci (OpenFig tooling)' },
   { command: 'npm', args: ['run', 'figma:openfig:resolve:check'] },

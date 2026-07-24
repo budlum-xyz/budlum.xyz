@@ -1,0 +1,396 @@
+{
+  "generatedFrom": [
+    "public/figma-frames/*.json",
+    "package.json",
+    "src/main.jsx"
+  ],
+  "purpose": "Ensures Figma text font families used by frame JSON are bundled at runtime instead of falling back silently.",
+  "aggregate": {
+    "uniqueFontFaces": 2,
+    "textNodes": 1241,
+    "missingRuntimeFontCoverage": 0
+  },
+  "fonts": [
+    {
+      "fontFamily": "Dosis",
+      "fontWeight": 400,
+      "fontStyle": "Regular",
+      "textNodeCount": 651,
+      "frames": {
+        "2223:54": {
+          "frameName": "kullanıcı bir cüzdanı açtı",
+          "count": 18
+        },
+        "2277:28": {
+          "frameName": "revaştakiler",
+          "count": 27
+        },
+        "2306:6": {
+          "frameName": "budlum.xyz",
+          "count": 4
+        },
+        "2377:22": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 11
+        },
+        "2395:169": {
+          "frameName": "budlum.xyz",
+          "count": 69
+        },
+        "2413:2181": {
+          "frameName": "market",
+          "count": 42
+        },
+        "2446:824": {
+          "frameName": "kullanıcı boş bir cüzdanı açtı",
+          "count": 6
+        },
+        "2501:2814": {
+          "frameName": "kullanıcı transferleri aç yerine tıkaldı",
+          "count": 36
+        },
+        "2569:149": {
+          "frameName": "depo",
+          "count": 2
+        },
+        "2580:197": {
+          "frameName": "tokens yazısına tıkladı",
+          "count": 9
+        },
+        "2614:402": {
+          "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+          "count": 9
+        },
+        "2667:256": {
+          "frameName": "herhangi bir yere tıkladı",
+          "count": 8
+        },
+        "2667:32": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 4
+        },
+        "2671:1094": {
+          "frameName": "ilk önce Bud tokenına ihtiyacın var",
+          "count": 6
+        },
+        "2671:814": {
+          "frameName": "tohum tümcecikleri kaydet",
+          "count": 29
+        },
+        "2870:3749": {
+          "frameName": "Bir kullanıcının cüzdanını arattı",
+          "count": 19
+        },
+        "2870:4251": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 18
+        },
+        "2873:4453": {
+          "frameName": "budlum.xyz",
+          "count": 37
+        },
+        "2900:600": {
+          "frameName": "Zaten bir cüzdanım vara tıkladı",
+          "count": 8
+        },
+        "2901:266": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 12
+        },
+        "2901:704": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 20
+        },
+        "2902:961": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 16
+        },
+        "2903:345": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 26
+        },
+        "2904:826": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 8
+        },
+        "2907:1281": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 12
+        },
+        "2921:712": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 4
+        },
+        "2961:486": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 19
+        },
+        "2961:886": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 15
+        },
+        "2967:528": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 19
+        },
+        "2971:1324": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 18
+        },
+        "2971:1618": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 13
+        },
+        "2972:2406": {
+          "frameName": "budlum.xyzde fareyle gezilirken",
+          "count": 7
+        },
+        "2972:3658": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 12
+        },
+        "2972:3858": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 12
+        },
+        "2972:4204": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 12
+        },
+        "2977:1028": {
+          "frameName": "tohum tümcecikleri kaydet",
+          "count": 18
+        },
+        "3099:1056": {
+          "frameName": "budlum.xyz",
+          "count": 37
+        },
+        "3317:788": {
+          "frameName": "nft yazısına tıkladı",
+          "count": 9
+        }
+      },
+      "fontsourcePackage": "@fontsource/dosis",
+      "packageDependencyPresent": true,
+      "cssImportPresent": true,
+      "expectedImport": "@fontsource/dosis/400.css",
+      "examples": [
+        {
+          "rootFrameId": "2223:54",
+          "id": "2367:79",
+          "name": "Beyza adıgüzel",
+          "characters": "Beyza adıgüzel"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2367:80",
+          "name": "0243a86yu...htA6opA",
+          "characters": "0243a86yu...htA6opA"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2450:2168",
+          "name": "son kullandığı uygulamalar",
+          "characters": "son kullandığı uygulamalar"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2450:2208",
+          "name": "son transferler",
+          "characters": "son transferler"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2450:2175",
+          "name": "Lum",
+          "characters": "Lum"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2450:2176",
+          "name": "Defi",
+          "characters": "Defi"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2450:2206",
+          "name": "Bud",
+          "characters": "Bud"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2450:2207",
+          "name": "Socialfi",
+          "characters": "Socialfi"
+        }
+      ]
+    },
+    {
+      "fontFamily": "Mako",
+      "fontWeight": 400,
+      "fontStyle": "Regular",
+      "textNodeCount": 590,
+      "frames": {
+        "2223:54": {
+          "frameName": "kullanıcı bir cüzdanı açtı",
+          "count": 8
+        },
+        "2377:22": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 4
+        },
+        "2395:169": {
+          "frameName": "budlum.xyz",
+          "count": 162
+        },
+        "2413:2181": {
+          "frameName": "market",
+          "count": 72
+        },
+        "2446:824": {
+          "frameName": "kullanıcı boş bir cüzdanı açtı",
+          "count": 3
+        },
+        "2501:2814": {
+          "frameName": "kullanıcı transferleri aç yerine tıkaldı",
+          "count": 72
+        },
+        "2580:197": {
+          "frameName": "tokens yazısına tıkladı",
+          "count": 4
+        },
+        "2614:402": {
+          "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+          "count": 26
+        },
+        "2671:1094": {
+          "frameName": "ilk önce Bud tokenına ihtiyacın var",
+          "count": 3
+        },
+        "2870:3749": {
+          "frameName": "Bir kullanıcının cüzdanını arattı",
+          "count": 8
+        },
+        "2870:4251": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 8
+        },
+        "2873:4453": {
+          "frameName": "budlum.xyz",
+          "count": 78
+        },
+        "2900:600": {
+          "frameName": "Zaten bir cüzdanım vara tıkladı",
+          "count": 2
+        },
+        "2901:266": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 4
+        },
+        "2904:826": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 2
+        },
+        "2907:1281": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 4
+        },
+        "2961:486": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 8
+        },
+        "2961:886": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 8
+        },
+        "2967:528": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 8
+        },
+        "2971:1324": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 8
+        },
+        "2971:1618": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 10
+        },
+        "2972:3658": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 2
+        },
+        "2972:3858": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 2
+        },
+        "2972:4204": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 2
+        },
+        "3099:1056": {
+          "frameName": "budlum.xyz",
+          "count": 78
+        },
+        "3317:788": {
+          "frameName": "nft yazısına tıkladı",
+          "count": 4
+        }
+      },
+      "fontsourcePackage": "@fontsource/mako",
+      "packageDependencyPresent": true,
+      "cssImportPresent": true,
+      "expectedImport": "@fontsource/mako/400.css",
+      "examples": [
+        {
+          "rootFrameId": "2223:54",
+          "id": "2377:18",
+          "name": "2M $LUM",
+          "characters": "2M $LUM "
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2377:19",
+          "name": "26 tokens (7.81M LUM)",
+          "characters": "26 tokens (7.81M LUM)"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2377:20",
+          "name": "102 NFT",
+          "characters": "102 NFT"
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2501:2635",
+          "name": "100.3K $LUM",
+          "characters": "100.3K $LUM "
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2501:2660",
+          "name": "90.3K $MUL",
+          "characters": "90.3K $MUL "
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2501:2686",
+          "name": "107 $LUM",
+          "characters": "107 $LUM "
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2501:2812",
+          "name": "107 $LUM",
+          "characters": "107 $LUM "
+        },
+        {
+          "rootFrameId": "2223:54",
+          "id": "2719:321",
+          "name": "107 $BUDL",
+          "characters": "107 $BUDL"
+        }
+      ]
+    }
+  ],
+  "missing": []
+}
