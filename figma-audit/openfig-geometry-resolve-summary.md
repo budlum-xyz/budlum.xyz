@@ -9,6 +9,9 @@ Generated from the checked-in OpenFig `.fig` file and committed Figma JSON snaps
 - Manifest frames: `39`
 - Mapped frames: `39`
 - Input missing exact geometry records: `0`
+- Stroke audit records considered: `1`
+- Stroke audit records resolved: `0`
+- Stroke audit records still unsupported: `1`
 - Previously resolved records re-applied for transform metadata: `0`
 - Resolved exact geometry records: `0`
 - Unresolved exact geometry records: `0`

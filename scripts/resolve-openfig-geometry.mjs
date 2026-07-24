@@ -272,6 +272,11 @@ function findFigmaNode(root, id) {
   return found;
 }
 
+function hasVisibleImageFill(node) {
+  return [...(node?.fills || []), ...(node?.background || [])]
+    .some((paint) => paint.visible !== false && paint.type === 'IMAGE');
+}
+
 async function frameFilesById(dir) {
   const out = new Map();
   for (const fileName of await readdir(dir)) {
@@ -438,13 +443,22 @@ const previousSummary = REAPPLY_RESOLVED_SUMMARY && existsSync('figma-audit/open
   ? await readJson('figma-audit/openfig-geometry-resolve-summary.json')
   : null;
 const missingWorkItems = missing.map((entry) => ({ entry, fromMissingAudit: true }));
+const unsupported = existsSync('figma-audit/unsupported-render-features.json')
+  ? await readJson('figma-audit/unsupported-render-features.json')
+  : { features: [] };
+const strokeWorkItems = (unsupported.features || [])
+  .filter((entry) => entry.kind === 'nonInsideStrokeAlignNotRenderedExactly')
+  .filter((entry) => !missing.some((missingEntry) => missingEntry.rootFrameId === entry.rootFrameId && missingEntry.id === entry.id))
+  .map((entry) => ({ entry, fromMissingAudit: false, fromStrokeAudit: true }));
 const reapplyWorkItems = (previousSummary?.resolved || [])
   .filter((entry) => entry.openFigNodeId)
   .filter((entry) => !missing.some((missingEntry) => missingEntry.rootFrameId === entry.rootFrameId && missingEntry.id === entry.id))
   .map((entry) => ({ entry, fromMissingAudit: false, reapplyOnly: true }));
-const workItems = [...missingWorkItems, ...reapplyWorkItems];
+const workItems = [...missingWorkItems, ...strokeWorkItems, ...reapplyWorkItems];
 const unresolved = [];
 const resolved = [];
+const resolvedStrokeAudit = [];
+const unresolvedStrokeAudit = [];
 const reapplied = [];
 const frameDocMutations = new Map();
 const openDescendantsByFrame = new Map();
@@ -514,6 +528,11 @@ for (const workItem of workItems) {
   const runtimeNode = findFigmaNode(runtimeDoc, entry.id);
   if (!sourceNode || !runtimeNode) {
     if (workItem.fromMissingAudit) unresolved.push({ ...entry, reason: 'Matched OpenFig node but target Figma node was not found in source/runtime JSON.' });
+    if (workItem.fromStrokeAudit) unresolvedStrokeAudit.push({ ...entry, reason: 'Matched OpenFig node but target Figma node was not found in source/runtime JSON.' });
+    continue;
+  }
+  if (workItem.fromStrokeAudit && (hasVisibleImageFill(sourceNode) || hasVisibleImageFill(runtimeNode))) {
+    unresolvedStrokeAudit.push({ ...entry, reason: 'Target node has an image fill; current renderer does not consume exact strokeGeometry for image-fill nodes.' });
     continue;
   }
   const sourceContext = buildFigmaContext(sourceDoc);
@@ -533,6 +552,7 @@ for (const workItem of workItems) {
     strokeGeometryCount: strokeGeometry.length,
   };
   if (workItem.fromMissingAudit) resolved.push(record);
+  else if (workItem.fromStrokeAudit) resolvedStrokeAudit.push(record);
   else reapplied.push(record);
 }
 
@@ -562,8 +582,11 @@ const summary = {
     manifestFrames: manifest.length,
     mappedFrames: frameMap.mapped.size,
     inputMissingExactAssets: missing.length,
+    strokeAuditInput: strokeWorkItems.length,
     reapplyResolvedSummaryInput: reapplyWorkItems.length,
     resolvedExactAssets: resolved.length,
+    resolvedStrokeAuditRecords: resolvedStrokeAudit.length,
+    unresolvedStrokeAuditRecords: unresolvedStrokeAudit.length,
     unresolvedExactAssets: unresolved.length,
     reappliedPreviouslyResolvedAssets: reapplied.length,
     mutatedFrames: frameDocMutations.size,
@@ -577,6 +600,8 @@ const summary = {
     figmaFrameBbox: frameDocs.get(frameId)?.absoluteBoundingBox,
   })),
   resolved,
+  resolvedStrokeAudit,
+  unresolvedStrokeAudit,
   reapplied,
   unresolved,
 };
@@ -593,6 +618,9 @@ const lines = [
   `- Manifest frames: \`${summary.aggregate.manifestFrames}\``,
   `- Mapped frames: \`${summary.aggregate.mappedFrames}\``,
   `- Input missing exact geometry records: \`${summary.aggregate.inputMissingExactAssets}\``,
+  `- Stroke audit records considered: \`${summary.aggregate.strokeAuditInput}\``,
+  `- Stroke audit records resolved: \`${summary.aggregate.resolvedStrokeAuditRecords}\``,
+  `- Stroke audit records still unsupported: \`${summary.aggregate.unresolvedStrokeAuditRecords}\``,
   `- Previously resolved records re-applied for transform metadata: \`${summary.aggregate.reappliedPreviouslyResolvedAssets}\``,
   `- Resolved exact geometry records: \`${summary.aggregate.resolvedExactAssets}\``,
   `- Unresolved exact geometry records: \`${summary.aggregate.unresolvedExactAssets}\``,

@@ -22,8 +22,11 @@
     "manifestFrames": 39,
     "mappedFrames": 39,
     "inputMissingExactAssets": 0,
+    "strokeAuditInput": 1,
     "reapplyResolvedSummaryInput": 0,
     "resolvedExactAssets": 0,
+    "resolvedStrokeAuditRecords": 0,
+    "unresolvedStrokeAuditRecords": 1,
     "unresolvedExactAssets": 0,
     "reappliedPreviouslyResolvedAssets": 0,
     "mutatedFrames": 0
@@ -733,6 +736,33 @@
     }
   ],
   "resolved": [],
+  "resolvedStrokeAudit": [],
+  "unresolvedStrokeAudit": [
+    {
+      "kind": "nonInsideStrokeAlignNotRenderedExactly",
+      "rootFrameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "id": "2972:2632",
+      "name": "1000105989 2",
+      "type": "RECTANGLE",
+      "parentId": "2972:2406",
+      "depth": 1,
+      "bbox": {
+        "x": 69450,
+        "y": -12055,
+        "width": 239.55999755859375,
+        "height": 95.98291778564453
+      },
+      "detail": {
+        "strokeAlign": "CENTER",
+        "strokeWeight": 4,
+        "strokeTypes": [
+          "SOLID"
+        ]
+      },
+      "reason": "Target node has an image fill; current renderer does not consume exact strokeGeometry for image-fill nodes."
+    }
+  ],
   "reapplied": [],
   "unresolved": []
 }
