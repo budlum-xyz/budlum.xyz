@@ -130,6 +130,29 @@ function verifyAuditFiles() {
   }
 }
 
+
+function verifyUnsupportedRendererContract() {
+  const unsupportedPath = path.join(auditDir, 'unsupported-render-features.json');
+  if (!fs.existsSync(unsupportedPath)) return;
+  const unsupported = readJson(unsupportedPath);
+  const hasUnsupportedImageFilters = (unsupported.features || []).some((feature) => feature.kind === 'imageFiltersNotRendered')
+    || Boolean(unsupported.byKind?.imageFiltersNotRendered);
+  if (!hasUnsupportedImageFilters) return;
+
+  const renderer = fs.existsSync(path.join('src', 'FigmaNode.jsx'))
+    ? fs.readFileSync(path.join('src', 'FigmaNode.jsx'), 'utf8')
+    : '';
+  const approximateImageFilterPatterns = [
+    /cssImageFilter/,
+    /\.filters\b/,
+    /filter\s*:/,
+    /style\.filter\b/,
+  ];
+  if (approximateImageFilterPatterns.some((pattern) => pattern.test(renderer))) {
+    fail('Renderer appears to process Figma image filters while imageFiltersNotRendered remains in unsupported audit. Implement exact support and clear the audit, or leave filters unrendered.');
+  }
+}
+
 function verifyPublicImageFillMap() {
   const payload = assertJsonFile('public/figma-image-fills.json', 'Figma image fill map');
   if (!payload) return;
@@ -140,6 +163,7 @@ function verifyPublicImageFillMap() {
 verifyNoCommittedTokens();
 verifyManifestAndFrames();
 verifyAuditFiles();
+verifyUnsupportedRendererContract();
 verifyPublicImageFillMap();
 
 if (!process.exitCode) ok('node manifest, components, audit structure, image fills, and token scan are valid.');

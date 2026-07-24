@@ -133,21 +133,6 @@ function transformStyleForNode(node, parentBox, isRoot) {
   return relativeTransformStyleForNode(node) || rotationTransformStyleForNode(node, parentBox);
 }
 
-function cssImageFilter(filters) {
-  if (!filters) return undefined;
-  const parts = [];
-  if (filters.exposure != null) {
-    parts.push(`brightness(${Math.max(0, 1 + filters.exposure)})`);
-  }
-  if (filters.contrast != null) {
-    parts.push(`contrast(${Math.max(0, 1 + filters.contrast)})`);
-  }
-  if (filters.saturation != null) {
-    parts.push(`saturate(${Math.max(0, 1 + filters.saturation)})`);
-  }
-  return parts.length ? parts.join(' ') : undefined;
-}
-
 function baseStyle(node, parentBox, imageFills, isRoot = false) {
   const box = node.absoluteBoundingBox;
   if (!box) return { display: 'contents' };
@@ -158,7 +143,6 @@ function baseStyle(node, parentBox, imageFills, isRoot = false) {
   const solidStroke = firstVisiblePaint(node.strokes || [], 'SOLID');
   const imageUrl = imageUrlForPaint(imageFill, imageFills);
   const imageSizing = imageSizingForPaint(imageFill);
-  const imageFilter = cssImageFilter(imageFill?.filters);
 
   const transformStyle = transformStyleForNode(node, parentBox, isRoot);
   const style = {
@@ -180,7 +164,6 @@ function baseStyle(node, parentBox, imageFills, isRoot = false) {
     style.backgroundSize = imageSizing.backgroundSize;
     style.backgroundRepeat = imageSizing.backgroundRepeat || 'no-repeat';
     style.backgroundPosition = imageSizing.backgroundPosition || 'center';
-    if (imageFilter) style.filter = imageFilter;
   }
 
   if (solidStroke) {
