@@ -15,6 +15,31 @@ const tokenPatterns = [
 const scanExtensions = new Set(['.js', '.jsx', '.mjs', '.json', '.md', '.html', '.css', '.yml', '.yaml', '.txt']);
 const excludedDirs = new Set(['.git', 'node_modules', 'dist', 'build', 'coverage', '.cache', '.arena']);
 
+
+function stableStringify(value) {
+  if (value == null || typeof value !== 'object') return JSON.stringify(value);
+  if (Array.isArray(value)) return `[${value.map(stableStringify).join(',')}]`;
+  return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`).join(',')}}`;
+}
+
+function findKeyPath(value, targetKey, currentPath = '') {
+  if (value == null || typeof value !== 'object') return null;
+  if (Array.isArray(value)) {
+    for (let index = 0; index < value.length; index += 1) {
+      const found = findKeyPath(value[index], targetKey, `${currentPath}[${index}]`);
+      if (found) return found;
+    }
+    return null;
+  }
+  for (const [key, child] of Object.entries(value)) {
+    const nextPath = currentPath ? `${currentPath}.${key}` : key;
+    if (key === targetKey) return nextPath;
+    const found = findKeyPath(child, targetKey, nextPath);
+    if (found) return found;
+  }
+  return null;
+}
+
 function walkFiles(dir, visitor) {
   if (!fs.existsSync(dir)) return;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -73,6 +98,13 @@ function verifyManifestAndFrames() {
     if (sourceJson?.id !== frame.id) fail(`Source node ID mismatch: ${source}`);
     if (runtimeJson?.id !== frame.id) fail(`Runtime node ID mismatch: ${runtime}`);
     if (sourceJson?.name !== frame.name) fail(`Source node name mismatch for ${frame.id}: expected ${frame.name}, got ${sourceJson?.name}`);
+    const sourceAssetUrlPath = sourceJson ? findKeyPath(sourceJson, 'assetUrl') : null;
+    const runtimeAssetUrlPath = runtimeJson ? findKeyPath(runtimeJson, 'assetUrl') : null;
+    if (sourceAssetUrlPath) fail(`Source frame JSON must not contain expiring assetUrl fields: ${source} at ${sourceAssetUrlPath}`);
+    if (runtimeAssetUrlPath) fail(`Runtime frame JSON must not contain expiring assetUrl fields: ${runtime} at ${runtimeAssetUrlPath}`);
+    if (sourceJson && runtimeJson && stableStringify(sourceJson) !== stableStringify(runtimeJson)) {
+      fail(`Source/runtime frame JSON mismatch for ${frame.id}: ${source} differs from ${runtime}`);
+    }
 
     const component = path.join('src', 'frames', frameComponentName(frame.id));
     if (!fs.existsSync(component)) {
@@ -157,7 +189,15 @@ function verifyPublicImageFillMap() {
   const payload = assertJsonFile('public/figma-image-fills.json', 'Figma image fill map');
   if (!payload) return;
   const images = payload.meta?.images || payload.images;
-  if (!images || typeof images !== 'object') fail('Figma image fill map does not contain an images object.');
+  if (!images || typeof images !== 'object') {
+    fail('Figma image fill map does not contain an images object.');
+    return;
+  }
+  for (const [ref, value] of Object.entries(images)) {
+    if (typeof value !== 'string' || !value.startsWith('/figma-assets/')) {
+      fail(`Figma image fill map must use committed local /figma-assets paths only: ${ref}`);
+    }
+  }
 }
 
 verifyNoCommittedTokens();
