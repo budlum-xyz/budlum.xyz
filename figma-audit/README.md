@@ -21,6 +21,7 @@ This directory is the shared handoff area for Figma-driven implementation work. 
 - `openfig-geometry-final-report.md` / `.json` — cumulative exact-geometry recovery report from the checked-in OpenFig `.fig` binary.
 - `openfig-geometry-resolve-summary.md` / `.json` — current OpenFig↔Figma geometry resolver summary.
 - `openfig-figma-crosswalk-candidates.json` — frame mapping candidates used by the OpenFig geometry resolver.
+- `openfig-interactions.md` / `.json` — OpenFig hyperlink/prototype-like inventory for interaction handoff.
 - `image-filter-exactness-review.md` / `.json` — exactness decision and node inventory for Figma image filters that are intentionally unsupported until a pixel-equivalent renderer exists.
 - `local-image-assets.md` / `.json` — committed local image asset inventory generated from the OpenFig `.fig` archive.
 
@@ -35,6 +36,7 @@ npm run figma:plan
 npm run figma:unsupported
 npm run figma:image-filters
 npm run figma:images:extract
+npm run figma:openfig:interactions
 npm run figma:verify
 ```
 
@@ -48,6 +50,7 @@ npm run figma:plan:check
 npm run figma:unsupported:check
 npm run figma:image-filters:check
 npm run figma:images:check
+npm run figma:openfig:interactions:check
 npm run figma:verify
 ```
 

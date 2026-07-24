@@ -1,0 +1,171 @@
+{
+  "generatedFrom": [
+    "tools/design-import/fixtures/untitled.fig",
+    "figma-audit/openfig-geometry-resolve-summary.json",
+    "figma-nodes/manifest.json"
+  ],
+  "purpose": "Documents interaction-like data discovered in the checked-in OpenFig .fig binary so prototype behavior is not guessed.",
+  "aggregate": {
+    "openFigNodes": 25658,
+    "manifestFrames": 39,
+    "mappedOpenFigFrames": 39,
+    "prototypeLikeRecords": 0,
+    "hyperlinkRecords": 7,
+    "hyperlinksInsideManifestFrames": 0,
+    "hyperlinksOutsideManifestFrames": 7,
+    "hyperlinksWithUrl": 5
+  },
+  "policy": {
+    "prototypeImplementation": "No OpenFig prototype/navigation keys were found in the checked file.",
+    "hyperlinkImplementation": "Hyperlinks outside the 39 manifest frames are not implemented in the React renderer scope.",
+    "noGuessing": true
+  },
+  "prototypeLike": [],
+  "hyperlinks": [
+    {
+      "openFigNodeId": "1:22549",
+      "type": "TEXT",
+      "name": "Co-Founder",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:22528",
+      "ancestorIds": [
+        "1:22528",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {},
+      "hasUrl": false
+    },
+    {
+      "openFigNodeId": "1:22551",
+      "type": "TEXT",
+      "name": "X / Twitter · Instagram",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:22528",
+      "ancestorIds": [
+        "1:22528",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {
+        "url": "https://x.com/lubosruler"
+      },
+      "hasUrl": true
+    },
+    {
+      "openFigNodeId": "1:22552",
+      "type": "TEXT",
+      "name": "X / Twitter",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:22528",
+      "ancestorIds": [
+        "1:22528",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {
+        "url": "https://x.com/sophiaeurymede"
+      },
+      "hasUrl": true
+    },
+    {
+      "openFigNodeId": "1:23635",
+      "type": "TEXT",
+      "name": "Instagram",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:23629",
+      "ancestorIds": [
+        "1:23629",
+        "1:23624",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {
+        "url": "https://www.instagram.com/bat.art19/"
+      },
+      "hasUrl": true
+    },
+    {
+      "openFigNodeId": "1:23804",
+      "type": "TEXT",
+      "name": "Co-Founder",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:23796",
+      "ancestorIds": [
+        "1:23796",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {},
+      "hasUrl": false
+    },
+    {
+      "openFigNodeId": "1:23806",
+      "type": "TEXT",
+      "name": "X / Twitter · Instagram",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:23796",
+      "ancestorIds": [
+        "1:23796",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {
+        "url": "https://x.com/lubosruler"
+      },
+      "hasUrl": true
+    },
+    {
+      "openFigNodeId": "1:23816",
+      "type": "TEXT",
+      "name": "X / Twitter",
+      "keys": [
+        "hyperlink"
+      ],
+      "parentId": "1:23811",
+      "ancestorIds": [
+        "1:23811",
+        "1:23796",
+        "1:21110",
+        "0:1",
+        "0:0"
+      ],
+      "insideManifestFrame": false,
+      "manifestOpenFigFrameId": null,
+      "hyperlink": {
+        "url": "https://x.com/sophiaeurymede"
+      },
+      "hasUrl": true
+    }
+  ]
+}

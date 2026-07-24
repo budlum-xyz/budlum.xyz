@@ -19,4 +19,5 @@ jobs:
         working-directory: tools/design-import
         run: npm ci
       - run: npm run figma:openfig:resolve:check
+      - run: npm run figma:openfig:interactions:check
       - run: git diff --exit-code
