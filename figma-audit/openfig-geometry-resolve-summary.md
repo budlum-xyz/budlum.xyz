@@ -2,7 +2,7 @@
 
 Generated from the checked-in OpenFig `.fig` file and committed Figma JSON snapshots.
 
-- Mode: `write`
+- Mode: `current-state`
 - Dominant Figma↔OpenFig coordinate offset: `dx=19146, dy=-27147` (support: `39`)
 - OpenFig nodes parsed: `25658`
 - OpenFig blobs parsed: `1299`

@@ -28,8 +28,25 @@ const FRAME_TOLERANCE = Number(process.env.OPENFIG_FRAME_TOLERANCE || 2);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
 const readJson = async (file) => JSON.parse(await readFile(file, 'utf8'));
-const writeJson = async (file, data) => writeFile(file, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+const jsonText = (data) => `${JSON.stringify(data, null, 2)}\n`;
+const writeJson = async (file, data) => writeFile(file, jsonText(data), 'utf8');
 const writeMinJson = async (file, data) => writeFile(file, JSON.stringify(data), 'utf8');
+
+async function writeTextOrCheck(file, nextText) {
+  if (!CHECK) {
+    await writeFile(file, nextText, 'utf8');
+    return;
+  }
+  const currentText = await readFile(file, 'utf8');
+  if (currentText !== nextText) {
+    console.error(`${file} is stale. Run npm run figma:openfig:resolve.`);
+    process.exitCode = 1;
+  }
+}
+
+async function writeJsonOrCheck(file, data) {
+  await writeTextOrCheck(file, jsonText(data));
+}
 
 function requireOpenFigDependency() {
   const deckPath = path.join(repoRoot, OPENFIG_DECK);
@@ -531,7 +548,7 @@ if (!CHECK) {
 
 const summary = {
   generatedFrom: [FIG_PATH, 'figma-audit/missing-exact-assets.json', 'figma-nodes/manifest.json'],
-  mode: CHECK ? 'check' : 'write',
+  mode: 'current-state',
   matchingPolicy: {
     frameMapping: 'OpenFig frame matched by compatible name, exact width/height, and dominant global coordinate offset.',
     nodeMapping: 'Node matched within the mapped frame by compatible type, exact layer name, and relative bbox tolerance.',

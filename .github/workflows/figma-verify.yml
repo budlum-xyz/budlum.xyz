@@ -15,3 +15,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run figma:doctor
+      - name: Install OpenFig tooling
+        working-directory: tools/design-import
+        run: npm ci
+      - run: npm run figma:openfig:resolve:check
+      - run: git diff --exit-code

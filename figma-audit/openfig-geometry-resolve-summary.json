@@ -4,7 +4,7 @@
     "figma-audit/missing-exact-assets.json",
     "figma-nodes/manifest.json"
   ],
-  "mode": "write",
+  "mode": "current-state",
   "matchingPolicy": {
     "frameMapping": "OpenFig frame matched by compatible name, exact width/height, and dominant global coordinate offset.",
     "nodeMapping": "Node matched within the mapped frame by compatible type, exact layer name, and relative bbox tolerance.",
