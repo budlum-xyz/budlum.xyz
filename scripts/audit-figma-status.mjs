@@ -30,6 +30,8 @@ const [
   openfigInteractions,
   openfigGeometry,
   toolingSecurity,
+  strokeOverlay,
+  tmpdirAudit,
 ] = await Promise.all([
   readJson('figma-nodes/manifest.json'),
   readJson('figma-audit/render-coverage-summary.json'),
@@ -43,6 +45,8 @@ const [
   readJson('figma-audit/openfig-interactions.json'),
   readJson('figma-audit/openfig-geometry-final-report.json'),
   readJson('figma-audit/openfig-tooling-security-review.json'),
+  readJson('figma-audit/stroke-overlay-coverage.json'),
+  readJson('figma-audit/openfig-tmpdir-audit.json'),
 ]);
 
 const status = {
@@ -59,6 +63,8 @@ const status = {
     'figma-audit/openfig-interactions.json',
     'figma-audit/openfig-geometry-final-report.json',
     'figma-audit/openfig-tooling-security-review.json',
+    'figma-audit/stroke-overlay-coverage.json',
+    'figma-audit/openfig-tmpdir-audit.json',
   ],
   summary: {
     manifestFrames: manifest.length,
@@ -82,6 +88,11 @@ const status = {
     openfigHyperlinkRecordsOutsideScope: openfigInteractions.aggregate.hyperlinksOutsideManifestFrames,
     openfigGeometryFinalMissing: openfigGeometry.cumulativeOutcome.finalMissingExactGeometryRecords,
     openfigToolingVulnerabilities: toolingSecurity.toolingAudit.vulnerabilities,
+    strokeOverlaySvgExact: strokeOverlay.svgOverlayExact,
+    strokeOverlayCssBorderExact: strokeOverlay.cssBorderExact?.length || 0,
+    strokeOverlayCssBorderApprox: strokeOverlay.cssBorderApprox,
+    strokeOverlayNone: strokeOverlay.notRendered,
+    openfigTmpdirAuditPass: tmpdirAudit.allPass,
   },
   decisions: {
     noApproximateVectorGeometry: coverage.aggregate.skippedMissingGeometry === 0,
@@ -90,6 +101,8 @@ const status = {
     textStrokesBlockedUntilExactOutlineRenderer: textStrokes.status,
     localRuntimeImagesRequired: true,
     openfigToolingRuntimeShipped: false,
+    openfigTmpdirClean: tmpdirAudit.allPass,
+    noApproximateStrokeOverlay: strokeOverlay.cssBorderApprox === 0,
   },
 };
 

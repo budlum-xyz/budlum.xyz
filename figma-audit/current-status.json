@@ -11,7 +11,9 @@
     "figma-audit/paint-stack-review.json",
     "figma-audit/openfig-interactions.json",
     "figma-audit/openfig-geometry-final-report.json",
-    "figma-audit/openfig-tooling-security-review.json"
+    "figma-audit/openfig-tooling-security-review.json",
+    "figma-audit/stroke-overlay-coverage.json",
+    "figma-audit/openfig-tmpdir-audit.json"
   ],
   "summary": {
     "manifestFrames": 39,
@@ -41,7 +43,12 @@
       "moderate": 2,
       "high": 2,
       "total": 4
-    }
+    },
+    "strokeOverlaySvgExact": 1,
+    "strokeOverlayCssBorderExact": 8,
+    "strokeOverlayCssBorderApprox": 0,
+    "strokeOverlayNone": 4003,
+    "openfigTmpdirAuditPass": true
   },
   "decisions": {
     "noApproximateVectorGeometry": true,
@@ -49,6 +56,8 @@
     "imageFiltersBlockedUntilExactPixelMath": "not-rendered-exactness-blocked",
     "textStrokesBlockedUntilExactOutlineRenderer": "not-rendered-exactness-blocked",
     "localRuntimeImagesRequired": true,
-    "openfigToolingRuntimeShipped": false
+    "openfigToolingRuntimeShipped": false,
+    "openfigTmpdirClean": true,
+    "noApproximateStrokeOverlay": true
   }
 }

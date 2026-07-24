@@ -1,0 +1,23 @@
+{
+  "scripts": [
+    {
+      "script": "scripts/resolve-openfig-geometry.mjs",
+      "usesOpenfigTmp": true,
+      "tmpdirLine": "process.env.TMPDIR = tmpDir;",
+      "hasCleanup": true,
+      "cleanupLine": "rmSync(tmpDir, { recursive: true, force: true });",
+      "forbiddenRefs": [],
+      "passes": true
+    },
+    {
+      "script": "scripts/audit-openfig-interactions.mjs",
+      "usesOpenfigTmp": true,
+      "tmpdirLine": "process.env.TMPDIR = tmpDir;",
+      "hasCleanup": true,
+      "cleanupLine": "rmSync(tmpDir, { recursive: true, force: true });",
+      "forbiddenRefs": [],
+      "passes": true
+    }
+  ],
+  "allPass": true
+}

@@ -1,0 +1,155 @@
+{
+  "totalImageFillNodes": 4012,
+  "svgOverlayExact": 1,
+  "cssBorderExact": [
+    {
+      "frameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "nodeId": "2872:1045",
+      "nodeName": "daş15 1",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "nodeId": "2971:1353",
+      "nodeName": "daş 12 1",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "nodeId": "2967:576",
+      "nodeName": "daş15 1",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "nodeId": "2961:978",
+      "nodeName": "daş 12 5",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "nodeId": "2961:625",
+      "nodeName": "daş15 9",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "nodeId": "2900:595",
+      "nodeName": "Rectangle 218",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "nodeId": "2900:650",
+      "nodeName": "Rectangle 218",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "nodeId": "2904:873",
+      "nodeName": "Rectangle 218",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    }
+  ],
+  "cssBorderApprox": 0,
+  "notRendered": 4003,
+  "svgOverlayNodes": [
+    {
+      "frameId": "2972:2406",
+      "frameName": "budlum.xyzde fareyle gezilirken",
+      "nodeId": "2972:2632",
+      "nodeName": "1000105989 2",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "CENTER",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    }
+  ],
+  "cssBorderApproxNodes": []
+}
