@@ -16,7 +16,7 @@ function firstVisiblePaint(paints = [], type) {
 
 function imageUrlForPaint(paint, imageFills) {
   if (!paint) return undefined;
-  return imageFills?.[paint.imageRef] || paint.assetUrl || (paint.imageRef ? `/figma-assets/${paint.imageRef}.png` : undefined);
+  return imageFills?.[paint.imageRef] || (paint.imageRef ? `/figma-assets/${paint.imageRef}.png` : undefined);
 }
 
 function imagePositionPercent(scale, translate) {
