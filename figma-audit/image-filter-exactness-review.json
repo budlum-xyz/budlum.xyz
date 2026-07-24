@@ -18,7 +18,8 @@
   "aggregate": {
     "unsupportedImageFilterRecords": 25,
     "uniqueFilterSets": 2,
-    "affectedFrames": 8
+    "affectedFrames": 8,
+    "uniqueImageRefs": 2
   },
   "uniqueFilterSets": [
     {
@@ -88,7 +89,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2870:4251",
@@ -106,7 +135,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2870:4251",
@@ -124,7 +181,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1324",
@@ -142,7 +227,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1324",
@@ -160,7 +273,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1324",
@@ -178,7 +319,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1618",
@@ -196,7 +365,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1618",
@@ -214,7 +411,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1618",
@@ -232,7 +457,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1618",
@@ -250,7 +503,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1618",
@@ -268,7 +549,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2971:1618",
@@ -286,7 +595,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2967:528",
@@ -304,7 +641,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2967:528",
@@ -322,7 +687,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2967:528",
@@ -340,7 +733,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2961:886",
@@ -358,7 +779,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2961:886",
@@ -376,7 +825,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2961:886",
@@ -394,7 +871,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2961:486",
@@ -412,7 +917,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2961:486",
@@ -430,7 +963,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2961:486",
@@ -448,7 +1009,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2870:3749",
@@ -466,7 +1055,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2870:3749",
@@ -484,7 +1101,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2870:3749",
@@ -502,7 +1147,35 @@
       },
       "filters": {
         "exposure": -1
-      }
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
     },
     {
       "rootFrameId": "2306:6",
@@ -521,7 +1194,57 @@
       "filters": {
         "exposure": -1,
         "contrast": -0.03999999910593033
-      }
+      },
+      "imageRefs": [
+        "18832c17d8d083d348ef11b50b21bdaf708d7ed3"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "18832c17d8d083d348ef11b50b21bdaf708d7ed3",
+          "localAssetPath": "/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.34956055879592896,
+              0,
+              0.3353453278541565
+            ],
+            [
+              0,
+              0.19662779569625854,
+              0.40169858932495117
+            ]
+          ],
+          "filters": {
+            "exposure": -1,
+            "contrast": -0.03999999910593033
+          }
+        },
+        {
+          "imageRef": "18832c17d8d083d348ef11b50b21bdaf708d7ed3",
+          "localAssetPath": "/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.34956055879592896,
+              0,
+              0.3353453278541565
+            ],
+            [
+              0,
+              0.19662779569625854,
+              0.40169858932495117
+            ]
+          ],
+          "filters": {
+            "exposure": -1,
+            "contrast": -0.03999999910593033
+          }
+        }
+      ]
     }
   ]
 }

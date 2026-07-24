@@ -25,9 +25,52 @@ function stableJson(value) {
 
 const unsupported = await readJson('figma-audit/unsupported-render-features.json');
 const features = (unsupported.features || []).filter((feature) => feature.kind === 'imageFiltersNotRendered');
+const manifest = await readJson('figma-nodes/manifest.json');
+const imageMapPayload = await readJson('public/figma-image-fills.json');
+const imageMap = imageMapPayload.meta?.images || imageMapPayload.images || {};
+const frameFileById = new Map(manifest.map((frame) => [frame.id, frame.file]));
+const frameCache = new Map();
+
+async function frameDocument(frameId) {
+  if (!frameCache.has(frameId)) {
+    const file = frameFileById.get(frameId);
+    frameCache.set(frameId, file ? await readJson(`public/figma-frames/${file}`) : null);
+  }
+  return frameCache.get(frameId);
+}
+
+function findNode(node, id) {
+  if (!node) return null;
+  if (node.id === id) return node;
+  for (const child of node.children || []) {
+    const found = findNode(child, id);
+    if (found) return found;
+  }
+  return null;
+}
+
+function filteredImagePaints(node) {
+  return [...(node?.fills || []), ...(node?.background || [])]
+    .filter((paint) => paint.visible !== false && paint.type === 'IMAGE' && paint.filters);
+}
+
+const featureDetails = [];
+for (const feature of features) {
+  const document = await frameDocument(feature.rootFrameId);
+  const node = findNode(document, feature.id);
+  const paints = filteredImagePaints(node);
+  const imageRefs = [...new Set(paints.map((paint) => paint.imageRef).filter(Boolean))];
+  featureDetails.push({
+    feature,
+    node,
+    paints,
+    imageRefs,
+    localAssetPaths: imageRefs.map((ref) => imageMap[ref] || `/figma-assets/${ref}.png`),
+  });
+}
 
 const byFilter = new Map();
-for (const feature of features) {
+for (const { feature } of featureDetails) {
   const key = stableJson(feature.detail?.filters || {});
   if (!byFilter.has(key)) byFilter.set(key, { filters: feature.detail?.filters || {}, count: 0, frames: new Map() });
   const item = byFilter.get(key);
@@ -61,9 +104,10 @@ const report = {
     unsupportedImageFilterRecords: features.length,
     uniqueFilterSets: uniqueFilterSets.length,
     affectedFrames: new Set(features.map((feature) => feature.rootFrameId)).size,
+    uniqueImageRefs: new Set(featureDetails.flatMap((item) => item.imageRefs)).size,
   },
   uniqueFilterSets,
-  affectedNodes: features.map((feature) => ({
+  affectedNodes: featureDetails.map(({ feature, paints, imageRefs, localAssetPaths }) => ({
     rootFrameId: feature.rootFrameId,
     frameName: feature.frameName,
     id: feature.id,
@@ -73,6 +117,15 @@ const report = {
     depth: feature.depth,
     bbox: feature.bbox,
     filters: feature.detail?.filters || {},
+    imageRefs,
+    localAssetPaths,
+    imagePaints: paints.map((paint) => ({
+      imageRef: paint.imageRef || null,
+      localAssetPath: paint.imageRef ? imageMap[paint.imageRef] || `/figma-assets/${paint.imageRef}.png` : null,
+      scaleMode: paint.scaleMode || null,
+      imageTransform: paint.imageTransform || null,
+      filters: paint.filters || {},
+    })),
   })),
 };
 
@@ -85,6 +138,7 @@ const lines = [
   `- Unsupported image filter records: \`${report.aggregate.unsupportedImageFilterRecords}\``,
   `- Unique filter sets: \`${report.aggregate.uniqueFilterSets}\``,
   `- Affected frames: \`${report.aggregate.affectedFrames}\``,
+  `- Unique affected image refs: \`${report.aggregate.uniqueImageRefs}\``,
   `- Official API reference: ${report.officialReference}`,
   '',
   '## Exactness decision',
@@ -102,9 +156,11 @@ for (const item of uniqueFilterSets) {
   const frames = Object.entries(item.frames).map(([id, frame]) => `\`${id}\` (${frame.count})`).join(', ');
   lines.push(`| ${item.count} | \`${stableJson(item.filters)}\` | ${frames} |`);
 }
-lines.push('', '## Affected nodes', '', '| Frame ID | Node ID | Type | Name | Filters |', '|---|---|---|---|---|');
+lines.push('', '## Affected nodes', '', '| Frame ID | Node ID | Type | Name | Filters | Image refs | Local assets |', '|---|---|---|---|---|---|---|');
 for (const node of report.affectedNodes) {
-  lines.push(`| \`${node.rootFrameId}\` | \`${node.id}\` | \`${node.type}\` | ${node.name} | \`${stableJson(node.filters)}\` |`);
+  const imageRefs = node.imageRefs.map((ref) => `\`${ref}\``).join('<br>');
+  const localAssets = node.localAssetPaths.map((asset) => `\`${asset}\``).join('<br>');
+  lines.push(`| \`${node.rootFrameId}\` | \`${node.id}\` | \`${node.type}\` | ${node.name} | \`${stableJson(node.filters)}\` | ${imageRefs} | ${localAssets} |`);
 }
 
 await writeOrCheck('figma-audit/image-filter-exactness-review.json', jsonText(report));
