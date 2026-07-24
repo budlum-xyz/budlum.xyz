@@ -5,6 +5,7 @@ const steps = [
   ['npm', ['run', 'figma:coverage:check']],
   ['npm', ['run', 'figma:plan:check']],
   ['npm', ['run', 'figma:unsupported:check']],
+  ['npm', ['run', 'figma:image-filters:check']],
   ['npm', ['run', 'figma:verify']],
 ];
 

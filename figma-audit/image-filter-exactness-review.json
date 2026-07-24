@@ -1,0 +1,527 @@
+{
+  "generatedFrom": [
+    "figma-audit/unsupported-render-features.json",
+    "public/figma-frames/*.json"
+  ],
+  "officialReference": "https://developers.figma.com/docs/plugins/api/Paint/#imagefilters",
+  "status": "not-rendered-exactness-blocked",
+  "rationale": [
+    "Figma exposes ImagePaint.filters values and range through the API.",
+    "The committed API/OpenFig data does not include a documented pixel-equivalent transfer function for exposure, contrast, saturation, temperature, tint, highlights, or shadows.",
+    "CSS filter mappings such as brightness(), contrast(), or saturate() are not accepted because they are approximations unless Figma-equivalent pixel math is proven and audited."
+  ],
+  "rendererPolicy": {
+    "renderApproximationAllowed": false,
+    "currentRendererBehavior": "Ignore ImagePaint.filters and keep affected nodes visible in unsupported-render-features audit.",
+    "ciGuard": "scripts/verify-figma-data.mjs fails if src/FigmaNode.jsx processes image filters while imageFiltersNotRendered remains in unsupported audit."
+  },
+  "aggregate": {
+    "unsupportedImageFilterRecords": 25,
+    "uniqueFilterSets": 2,
+    "affectedFrames": 8
+  },
+  "uniqueFilterSets": [
+    {
+      "filters": {
+        "exposure": -1
+      },
+      "count": 24,
+      "frames": {
+        "2870:3749": {
+          "frameName": "Bir kullanıcının cüzdanını arattı",
+          "count": 3
+        },
+        "2870:4251": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2961:486": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2961:886": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2967:528": {
+          "frameName": "token aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2971:1324": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 3
+        },
+        "2971:1618": {
+          "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+          "count": 6
+        }
+      }
+    },
+    {
+      "filters": {
+        "exposure": -1,
+        "contrast": -0.03999999910593033
+      },
+      "count": 1,
+      "frames": {
+        "2306:6": {
+          "frameName": "budlum.xyz",
+          "count": 1
+        }
+      }
+    }
+  ],
+  "affectedNodes": [
+    {
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1215",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2971:1191",
+      "depth": 4,
+      "bbox": {
+        "x": 82590,
+        "y": -13021,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1240",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2971:1216",
+      "depth": 5,
+      "bbox": {
+        "x": 82590,
+        "y": -12961,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2870:4251",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1241",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2971:1216",
+      "depth": 5,
+      "bbox": {
+        "x": 82590,
+        "y": -12840,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1475",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2971:1451",
+      "depth": 4,
+      "bbox": {
+        "x": 86470,
+        "y": -13021,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1500",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2971:1476",
+      "depth": 5,
+      "bbox": {
+        "x": 86470,
+        "y": -12961,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1324",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1501",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2971:1476",
+      "depth": 5,
+      "bbox": {
+        "x": 86470,
+        "y": -12840,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1777",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2971:1753",
+      "depth": 5,
+      "bbox": {
+        "x": 90351,
+        "y": -13444,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1802",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2971:1778",
+      "depth": 6,
+      "bbox": {
+        "x": 90351,
+        "y": -13384,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1803",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2971:1778",
+      "depth": 6,
+      "bbox": {
+        "x": 90351,
+        "y": -13263,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1943",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2971:1919",
+      "depth": 5,
+      "bbox": {
+        "x": 90351,
+        "y": -13204,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1968",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2971:1944",
+      "depth": 6,
+      "bbox": {
+        "x": 90351,
+        "y": -13144,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2971:1618",
+      "frameName": "cüzdan aratılıyken parıltı butonuna tıkladı",
+      "id": "2971:1969",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2971:1944",
+      "depth": 6,
+      "bbox": {
+        "x": 90351,
+        "y": -13023,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:989",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2967:965",
+      "depth": 4,
+      "bbox": {
+        "x": 94190,
+        "y": -10542,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:1014",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2967:990",
+      "depth": 5,
+      "bbox": {
+        "x": 94190,
+        "y": -10482,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2967:528",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2967:1015",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2967:990",
+      "depth": 5,
+      "bbox": {
+        "x": 94190,
+        "y": -10361,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:1175",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2961:1151",
+      "depth": 4,
+      "bbox": {
+        "x": 90310,
+        "y": -10542,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:1200",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2961:1176",
+      "depth": 5,
+      "bbox": {
+        "x": 90310,
+        "y": -10482,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2961:886",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:1201",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2961:1176",
+      "depth": 5,
+      "bbox": {
+        "x": 90310,
+        "y": -10361,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:772",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2961:748",
+      "depth": 4,
+      "bbox": {
+        "x": 86430,
+        "y": -10542,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:797",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2961:773",
+      "depth": 5,
+      "bbox": {
+        "x": 86430,
+        "y": -10482,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2961:486",
+      "frameName": "token aratılıyken parıltı butonuna tıkladı",
+      "id": "2961:798",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2961:773",
+      "depth": 5,
+      "bbox": {
+        "x": 86430,
+        "y": -10361,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:4132",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "2870:4108",
+      "depth": 4,
+      "bbox": {
+        "x": 78710,
+        "y": -13021,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:4157",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "2870:4133",
+      "depth": 5,
+      "bbox": {
+        "x": 78710,
+        "y": -12961,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2870:3749",
+      "frameName": "Bir kullanıcının cüzdanını arattı",
+      "id": "2870:4158",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "2870:4133",
+      "depth": 5,
+      "bbox": {
+        "x": 78710,
+        "y": -12840,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      }
+    },
+    {
+      "rootFrameId": "2306:6",
+      "frameName": "budlum.xyz",
+      "id": "2306:6",
+      "name": "budlum.xyz",
+      "type": "FRAME",
+      "parentId": null,
+      "depth": 0,
+      "bbox": {
+        "x": 75841,
+        "y": 11074,
+        "width": 3840,
+        "height": 2160
+      },
+      "filters": {
+        "exposure": -1,
+        "contrast": -0.03999999910593033
+      }
+    }
+  ]
+}
