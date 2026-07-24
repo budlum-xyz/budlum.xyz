@@ -2,7 +2,7 @@
 
 Generated without calling the Figma API. These are committed Figma features that the renderer does not yet render exactly.
 
-- Total unsupported feature records: `62`
+- Total unsupported feature records: `61`
 
 ## By kind
 
@@ -10,7 +10,6 @@ Generated without calling the Figma API. These are committed Figma features that
 |---|---:|
 | `textStrokeNotRendered` | 36 |
 | `imageFiltersNotRendered` | 25 |
-| `nonInsideStrokeAlignNotRenderedExactly` | 1 |
 
 ## By frame
 
@@ -23,11 +22,11 @@ Generated without calling the Figma API. These are committed Figma features that
 | `2961:886` | 6 | token aratılıyken parıltı butonuna tıkladı |
 | `2967:528` | 6 | token aratılıyken parıltı butonuna tıkladı |
 | `2971:1324` | 6 | cüzdan aratılıyken parıltı butonuna tıkladı |
-| `2972:2406` | 4 | budlum.xyzde fareyle gezilirken |
 | `2900:600` | 3 | Zaten bir cüzdanım vara tıkladı |
 | `2903:345` | 3 | budlum.xyz ye giriş yaptı |
 | `2904:826` | 3 | budlum.xyz ye giriş yaptı |
 | `2921:712` | 3 | token aratılıyken parıltı butonuna tıkladı |
+| `2972:2406` | 3 | budlum.xyzde fareyle gezilirken |
 | `2306:6` | 1 | budlum.xyz |
 
 ## Renderer contract

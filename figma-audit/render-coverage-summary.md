@@ -11,7 +11,7 @@ Generated without calling the Figma API. It audits committed frame JSON against 
 - Renderable VECTOR-like nodes skipped because exact geometry is missing: `0`
 - Empty/no-op VECTOR-like nodes requiring no geometry: `36`
 - Missing exact asset audit entries: `0`
-- Nodes positioned with Figma relativeTransform matrices: `3996`
+- Nodes positioned with Figma relativeTransform matrices: `3997`
 - Rotated nodes positioned from Figma rotation fallback: `511`
 - Rotated transform nodes covered by matrix positioning: `841`
 - Rotated transform nodes still unsupported: `0`

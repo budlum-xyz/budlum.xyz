@@ -4,19 +4,17 @@
     "public/figma-frames/*.json"
   ],
   "purpose": "Documents Figma REST features that are intentionally not rendered until an exact implementation exists. Do not approximate these silently.",
-  "totalUnsupportedFeatureRecords": 62,
+  "totalUnsupportedFeatureRecords": 61,
   "byKind": {
     "textStrokeNotRendered": 36,
-    "nonInsideStrokeAlignNotRenderedExactly": 1,
     "imageFiltersNotRendered": 25
   },
   "byFrame": {
     "2972:2406": {
       "frameName": "budlum.xyzde fareyle gezilirken",
-      "count": 4,
+      "count": 3,
       "kinds": {
-        "textStrokeNotRendered": 3,
-        "nonInsideStrokeAlignNotRenderedExactly": 1
+        "textStrokeNotRendered": 3
       }
     },
     "2870:4251": {
@@ -175,29 +173,6 @@
       },
       "detail": {
         "strokeAlign": "OUTSIDE",
-        "strokeWeight": 4,
-        "strokeTypes": [
-          "SOLID"
-        ]
-      }
-    },
-    {
-      "kind": "nonInsideStrokeAlignNotRenderedExactly",
-      "rootFrameId": "2972:2406",
-      "frameName": "budlum.xyzde fareyle gezilirken",
-      "id": "2972:2632",
-      "name": "1000105989 2",
-      "type": "RECTANGLE",
-      "parentId": "2972:2406",
-      "depth": 1,
-      "bbox": {
-        "x": 69450,
-        "y": -12055,
-        "width": 239.55999755859375,
-        "height": 95.98291778564453
-      },
-      "detail": {
-        "strokeAlign": "CENTER",
         "strokeWeight": 4,
         "strokeTypes": [
           "SOLID"

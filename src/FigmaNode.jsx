@@ -303,6 +303,25 @@ function FigmaGeometryNode({ node, parentBox, imageFills, isRoot = false }) {
   );
 }
 
+function FigmaStrokeGeometryOverlay({ node }) {
+  if (!node.strokeGeometry?.length) return null;
+  const box = node.absoluteBoundingBox;
+  if (!box) return null;
+  const viewBoxWidth = node.size?.x ?? box.width;
+  const viewBoxHeight = node.size?.y ?? box.height;
+  const strokePaint = firstVisiblePaint(node.strokes || [], 'SOLID');
+  return (
+    <svg
+      viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`}
+      preserveAspectRatio="none"
+      style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%', overflow: 'visible', pointerEvents: 'none' }}
+      aria-hidden="true"
+    >
+      {renderGeometryPaths(node.strokeGeometry || [], strokePaint, strokePaint ? undefined : 'transparent')}
+    </svg>
+  );
+}
+
 export function FigmaNode({ node, parentBox, imageFills, onAction, isRoot = false }) {
   if (!node || node.visible === false) return null;
 
@@ -331,6 +350,15 @@ export function FigmaNode({ node, parentBox, imageFills, onAction, isRoot = fals
   const imageSizing = imageSizingForPaint(imagePaint);
 
   if (imageUrl && children.length === 0 && node.type !== 'FRAME') {
+    if (node.strokeGeometry?.length) {
+      const wrapperStyle = { ...style };
+      delete wrapperStyle.border;
+      return (
+        <div data-figma-id={node.id} data-figma-name={node.name} data-figma-type={node.type} style={wrapperStyle}>
+          <FigmaStrokeGeometryOverlay node={node} />
+        </div>
+      );
+    }
     if (imageSizing.usesImageTransform) {
       return <div data-figma-id={node.id} data-figma-name={node.name} data-figma-type={node.type} style={style} />;
     }

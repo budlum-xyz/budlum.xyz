@@ -531,10 +531,7 @@ for (const workItem of workItems) {
     if (workItem.fromStrokeAudit) unresolvedStrokeAudit.push({ ...entry, reason: 'Matched OpenFig node but target Figma node was not found in source/runtime JSON.' });
     continue;
   }
-  if (workItem.fromStrokeAudit && (hasVisibleImageFill(sourceNode) || hasVisibleImageFill(runtimeNode))) {
-    unresolvedStrokeAudit.push({ ...entry, reason: 'Target node has an image fill; current renderer does not consume exact strokeGeometry for image-fill nodes.' });
-    continue;
-  }
+  // Image-fill stroke audit nodes are patchable: the renderer consumes exact strokeGeometry as an SVG overlay.
   const sourceContext = buildFigmaContext(sourceDoc);
   const runtimeContext = buildFigmaContext(runtimeDoc);
   patchNodeGeometryAndTransform(sourceNode, sourceContext, candidates[0].record, dominantOffset, fillGeometry, strokeGeometry);
