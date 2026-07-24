@@ -102,6 +102,11 @@ FIGMA_SKIP_RATE_LIMITED=1 \
 npm run figma:refresh -- --ids=<frame-id-list>
 ```
 
+
+## Runtime image URL rule
+
+Runtime frame JSON files under `public/figma-frames/` must not contain Figma/S3 `assetUrl` fields. Image fills are resolved through `public/figma-image-fills.json`, which must map used image refs to committed `/figma-assets/...` files. `npm run figma:verify` fails if source/runtime frame JSON diverges or if `assetUrl` fields are reintroduced.
+
 ## Rules for other AI agents
 
 1. Do not approximate VECTOR-like nodes listed in `missing-exact-assets.json`; if the file is empty, keep it empty unless a real missing geometry record is introduced.

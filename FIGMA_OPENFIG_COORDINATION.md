@@ -225,3 +225,15 @@ Rules:
 - Verify them with `npm run figma:images:check` or `npm run figma:doctor`.
 - Do not reintroduce expiring signed URLs into runtime image fill maps.
 - If new frames introduce additional image refs, extract them from the checked-in OpenFig `.fig` archive or refresh through Figma only when exact image assets are available.
+
+
+## 14. 2026-07-24 runtime image assetUrl hardening
+
+Runtime frame JSON under `public/figma-frames/` has been scrubbed of expiring Figma/S3 `assetUrl` fields. Renderer image lookup now prefers `public/figma-image-fills.json` local `/figma-assets/...` paths before any fallback. CI verifies:
+
+- source/runtime frame JSON parity,
+- no `assetUrl` fields in frame JSON,
+- image fill map uses committed local asset paths only,
+- OpenFig image extraction/check remains current.
+
+Do not reintroduce signed runtime URLs. If new image refs appear, regenerate local assets from OpenFig or exact Figma source and commit the assets plus audits together.
