@@ -73,7 +73,7 @@ function App() {
         {visibleFrames.map((item) => <option key={item.id} value={item.id}>{item.id} — {item.name}</option>)}
       </select>
       {entry && <small>{entry.nodeCount} ayrı Figma node’u · kaynak: {componentName(entry.id)}</small>}
-      <p>{manifest.length} top-level Figma frame React renderer üzerinden yükleniyor. Eksik exact geometry olan node’lar audit’te tutulur; uydurma render yapılmaz.</p>
+      <p>{manifest.length} top-level Figma frame React renderer üzerinden yükleniyor. Exact geometry ve image asset’ler committed Figma/OpenFig verisinden gelir; kalan image filter/text stroke sınırlamaları audit’te açık tutulur, uydurma render yapılmaz.</p>
     </aside>
     <section className="viewport">
       <Suspense fallback={<span>Frame yükleniyor…</span>}>
