@@ -25,6 +25,7 @@ This directory is the shared handoff area for Figma-driven implementation work. 
 - `image-filter-exactness-review.md` / `.json` — exactness decision and node inventory for Figma image filters that are intentionally unsupported until a pixel-equivalent renderer exists.
 - `local-image-assets.md` / `.json` — committed local image asset inventory generated from the OpenFig `.fig` archive.
 - `openfig-tooling-security-review.md` / `.json` — development-only OpenFig toolchain audit and mitigation notes.
+- `paint-stack-review.md` / `.json` — multi-fill paint stack inventory and exactness notes.
 
 ## Local commands
 
@@ -36,6 +37,7 @@ npm run figma:coverage
 npm run figma:plan
 npm run figma:unsupported
 npm run figma:image-filters
+npm run figma:paint-stacks
 npm run figma:images:extract
 npm run figma:openfig:interactions
 npm run figma:verify
@@ -50,6 +52,7 @@ npm run figma:coverage:check
 npm run figma:plan:check
 npm run figma:unsupported:check
 npm run figma:image-filters:check
+npm run figma:paint-stacks:check
 npm run figma:images:check
 npm run figma:openfig:interactions:check
 npm run figma:verify
@@ -88,6 +91,8 @@ This writes/checks:
 - `figma-audit/unsupported-render-features.md`
 - `figma-audit/image-filter-exactness-review.json`
 - `figma-audit/image-filter-exactness-review.md`
+- `figma-audit/paint-stack-review.json`
+- `figma-audit/paint-stack-review.md`
 - `figma-audit/local-image-assets.json`
 - `figma-audit/local-image-assets.md`
 

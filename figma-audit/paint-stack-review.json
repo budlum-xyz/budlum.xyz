@@ -1,0 +1,1945 @@
+{
+  "generatedFrom": [
+    "figma-nodes/manifest.json",
+    "public/figma-frames/*.json",
+    "public/figma-image-fills.json"
+  ],
+  "purpose": "Tracks Figma nodes with more than one visible fill paint so renderer exactness is not silently assumed.",
+  "rendererPolicy": {
+    "currentRenderer": "Renderer supports one solid fill plus one image fill path for common nodes, but full arbitrary Figma paint-stack compositing is not claimed exact.",
+    "exactnessRule": "Do not add more complex paint stacks without either exact renderer support or explicit unsupported audit coverage.",
+    "supportedPaintTypesObserved": [
+      "IMAGE",
+      "SOLID"
+    ]
+  },
+  "aggregate": {
+    "multiFillRecords": 34,
+    "multiBackgroundRecords": 0,
+    "multiStrokeRecords": 0,
+    "nodesWithBothFillsAndBackground": 26,
+    "emptyFillsWithVisibleBackground": 0,
+    "uniqueFillPatterns": 3,
+    "affectedFrames": 17
+  },
+  "byPattern": {
+    "SOLID+IMAGE": {
+      "count": 19,
+      "frames": {
+        "2377:22": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 2
+        },
+        "2580:197": {
+          "frameName": "tokens yazısına tıkladı",
+          "count": 3
+        },
+        "2614:402": {
+          "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+          "count": 3
+        },
+        "2901:266": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2901:704": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2902:961": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2903:345": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 1
+        },
+        "2907:1281": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2972:3658": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2972:3858": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2972:4204": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "3317:788": {
+          "frameName": "nft yazısına tıkladı",
+          "count": 3
+        }
+      }
+    },
+    "IMAGE+SOLID": {
+      "count": 9,
+      "frames": {
+        "2377:22": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2901:266": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2901:704": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2902:961": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2903:345": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 1
+        },
+        "2907:1281": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2972:3658": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2972:3858": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        },
+        "2972:4204": {
+          "frameName": "kullanıcı kendi cüzdanını açtı",
+          "count": 1
+        }
+      }
+    },
+    "SOLID+SOLID": {
+      "count": 6,
+      "frames": {
+        "2667:256": {
+          "frameName": "herhangi bir yere tıkladı",
+          "count": 1
+        },
+        "2671:814": {
+          "frameName": "tohum tümcecikleri kaydet",
+          "count": 1
+        },
+        "2900:600": {
+          "frameName": "Zaten bir cüzdanım vara tıkladı",
+          "count": 1
+        },
+        "2903:345": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 1
+        },
+        "2904:826": {
+          "frameName": "budlum.xyz ye giriş yaptı",
+          "count": 1
+        },
+        "2977:1028": {
+          "frameName": "tohum tümcecikleri kaydet",
+          "count": 1
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "rootFrameId": "2377:22",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2492:2606",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2492:2607",
+      "depth": 5,
+      "bbox": {
+        "x": 73943,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2377:22",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2492:2611",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2897:267",
+      "depth": 3,
+      "bbox": {
+        "x": 73763,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "355e6027a6e3c100caf624a21f5e42ea64fba48c",
+          "localAssetPath": "/figma-assets/355e6027a6e3c100caf624a21f5e42ea64fba48c.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2377:22",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2483:2519",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2978:1572",
+      "depth": 2,
+      "bbox": {
+        "x": 74783,
+        "y": -602,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2580:197",
+      "frameName": "tokens yazısına tıkladı",
+      "id": "2580:444",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2580:443",
+      "depth": 4,
+      "bbox": {
+        "x": 77703,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2580:197",
+      "frameName": "tokens yazısına tıkladı",
+      "id": "2580:447",
+      "name": "Rectangle 157",
+      "type": "RECTANGLE",
+      "parentId": "2580:446",
+      "depth": 4,
+      "bbox": {
+        "x": 77703,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2580:197",
+      "frameName": "tokens yazısına tıkladı",
+      "id": "2580:453",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2580:441",
+      "depth": 2,
+      "bbox": {
+        "x": 77883,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
+          "localAssetPath": "/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "3317:788",
+      "frameName": "nft yazısına tıkladı",
+      "id": "3317:972",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "3317:971",
+      "depth": 4,
+      "bbox": {
+        "x": 85463,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "3317:788",
+      "frameName": "nft yazısına tıkladı",
+      "id": "3317:975",
+      "name": "Rectangle 157",
+      "type": "RECTANGLE",
+      "parentId": "3317:974",
+      "depth": 4,
+      "bbox": {
+        "x": 85463,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "3317:788",
+      "frameName": "nft yazısına tıkladı",
+      "id": "3317:981",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "3317:969",
+      "depth": 2,
+      "bbox": {
+        "x": 85643,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
+          "localAssetPath": "/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2614:402",
+      "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+      "id": "2614:645",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2614:644",
+      "depth": 4,
+      "bbox": {
+        "x": 81583,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2614:402",
+      "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+      "id": "2614:648",
+      "name": "Rectangle 157",
+      "type": "RECTANGLE",
+      "parentId": "2614:647",
+      "depth": 4,
+      "bbox": {
+        "x": 81583,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2614:402",
+      "frameName": "tokens yazısına tıkladı - pencere max bu kadar açılabilir",
+      "id": "2614:654",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2614:642",
+      "depth": 2,
+      "bbox": {
+        "x": 81763,
+        "y": 1018,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
+          "localAssetPath": "/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2667:256",
+      "frameName": "herhangi bir yere tıkladı",
+      "id": "2667:761",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "2667:759",
+      "depth": 3,
+      "bbox": {
+        "x": 78571,
+        "y": -4543,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2671:814",
+      "frameName": "tohum tümcecikleri kaydet",
+      "id": "2671:1003",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "2671:1001",
+      "depth": 3,
+      "bbox": {
+        "x": 82543,
+        "y": -4543,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2977:1028",
+      "frameName": "tohum tümcecikleri kaydet",
+      "id": "2977:1156",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "2977:1154",
+      "depth": 3,
+      "bbox": {
+        "x": 86423,
+        "y": -4543,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2901:266",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2968:626",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2968:625",
+      "depth": 4,
+      "bbox": {
+        "x": 78658,
+        "y": -17327,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2901:266",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2901:444",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2901:443",
+      "depth": 4,
+      "bbox": {
+        "x": 77878,
+        "y": -15707,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2907:1281",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2907:1433",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2907:1432",
+      "depth": 5,
+      "bbox": {
+        "x": 94086,
+        "y": -20045,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2907:1281",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2971:1913",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2971:1912",
+      "depth": 2,
+      "bbox": {
+        "x": 94926,
+        "y": -21665,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2901:704",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2968:617",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2968:616",
+      "depth": 3,
+      "bbox": {
+        "x": 82738,
+        "y": -17327,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2901:704",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2901:856",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2901:855",
+      "depth": 3,
+      "bbox": {
+        "x": 81958,
+        "y": -15707,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2902:961",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2902:1093",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2902:1092",
+      "depth": 2,
+      "bbox": {
+        "x": 85839,
+        "y": -15707,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2902:961",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2907:1379",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2967:1098",
+      "depth": 2,
+      "bbox": {
+        "x": 86618,
+        "y": -17327,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2972:3658",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2972:3773",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2972:3772",
+      "depth": 2,
+      "bbox": {
+        "x": 93896,
+        "y": -14627,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2972:3658",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2972:3805",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2972:3804",
+      "depth": 2,
+      "bbox": {
+        "x": 94675,
+        "y": -16247,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2972:4204",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2972:4303",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2972:4302",
+      "depth": 2,
+      "bbox": {
+        "x": 101656,
+        "y": -14627,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2972:4204",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2972:4331",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2972:4330",
+      "depth": 2,
+      "bbox": {
+        "x": 102435,
+        "y": -16247,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2972:3858",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2972:3957",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2972:3956",
+      "depth": 2,
+      "bbox": {
+        "x": 97776,
+        "y": -14627,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2972:3858",
+      "frameName": "kullanıcı kendi cüzdanını açtı",
+      "id": "2972:3985",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2972:3984",
+      "depth": 2,
+      "bbox": {
+        "x": 98555,
+        "y": -16247,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2900:566",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "2900:564",
+      "depth": 3,
+      "bbox": {
+        "x": 90752,
+        "y": -18471,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2971:2236",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "2971:2235",
+      "depth": 4,
+      "bbox": {
+        "x": 89963,
+        "y": -14628,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2903:345",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2971:2268",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "2971:2121",
+      "depth": 2,
+      "bbox": {
+        "x": 90744,
+        "y": -15886,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2900:600",
+      "frameName": "Zaten bir cüzdanım vara tıkladı",
+      "id": "2900:622",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "2900:620",
+      "depth": 3,
+      "bbox": {
+        "x": 94675,
+        "y": -18471,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "2904:826",
+      "frameName": "budlum.xyz ye giriş yaptı",
+      "id": "2904:848",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "2904:846",
+      "depth": 3,
+      "bbox": {
+        "x": 98555,
+        "y": -18471,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    }
+  ]
+}
