@@ -7,12 +7,23 @@
   "rationale": [
     "Figma text stroke uses strokeAlign values such as OUTSIDE.",
     "CSS -webkit-text-stroke does not expose Figma-equivalent OUTSIDE stroke alignment and is therefore treated as an approximation.",
-    "Exact support requires text-to-path/vector outline data or a proven pixel-equivalent renderer for the specific font/stroke stack."
+    "OpenFig binary does not contain text stroke geometry for these nodes (0 TEXT nodes with strokeGeometry in .fig file, confirmed 2026-07-24).",
+    "Exact support requires text-to-path/vector outline data from Figma API live data or a proven pixel-equivalent renderer for the specific font/stroke stack."
   ],
   "rendererPolicy": {
     "renderApproximationAllowed": false,
     "currentRendererBehavior": "Ignore text strokes and keep affected TEXT nodes visible in unsupported-render-features audit.",
     "ciGuard": "scripts/verify-figma-data.mjs fails if src/FigmaNode.jsx starts using CSS text-stroke while textStrokeNotRendered remains in unsupported audit."
+  },
+  "openfigInvestigation": {
+    "date": "2026-07-24",
+    "method": "Parsed OpenFig .fig binary via FigDeck; searched all TEXT node records for strokeGeometry blobs.",
+    "result": {
+      "totalTextNodesWithStrokes": 0,
+      "totalTextNodesWithStrokeGeometry": 0,
+      "totalTextNodesWithFillGeometry": 0
+    },
+    "conclusion": "OpenFig binary does not export text-to-vector outline paths. Text stroke geometry unavailable via OpenFig. Resolution requires Figma API live data or a proven pixel-equivalent renderer."
   },
   "aggregate": {
     "textStrokeRecords": 36,

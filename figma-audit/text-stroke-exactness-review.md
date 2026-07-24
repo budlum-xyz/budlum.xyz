@@ -11,6 +11,18 @@ Generated from `figma-audit/unsupported-render-features.json` without calling th
 
 CSS `-webkit-text-stroke` is not accepted as an exact Figma `OUTSIDE` text-stroke renderer. These nodes remain unrendered as strokes until exact text outline/vector data or a proven pixel-equivalent renderer exists.
 
+## OpenFig investigation (2026-07-24)
+
+Parsed OpenFig `.fig` binary via `FigDeck`. Searched all TEXT node records for `strokeGeometry` blobs.
+
+| Metric | Value |
+|---|---|
+| TEXT nodes with strokes | `0` |
+| TEXT nodes with strokeGeometry | `0` |
+| TEXT nodes with fillGeometry | `0` |
+
+**Conclusion**: OpenFig binary does **not** export text-to-vector outline paths. Text stroke geometry unavailable via OpenFig. Resolution requires Figma API live data (currently rate-limited at ~4.2 days) or a proven pixel-equivalent text-to-vector renderer.
+
 ## Specs
 
 | Count | Spec | Frames |
