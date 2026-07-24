@@ -1,0 +1,54 @@
+{
+  "generatedFrom": [
+    "figma-nodes/manifest.json",
+    "figma-audit/render-coverage-summary.json",
+    "figma-audit/unsupported-render-features.json",
+    "figma-audit/remaining-exact-assets-plan.json",
+    "figma-audit/font-coverage.json",
+    "figma-audit/local-image-assets.json",
+    "figma-audit/image-filter-exactness-review.json",
+    "figma-audit/text-stroke-exactness-review.json",
+    "figma-audit/paint-stack-review.json",
+    "figma-audit/openfig-interactions.json",
+    "figma-audit/openfig-geometry-final-report.json",
+    "figma-audit/openfig-tooling-security-review.json"
+  ],
+  "summary": {
+    "manifestFrames": 39,
+    "totalRenderedNodesAudited": 15530,
+    "missingExactGeometryRecords": 0,
+    "skippedRenderableVectorGeometry": 0,
+    "exactVectorGeometryNodes": 790,
+    "exactLeafGeometryNodes": 1503,
+    "unsupportedFeatureRecords": 61,
+    "unsupportedByKind": {
+      "textStrokeNotRendered": 36,
+      "imageFiltersNotRendered": 25
+    },
+    "remainingRefreshPlanFrames": 0,
+    "remainingRefreshPlanRecords": 0,
+    "localImageAssets": 68,
+    "localImageAssetBytes": 16542753,
+    "runtimeFontFaces": 2,
+    "missingRuntimeFontCoverage": 0,
+    "imageFilterRecordsBlocked": 25,
+    "textStrokeRecordsBlocked": 36,
+    "multiFillPaintStackRecords": 34,
+    "openfigPrototypeLikeRecords": 0,
+    "openfigHyperlinkRecordsOutsideScope": 7,
+    "openfigGeometryFinalMissing": 0,
+    "openfigToolingVulnerabilities": {
+      "moderate": 2,
+      "high": 2,
+      "total": 4
+    }
+  },
+  "decisions": {
+    "noApproximateVectorGeometry": true,
+    "liveFigmaGeometryRefreshRequired": false,
+    "imageFiltersBlockedUntilExactPixelMath": "not-rendered-exactness-blocked",
+    "textStrokesBlockedUntilExactOutlineRenderer": "not-rendered-exactness-blocked",
+    "localRuntimeImagesRequired": true,
+    "openfigToolingRuntimeShipped": false
+  }
+}

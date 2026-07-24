@@ -2,6 +2,10 @@
 
 This directory is the shared handoff area for Figma-driven implementation work. Do not use it as a place to invent missing UI. If Figma data is incomplete, record the gap here and leave the corresponding UI node unapproximated.
 
+## Status dashboard
+
+- `current-status.md` / `.json` — consolidated status generated from all committed Figma/OpenFig audit files.
+
 ## Core audit files
 
 - `nested-frames.json` — nested frame/component/instance inventory from the Figma node payloads.
@@ -44,6 +48,8 @@ npm run figma:text-strokes
 npm run figma:fonts
 npm run figma:images:extract
 npm run figma:openfig:interactions
+npm run figma:status
+npm run figma:status:check
 npm run figma:verify
 ```
 

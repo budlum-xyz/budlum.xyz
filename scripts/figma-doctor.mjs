@@ -13,6 +13,7 @@ const steps = [
   { command: 'npm', args: ['ci', '--no-audit', '--fund=false'], cwd: 'tools/design-import', label: 'npm ci (OpenFig tooling)' },
   { command: 'npm', args: ['run', 'figma:openfig:resolve:check'] },
   { command: 'npm', args: ['run', 'figma:openfig:interactions:check'] },
+  { command: 'npm', args: ['run', 'figma:status:check'] },
   { command: 'npm', args: ['run', 'figma:verify'] },
 ];
 
