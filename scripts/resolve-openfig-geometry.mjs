@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync } from 'node:fs';
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -54,6 +54,13 @@ function requireOpenFigDependency() {
   if (!existsSync(deckPath) || !existsSync(helperPath)) {
     throw new Error('OpenFig dependency is missing. Run: cd tools/design-import && npm ci');
   }
+}
+
+function prepareOpenFigTempDir() {
+  const tmpDir = path.join(repoRoot, '.openfig-tmp');
+  rmSync(tmpDir, { recursive: true, force: true });
+  mkdirSync(tmpDir, { recursive: true });
+  process.env.TMPDIR = tmpDir;
 }
 
 function transformIdentity() {
@@ -421,6 +428,7 @@ function patchNodeGeometryAndTransform(targetNode, figmaContext, openRecord, dom
 }
 
 requireOpenFigDependency();
+prepareOpenFigTempDir();
 const [{ FigDeck }, { nid }] = await Promise.all([
   import(pathToFileURL(path.join(repoRoot, OPENFIG_DECK)).href),
   import(pathToFileURL(path.join(repoRoot, OPENFIG_HELPERS)).href),

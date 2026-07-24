@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -32,6 +32,13 @@ function requireOpenFigDependency() {
   }
 }
 
+function prepareOpenFigTempDir() {
+  const tmpDir = path.join(repoRoot, '.openfig-tmp');
+  rmSync(tmpDir, { recursive: true, force: true });
+  mkdirSync(tmpDir, { recursive: true });
+  process.env.TMPDIR = tmpDir;
+}
+
 function nodeIdFromGuid(guid) {
   return `${guid.sessionID}:${guid.localID}`;
 }
@@ -51,6 +58,7 @@ function ancestorIds(id, parentById) {
 }
 
 requireOpenFigDependency();
+prepareOpenFigTempDir();
 const [{ FigDeck }, { nid }] = await Promise.all([
   import(pathToFileURL(path.join(repoRoot, OPENFIG_DECK)).href),
   import(pathToFileURL(path.join(repoRoot, OPENFIG_HELPERS)).href),
