@@ -6,8 +6,8 @@
   ],
   "purpose": "Ensures Figma text font families used by frame JSON are bundled at runtime instead of falling back silently.",
   "aggregate": {
-    "uniqueFontFaces": 2,
-    "textNodes": 1241,
+    "uniqueFontFaces": 6,
+    "textNodes": 2754,
     "missingRuntimeFontCoverage": 0
   },
   "fonts": [
@@ -15,8 +15,20 @@
       "fontFamily": "Dosis",
       "fontWeight": 400,
       "fontStyle": "Regular",
-      "textNodeCount": 651,
+      "textNodeCount": 1338,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 654
+        },
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 26
+        },
+        "1:30": {
+          "frameName": "budlum.xyz/go",
+          "count": 7
+        },
         "2223:54": {
           "frameName": "kullanıcı bir cüzdanı açtı",
           "count": 18
@@ -229,8 +241,28 @@
       "fontFamily": "Mako",
       "fontWeight": 400,
       "fontStyle": "Regular",
-      "textNodeCount": 590,
+      "textNodeCount": 1306,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 592
+        },
+        "1:20836": {
+          "frameName": "logo",
+          "count": 2
+        },
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 105
+        },
+        "1:25545": {
+          "frameName": "ekip",
+          "count": 4
+        },
+        "1:30": {
+          "frameName": "budlum.xyz/go",
+          "count": 13
+        },
         "2223:54": {
           "frameName": "kullanıcı bir cüzdanı açtı",
           "count": 8
@@ -388,6 +420,242 @@
           "id": "2719:321",
           "name": "107 $BUDL",
           "characters": "107 $BUDL"
+        }
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontStyle": "Regular",
+      "textNodeCount": 74,
+      "frames": {
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 66
+        },
+        "1:25545": {
+          "frameName": "ekip",
+          "count": 8
+        }
+      },
+      "fontsourcePackage": "@fontsource/inter",
+      "packageDependencyPresent": true,
+      "cssImportPresent": true,
+      "expectedImport": "@fontsource/inter/400.css",
+      "examples": [
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:21387",
+          "name": "Whitepaper",
+          "characters": "Whitepaper"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:21388",
+          "name": "Docs",
+          "characters": "Docs"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22302",
+          "name": "focused on data sovereignty and societal flourishing",
+          "characters": " focused on data sovereignty and societal flourishing"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22303",
+          "name": "as the next layer of the internet",
+          "characters": "as the next layer of the internet"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22318",
+          "name": "Budlum redefines the decentralized ecosystem by serving as an integrated framework that seamlessly unites isolated blockchain ecosystems, traditional finance, artificial intelligence, and global users under a single cryptographic reality. Transcending the boundaries of standard networks, Budlum anchors all cross-domain transactions and independent infrastructures directly into its own core protocol.",
+          "characters": "Budlum redefines the decentralized ecosystem by serving as an integrated framework that seamlessly unites isolated blockchain ecosystems, traditional finance, artificial intelligence, and global users under a single cryptographic reality. Transcending the boundaries of standard networks, Budlum anchors all cross-domain transactions and independent infrastructures directly into its own core protocol."
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22321",
+          "name": "User",
+          "characters": "User"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22322",
+          "name": "Developer",
+          "characters": "Developer"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22323",
+          "name": "İnstitution",
+          "characters": "İnstitution"
+        }
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontStyle": "Medium",
+      "textNodeCount": 26,
+      "frames": {
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 26
+        }
+      },
+      "fontsourcePackage": "@fontsource/inter",
+      "packageDependencyPresent": true,
+      "cssImportPresent": true,
+      "expectedImport": "@fontsource/inter/500.css",
+      "examples": [
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22301",
+          "name": "The universal settlement layer",
+          "characters": "The universal settlement layer"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22320",
+          "name": "EVRENSEL VERİ AKTARIMI",
+          "characters": "EVRENSEL VERİ AKTARIMI"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22348",
+          "name": "DeEd",
+          "characters": "DeEd"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22353",
+          "name": "Bud SocialFi",
+          "characters": "Bud SocialFi"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22354",
+          "name": "Lum DeFi",
+          "characters": "Lum DeFi"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22355",
+          "name": "BudZKVM",
+          "characters": "BudZKVM"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22360",
+          "name": "DeArt",
+          "characters": "DeArt"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:22361",
+          "name": "Budlum Core",
+          "characters": "Budlum Core"
+        }
+      ]
+    },
+    {
+      "fontFamily": "Dosis",
+      "fontWeight": 200,
+      "fontStyle": "ExtraLight",
+      "textNodeCount": 6,
+      "frames": {
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 6
+        }
+      },
+      "fontsourcePackage": "@fontsource/dosis",
+      "packageDependencyPresent": true,
+      "cssImportPresent": true,
+      "expectedImport": "@fontsource/dosis/200.css",
+      "examples": [
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:25173",
+          "name": "c",
+          "characters": "c"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:25174",
+          "name": "s",
+          "characters": "s"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:25263",
+          "name": "c",
+          "characters": "c"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:25264",
+          "name": "s",
+          "characters": "s"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:25399",
+          "name": "c",
+          "characters": "c"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:25400",
+          "name": "s",
+          "characters": "s"
+        }
+      ]
+    },
+    {
+      "fontFamily": "Dosis",
+      "fontWeight": 300,
+      "fontStyle": "Light",
+      "textNodeCount": 4,
+      "frames": {
+        "1:20836": {
+          "frameName": "logo",
+          "count": 3
+        },
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 1
+        }
+      },
+      "fontsourcePackage": "@fontsource/dosis",
+      "packageDependencyPresent": true,
+      "cssImportPresent": true,
+      "expectedImport": "@fontsource/dosis/300.css",
+      "examples": [
+        {
+          "rootFrameId": "1:20836",
+          "id": "1:21040",
+          "name": "budlum",
+          "characters": "budlum"
+        },
+        {
+          "rootFrameId": "1:20836",
+          "id": "1:21041",
+          "name": "$BUD",
+          "characters": "$BUD"
+        },
+        {
+          "rootFrameId": "1:20836",
+          "id": "1:21042",
+          "name": "Budlum",
+          "characters": "Budlum"
+        },
+        {
+          "rootFrameId": "1:21110",
+          "id": "1:21209",
+          "name": "Budlum, topluluk için en iyisidir",
+          "characters": "Budlum, topluluk için en iyisidir"
         }
       ]
     }

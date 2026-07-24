@@ -6,10 +6,10 @@
   ],
   "purpose": "Ensures runtime Figma image fills use committed local assets instead of expiring Figma/S3 signed URLs.",
   "aggregate": {
-    "usedImageRefs": 68,
-    "localAssets": 68,
+    "usedImageRefs": 118,
+    "localAssets": 118,
     "missingInOpenFig": 0,
-    "totalBytes": 16542753,
+    "totalBytes": 57353872,
     "allSha1MatchImageRef": true
   },
   "imageMapPolicy": {
@@ -37,6 +37,26 @@
       "extension": "png",
       "bytes": 67477,
       "sha1": "03e99062dbce235faa93ff58a20f5b2391dfd744",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "04a4fe7b69a8028809a4a26fa2071b76e7be1e04",
+      "archiveEntry": "images/04a4fe7b69a8028809a4a26fa2071b76e7be1e04",
+      "assetPath": "public/figma-assets/04a4fe7b69a8028809a4a26fa2071b76e7be1e04.png",
+      "publicPath": "/figma-assets/04a4fe7b69a8028809a4a26fa2071b76e7be1e04.png",
+      "extension": "png",
+      "bytes": 591160,
+      "sha1": "04a4fe7b69a8028809a4a26fa2071b76e7be1e04",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "05060aef732ff5c5b40d634a499f3387135fe98f",
+      "archiveEntry": "images/05060aef732ff5c5b40d634a499f3387135fe98f",
+      "assetPath": "public/figma-assets/05060aef732ff5c5b40d634a499f3387135fe98f.png",
+      "publicPath": "/figma-assets/05060aef732ff5c5b40d634a499f3387135fe98f.png",
+      "extension": "png",
+      "bytes": 9028,
+      "sha1": "05060aef732ff5c5b40d634a499f3387135fe98f",
       "sha1MatchesImageRef": true
     },
     {
@@ -110,6 +130,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "21b7e58cb5c7fe8831acd964c913588a7eeb1b4c",
+      "archiveEntry": "images/21b7e58cb5c7fe8831acd964c913588a7eeb1b4c",
+      "assetPath": "public/figma-assets/21b7e58cb5c7fe8831acd964c913588a7eeb1b4c.jpg",
+      "publicPath": "/figma-assets/21b7e58cb5c7fe8831acd964c913588a7eeb1b4c.jpg",
+      "extension": "jpg",
+      "bytes": 49204,
+      "sha1": "21b7e58cb5c7fe8831acd964c913588a7eeb1b4c",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
       "archiveEntry": "images/21bf9b407c22a37da56c1c1b28efa3a447b21733",
       "assetPath": "public/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
@@ -120,6 +150,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "236fbbcebd12cb67a197b7b0065dca409138abab",
+      "archiveEntry": "images/236fbbcebd12cb67a197b7b0065dca409138abab",
+      "assetPath": "public/figma-assets/236fbbcebd12cb67a197b7b0065dca409138abab.png",
+      "publicPath": "/figma-assets/236fbbcebd12cb67a197b7b0065dca409138abab.png",
+      "extension": "png",
+      "bytes": 2175181,
+      "sha1": "236fbbcebd12cb67a197b7b0065dca409138abab",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "24d67adf8fd19264c07f4e5a6a9f546cb61f04c3",
       "archiveEntry": "images/24d67adf8fd19264c07f4e5a6a9f546cb61f04c3",
       "assetPath": "public/figma-assets/24d67adf8fd19264c07f4e5a6a9f546cb61f04c3.png",
@@ -127,6 +167,26 @@
       "extension": "png",
       "bytes": 30977,
       "sha1": "24d67adf8fd19264c07f4e5a6a9f546cb61f04c3",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "24d8c3bb9622b6a0e9e2dbc2586d1c30ccba2992",
+      "archiveEntry": "images/24d8c3bb9622b6a0e9e2dbc2586d1c30ccba2992",
+      "assetPath": "public/figma-assets/24d8c3bb9622b6a0e9e2dbc2586d1c30ccba2992.png",
+      "publicPath": "/figma-assets/24d8c3bb9622b6a0e9e2dbc2586d1c30ccba2992.png",
+      "extension": "png",
+      "bytes": 98436,
+      "sha1": "24d8c3bb9622b6a0e9e2dbc2586d1c30ccba2992",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "2762728200214f3d519652ab5da8682c56c8d164",
+      "archiveEntry": "images/2762728200214f3d519652ab5da8682c56c8d164",
+      "assetPath": "public/figma-assets/2762728200214f3d519652ab5da8682c56c8d164.png",
+      "publicPath": "/figma-assets/2762728200214f3d519652ab5da8682c56c8d164.png",
+      "extension": "png",
+      "bytes": 1039602,
+      "sha1": "2762728200214f3d519652ab5da8682c56c8d164",
       "sha1MatchesImageRef": true
     },
     {
@@ -157,6 +217,16 @@
       "extension": "png",
       "bytes": 39981,
       "sha1": "3279a3cc4877292be9d98784b4a47d62c88fec1e",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "336b8321e0f4b685cb90b39d08016add8fca7492",
+      "archiveEntry": "images/336b8321e0f4b685cb90b39d08016add8fca7492",
+      "assetPath": "public/figma-assets/336b8321e0f4b685cb90b39d08016add8fca7492.png",
+      "publicPath": "/figma-assets/336b8321e0f4b685cb90b39d08016add8fca7492.png",
+      "extension": "png",
+      "bytes": 133928,
+      "sha1": "336b8321e0f4b685cb90b39d08016add8fca7492",
       "sha1MatchesImageRef": true
     },
     {
@@ -207,6 +277,16 @@
       "extension": "png",
       "bytes": 29873,
       "sha1": "3be2b6f901d504229e7d5ef7a4ecc86b17cdcf56",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "3c772cb64106f9cb5a1621d1fc98181662e4f996",
+      "archiveEntry": "images/3c772cb64106f9cb5a1621d1fc98181662e4f996",
+      "assetPath": "public/figma-assets/3c772cb64106f9cb5a1621d1fc98181662e4f996.png",
+      "publicPath": "/figma-assets/3c772cb64106f9cb5a1621d1fc98181662e4f996.png",
+      "extension": "png",
+      "bytes": 2289493,
+      "sha1": "3c772cb64106f9cb5a1621d1fc98181662e4f996",
       "sha1MatchesImageRef": true
     },
     {
@@ -290,6 +370,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5",
+      "archiveEntry": "images/4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5",
+      "assetPath": "public/figma-assets/4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5.png",
+      "publicPath": "/figma-assets/4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5.png",
+      "extension": "png",
+      "bytes": 15235,
+      "sha1": "4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "5143b7357dd03f9cb8b06617242dacdce17a2dd9",
       "archiveEntry": "images/5143b7357dd03f9cb8b06617242dacdce17a2dd9",
       "assetPath": "public/figma-assets/5143b7357dd03f9cb8b06617242dacdce17a2dd9.png",
@@ -307,6 +397,46 @@
       "extension": "png",
       "bytes": 150431,
       "sha1": "52f7327bd48b40dbfec7caf817947eafdda33ac5",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "5413344d6f3757a9a86fe45f362034ade36fd262",
+      "archiveEntry": "images/5413344d6f3757a9a86fe45f362034ade36fd262",
+      "assetPath": "public/figma-assets/5413344d6f3757a9a86fe45f362034ade36fd262.png",
+      "publicPath": "/figma-assets/5413344d6f3757a9a86fe45f362034ade36fd262.png",
+      "extension": "png",
+      "bytes": 208617,
+      "sha1": "5413344d6f3757a9a86fe45f362034ade36fd262",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "572189bd14991a5882291a204916da941d7fc412",
+      "archiveEntry": "images/572189bd14991a5882291a204916da941d7fc412",
+      "assetPath": "public/figma-assets/572189bd14991a5882291a204916da941d7fc412.png",
+      "publicPath": "/figma-assets/572189bd14991a5882291a204916da941d7fc412.png",
+      "extension": "png",
+      "bytes": 330588,
+      "sha1": "572189bd14991a5882291a204916da941d7fc412",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "5a7ca47f10e001d3262e7f46a4c4035f98348133",
+      "archiveEntry": "images/5a7ca47f10e001d3262e7f46a4c4035f98348133",
+      "assetPath": "public/figma-assets/5a7ca47f10e001d3262e7f46a4c4035f98348133.png",
+      "publicPath": "/figma-assets/5a7ca47f10e001d3262e7f46a4c4035f98348133.png",
+      "extension": "png",
+      "bytes": 29781,
+      "sha1": "5a7ca47f10e001d3262e7f46a4c4035f98348133",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "5e0fa3f71399cb2b016987153ef2d0de54c6cadd",
+      "archiveEntry": "images/5e0fa3f71399cb2b016987153ef2d0de54c6cadd",
+      "assetPath": "public/figma-assets/5e0fa3f71399cb2b016987153ef2d0de54c6cadd.png",
+      "publicPath": "/figma-assets/5e0fa3f71399cb2b016987153ef2d0de54c6cadd.png",
+      "extension": "png",
+      "bytes": 1442049,
+      "sha1": "5e0fa3f71399cb2b016987153ef2d0de54c6cadd",
       "sha1MatchesImageRef": true
     },
     {
@@ -370,6 +500,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "6ddd9f0f973cb237475f2a6e58e2978c142f726a",
+      "archiveEntry": "images/6ddd9f0f973cb237475f2a6e58e2978c142f726a",
+      "assetPath": "public/figma-assets/6ddd9f0f973cb237475f2a6e58e2978c142f726a.png",
+      "publicPath": "/figma-assets/6ddd9f0f973cb237475f2a6e58e2978c142f726a.png",
+      "extension": "png",
+      "bytes": 21487,
+      "sha1": "6ddd9f0f973cb237475f2a6e58e2978c142f726a",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "757cf1148eba26d2c2e9a3681da8438c0785acef",
       "archiveEntry": "images/757cf1148eba26d2c2e9a3681da8438c0785acef",
       "assetPath": "public/figma-assets/757cf1148eba26d2c2e9a3681da8438c0785acef.png",
@@ -387,6 +527,16 @@
       "extension": "png",
       "bytes": 29973,
       "sha1": "75cb194f0da0d36b650a9ceed980e08ef7128fb4",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "75f2daa35adc155de6b7098ba3cb7bfa01d25850",
+      "archiveEntry": "images/75f2daa35adc155de6b7098ba3cb7bfa01d25850",
+      "assetPath": "public/figma-assets/75f2daa35adc155de6b7098ba3cb7bfa01d25850.png",
+      "publicPath": "/figma-assets/75f2daa35adc155de6b7098ba3cb7bfa01d25850.png",
+      "extension": "png",
+      "bytes": 391994,
+      "sha1": "75f2daa35adc155de6b7098ba3cb7bfa01d25850",
       "sha1MatchesImageRef": true
     },
     {
@@ -410,6 +560,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "85e932aa08afa249f515a580096c970ecac6874f",
+      "archiveEntry": "images/85e932aa08afa249f515a580096c970ecac6874f",
+      "assetPath": "public/figma-assets/85e932aa08afa249f515a580096c970ecac6874f.png",
+      "publicPath": "/figma-assets/85e932aa08afa249f515a580096c970ecac6874f.png",
+      "extension": "png",
+      "bytes": 9515,
+      "sha1": "85e932aa08afa249f515a580096c970ecac6874f",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "89f495fcae61819f10e05d113b9c44836e642bf0",
       "archiveEntry": "images/89f495fcae61819f10e05d113b9c44836e642bf0",
       "assetPath": "public/figma-assets/89f495fcae61819f10e05d113b9c44836e642bf0.png",
@@ -417,6 +577,16 @@
       "extension": "png",
       "bytes": 50296,
       "sha1": "89f495fcae61819f10e05d113b9c44836e642bf0",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "8a29fb027aacccbc3b7481ea7f89e21487a3e548",
+      "archiveEntry": "images/8a29fb027aacccbc3b7481ea7f89e21487a3e548",
+      "assetPath": "public/figma-assets/8a29fb027aacccbc3b7481ea7f89e21487a3e548.png",
+      "publicPath": "/figma-assets/8a29fb027aacccbc3b7481ea7f89e21487a3e548.png",
+      "extension": "png",
+      "bytes": 424618,
+      "sha1": "8a29fb027aacccbc3b7481ea7f89e21487a3e548",
       "sha1MatchesImageRef": true
     },
     {
@@ -437,6 +607,16 @@
       "extension": "png",
       "bytes": 9630366,
       "sha1": "8c628ab1951d81888d046ec8056ad7c45f84630d",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "9069b39b8c477a5f38d652cba53f14a404927652",
+      "archiveEntry": "images/9069b39b8c477a5f38d652cba53f14a404927652",
+      "assetPath": "public/figma-assets/9069b39b8c477a5f38d652cba53f14a404927652.png",
+      "publicPath": "/figma-assets/9069b39b8c477a5f38d652cba53f14a404927652.png",
+      "extension": "png",
+      "bytes": 52318,
+      "sha1": "9069b39b8c477a5f38d652cba53f14a404927652",
       "sha1MatchesImageRef": true
     },
     {
@@ -470,6 +650,26 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "99935f1a6647fa79b0cf65fef40d1b98aff87ab2",
+      "archiveEntry": "images/99935f1a6647fa79b0cf65fef40d1b98aff87ab2",
+      "assetPath": "public/figma-assets/99935f1a6647fa79b0cf65fef40d1b98aff87ab2.png",
+      "publicPath": "/figma-assets/99935f1a6647fa79b0cf65fef40d1b98aff87ab2.png",
+      "extension": "png",
+      "bytes": 178884,
+      "sha1": "99935f1a6647fa79b0cf65fef40d1b98aff87ab2",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "9a8481a34272a9fa12a4ec265067d34bcd96bbe3",
+      "archiveEntry": "images/9a8481a34272a9fa12a4ec265067d34bcd96bbe3",
+      "assetPath": "public/figma-assets/9a8481a34272a9fa12a4ec265067d34bcd96bbe3.png",
+      "publicPath": "/figma-assets/9a8481a34272a9fa12a4ec265067d34bcd96bbe3.png",
+      "extension": "png",
+      "bytes": 630351,
+      "sha1": "9a8481a34272a9fa12a4ec265067d34bcd96bbe3",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "9c5d67fef46c33fc28aa9e9a4c334118b0b07be2",
       "archiveEntry": "images/9c5d67fef46c33fc28aa9e9a4c334118b0b07be2",
       "assetPath": "public/figma-assets/9c5d67fef46c33fc28aa9e9a4c334118b0b07be2.png",
@@ -490,6 +690,26 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "9f46a6759716eb078512428842668bb0912fb8b3",
+      "archiveEntry": "images/9f46a6759716eb078512428842668bb0912fb8b3",
+      "assetPath": "public/figma-assets/9f46a6759716eb078512428842668bb0912fb8b3.png",
+      "publicPath": "/figma-assets/9f46a6759716eb078512428842668bb0912fb8b3.png",
+      "extension": "png",
+      "bytes": 335754,
+      "sha1": "9f46a6759716eb078512428842668bb0912fb8b3",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "9f785fb97d04bf6d25c10ee53e8240914fc6675b",
+      "archiveEntry": "images/9f785fb97d04bf6d25c10ee53e8240914fc6675b",
+      "assetPath": "public/figma-assets/9f785fb97d04bf6d25c10ee53e8240914fc6675b.png",
+      "publicPath": "/figma-assets/9f785fb97d04bf6d25c10ee53e8240914fc6675b.png",
+      "extension": "png",
+      "bytes": 3469245,
+      "sha1": "9f785fb97d04bf6d25c10ee53e8240914fc6675b",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "9fe405d06b463f5ff231fc35248a9c2b64bbfdd6",
       "archiveEntry": "images/9fe405d06b463f5ff231fc35248a9c2b64bbfdd6",
       "assetPath": "public/figma-assets/9fe405d06b463f5ff231fc35248a9c2b64bbfdd6.png",
@@ -507,6 +727,46 @@
       "extension": "png",
       "bytes": 60895,
       "sha1": "a2d3165046d6ff06167aaf27921ef66a4f9d0ef2",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "a32300caf300e24499eae6053ec47938e831f19a",
+      "archiveEntry": "images/a32300caf300e24499eae6053ec47938e831f19a",
+      "assetPath": "public/figma-assets/a32300caf300e24499eae6053ec47938e831f19a.png",
+      "publicPath": "/figma-assets/a32300caf300e24499eae6053ec47938e831f19a.png",
+      "extension": "png",
+      "bytes": 19014,
+      "sha1": "a32300caf300e24499eae6053ec47938e831f19a",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "a6b4a3e5b37f91e1a7bcd38a03f4e9e56f8b50eb",
+      "archiveEntry": "images/a6b4a3e5b37f91e1a7bcd38a03f4e9e56f8b50eb",
+      "assetPath": "public/figma-assets/a6b4a3e5b37f91e1a7bcd38a03f4e9e56f8b50eb.png",
+      "publicPath": "/figma-assets/a6b4a3e5b37f91e1a7bcd38a03f4e9e56f8b50eb.png",
+      "extension": "png",
+      "bytes": 218510,
+      "sha1": "a6b4a3e5b37f91e1a7bcd38a03f4e9e56f8b50eb",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "a7fc1d91ecc1defab09c0365cba22d737d7b1894",
+      "archiveEntry": "images/a7fc1d91ecc1defab09c0365cba22d737d7b1894",
+      "assetPath": "public/figma-assets/a7fc1d91ecc1defab09c0365cba22d737d7b1894.png",
+      "publicPath": "/figma-assets/a7fc1d91ecc1defab09c0365cba22d737d7b1894.png",
+      "extension": "png",
+      "bytes": 73188,
+      "sha1": "a7fc1d91ecc1defab09c0365cba22d737d7b1894",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae",
+      "archiveEntry": "images/aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae",
+      "assetPath": "public/figma-assets/aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae.png",
+      "publicPath": "/figma-assets/aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae.png",
+      "extension": "png",
+      "bytes": 208392,
+      "sha1": "aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae",
       "sha1MatchesImageRef": true
     },
     {
@@ -540,6 +800,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "adc93e7132139144e00f31d7cec5109a3e267f3c",
+      "archiveEntry": "images/adc93e7132139144e00f31d7cec5109a3e267f3c",
+      "assetPath": "public/figma-assets/adc93e7132139144e00f31d7cec5109a3e267f3c.png",
+      "publicPath": "/figma-assets/adc93e7132139144e00f31d7cec5109a3e267f3c.png",
+      "extension": "png",
+      "bytes": 357963,
+      "sha1": "adc93e7132139144e00f31d7cec5109a3e267f3c",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "b02904d8b29175abcb5330f873c428890696c5a7",
       "archiveEntry": "images/b02904d8b29175abcb5330f873c428890696c5a7",
       "assetPath": "public/figma-assets/b02904d8b29175abcb5330f873c428890696c5a7.png",
@@ -570,6 +840,16 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "b45828d4f7aed8da34bad8302c9907392146f91b",
+      "archiveEntry": "images/b45828d4f7aed8da34bad8302c9907392146f91b",
+      "assetPath": "public/figma-assets/b45828d4f7aed8da34bad8302c9907392146f91b.png",
+      "publicPath": "/figma-assets/b45828d4f7aed8da34bad8302c9907392146f91b.png",
+      "extension": "png",
+      "bytes": 392579,
+      "sha1": "b45828d4f7aed8da34bad8302c9907392146f91b",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
       "archiveEntry": "images/b4a3424e8ca21d28d251984fad180cda80481c8e",
       "assetPath": "public/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
@@ -577,6 +857,16 @@
       "extension": "png",
       "bytes": 473198,
       "sha1": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "b7b374ec3285923b14103b09832d06d9ef7820ef",
+      "archiveEntry": "images/b7b374ec3285923b14103b09832d06d9ef7820ef",
+      "assetPath": "public/figma-assets/b7b374ec3285923b14103b09832d06d9ef7820ef.png",
+      "publicPath": "/figma-assets/b7b374ec3285923b14103b09832d06d9ef7820ef.png",
+      "extension": "png",
+      "bytes": 103233,
+      "sha1": "b7b374ec3285923b14103b09832d06d9ef7820ef",
       "sha1MatchesImageRef": true
     },
     {
@@ -590,6 +880,36 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "bcc9db502dc7f90fd18c00705f5193b78bc2640e",
+      "archiveEntry": "images/bcc9db502dc7f90fd18c00705f5193b78bc2640e",
+      "assetPath": "public/figma-assets/bcc9db502dc7f90fd18c00705f5193b78bc2640e.png",
+      "publicPath": "/figma-assets/bcc9db502dc7f90fd18c00705f5193b78bc2640e.png",
+      "extension": "png",
+      "bytes": 516602,
+      "sha1": "bcc9db502dc7f90fd18c00705f5193b78bc2640e",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "c0b7467294bf282df9b3a76dc48954552cc582a8",
+      "archiveEntry": "images/c0b7467294bf282df9b3a76dc48954552cc582a8",
+      "assetPath": "public/figma-assets/c0b7467294bf282df9b3a76dc48954552cc582a8.png",
+      "publicPath": "/figma-assets/c0b7467294bf282df9b3a76dc48954552cc582a8.png",
+      "extension": "png",
+      "bytes": 28407,
+      "sha1": "c0b7467294bf282df9b3a76dc48954552cc582a8",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "c0f5cc7aa0354da55e413509e026658ee8b5c22c",
+      "archiveEntry": "images/c0f5cc7aa0354da55e413509e026658ee8b5c22c",
+      "assetPath": "public/figma-assets/c0f5cc7aa0354da55e413509e026658ee8b5c22c.jpg",
+      "publicPath": "/figma-assets/c0f5cc7aa0354da55e413509e026658ee8b5c22c.jpg",
+      "extension": "jpg",
+      "bytes": 468628,
+      "sha1": "c0f5cc7aa0354da55e413509e026658ee8b5c22c",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "c4aaa709a33a8120fd91fac256490481b1dd3889",
       "archiveEntry": "images/c4aaa709a33a8120fd91fac256490481b1dd3889",
       "assetPath": "public/figma-assets/c4aaa709a33a8120fd91fac256490481b1dd3889.png",
@@ -597,6 +917,16 @@
       "extension": "png",
       "bytes": 122027,
       "sha1": "c4aaa709a33a8120fd91fac256490481b1dd3889",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "c61117319de29897447fc326835729a85c45b890",
+      "archiveEntry": "images/c61117319de29897447fc326835729a85c45b890",
+      "assetPath": "public/figma-assets/c61117319de29897447fc326835729a85c45b890.png",
+      "publicPath": "/figma-assets/c61117319de29897447fc326835729a85c45b890.png",
+      "extension": "png",
+      "bytes": 26043,
+      "sha1": "c61117319de29897447fc326835729a85c45b890",
       "sha1MatchesImageRef": true
     },
     {
@@ -610,6 +940,36 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "c96843f7e2e27e850c1cde1493900c0d69beaa22",
+      "archiveEntry": "images/c96843f7e2e27e850c1cde1493900c0d69beaa22",
+      "assetPath": "public/figma-assets/c96843f7e2e27e850c1cde1493900c0d69beaa22.png",
+      "publicPath": "/figma-assets/c96843f7e2e27e850c1cde1493900c0d69beaa22.png",
+      "extension": "png",
+      "bytes": 108164,
+      "sha1": "c96843f7e2e27e850c1cde1493900c0d69beaa22",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "ca27aea871e4ee1b91ebf78c4500dc71ada572aa",
+      "archiveEntry": "images/ca27aea871e4ee1b91ebf78c4500dc71ada572aa",
+      "assetPath": "public/figma-assets/ca27aea871e4ee1b91ebf78c4500dc71ada572aa.png",
+      "publicPath": "/figma-assets/ca27aea871e4ee1b91ebf78c4500dc71ada572aa.png",
+      "extension": "png",
+      "bytes": 48435,
+      "sha1": "ca27aea871e4ee1b91ebf78c4500dc71ada572aa",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "cde117e5612615336b6b520e1ea016afe4521d52",
+      "archiveEntry": "images/cde117e5612615336b6b520e1ea016afe4521d52",
+      "assetPath": "public/figma-assets/cde117e5612615336b6b520e1ea016afe4521d52.png",
+      "publicPath": "/figma-assets/cde117e5612615336b6b520e1ea016afe4521d52.png",
+      "extension": "png",
+      "bytes": 3795472,
+      "sha1": "cde117e5612615336b6b520e1ea016afe4521d52",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "cdf9b1afde6e60c2622994a06493cbecdbf261ab",
       "archiveEntry": "images/cdf9b1afde6e60c2622994a06493cbecdbf261ab",
       "assetPath": "public/figma-assets/cdf9b1afde6e60c2622994a06493cbecdbf261ab.png",
@@ -617,6 +977,66 @@
       "extension": "png",
       "bytes": 46676,
       "sha1": "cdf9b1afde6e60c2622994a06493cbecdbf261ab",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "ce3f00f1a4cfa2697ca9b6d32b91bdb0a80e7c55",
+      "archiveEntry": "images/ce3f00f1a4cfa2697ca9b6d32b91bdb0a80e7c55",
+      "assetPath": "public/figma-assets/ce3f00f1a4cfa2697ca9b6d32b91bdb0a80e7c55.png",
+      "publicPath": "/figma-assets/ce3f00f1a4cfa2697ca9b6d32b91bdb0a80e7c55.png",
+      "extension": "png",
+      "bytes": 694443,
+      "sha1": "ce3f00f1a4cfa2697ca9b6d32b91bdb0a80e7c55",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "d1e723bf95afec8c12161c73a00709931e7f84c1",
+      "archiveEntry": "images/d1e723bf95afec8c12161c73a00709931e7f84c1",
+      "assetPath": "public/figma-assets/d1e723bf95afec8c12161c73a00709931e7f84c1.png",
+      "publicPath": "/figma-assets/d1e723bf95afec8c12161c73a00709931e7f84c1.png",
+      "extension": "png",
+      "bytes": 56349,
+      "sha1": "d1e723bf95afec8c12161c73a00709931e7f84c1",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "d4671483119273cff7023ec943d53ba832a4c6d7",
+      "archiveEntry": "images/d4671483119273cff7023ec943d53ba832a4c6d7",
+      "assetPath": "public/figma-assets/d4671483119273cff7023ec943d53ba832a4c6d7.png",
+      "publicPath": "/figma-assets/d4671483119273cff7023ec943d53ba832a4c6d7.png",
+      "extension": "png",
+      "bytes": 906877,
+      "sha1": "d4671483119273cff7023ec943d53ba832a4c6d7",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "d4ccb0e49267b18c9f87a8ecf7cd30f908d29c55",
+      "archiveEntry": "images/d4ccb0e49267b18c9f87a8ecf7cd30f908d29c55",
+      "assetPath": "public/figma-assets/d4ccb0e49267b18c9f87a8ecf7cd30f908d29c55.png",
+      "publicPath": "/figma-assets/d4ccb0e49267b18c9f87a8ecf7cd30f908d29c55.png",
+      "extension": "png",
+      "bytes": 449312,
+      "sha1": "d4ccb0e49267b18c9f87a8ecf7cd30f908d29c55",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "da2307ca6c4799d3432bb34f8cdd170521ca0665",
+      "archiveEntry": "images/da2307ca6c4799d3432bb34f8cdd170521ca0665",
+      "assetPath": "public/figma-assets/da2307ca6c4799d3432bb34f8cdd170521ca0665.png",
+      "publicPath": "/figma-assets/da2307ca6c4799d3432bb34f8cdd170521ca0665.png",
+      "extension": "png",
+      "bytes": 794937,
+      "sha1": "da2307ca6c4799d3432bb34f8cdd170521ca0665",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "dacbd36b4ecde4afb858a110c6f1fa143cd271de",
+      "archiveEntry": "images/dacbd36b4ecde4afb858a110c6f1fa143cd271de",
+      "assetPath": "public/figma-assets/dacbd36b4ecde4afb858a110c6f1fa143cd271de.png",
+      "publicPath": "/figma-assets/dacbd36b4ecde4afb858a110c6f1fa143cd271de.png",
+      "extension": "png",
+      "bytes": 153876,
+      "sha1": "dacbd36b4ecde4afb858a110c6f1fa143cd271de",
       "sha1MatchesImageRef": true
     },
     {
@@ -650,6 +1070,36 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "e785e999d6556f21d9f5747aae9c2110dff03111",
+      "archiveEntry": "images/e785e999d6556f21d9f5747aae9c2110dff03111",
+      "assetPath": "public/figma-assets/e785e999d6556f21d9f5747aae9c2110dff03111.png",
+      "publicPath": "/figma-assets/e785e999d6556f21d9f5747aae9c2110dff03111.png",
+      "extension": "png",
+      "bytes": 6156946,
+      "sha1": "e785e999d6556f21d9f5747aae9c2110dff03111",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "e8632bc261c69626aa7570da9d6019d6126f8b1d",
+      "archiveEntry": "images/e8632bc261c69626aa7570da9d6019d6126f8b1d",
+      "assetPath": "public/figma-assets/e8632bc261c69626aa7570da9d6019d6126f8b1d.png",
+      "publicPath": "/figma-assets/e8632bc261c69626aa7570da9d6019d6126f8b1d.png",
+      "extension": "png",
+      "bytes": 29592,
+      "sha1": "e8632bc261c69626aa7570da9d6019d6126f8b1d",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "e9918e26ad59cf1bc2be840ca16244a5550ade7b",
+      "archiveEntry": "images/e9918e26ad59cf1bc2be840ca16244a5550ade7b",
+      "assetPath": "public/figma-assets/e9918e26ad59cf1bc2be840ca16244a5550ade7b.png",
+      "publicPath": "/figma-assets/e9918e26ad59cf1bc2be840ca16244a5550ade7b.png",
+      "extension": "png",
+      "bytes": 53300,
+      "sha1": "e9918e26ad59cf1bc2be840ca16244a5550ade7b",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "ea0c1fb398c9ef41209556db381637ac91669986",
       "archiveEntry": "images/ea0c1fb398c9ef41209556db381637ac91669986",
       "assetPath": "public/figma-assets/ea0c1fb398c9ef41209556db381637ac91669986.png",
@@ -657,6 +1107,26 @@
       "extension": "png",
       "bytes": 15603,
       "sha1": "ea0c1fb398c9ef41209556db381637ac91669986",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "ea70dfac214172e53757f02b7879606efc22933e",
+      "archiveEntry": "images/ea70dfac214172e53757f02b7879606efc22933e",
+      "assetPath": "public/figma-assets/ea70dfac214172e53757f02b7879606efc22933e.jpg",
+      "publicPath": "/figma-assets/ea70dfac214172e53757f02b7879606efc22933e.jpg",
+      "extension": "jpg",
+      "bytes": 57723,
+      "sha1": "ea70dfac214172e53757f02b7879606efc22933e",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "eabd13aefcf428d7480789374987d36293bf8831",
+      "archiveEntry": "images/eabd13aefcf428d7480789374987d36293bf8831",
+      "assetPath": "public/figma-assets/eabd13aefcf428d7480789374987d36293bf8831.png",
+      "publicPath": "/figma-assets/eabd13aefcf428d7480789374987d36293bf8831.png",
+      "extension": "png",
+      "bytes": 97487,
+      "sha1": "eabd13aefcf428d7480789374987d36293bf8831",
       "sha1MatchesImageRef": true
     },
     {
@@ -680,6 +1150,26 @@
       "sha1MatchesImageRef": true
     },
     {
+      "imageRef": "f11a696b5b6a5e24f7abe5b0d08bc624512462f4",
+      "archiveEntry": "images/f11a696b5b6a5e24f7abe5b0d08bc624512462f4",
+      "assetPath": "public/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg",
+      "publicPath": "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg",
+      "extension": "jpg",
+      "bytes": 59995,
+      "sha1": "f11a696b5b6a5e24f7abe5b0d08bc624512462f4",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "f40b87b5297f1f815187f4d398b3714b977eaa6a",
+      "archiveEntry": "images/f40b87b5297f1f815187f4d398b3714b977eaa6a",
+      "assetPath": "public/figma-assets/f40b87b5297f1f815187f4d398b3714b977eaa6a.png",
+      "publicPath": "/figma-assets/f40b87b5297f1f815187f4d398b3714b977eaa6a.png",
+      "extension": "png",
+      "bytes": 10821036,
+      "sha1": "f40b87b5297f1f815187f4d398b3714b977eaa6a",
+      "sha1MatchesImageRef": true
+    },
+    {
       "imageRef": "f44f0f9380c1e3a5101052869ecae5e06d2158b3",
       "archiveEntry": "images/f44f0f9380c1e3a5101052869ecae5e06d2158b3",
       "assetPath": "public/figma-assets/f44f0f9380c1e3a5101052869ecae5e06d2158b3.png",
@@ -697,6 +1187,16 @@
       "extension": "png",
       "bytes": 26197,
       "sha1": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+      "sha1MatchesImageRef": true
+    },
+    {
+      "imageRef": "feee03c9e3a90bda1bbbfcf3b97049f7e55974b3",
+      "archiveEntry": "images/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3",
+      "assetPath": "public/figma-assets/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3.png",
+      "publicPath": "/figma-assets/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3.png",
+      "extension": "png",
+      "bytes": 188148,
+      "sha1": "feee03c9e3a90bda1bbbfcf3b97049f7e55974b3",
       "sha1MatchesImageRef": true
     }
   ]

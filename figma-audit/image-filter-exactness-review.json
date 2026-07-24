@@ -16,18 +16,26 @@
     "ciGuard": "scripts/verify-figma-data.mjs fails if src/FigmaNode.jsx processes image filters while imageFiltersNotRendered remains in unsupported audit."
   },
   "aggregate": {
-    "unsupportedImageFilterRecords": 25,
-    "uniqueFilterSets": 2,
-    "affectedFrames": 8,
-    "uniqueImageRefs": 2
+    "unsupportedImageFilterRecords": 63,
+    "uniqueFilterSets": 5,
+    "affectedFrames": 12,
+    "uniqueImageRefs": 7
   },
   "uniqueFilterSets": [
     {
       "filters": {
         "exposure": -1
       },
-      "count": 24,
+      "count": 53,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 24
+        },
+        "1:30": {
+          "frameName": "budlum.xyz/go",
+          "count": 5
+        },
         "2870:3749": {
           "frameName": "Bir kullanıcının cüzdanını arattı",
           "count": 3
@@ -63,10 +71,52 @@
         "exposure": -1,
         "contrast": -0.03999999910593033
       },
-      "count": 1,
+      "count": 2,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 1
+        },
         "2306:6": {
           "frameName": "budlum.xyz",
+          "count": 1
+        }
+      }
+    },
+    {
+      "filters": {
+        "saturation": -1
+      },
+      "count": 6,
+      "frames": {
+        "1:21110": {
+          "frameName": "budlum.com",
+          "count": 6
+        }
+      }
+    },
+    {
+      "filters": {
+        "exposure": 0.05999999865889549,
+        "highlights": 0.2199999988079071,
+        "shadows": 0.2199999988079071
+      },
+      "count": 1,
+      "frames": {
+        "1:25545": {
+          "frameName": "ekip",
+          "count": 1
+        }
+      }
+    },
+    {
+      "filters": {
+        "highlights": -1
+      },
+      "count": 1,
+      "frames": {
+        "1:25545": {
+          "frameName": "ekip",
           "count": 1
         }
       }
@@ -1242,6 +1292,1715 @@
           "filters": {
             "exposure": -1,
             "contrast": -0.03999999910593033
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:155",
+      "name": "1000102403 6",
+      "type": "RECTANGLE",
+      "parentId": "1:140",
+      "depth": 2,
+      "bbox": {
+        "x": 100888,
+        "y": 39393,
+        "width": 140,
+        "height": 140
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:156",
+      "name": "1000102403 7",
+      "type": "RECTANGLE",
+      "parentId": "1:140",
+      "depth": 2,
+      "bbox": {
+        "x": 100731,
+        "y": 39992,
+        "width": 140,
+        "height": 140
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:173",
+      "name": "1000102403 6",
+      "type": "RECTANGLE",
+      "parentId": "1:158",
+      "depth": 2,
+      "bbox": {
+        "x": 99159,
+        "y": 39410,
+        "width": 140,
+        "height": 140
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:174",
+      "name": "1000102403 7",
+      "type": "RECTANGLE",
+      "parentId": "1:158",
+      "depth": 2,
+      "bbox": {
+        "x": 99002,
+        "y": 40009,
+        "width": 140,
+        "height": 140
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:181",
+      "name": "1000102403 6",
+      "type": "RECTANGLE",
+      "parentId": "1:158",
+      "depth": 2,
+      "bbox": {
+        "x": 99159,
+        "y": 40573,
+        "width": 140,
+        "height": 140
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:3843",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:3819",
+      "depth": 5,
+      "bbox": {
+        "x": 63444,
+        "y": 14126,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:3868",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:3844",
+      "depth": 6,
+      "bbox": {
+        "x": 63444,
+        "y": 14186,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:3869",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:3844",
+      "depth": 6,
+      "bbox": {
+        "x": 63444,
+        "y": 14307,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4120",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:4096",
+      "depth": 5,
+      "bbox": {
+        "x": 67324,
+        "y": 14126,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4145",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:4121",
+      "depth": 6,
+      "bbox": {
+        "x": 67324,
+        "y": 14186,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4146",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:4121",
+      "depth": 6,
+      "bbox": {
+        "x": 67324,
+        "y": 14307,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4315",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:4291",
+      "depth": 6,
+      "bbox": {
+        "x": 71205,
+        "y": 13703,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4340",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:4316",
+      "depth": 7,
+      "bbox": {
+        "x": 71205,
+        "y": 13763,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4341",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:4316",
+      "depth": 7,
+      "bbox": {
+        "x": 71205,
+        "y": 13884,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4446",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:4422",
+      "depth": 6,
+      "bbox": {
+        "x": 71205,
+        "y": 13943,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4471",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:4447",
+      "depth": 7,
+      "bbox": {
+        "x": 71205,
+        "y": 14003,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4472",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:4447",
+      "depth": 7,
+      "bbox": {
+        "x": 71205,
+        "y": 14124,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4969",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:4945",
+      "depth": 5,
+      "bbox": {
+        "x": 75044,
+        "y": 16605,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4994",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:4970",
+      "depth": 6,
+      "bbox": {
+        "x": 75044,
+        "y": 16665,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:4995",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:4970",
+      "depth": 6,
+      "bbox": {
+        "x": 75044,
+        "y": 16786,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5325",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:5301",
+      "depth": 5,
+      "bbox": {
+        "x": 71164,
+        "y": 16605,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5350",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:5326",
+      "depth": 6,
+      "bbox": {
+        "x": 71164,
+        "y": 16665,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5351",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:5326",
+      "depth": 6,
+      "bbox": {
+        "x": 71164,
+        "y": 16786,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5700",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:5676",
+      "depth": 5,
+      "bbox": {
+        "x": 67284,
+        "y": 16605,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5725",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:5701",
+      "depth": 6,
+      "bbox": {
+        "x": 67284,
+        "y": 16665,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5726",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:5701",
+      "depth": 6,
+      "bbox": {
+        "x": 67284,
+        "y": 16786,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5959",
+      "name": "1000102403 3",
+      "type": "RECTANGLE",
+      "parentId": "1:5935",
+      "depth": 5,
+      "bbox": {
+        "x": 59564,
+        "y": 14126,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5984",
+      "name": "1000102403 4",
+      "type": "RECTANGLE",
+      "parentId": "1:5960",
+      "depth": 6,
+      "bbox": {
+        "x": 59564,
+        "y": 14186,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:5985",
+      "name": "1000102403 5",
+      "type": "RECTANGLE",
+      "parentId": "1:5960",
+      "depth": 6,
+      "bbox": {
+        "x": 59564,
+        "y": 14307,
+        "width": 58,
+        "height": 58
+      },
+      "filters": {
+        "exposure": -1
+      },
+      "imageRefs": [
+        "17f1b31a42b5866c1667526ca3d2211d68cb7e69"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "17f1b31a42b5866c1667526ca3d2211d68cb7e69",
+          "localAssetPath": "/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.9354839324951172,
+              -4.468157470978387e-32,
+              0.032258063554763794
+            ],
+            [
+              4.468157470978387e-32,
+              0.9354839324951172,
+              0.032258063554763794
+            ]
+          ],
+          "filters": {
+            "exposure": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:9400",
+      "name": "budlum.xyz",
+      "type": "FRAME",
+      "parentId": "1:182",
+      "depth": 1,
+      "bbox": {
+        "x": 56695,
+        "y": 38221,
+        "width": 3840,
+        "height": 2160
+      },
+      "filters": {
+        "exposure": -1,
+        "contrast": -0.03999999910593033
+      },
+      "imageRefs": [
+        "18832c17d8d083d348ef11b50b21bdaf708d7ed3"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "18832c17d8d083d348ef11b50b21bdaf708d7ed3",
+          "localAssetPath": "/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.34956055879592896,
+              0,
+              0.3353453278541565
+            ],
+            [
+              0,
+              0.19662779569625854,
+              0.40169858932495117
+            ]
+          ],
+          "filters": {
+            "exposure": -1,
+            "contrast": -0.03999999910593033
+          }
+        },
+        {
+          "imageRef": "18832c17d8d083d348ef11b50b21bdaf708d7ed3",
+          "localAssetPath": "/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.34956055879592896,
+              0,
+              0.3353453278541565
+            ],
+            [
+              0,
+              0.19662779569625854,
+              0.40169858932495117
+            ]
+          ],
+          "filters": {
+            "exposure": -1,
+            "contrast": -0.03999999910593033
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:21110",
+      "frameName": "budlum.com",
+      "id": "1:22541",
+      "name": "Rectangle 306",
+      "type": "RECTANGLE",
+      "parentId": "1:22528",
+      "depth": 2,
+      "bbox": {
+        "x": 28014,
+        "y": 31896,
+        "width": 596,
+        "height": 716
+      },
+      "filters": {
+        "saturation": -1
+      },
+      "imageRefs": [
+        "feee03c9e3a90bda1bbbfcf3b97049f7e55974b3"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "feee03c9e3a90bda1bbbfcf3b97049f7e55974b3",
+          "localAssetPath": "/figma-assets/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": {
+            "saturation": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:21110",
+      "frameName": "budlum.com",
+      "id": "1:22544",
+      "name": "Rectangle 298",
+      "type": "RECTANGLE",
+      "parentId": "1:22528",
+      "depth": 2,
+      "bbox": {
+        "x": 29334,
+        "y": 31896,
+        "width": 596,
+        "height": 716
+      },
+      "filters": {
+        "saturation": -1
+      },
+      "imageRefs": [
+        "f11a696b5b6a5e24f7abe5b0d08bc624512462f4"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "f11a696b5b6a5e24f7abe5b0d08bc624512462f4",
+          "localAssetPath": "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": {
+            "saturation": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:21110",
+      "frameName": "budlum.com",
+      "id": "1:23636",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "parentId": "1:23629",
+      "depth": 3,
+      "bbox": {
+        "x": 19364,
+        "y": 31896,
+        "width": 596,
+        "height": 716
+      },
+      "filters": {
+        "saturation": -1
+      },
+      "imageRefs": [
+        "c61117319de29897447fc326835729a85c45b890"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/c61117319de29897447fc326835729a85c45b890.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "c61117319de29897447fc326835729a85c45b890",
+          "localAssetPath": "/figma-assets/c61117319de29897447fc326835729a85c45b890.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.8217242360115051,
+              0,
+              0.0900268480181694
+            ],
+            [
+              0,
+              0.9999964833259583,
+              -8.881752962661322e-16
+            ]
+          ],
+          "filters": {
+            "saturation": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:21110",
+      "frameName": "budlum.com",
+      "id": "1:23637",
+      "name": "Rectangle 602",
+      "type": "RECTANGLE",
+      "parentId": "1:23624",
+      "depth": 2,
+      "bbox": {
+        "x": 20024,
+        "y": 31896,
+        "width": 596,
+        "height": 716
+      },
+      "filters": {
+        "saturation": -1
+      },
+      "imageRefs": [
+        "f11a696b5b6a5e24f7abe5b0d08bc624512462f4"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "f11a696b5b6a5e24f7abe5b0d08bc624512462f4",
+          "localAssetPath": "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": {
+            "saturation": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:21110",
+      "frameName": "budlum.com",
+      "id": "1:23799",
+      "name": "Rectangle 304",
+      "type": "RECTANGLE",
+      "parentId": "1:23796",
+      "depth": 2,
+      "bbox": {
+        "x": 24001,
+        "y": 31896,
+        "width": 596,
+        "height": 716
+      },
+      "filters": {
+        "saturation": -1
+      },
+      "imageRefs": [
+        "feee03c9e3a90bda1bbbfcf3b97049f7e55974b3"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "feee03c9e3a90bda1bbbfcf3b97049f7e55974b3",
+          "localAssetPath": "/figma-assets/feee03c9e3a90bda1bbbfcf3b97049f7e55974b3.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": {
+            "saturation": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:21110",
+      "frameName": "budlum.com",
+      "id": "1:23802",
+      "name": "Rectangle 298",
+      "type": "RECTANGLE",
+      "parentId": "1:23796",
+      "depth": 2,
+      "bbox": {
+        "x": 25321,
+        "y": 31896,
+        "width": 596,
+        "height": 716
+      },
+      "filters": {
+        "saturation": -1
+      },
+      "imageRefs": [
+        "f11a696b5b6a5e24f7abe5b0d08bc624512462f4"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "f11a696b5b6a5e24f7abe5b0d08bc624512462f4",
+          "localAssetPath": "/figma-assets/f11a696b5b6a5e24f7abe5b0d08bc624512462f4.jpg",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": {
+            "saturation": -1
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:25545",
+      "frameName": "ekip",
+      "id": "1:25614",
+      "name": "Profil",
+      "type": "ELLIPSE",
+      "parentId": "1:25612",
+      "depth": 5,
+      "bbox": {
+        "x": 5919,
+        "y": 2809,
+        "width": 200,
+        "height": 200
+      },
+      "filters": {
+        "exposure": 0.05999999865889549,
+        "highlights": 0.2199999988079071,
+        "shadows": 0.2199999988079071
+      },
+      "imageRefs": [
+        "ea70dfac214172e53757f02b7879606efc22933e"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/ea70dfac214172e53757f02b7879606efc22933e.jpg"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "ea70dfac214172e53757f02b7879606efc22933e",
+          "localAssetPath": "/figma-assets/ea70dfac214172e53757f02b7879606efc22933e.jpg",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": {
+            "exposure": 0.05999999865889549,
+            "highlights": 0.2199999988079071,
+            "shadows": 0.2199999988079071
+          }
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:25545",
+      "frameName": "ekip",
+      "id": "1:25637",
+      "name": "1000097432 1",
+      "type": "RECTANGLE",
+      "parentId": "1:25547",
+      "depth": 2,
+      "bbox": {
+        "x": 6257.999806847678,
+        "y": 496,
+        "width": 415.9473006577282,
+        "height": 171.0250843787794
+      },
+      "filters": {
+        "highlights": -1
+      },
+      "imageRefs": [
+        "adc93e7132139144e00f31d7cec5109a3e267f3c"
+      ],
+      "localAssetPaths": [
+        "/figma-assets/adc93e7132139144e00f31d7cec5109a3e267f3c.png"
+      ],
+      "imagePaints": [
+        {
+          "imageRef": "adc93e7132139144e00f31d7cec5109a3e267f3c",
+          "localAssetPath": "/figma-assets/adc93e7132139144e00f31d7cec5109a3e267f3c.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              0.5855512619018555,
+              -2.2472332097812404e-18,
+              0.20757392048835754
+            ],
+            [
+              0,
+              0.2345900982618332,
+              0.3835316002368927
+            ]
+          ],
+          "filters": {
+            "highlights": -1
           }
         }
       ]

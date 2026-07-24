@@ -16,26 +16,26 @@
     "figma-audit/openfig-tmpdir-audit.json"
   ],
   "summary": {
-    "manifestFrames": 39,
-    "totalRenderedNodesAudited": 15530,
+    "manifestFrames": 44,
+    "totalRenderedNodesAudited": 41905,
     "missingExactGeometryRecords": 0,
     "skippedRenderableVectorGeometry": 0,
-    "exactVectorGeometryNodes": 790,
-    "exactLeafGeometryNodes": 1503,
-    "unsupportedFeatureRecords": 61,
+    "exactVectorGeometryNodes": 1684,
+    "exactLeafGeometryNodes": 12411,
+    "unsupportedFeatureRecords": 268,
     "unsupportedByKind": {
-      "textStrokeNotRendered": 36,
-      "imageFiltersNotRendered": 25
+      "textStrokeNotRendered": 205,
+      "imageFiltersNotRendered": 63
     },
     "remainingRefreshPlanFrames": 0,
     "remainingRefreshPlanRecords": 0,
-    "localImageAssets": 68,
-    "localImageAssetBytes": 16542753,
-    "runtimeFontFaces": 2,
+    "localImageAssets": 118,
+    "localImageAssetBytes": 57353872,
+    "runtimeFontFaces": 6,
     "missingRuntimeFontCoverage": 0,
-    "imageFilterRecordsBlocked": 25,
-    "textStrokeRecordsBlocked": 36,
-    "multiFillPaintStackRecords": 34,
+    "imageFilterRecordsBlocked": 63,
+    "textStrokeRecordsBlocked": 205,
+    "multiFillPaintStackRecords": 72,
     "openfigPrototypeLikeRecords": 0,
     "openfigHyperlinkRecordsOutsideScope": 7,
     "openfigGeometryFinalMissing": 0,
@@ -44,10 +44,10 @@
       "high": 2,
       "total": 4
     },
-    "strokeOverlaySvgExact": 1,
-    "strokeOverlayCssBorderExact": 8,
+    "strokeOverlaySvgExact": 11,
+    "strokeOverlayCssBorderExact": 10,
     "strokeOverlayCssBorderApprox": 0,
-    "strokeOverlayNone": 4003,
+    "strokeOverlayNone": 12320,
     "openfigTmpdirAuditPass": true
   },
   "decisions": {

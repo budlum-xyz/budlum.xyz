@@ -1139,6 +1139,31 @@
           "score": 0
         }
       ]
+    },
+    {
+      "frameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "candidates": []
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "candidates": []
+    },
+    {
+      "frameId": "1:20836",
+      "frameName": "logo",
+      "candidates": []
+    },
+    {
+      "frameId": "1:21110",
+      "frameName": "budlum.com",
+      "candidates": []
+    },
+    {
+      "frameId": "1:25545",
+      "frameName": "ekip",
+      "candidates": []
     }
   ]
 }

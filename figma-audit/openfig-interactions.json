@@ -7,7 +7,7 @@
   "purpose": "Documents interaction-like data discovered in the checked-in OpenFig .fig binary so prototype behavior is not guessed.",
   "aggregate": {
     "openFigNodes": 25658,
-    "manifestFrames": 39,
+    "manifestFrames": 44,
     "mappedOpenFigFrames": 39,
     "prototypeLikeRecords": 0,
     "hyperlinkRecords": 7,

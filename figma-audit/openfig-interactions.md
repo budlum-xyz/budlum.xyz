@@ -3,7 +3,7 @@
 Generated from the checked-in OpenFig `.fig` binary. This does not call the Figma API.
 
 - OpenFig nodes scanned: `25658`
-- Manifest frames: `39`
+- Manifest frames: `44`
 - Mapped OpenFig manifest frames: `39`
 - Prototype/navigation-like records: `0`
 - Hyperlink records: `7`

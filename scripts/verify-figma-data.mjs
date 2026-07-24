@@ -85,7 +85,7 @@ function verifyNoCommittedTokens() {
 function verifyManifestAndFrames() {
   const manifest = assertJsonFile(manifestPath, 'Figma manifest');
   if (!manifest) return [];
-  if (!Array.isArray(manifest) || manifest.length !== 39) fail(`Expected 39 top-level frame records, got ${manifest?.length ?? 0}`);
+  if (!Array.isArray(manifest) || manifest.length !== 44) fail(`Expected 44 top-level frame records, got ${manifest?.length ?? 0}`);
 
   const seen = new Set();
   for (const frame of manifest) {

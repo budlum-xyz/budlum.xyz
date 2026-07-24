@@ -1,6 +1,6 @@
 {
-  "totalImageFillNodes": 4012,
-  "svgOverlayExact": 1,
+  "totalImageFillNodes": 12341,
+  "svgOverlayExact": 11,
   "cssBorderExact": [
     {
       "frameId": "2870:4251",
@@ -129,10 +129,42 @@
       ],
       "renderMethod": "css-border",
       "exactness": "exact"
+    },
+    {
+      "frameId": "1:21110",
+      "frameName": "budlum.com",
+      "nodeId": "1:25278",
+      "nodeName": "daş15 2",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 0,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:21110",
+      "frameName": "budlum.com",
+      "nodeId": "1:25414",
+      "nodeName": "daş15 2",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": false,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 0,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "css-border",
+      "exactness": "exact"
     }
   ],
   "cssBorderApprox": 0,
-  "notRendered": 4003,
+  "notRendered": 12320,
   "svgOverlayNodes": [
     {
       "frameId": "2972:2406",
@@ -143,6 +175,166 @@
       "hasVisibleStroke": true,
       "hasStrokeGeometry": true,
       "strokeAlign": "CENTER",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "nodeId": "1:157",
+      "nodeName": "bebek 2",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "OUTSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:3680",
+      "nodeName": "1000105989 2",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "CENTER",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:3727",
+      "nodeName": "daş15 1",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:3996",
+      "nodeName": "daş 12 1",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:4754",
+      "nodeName": "daş15 1",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:5174",
+      "nodeName": "daş 12 5",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:5577",
+      "nodeName": "daş15 9",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:20033",
+      "nodeName": "Rectangle 218",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:20449",
+      "nodeName": "Rectangle 218",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
+      "strokeWeight": 4,
+      "strokeTypes": [
+        "SOLID"
+      ],
+      "renderMethod": "svg-overlay",
+      "exactness": "exact"
+    },
+    {
+      "frameId": "1:182",
+      "frameName": "budlum.xyz",
+      "nodeId": "1:20645",
+      "nodeName": "Rectangle 218",
+      "nodeType": "RECTANGLE",
+      "hasVisibleStroke": true,
+      "hasStrokeGeometry": true,
+      "strokeAlign": "INSIDE",
       "strokeWeight": 4,
       "strokeTypes": [
         "SOLID"

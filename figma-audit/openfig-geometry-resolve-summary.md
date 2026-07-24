@@ -6,7 +6,7 @@ Generated from the checked-in OpenFig `.fig` file and committed Figma JSON snaps
 - Dominant Figma↔OpenFig coordinate offset: `dx=19146, dy=-27147` (support: `39`)
 - OpenFig nodes parsed: `25658`
 - OpenFig blobs parsed: `1299`
-- Manifest frames: `39`
+- Manifest frames: `44`
 - Mapped frames: `39`
 - Input missing exact geometry records: `0`
 - Stroke audit records considered: `0`

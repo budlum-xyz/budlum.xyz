@@ -14,18 +14,26 @@
     ]
   },
   "aggregate": {
-    "multiFillRecords": 34,
+    "multiFillRecords": 72,
     "multiBackgroundRecords": 0,
     "multiStrokeRecords": 0,
-    "nodesWithBothFillsAndBackground": 26,
+    "nodesWithBothFillsAndBackground": 125,
     "emptyFillsWithVisibleBackground": 0,
-    "uniqueFillPatterns": 3,
-    "affectedFrames": 17
+    "uniqueFillPatterns": 4,
+    "affectedFrames": 19
   },
   "byPattern": {
     "SOLID+IMAGE": {
-      "count": 19,
+      "count": 41,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 19
+        },
+        "1:30": {
+          "frameName": "budlum.xyz/go",
+          "count": 3
+        },
         "2377:22": {
           "frameName": "kullanıcı kendi cüzdanını açtı",
           "count": 2
@@ -77,8 +85,12 @@
       }
     },
     "IMAGE+SOLID": {
-      "count": 9,
+      "count": 18,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 9
+        },
         "2377:22": {
           "frameName": "kullanıcı kendi cüzdanını açtı",
           "count": 1
@@ -118,8 +130,12 @@
       }
     },
     "SOLID+SOLID": {
-      "count": 6,
+      "count": 12,
       "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
+          "count": 6
+        },
         "2667:256": {
           "frameName": "herhangi bir yere tıkladı",
           "count": 1
@@ -142,6 +158,15 @@
         },
         "2977:1028": {
           "frameName": "tohum tümcecikleri kaydet",
+          "count": 1
+        }
+      }
+    },
+    "SOLID+SOLID+SOLID": {
+      "count": 1,
+      "frames": {
+        "1:182": {
+          "frameName": "budlum.xyz",
           "count": 1
         }
       }
@@ -1900,6 +1925,2009 @@
       "bbox": {
         "x": 98555,
         "y": -18471,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:142",
+      "name": "bebek 3",
+      "type": "RECTANGLE",
+      "parentId": "1:140",
+      "depth": 2,
+      "bbox": {
+        "x": 100514,
+        "y": 39974,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5",
+          "localAssetPath": "/figma-assets/4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5.png",
+          "scaleMode": "FIT",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:157",
+      "name": "bebek 2",
+      "type": "RECTANGLE",
+      "parentId": "1:30",
+      "depth": 1,
+      "bbox": {
+        "x": 99967,
+        "y": 40010,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae",
+          "localAssetPath": "/figma-assets/aaf1cf7c26a3d07e44ff9c0c13160e8cf8eff0ae.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:30",
+      "frameName": "budlum.xyz/go",
+      "id": "1:160",
+      "name": "bebek 3",
+      "type": "RECTANGLE",
+      "parentId": "1:158",
+      "depth": 2,
+      "bbox": {
+        "x": 98785,
+        "y": 39991,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5",
+          "localAssetPath": "/figma-assets/4accb854f7de6d57fbc6940ca4b14c7ce91cf0b5.png",
+          "scaleMode": "FIT",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:1964",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:1963",
+      "depth": 6,
+      "bbox": {
+        "x": 54797,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:1970",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:1968",
+      "depth": 4,
+      "bbox": {
+        "x": 54617,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "355e6027a6e3c100caf624a21f5e42ea64fba48c",
+          "localAssetPath": "/figma-assets/355e6027a6e3c100caf624a21f5e42ea64fba48c.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:1982",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:1980",
+      "depth": 3,
+      "bbox": {
+        "x": 55637,
+        "y": 26545,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2228",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:2227",
+      "depth": 5,
+      "bbox": {
+        "x": 58557,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2231",
+      "name": "Rectangle 157",
+      "type": "RECTANGLE",
+      "parentId": "1:2230",
+      "depth": 5,
+      "bbox": {
+        "x": 58557,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2237",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:2225",
+      "depth": 3,
+      "bbox": {
+        "x": 58737,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
+          "localAssetPath": "/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2387",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:2386",
+      "depth": 5,
+      "bbox": {
+        "x": 66317,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2390",
+      "name": "Rectangle 157",
+      "type": "RECTANGLE",
+      "parentId": "1:2389",
+      "depth": 5,
+      "bbox": {
+        "x": 66317,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2396",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:2384",
+      "depth": 3,
+      "bbox": {
+        "x": 66497,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
+          "localAssetPath": "/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2854",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:2853",
+      "depth": 5,
+      "bbox": {
+        "x": 62437,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2857",
+      "name": "Rectangle 157",
+      "type": "RECTANGLE",
+      "parentId": "1:2856",
+      "depth": 5,
+      "bbox": {
+        "x": 62437,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2863",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:2851",
+      "depth": 3,
+      "bbox": {
+        "x": 62617,
+        "y": 28165,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "21bf9b407c22a37da56c1c1b28efa3a447b21733",
+          "localAssetPath": "/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:2914",
+      "name": "Rectangle 61",
+      "type": "RECTANGLE",
+      "parentId": "1:2913",
+      "depth": 4,
+      "bbox": {
+        "x": 56171.715470876174,
+        "y": 29567.658689128595,
+        "width": 45.608888996408496,
+        "height": 45.60888899640486
+      },
+      "fillPattern": "SOLID+SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": 0.33000001311302185,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 2,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": 0.33000001311302185,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:6857",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "1:6855",
+      "depth": 4,
+      "bbox": {
+        "x": 59425,
+        "y": 22604,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:7007",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "1:7005",
+      "depth": 4,
+      "bbox": {
+        "x": 63397,
+        "y": 22604,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:7220",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "1:7218",
+      "depth": 4,
+      "bbox": {
+        "x": 67277,
+        "y": 22604,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:18977",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:18976",
+      "depth": 5,
+      "bbox": {
+        "x": 59512,
+        "y": 9820,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19061",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19060",
+      "depth": 5,
+      "bbox": {
+        "x": 58732,
+        "y": 11440,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19216",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19215",
+      "depth": 6,
+      "bbox": {
+        "x": 74940,
+        "y": 7102,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19265",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:19264",
+      "depth": 3,
+      "bbox": {
+        "x": 75780,
+        "y": 5482,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19375",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:19374",
+      "depth": 4,
+      "bbox": {
+        "x": 63592,
+        "y": 9820,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19401",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19400",
+      "depth": 4,
+      "bbox": {
+        "x": 62812,
+        "y": 11440,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19548",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19547",
+      "depth": 3,
+      "bbox": {
+        "x": 66693,
+        "y": 11440,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19580",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:19579",
+      "depth": 3,
+      "bbox": {
+        "x": 67472,
+        "y": 9820,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19683",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19682",
+      "depth": 3,
+      "bbox": {
+        "x": 74750,
+        "y": 12520,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19711",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:19710",
+      "depth": 3,
+      "bbox": {
+        "x": 75529,
+        "y": 10900,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19830",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19829",
+      "depth": 3,
+      "bbox": {
+        "x": 82510,
+        "y": 12520,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19858",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:19857",
+      "depth": 3,
+      "bbox": {
+        "x": 83289,
+        "y": 10900,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:19977",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:19976",
+      "depth": 3,
+      "bbox": {
+        "x": 78630,
+        "y": 12520,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:20005",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:20004",
+      "depth": 3,
+      "bbox": {
+        "x": 79409,
+        "y": 10900,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:20049",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "1:20047",
+      "depth": 4,
+      "bbox": {
+        "x": 71606,
+        "y": 8676,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:20334",
+      "name": "Rectangle 156",
+      "type": "RECTANGLE",
+      "parentId": "1:20333",
+      "depth": 5,
+      "bbox": {
+        "x": 70817,
+        "y": 12519,
+        "width": 116,
+        "height": 116
+      },
+      "fillPattern": "SOLID+IMAGE",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.9843137264251709,
+            "g": 0.9882352948188782,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "f6efab36bc0b698efc00bfc901ffc63403c07714",
+          "localAssetPath": "/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png",
+          "scaleMode": "STRETCH",
+          "imageTransform": [
+            [
+              1,
+              0,
+              -0.03625527396798134
+            ],
+            [
+              0,
+              1,
+              -0.0024170181713998318
+            ]
+          ],
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:20369",
+      "name": "bebek 1",
+      "type": "RECTANGLE",
+      "parentId": "1:20217",
+      "depth": 3,
+      "bbox": {
+        "x": 71598,
+        "y": 11261,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "IMAGE+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "IMAGE",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": null,
+          "imageRef": "b4a3424e8ca21d28d251984fad180cda80481c8e",
+          "localAssetPath": "/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png",
+          "scaleMode": "FILL",
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:20465",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "1:20463",
+      "depth": 4,
+      "bbox": {
+        "x": 75529,
+        "y": 8676,
+        "width": 176,
+        "height": 176
+      },
+      "fillPattern": "SOLID+SOLID",
+      "fills": [
+        {
+          "index": 0,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.5960784554481506,
+            "g": 0.6823529601097107,
+            "b": 0.5372549295425415,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        },
+        {
+          "index": 1,
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "opacity": null,
+          "color": {
+            "r": 0.0235294122248888,
+            "g": 0.027450980618596077,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "imageRef": null,
+          "localAssetPath": null,
+          "scaleMode": null,
+          "imageTransform": null,
+          "filters": null
+        }
+      ]
+    },
+    {
+      "rootFrameId": "1:182",
+      "frameName": "budlum.xyz",
+      "id": "1:20661",
+      "name": "Rectangle 213",
+      "type": "RECTANGLE",
+      "parentId": "1:20659",
+      "depth": 4,
+      "bbox": {
+        "x": 79409,
+        "y": 8676,
         "width": 176,
         "height": 176
       },
