@@ -1,5 +1,7 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import '@fontsource/dosis/400.css';
+import '@fontsource/mako/400.css';
 import './styles.css';
 
 const MANIFEST = '/figma-frames/manifest.json';
