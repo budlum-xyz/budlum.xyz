@@ -64,7 +64,7 @@ npm run figma:next -- --batch=2
 
 
 
-Run all non-Figma-API audit checks with one command:
+Run all non-Figma-API audit checks with one command. This also installs `tools/design-import` dependencies locally so OpenFig checks can run:
 
 ```bash
 npm run figma:doctor

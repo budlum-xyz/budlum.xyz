@@ -1,20 +1,29 @@
 import { spawnSync } from 'node:child_process';
 
 const steps = [
-  ['npm', ['run', 'figma:sync-missing:check']],
-  ['npm', ['run', 'figma:coverage:check']],
-  ['npm', ['run', 'figma:plan:check']],
-  ['npm', ['run', 'figma:unsupported:check']],
-  ['npm', ['run', 'figma:image-filters:check']],
-  ['npm', ['run', 'figma:images:check']],
-  ['npm', ['run', 'figma:verify']],
+  { command: 'npm', args: ['run', 'figma:sync-missing:check'] },
+  { command: 'npm', args: ['run', 'figma:coverage:check'] },
+  { command: 'npm', args: ['run', 'figma:plan:check'] },
+  { command: 'npm', args: ['run', 'figma:unsupported:check'] },
+  { command: 'npm', args: ['run', 'figma:image-filters:check'] },
+  { command: 'npm', args: ['run', 'figma:images:check'] },
+  { command: 'npm', args: ['ci'], cwd: 'tools/design-import', label: 'npm ci (OpenFig tooling)' },
+  { command: 'npm', args: ['run', 'figma:openfig:resolve:check'] },
+  { command: 'npm', args: ['run', 'figma:openfig:interactions:check'] },
+  { command: 'npm', args: ['run', 'figma:verify'] },
 ];
 
-for (const [command, args] of steps) {
-  console.log(`\n▶ ${command} ${args.join(' ')}`);
-  const result = spawnSync(command, args, { stdio: 'inherit', shell: process.platform === 'win32' });
+for (const step of steps) {
+  const label = step.label || `${step.command} ${step.args.join(' ')}`;
+  const cwdLabel = step.cwd ? ` [cwd=${step.cwd}]` : '';
+  console.log(`\n▶ ${label}${cwdLabel}`);
+  const result = spawnSync(step.command, step.args, {
+    cwd: step.cwd,
+    stdio: 'inherit',
+    shell: process.platform === 'win32',
+  });
   if (result.status !== 0) {
-    console.error(`\nFigma doctor failed at: ${command} ${args.join(' ')}`);
+    console.error(`\nFigma doctor failed at: ${label}${cwdLabel}`);
     process.exit(result.status || 1);
   }
 }
