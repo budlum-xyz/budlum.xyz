@@ -1,0 +1,82 @@
+# Local Figma Image Assets
+
+Generated from the checked-in OpenFig `.fig` archive and committed runtime frame JSON.
+
+- Used image refs: `68`
+- Local assets: `68`
+- Total bytes: `16542753`
+- Missing in OpenFig archive: `0`
+- All asset SHA-1 values match image refs: `true`
+
+Runtime policy: `public/figma-image-fills.json` contains only used image refs and maps them to committed `/figma-assets/...` files. Expiring Figma/S3 signed URLs are not used for runtime frame rendering.
+
+| Image ref | Extension | Bytes | Public path |
+|---|---|---:|---|
+| `00345282fb94d17e69129992e186994378ed5e1f` | `png` | 50290 | `/figma-assets/00345282fb94d17e69129992e186994378ed5e1f.png` |
+| `03e99062dbce235faa93ff58a20f5b2391dfd744` | `png` | 67477 | `/figma-assets/03e99062dbce235faa93ff58a20f5b2391dfd744.png` |
+| `09fa0fc142e8db32c08e18ffb4a89ec777bd6f6a` | `png` | 22669 | `/figma-assets/09fa0fc142e8db32c08e18ffb4a89ec777bd6f6a.png` |
+| `0d0843d459e9a384bb3d83c3a3094bc1194067ea` | `png` | 1381872 | `/figma-assets/0d0843d459e9a384bb3d83c3a3094bc1194067ea.png` |
+| `126b55a37dec989c83473e3dd315900d70732769` | `png` | 9483 | `/figma-assets/126b55a37dec989c83473e3dd315900d70732769.png` |
+| `12f0c34ab307f9335229e7ed64bbb9fa30bd3743` | `png` | 136792 | `/figma-assets/12f0c34ab307f9335229e7ed64bbb9fa30bd3743.png` |
+| `13ea2d6417b573dd35fed81699c16bd79f2345c2` | `png` | 32206 | `/figma-assets/13ea2d6417b573dd35fed81699c16bd79f2345c2.png` |
+| `17f1b31a42b5866c1667526ca3d2211d68cb7e69` | `png` | 179239 | `/figma-assets/17f1b31a42b5866c1667526ca3d2211d68cb7e69.png` |
+| `18832c17d8d083d348ef11b50b21bdaf708d7ed3` | `png` | 72613 | `/figma-assets/18832c17d8d083d348ef11b50b21bdaf708d7ed3.png` |
+| `21bf9b407c22a37da56c1c1b28efa3a447b21733` | `png` | 101312 | `/figma-assets/21bf9b407c22a37da56c1c1b28efa3a447b21733.png` |
+| `24d67adf8fd19264c07f4e5a6a9f546cb61f04c3` | `png` | 30977 | `/figma-assets/24d67adf8fd19264c07f4e5a6a9f546cb61f04c3.png` |
+| `2951e65e30c5622631f87cc199580778d4cce8a4` | `png` | 219528 | `/figma-assets/2951e65e30c5622631f87cc199580778d4cce8a4.png` |
+| `2b8a092ff934bc292b97ecaccee65689fa6dfd33` | `png` | 143233 | `/figma-assets/2b8a092ff934bc292b97ecaccee65689fa6dfd33.png` |
+| `3279a3cc4877292be9d98784b4a47d62c88fec1e` | `png` | 39981 | `/figma-assets/3279a3cc4877292be9d98784b4a47d62c88fec1e.png` |
+| `355e6027a6e3c100caf624a21f5e42ea64fba48c` | `png` | 18993 | `/figma-assets/355e6027a6e3c100caf624a21f5e42ea64fba48c.png` |
+| `361ee3118edde9d5d2015b7ce086d03751303f83` | `png` | 41575 | `/figma-assets/361ee3118edde9d5d2015b7ce086d03751303f83.png` |
+| `3a4686a305c3b965112420e614070a2e55aa72a2` | `png` | 50323 | `/figma-assets/3a4686a305c3b965112420e614070a2e55aa72a2.png` |
+| `3a644fc4349990790be7942d4c2dadc5cfef9de6` | `png` | 17290 | `/figma-assets/3a644fc4349990790be7942d4c2dadc5cfef9de6.png` |
+| `3be2b6f901d504229e7d5ef7a4ecc86b17cdcf56` | `png` | 29873 | `/figma-assets/3be2b6f901d504229e7d5ef7a4ecc86b17cdcf56.png` |
+| `3e34d2a34defb5520d2b030736e84a1b091ac861` | `png` | 72945 | `/figma-assets/3e34d2a34defb5520d2b030736e84a1b091ac861.png` |
+| `3f5cf0abcdb3ed1b278359e8fb9a67b3834dc27e` | `png` | 48521 | `/figma-assets/3f5cf0abcdb3ed1b278359e8fb9a67b3834dc27e.png` |
+| `3f84deeaae21940396bb796ed8ed4a05aec76d10` | `png` | 24023 | `/figma-assets/3f84deeaae21940396bb796ed8ed4a05aec76d10.png` |
+| `3fe13947b8b90f8ab12929a2cf27d3cd2bd39a95` | `png` | 72852 | `/figma-assets/3fe13947b8b90f8ab12929a2cf27d3cd2bd39a95.png` |
+| `415190d31d153d7214d3ef5d1dc24a5ead9438da` | `png` | 29432 | `/figma-assets/415190d31d153d7214d3ef5d1dc24a5ead9438da.png` |
+| `472b66acbf3dfbbc678967ce9c3501dca7715ae0` | `png` | 21253 | `/figma-assets/472b66acbf3dfbbc678967ce9c3501dca7715ae0.png` |
+| `47364eecf4bb5600c0bd10c53d0bb51aa433e4ad` | `png` | 202991 | `/figma-assets/47364eecf4bb5600c0bd10c53d0bb51aa433e4ad.png` |
+| `4a630f6b1a3ae6ac84ec757699830a0f1fd85937` | `png` | 6671 | `/figma-assets/4a630f6b1a3ae6ac84ec757699830a0f1fd85937.png` |
+| `5143b7357dd03f9cb8b06617242dacdce17a2dd9` | `png` | 35556 | `/figma-assets/5143b7357dd03f9cb8b06617242dacdce17a2dd9.png` |
+| `52f7327bd48b40dbfec7caf817947eafdda33ac5` | `png` | 150431 | `/figma-assets/52f7327bd48b40dbfec7caf817947eafdda33ac5.png` |
+| `5e46132fdf473a10bb9a6bd7198c6e01d6abff1f` | `png` | 15554 | `/figma-assets/5e46132fdf473a10bb9a6bd7198c6e01d6abff1f.png` |
+| `6179523b911983988e2d01e8d3a7cb7ffca67ac2` | `png` | 40589 | `/figma-assets/6179523b911983988e2d01e8d3a7cb7ffca67ac2.png` |
+| `6305d73413b9d4c24adc07f4564336635f4ac5c5` | `png` | 16465 | `/figma-assets/6305d73413b9d4c24adc07f4564336635f4ac5c5.png` |
+| `68fdb85f6d5afe77ffe50553a8dadfa65b0a39ae` | `png` | 31228 | `/figma-assets/68fdb85f6d5afe77ffe50553a8dadfa65b0a39ae.png` |
+| `69b24d7414ddcba2e6f0a6511f231b1954c64ceb` | `png` | 73128 | `/figma-assets/69b24d7414ddcba2e6f0a6511f231b1954c64ceb.png` |
+| `6c64b89807887ccd9d78388f0ae187003346443e` | `png` | 25078 | `/figma-assets/6c64b89807887ccd9d78388f0ae187003346443e.png` |
+| `757cf1148eba26d2c2e9a3681da8438c0785acef` | `png` | 23734 | `/figma-assets/757cf1148eba26d2c2e9a3681da8438c0785acef.png` |
+| `75cb194f0da0d36b650a9ceed980e08ef7128fb4` | `png` | 29973 | `/figma-assets/75cb194f0da0d36b650a9ceed980e08ef7128fb4.png` |
+| `7609bcc5e47b51adbd208375c0f10b26d78ce91b` | `png` | 14611 | `/figma-assets/7609bcc5e47b51adbd208375c0f10b26d78ce91b.png` |
+| `854a5fb79bff114e1dfca45cc33f7eea79b467b3` | `png` | 216249 | `/figma-assets/854a5fb79bff114e1dfca45cc33f7eea79b467b3.png` |
+| `89f495fcae61819f10e05d113b9c44836e642bf0` | `png` | 50296 | `/figma-assets/89f495fcae61819f10e05d113b9c44836e642bf0.png` |
+| `8af2afdb61e36158fe98fdf134d83e051291bf91` | `png` | 40051 | `/figma-assets/8af2afdb61e36158fe98fdf134d83e051291bf91.png` |
+| `8c628ab1951d81888d046ec8056ad7c45f84630d` | `png` | 9630366 | `/figma-assets/8c628ab1951d81888d046ec8056ad7c45f84630d.png` |
+| `96756e2ae96d2ff5006f993f0f9a437df069273c` | `png` | 68076 | `/figma-assets/96756e2ae96d2ff5006f993f0f9a437df069273c.png` |
+| `97cef308ad1976df715d89d4703f82c7fa3032aa` | `png` | 9895 | `/figma-assets/97cef308ad1976df715d89d4703f82c7fa3032aa.png` |
+| `98b2710abb243e85d62bcb3ba4b9ae3df60870a4` | `png` | 24631 | `/figma-assets/98b2710abb243e85d62bcb3ba4b9ae3df60870a4.png` |
+| `9c5d67fef46c33fc28aa9e9a4c334118b0b07be2` | `png` | 20208 | `/figma-assets/9c5d67fef46c33fc28aa9e9a4c334118b0b07be2.png` |
+| `9e25e75e5516c6ca1a0829bd405bd22fa2181efc` | `png` | 22340 | `/figma-assets/9e25e75e5516c6ca1a0829bd405bd22fa2181efc.png` |
+| `9fe405d06b463f5ff231fc35248a9c2b64bbfdd6` | `png` | 136182 | `/figma-assets/9fe405d06b463f5ff231fc35248a9c2b64bbfdd6.png` |
+| `a2d3165046d6ff06167aaf27921ef66a4f9d0ef2` | `png` | 60895 | `/figma-assets/a2d3165046d6ff06167aaf27921ef66a4f9d0ef2.png` |
+| `aafc8360eeaf368a06d2876ba5ac84d27faed2d4` | `png` | 374470 | `/figma-assets/aafc8360eeaf368a06d2876ba5ac84d27faed2d4.png` |
+| `abab746b2a9b1575e9f142c909cd23dc64056022` | `png` | 37155 | `/figma-assets/abab746b2a9b1575e9f142c909cd23dc64056022.png` |
+| `acb36ff792e6665582a77dc4f4cd54b6a73de0d0` | `png` | 14991 | `/figma-assets/acb36ff792e6665582a77dc4f4cd54b6a73de0d0.png` |
+| `b02904d8b29175abcb5330f873c428890696c5a7` | `png` | 16208 | `/figma-assets/b02904d8b29175abcb5330f873c428890696c5a7.png` |
+| `b19fa58186520ebb35a3d19368390259ab2ce05d` | `png` | 229353 | `/figma-assets/b19fa58186520ebb35a3d19368390259ab2ce05d.png` |
+| `b3a47bde0483ddc88e25cfabee16ecd23987852b` | `png` | 454304 | `/figma-assets/b3a47bde0483ddc88e25cfabee16ecd23987852b.png` |
+| `b4a3424e8ca21d28d251984fad180cda80481c8e` | `png` | 473198 | `/figma-assets/b4a3424e8ca21d28d251984fad180cda80481c8e.png` |
+| `ba317dbe1f61609dd3ad1d1bf328b089c7549df3` | `png` | 44029 | `/figma-assets/ba317dbe1f61609dd3ad1d1bf328b089c7549df3.png` |
+| `c4aaa709a33a8120fd91fac256490481b1dd3889` | `png` | 122027 | `/figma-assets/c4aaa709a33a8120fd91fac256490481b1dd3889.png` |
+| `c8cc0f4cfdfce5d86f2bd773a0b8b2cf61346259` | `png` | 6622 | `/figma-assets/c8cc0f4cfdfce5d86f2bd773a0b8b2cf61346259.png` |
+| `cdf9b1afde6e60c2622994a06493cbecdbf261ab` | `png` | 46676 | `/figma-assets/cdf9b1afde6e60c2622994a06493cbecdbf261ab.png` |
+| `dbc54f4be258ea00659d94044a55674437e12847` | `png` | 155377 | `/figma-assets/dbc54f4be258ea00659d94044a55674437e12847.png` |
+| `df9379dd4aa84c296339b0ee3efcf110ec243a89` | `png` | 13746 | `/figma-assets/df9379dd4aa84c296339b0ee3efcf110ec243a89.png` |
+| `e58c4303e2dad06aa2ed7918727d5bd00ec206aa` | `png` | 29933 | `/figma-assets/e58c4303e2dad06aa2ed7918727d5bd00ec206aa.png` |
+| `ea0c1fb398c9ef41209556db381637ac91669986` | `png` | 15603 | `/figma-assets/ea0c1fb398c9ef41209556db381637ac91669986.png` |
+| `ec13fb8b39dcdf07d40071c528428a72809c60be` | `png` | 17263 | `/figma-assets/ec13fb8b39dcdf07d40071c528428a72809c60be.png` |
+| `ecc92e182e64fcded9ac7a820f09e2325fbee8fa` | `png` | 403945 | `/figma-assets/ecc92e182e64fcded9ac7a820f09e2325fbee8fa.png` |
+| `f44f0f9380c1e3a5101052869ecae5e06d2158b3` | `png` | 201706 | `/figma-assets/f44f0f9380c1e3a5101052869ecae5e06d2158b3.png` |
+| `f6efab36bc0b698efc00bfc901ffc63403c07714` | `png` | 26197 | `/figma-assets/f6efab36bc0b698efc00bfc901ffc63403c07714.png` |

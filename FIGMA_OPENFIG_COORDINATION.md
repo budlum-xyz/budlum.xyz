@@ -214,3 +214,14 @@ Cumulative result recorded in `figma-audit/openfig-geometry-final-report.md`:
 - Final missing exact geometry records: `0`
 
 This does not weaken the no-guessing rule: geometry was copied from the checked-in `.fig` binary and only after deterministic crosswalk validation.
+
+## 13. 2026-07-24 local image asset policy
+
+Runtime image fills no longer depend on expiring Figma/S3 signed URLs. The committed runtime frame JSON uses `public/figma-image-fills.json`, which now maps the `68` actually used image refs to committed files under `public/figma-assets/`.
+
+Rules:
+
+- Generate/update local image assets with `npm run figma:images:extract`.
+- Verify them with `npm run figma:images:check` or `npm run figma:doctor`.
+- Do not reintroduce expiring signed URLs into runtime image fill maps.
+- If new frames introduce additional image refs, extract them from the checked-in OpenFig `.fig` archive or refresh through Figma only when exact image assets are available.
