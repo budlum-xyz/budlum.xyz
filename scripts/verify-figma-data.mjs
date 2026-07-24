@@ -40,6 +40,11 @@ function findKeyPath(value, targetKey, currentPath = '') {
   return null;
 }
 
+function countFigmaNodes(node) {
+  if (!node || typeof node !== 'object') return 0;
+  return 1 + (node.children || []).reduce((sum, child) => sum + countFigmaNodes(child), 0);
+}
+
 function walkFiles(dir, visitor) {
   if (!fs.existsSync(dir)) return;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -104,6 +109,16 @@ function verifyManifestAndFrames() {
     if (runtimeAssetUrlPath) fail(`Runtime frame JSON must not contain expiring assetUrl fields: ${runtime} at ${runtimeAssetUrlPath}`);
     if (sourceJson && runtimeJson && stableStringify(sourceJson) !== stableStringify(runtimeJson)) {
       fail(`Source/runtime frame JSON mismatch for ${frame.id}: ${source} differs from ${runtime}`);
+    }
+    if (sourceJson?.absoluteBoundingBox) {
+      const { width, height } = sourceJson.absoluteBoundingBox;
+      if (width !== frame.width || height !== frame.height) {
+        fail(`Manifest dimensions are stale for ${frame.id}: expected ${width}x${height}, got ${frame.width}x${frame.height}`);
+      }
+    }
+    const actualNodeCount = countFigmaNodes(sourceJson);
+    if (actualNodeCount !== frame.nodeCount) {
+      fail(`Manifest nodeCount is stale for ${frame.id}: expected ${actualNodeCount}, got ${frame.nodeCount}`);
     }
 
     const component = path.join('src', 'frames', frameComponentName(frame.id));
