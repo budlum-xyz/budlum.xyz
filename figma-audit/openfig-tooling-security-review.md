@@ -34,3 +34,7 @@ Do not apply partial lockfile churn that leaves the advisory count unchanged. Ke
 - Do not run OpenFig tooling as a network-exposed server in this project.
 - Keep OpenFig usage limited to local/CI file parsing and asset extraction.
 - Re-run this review when `tools/design-import/package-lock.json` changes.
+
+## Doctor noise control
+
+`npm run figma:doctor` installs the nested OpenFig toolchain with `npm ci --no-audit --fund=false` to keep CI logs focused. This does not suppress the security record; this file is the committed audit trail for the known development-only OpenFig tooling advisories.
