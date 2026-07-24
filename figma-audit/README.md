@@ -7,16 +7,21 @@ This directory is the shared handoff area for Figma-driven implementation work. 
 - `nested-frames.json` — nested frame/component/instance inventory from the Figma node payloads.
 - `prototype-interactions.json` — interactions found in the Figma REST node payloads.
 - `variants.json` — variant/component-set records found in the Figma REST node payloads.
-- `missing-exact-assets.json` — visible VECTOR-like nodes that cannot be rendered because committed JSON lacks exact `fillGeometry` / `strokeGeometry`.
+- `missing-exact-assets.json` — visible/renderable VECTOR-like nodes that cannot be rendered because committed JSON lacks exact `fillGeometry` / `strokeGeometry`. Current target state is empty (`0` records).
 
 ## Generated planning/coverage files
 
-- `remaining-exact-assets-plan.md` — human-readable batch plan for refreshing frames after Figma rate limits cool down.
+- `remaining-exact-assets-plan.md` — human-readable batch plan for refreshing frames after Figma rate limits cool down. Current target state is `0` frames.
 - `remaining-exact-assets-plan.json` — machine-readable version of the remaining refresh plan.
 - `render-coverage-summary.md` — human-readable render coverage report for committed frame JSON.
 - `render-coverage-summary.json` — machine-readable render coverage report.
 - `wallet-states-review.json` — Wallet frame/state review summary.
 - `wallet-exact-vector-assets-resolved.json` — Wallet scope vector nodes that were resolved with exact Figma geometry.
+
+- `openfig-geometry-final-report.md` / `.json` — cumulative exact-geometry recovery report from the checked-in OpenFig `.fig` binary.
+- `openfig-geometry-resolve-summary.md` / `.json` — current OpenFig↔Figma geometry resolver summary.
+- `openfig-figma-crosswalk-candidates.json` — frame mapping candidates used by the OpenFig geometry resolver.
+- `image-filter-exactness-review.md` / `.json` — exactness decision and node inventory for Figma image filters that are intentionally unsupported until a pixel-equivalent renderer exists.
 
 ## Local commands
 
@@ -26,6 +31,8 @@ Run these without calling the Figma API:
 npm run figma:sync-missing
 npm run figma:coverage
 npm run figma:plan
+npm run figma:unsupported
+npm run figma:image-filters
 npm run figma:verify
 ```
 
@@ -36,6 +43,8 @@ Run these in CI/check mode without rewriting files:
 npm run figma:sync-missing:check
 npm run figma:coverage:check
 npm run figma:plan:check
+npm run figma:unsupported:check
+npm run figma:image-filters:check
 npm run figma:verify
 ```
 
@@ -55,17 +64,21 @@ Run all non-Figma-API audit checks with one command:
 npm run figma:doctor
 ```
 
-Track unsupported non-geometry render features without calling Figma:
+Track unsupported non-geometry render features and image-filter exactness without calling Figma:
 
 ```bash
 npm run figma:unsupported
 npm run figma:unsupported:check
+npm run figma:image-filters
+npm run figma:image-filters:check
 ```
 
 This writes/checks:
 
 - `figma-audit/unsupported-render-features.json`
 - `figma-audit/unsupported-render-features.md`
+- `figma-audit/image-filter-exactness-review.json`
+- `figma-audit/image-filter-exactness-review.md`
 
 Run this only when explicitly refreshing from Figma and only with a token in the environment:
 
@@ -81,8 +94,8 @@ npm run figma:refresh -- --ids=<frame-id-list>
 
 ## Rules for other AI agents
 
-1. Do not approximate VECTOR-like nodes listed in `missing-exact-assets.json`.
-2. Do not remove audit entries unless the corresponding committed frame JSON now contains exact geometry.
-3. After any Figma refresh, run the local commands above and commit all changed audit files together with the refreshed frame JSON.
+1. Do not approximate VECTOR-like nodes listed in `missing-exact-assets.json`; if the file is empty, keep it empty unless a real missing geometry record is introduced.
+2. Do not remove missing-geometry audit entries unless the corresponding committed frame JSON now contains exact geometry, or the node is proven to be a no-op with no visible fill/stroke/effect/render bounds.
+3. After any Figma/OpenFig refresh, run `npm run figma:doctor` and commit all changed audit files together with the refreshed frame JSON.
 4. Do not commit secrets. Tokens must appear only as shell environment variables.
 5. If Figma returns `429`, stop live refresh attempts and follow `../FIGMA_RATE_LIMIT_PLAYBOOK.md`.
