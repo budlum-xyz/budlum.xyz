@@ -24,6 +24,7 @@ This directory is the shared handoff area for Figma-driven implementation work. 
 - `openfig-interactions.md` / `.json` — OpenFig hyperlink/prototype-like inventory for interaction handoff.
 - `image-filter-exactness-review.md` / `.json` — exactness decision and node inventory for Figma image filters that are intentionally unsupported until a pixel-equivalent renderer exists.
 - `local-image-assets.md` / `.json` — committed local image asset inventory generated from the OpenFig `.fig` archive.
+- `openfig-tooling-security-review.md` / `.json` — development-only OpenFig toolchain audit and mitigation notes.
 
 ## Local commands
 

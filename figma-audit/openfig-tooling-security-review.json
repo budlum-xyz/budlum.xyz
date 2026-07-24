@@ -1,0 +1,52 @@
+{
+  "generatedFor": "tools/design-import",
+  "scope": "development-and-ci-only OpenFig tooling",
+  "rootApplicationAudit": {
+    "npmCi": "passed",
+    "knownVulnerabilities": 0
+  },
+  "toolingAudit": {
+    "packageLock": "tools/design-import/package-lock.json",
+    "vulnerabilities": {
+      "moderate": 2,
+      "high": 2,
+      "total": 4
+    },
+    "records": [
+      {
+        "package": "@hono/node-server",
+        "severity": "moderate",
+        "advisory": "GHSA-frvp-7c67-39w9",
+        "path": "openfig-cli > @modelcontextprotocol/sdk > @hono/node-server",
+        "blocker": "Transitive via openfig-cli; npm audit fix did not reduce final advisory count without unrelated lockfile churn."
+      },
+      {
+        "package": "@modelcontextprotocol/sdk",
+        "severity": "moderate",
+        "advisory": "depends on vulnerable @hono/node-server",
+        "path": "openfig-cli > @modelcontextprotocol/sdk",
+        "blocker": "Transitive dependency of openfig-cli."
+      },
+      {
+        "package": "sharp",
+        "severity": "high",
+        "advisory": "GHSA-f88m-g3jw-g9cj",
+        "path": "openfig-cli > sharp",
+        "blocker": "No fix available through current openfig-cli@0.4.7 dependency range."
+      },
+      {
+        "package": "openfig-cli",
+        "severity": "high",
+        "advisory": "aggregates @modelcontextprotocol/sdk and sharp advisories",
+        "path": "tools/design-import direct dependency",
+        "blocker": "No fully fixed compatible release verified in this repo yet."
+      }
+    ]
+  },
+  "decision": "Do not apply partial lockfile churn that leaves the advisory count unchanged. Keep OpenFig tooling pinned until a compatible fixed openfig-cli release or verified override exists.",
+  "operationalGuard": [
+    "Do not run OpenFig tooling as a network-exposed server in this project.",
+    "Keep OpenFig usage limited to local/CI file parsing and asset extraction.",
+    "Re-run this review when tools/design-import/package-lock.json changes."
+  ]
+}
