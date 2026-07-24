@@ -16,6 +16,7 @@ Generated without calling the Figma API. It audits committed frame JSON against 
 - Rotated transform nodes covered by matrix positioning: `841`
 - Rotated transform nodes still unsupported: `0`
 - Text nodes: `1241`
+- Text nodes with exact style override spans: `16`
 - Image-fill nodes: `3896`
 - CSS primitive/container nodes: `8085`
 

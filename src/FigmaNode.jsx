@@ -204,6 +204,40 @@ function textStyle(node, parentBox, imageFills, isRoot = false) {
   };
 }
 
+function textOverrideStyle(override) {
+  if (!override) return undefined;
+  const style = {};
+  const fill = firstVisiblePaint(override.fills || [], 'SOLID');
+  if (fill) style.color = colorToCss(fill.color || { r: 0, g: 0, b: 0, a: 1 }, fill.opacity ?? 1);
+  return Object.keys(style).length ? style : undefined;
+}
+
+function textSegments(node) {
+  const characters = node.characters || '';
+  const overrides = node.characterStyleOverrides || [];
+  const table = node.styleOverrideTable || {};
+  if (!characters || !Object.keys(table).length || !overrides.some((override) => override !== 0)) return null;
+
+  const segments = [];
+  let currentOverride = overrides[0] || 0;
+  let currentText = '';
+  for (let index = 0; index < characters.length; index += 1) {
+    const override = overrides[index] || 0;
+    if (index > 0 && override !== currentOverride) {
+      segments.push({ text: currentText, override: currentOverride });
+      currentText = '';
+      currentOverride = override;
+    }
+    currentText += characters[index];
+  }
+  if (currentText) segments.push({ text: currentText, override: currentOverride });
+  return segments.map((segment, index) => (
+    <span key={`${segment.override}-${index}`} style={textOverrideStyle(table[String(segment.override)])}>
+      {segment.text}
+    </span>
+  ));
+}
+
 function hasPrototypeInteraction(node) {
   return Array.isArray(node.interactions) && node.interactions.length > 0;
 }
@@ -285,7 +319,7 @@ export function FigmaNode({ node, parentBox, imageFills, onAction, isRoot = fals
   if (node.type === 'TEXT') {
     return (
       <span data-figma-id={node.id} data-figma-name={node.name} data-figma-type={node.type} style={textStyle(node, parentBox, imageFills, isRoot)}>
-        {node.characters}
+        {textSegments(node) || node.characters}
       </span>
     );
   }

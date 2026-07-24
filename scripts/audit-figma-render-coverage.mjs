@@ -121,6 +121,7 @@ const aggregate = {
   skippedMissingGeometry: 0,
   emptyVector: 0,
   text: 0,
+  textStyleOverrideNodes: 0,
   imageFill: 0,
   container: 0,
   cssShape: 0,
@@ -141,6 +142,7 @@ for (const frame of manifest) {
     skippedMissingGeometry: 0,
     emptyVector: 0,
     text: 0,
+    textStyleOverrideNodes: 0,
     imageFill: 0,
     container: 0,
     cssShape: 0,
@@ -158,6 +160,9 @@ for (const frame of manifest) {
     if (!hasRelativeTransform(node) && canInferRotationTransform(node)) counts.rotationFallbackTransformNodes += 1;
     if (isRotated(node) && hasMatrixTransformCoverage(node)) counts.rotatedTransformNodes += 1;
     if (isRotated(node) && !hasMatrixTransformCoverage(node) && bucket !== 'skippedMissingGeometry' && bucket !== 'hidden') counts.unsupportedRotatedTransformNodes += 1;
+    if (node.type === 'TEXT' && node.styleOverrideTable && Object.keys(node.styleOverrideTable).length && (node.characterStyleOverrides || []).some((override) => override !== 0)) {
+      counts.textStyleOverrideNodes += 1;
+    }
     if (bucket === 'skippedMissingGeometry' && skippedExamples.length < 8) {
       skippedExamples.push({ id: node.id, name: node.name, type: node.type });
     }
@@ -183,6 +188,7 @@ const report = {
     emptyVector: 'VECTOR-like nodes with no visible fill/stroke/effect/render bounds are exact no-op nodes and do not require geometry.',
     cssShape: 'Non-vector Figma primitives without exact leaf geometry are rendered from REST numeric values such as bounding box, fill, stroke and radius.',
     relativeTransform: 'Nodes carrying Figma relativeTransform + size are positioned with the exact affine CSS matrix in parent coordinates.',
+    textStyleOverrideNodes: 'TEXT nodes with characterStyleOverrides/styleOverrideTable are rendered with nested spans for exact fill overrides.',
     rotationFallbackTransform: 'Rotated nodes without relativeTransform are matrix-positioned from Figma rotation + absolute bounding box when dimensions can be solved exactly.',
   },
   aggregate,
@@ -208,6 +214,7 @@ const lines = [
   `- Rotated transform nodes covered by matrix positioning: \`${aggregate.rotatedTransformNodes}\``,
   `- Rotated transform nodes still unsupported: \`${aggregate.unsupportedRotatedTransformNodes}\``,
   `- Text nodes: \`${aggregate.text}\``,
+  `- Text nodes with exact style override spans: \`${aggregate.textStyleOverrideNodes}\``,
   `- Image-fill nodes: \`${aggregate.imageFill}\``,
   `- CSS primitive/container nodes: \`${aggregate.cssShape + aggregate.container}\``,
   '',
